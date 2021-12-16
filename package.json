@@ -16,6 +16,13 @@
     "jest": "^27.3.1",
     "ts-jest": "^27.0.7"
   },
+  "files": [
+    "package.json",
+    "src/index.ts",
+    "src/templates.ts",
+    "tsconfig.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node ./lib/index.js",
