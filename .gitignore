@@ -1,10 +1,14 @@
-*
+/*
+!/.github/
 !.gitignore
 !.npmignore
 !.prettierrc
+!index.spec.ts
 !index.ts
 !package.json
 !tsconfig.json
-!templates.json
+!templates.spec.ts
+!templates.ts
 !yarn.lock
+!jest.config.js
 !README.md
