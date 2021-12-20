@@ -9,24 +9,6 @@
     "specVersion": "0.2.0"
   },
   {
-    "name": "parachain-auctions-crowdloans",
-    "description": "Implementation of indexing crowdloans and auctions",
-    "remote": "https://github.com/subvis-io/subquery-spectator",
-    "branch": "main",
-    "network": "Polkadot",
-    "endpoint": "wss://polkadot.api.onfinality.io/public-ws",
-    "specVersion": "0.1.0"
-  },
-  {
-    "name": "acala-dictionary",
-    "description": "Implementation of indexing blocks, calls and accounts",
-    "remote": "https://github.com/AcalaNetwork/acala-subql",
-    "branch": "master",
-    "network": "Acala",
-    "endpoint": "wss://karura.api.onfinality.io/public-ws",
-    "specVersion": "0.0.1"
-  },
-  {
     "name": "moonriver-evm-starter",
     "description": "Moonriver EVM project template tutorial",
     "remote": "https://github.com/subquery/tutorials-moonriver-evm-starter",
