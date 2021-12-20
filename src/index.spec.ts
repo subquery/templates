@@ -1,15 +1,26 @@
-import {templates} from './templates';
-import {downloadTemplate} from './index';
+//import {downloadTemplates} from './index';
 import {execSync} from 'child_process';
 import {rmdirSync} from 'fs';
 
 describe('index', () => {
-  it('download and check templates', async () => {
-    for (const template of templates) {
-      await downloadTemplate(template, '/tmp/');
-      const path = `/tmp/${template.name}`;
-      execSync(`cd ${path} && yarn && yarn codegen && yarn build`);
-      rmdirSync(path, {recursive: true});
-    }
-  }, 1000000);
+  let branch;
+
+  beforeAll(() => {
+    branch = `https://raw.githubusercontent.com/subquery/templates/${execSync('git rev-parse --abbrev-ref HEAD')
+      .toString()
+      .trim()}/templates.json`;
+  })
+
+  it('download templates json', async () => {
+    console.log(branch);
+    //downloadTemplates();
+  });
+});
+
+describe('templates', () => {
+  it('formatting', () => {
+    // for (const template of templates) {
+    //   expect(template.network.charAt(0).toUpperCase()).toEqual(template.network.charAt(0));
+    // }
+  });
 });
