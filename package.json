@@ -1,8 +1,8 @@
 {
   "name": "@subql/templates",
   "version": "0.0.0",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
   "repository": "git@github.com:subquery/templates.git",
   "author": "wqsz7xn <wqsz7xn@protonmail.com>",
   "license": "MIT",
@@ -26,6 +26,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./lib/index.js",
+    "clean": "rm -rf node_modules/ lib/",
     "test": "jest"
   }
 }

@@ -14,9 +14,9 @@ export interface Template {
 
 /**
  * @description Fetch templates from Github remote
- * @returns {Promise<Template[] | void>}
+ * @returns {Promise<Template[]>}
  */
- export async function fetchTemplates(remote: string = TEMPLATES_REMOTE): Promise<Template[] | void> {
+ export async function fetchTemplates(remote: string = TEMPLATES_REMOTE): Promise<Template[]> {
   return axios
     .create()
     .get(remote)
