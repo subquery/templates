@@ -2,9 +2,8 @@
 !.github/
 !.gitignore
 !.prettierrc
-!src/
-!src/index.ts
-!src/index.spec.ts
+!test/
+!test/index.spec.ts
 !templates.json
 !package.json
 !tsconfig.json

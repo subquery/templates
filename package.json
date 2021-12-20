@@ -1,32 +1,20 @@
 {
   "name": "@subql/templates",
   "version": "0.0.0",
-  "main": "lib/src/index.js",
-  "types": "lib/src/index.d.ts",
   "repository": "git@github.com:subquery/templates.git",
   "author": "wqsz7xn <wqsz7xn@protonmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "typescript": "^4.4.4",
-    "axios": "^0.24.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "typescript": "^4.4.4",
     "@types/jest": "^27.0.2",
     "@types/node": "^14.17.32",
     "jest": "^27.3.1",
     "ts-jest": "^27.0.7",
-    "simple-git": "^2.48.0"
+    "axios": "^0.24.0"
   },
-  "files": [
-    "package.json",
-    "src/index.ts",
-    "tsconfig.json",
-    "README.md"
-  ],
   "scripts": {
     "build": "tsc",
-    "start": "node ./lib/index.js",
-    "clean": "rm -rf node_modules/ lib/",
     "test": "jest"
   }
 }
