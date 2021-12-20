@@ -8,6 +8,7 @@ export interface Template {
   remote: string;
   branch: string;
   network: string;
+  endpoint: string;
   specVersion: string;
 }
 

@@ -5,6 +5,7 @@
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "v0.2.0",
     "network": "Polkadot",
+    "endpoint": "wss://polkadot.api.onfinality.io/public-ws",
     "specVersion": "0.2.0"
   },
   {
@@ -13,6 +14,7 @@
     "remote": "https://github.com/subquery/tutorials-moonriver-evm-starter",
     "branch": "master",
     "network": "Moonbeam",
+    "endpoint": "wss://moonriver.api.onfinality.io/public-ws",
     "specVersion": "0.2.0"
   }
 ]
