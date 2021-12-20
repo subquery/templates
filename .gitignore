@@ -1,7 +1,6 @@
 *
 !.github/
 !.gitignore
-!.npmignore
 !.prettierrc
 !src/
 !src/index.ts

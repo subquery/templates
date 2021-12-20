@@ -22,8 +22,8 @@ describe('templates', () => {
       it('formatting', async () => {
         for (const template of templates) {
           expect(template.network.charAt(0).toUpperCase()).toEqual(template.network.charAt(0));
-          expect(new URL(template.remote)).not.toThrow();
-          expect(new URL(template.endpoint)).not.toThrow();
+          expect(new URL(template.remote)).toBeTruthy;
+          expect(new URL(template.endpoint)).toBeTruthy();
           ['\n', '\t'].forEach((s) => expect(template.name).not.toContain(s));
         }
       });
