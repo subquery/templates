@@ -11,11 +11,11 @@
   {
     "name": "parachain-auctions-crowdloans",
     "description": "Implementation of indexing crowdloans and auctions",
-    "remote": "https://github.com/subquery/subql-starter/",
-    "branch": "v0.2.0",
+    "remote": "https://github.com/subvis-io/subquery-spectator",
+    "branch": "main",
     "network": "Polkadot",
     "endpoint": "wss://polkadot.api.onfinality.io/public-ws",
-    "specVersion": "0.2.0"
+    "specVersion": "0.1.0"
   },
   {
     "name": "acala-dictionary",
@@ -24,7 +24,7 @@
     "branch": "master",
     "network": "Acala",
     "endpoint": "wss://karura.api.onfinality.io/public-ws",
-    "specVersion": "0.2.0"
+    "specVersion": "0.0.1"
   },
   {
     "name": "moonriver-evm-starter",
