@@ -8,8 +8,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: unique
         run: |
-          set -xo pipefail
-          x=$(jq 'map(.name + .branch + .specVersion)' templates.json)
+          x=$(jq 'map(.name + .network + .branch + .specVersion)' templates.json)
           y=$(jq 'length' <<< "$x")
           z=$(jq 'unique | length' <<< "$x")
           [ $y == $z ]
