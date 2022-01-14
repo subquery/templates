@@ -9,6 +9,15 @@
     "specVersion": "0.2.0"
   },
   {
+    "name": "subql-starter",
+    "description": "Starter project for subquery",
+    "remote": "https://github.com/subquery/subql-starter/",
+    "branch": "v0.0.1",
+    "network": "Polkadot",
+    "endpoint": "wss://polkadot.api.onfinality.io/public-ws",
+    "specVersion": "0.0.1"
+  },
+  {
     "name": "moonriver-evm-starter",
     "description": "Moonriver EVM project template tutorial",
     "remote": "https://github.com/subquery/tutorials-moonriver-evm-starter",
