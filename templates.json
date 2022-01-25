@@ -150,5 +150,21 @@
     "branch": "master",
     "network": "ContextFree",
     "specVersion": "0.2.0"
+  },
+  {
+    "name": "karura-starter",
+    "description": "Starter project for Karura",
+    "remote": "https://github.com/subquery/karura-subql-starter",
+    "branch": "master",
+    "network": "Karura",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "khala-starter",
+    "description": "Starter project for Khala",
+    "remote": "https://github.com/subquery/khala-subql-starter",
+    "branch": "master",
+    "network": "Khala",
+    "specVersion": "0.2.0"
   }
 ]
