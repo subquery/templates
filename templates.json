@@ -5,7 +5,6 @@
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "v0.2.0",
     "network": "Polkadot",
-    "endpoint": "wss://polkadot.api.onfinality.io/public-ws",
     "specVersion": "0.2.0"
   },
   {
@@ -14,7 +13,6 @@
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "v0.0.1",
     "network": "Polkadot",
-    "endpoint": "wss://polkadot.api.onfinality.io/public-ws",
     "specVersion": "0.0.1"
   },
   {
@@ -22,8 +20,15 @@
     "description": "Moonriver EVM project template tutorial",
     "remote": "https://github.com/subquery/tutorials-moonriver-evm-starter",
     "branch": "master",
+    "network": "Moonriver",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "moonbeam-starter",
+    "description": "Starter project for Moonbeam",
+    "remote": "https://github.com/subquery/moonbeam-subql-starter",
+    "branch": "master",
     "network": "Moonbeam",
-    "endpoint": "wss://moonriver.api.onfinality.io/public-ws",
     "specVersion": "0.2.0"
   },
   {
@@ -32,7 +37,94 @@
     "remote": "https://github.com/subquery/moonbeam-dictionary",
     "branch": "main",
     "network": "Moonbeam",
-    "endpoint": "wss://moonbeam-alpha.api.onfinality.io/public-ws",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "statemine-starter",
+    "description": "Starter project for Statemine",
+    "remote": "https://github.com/subquery/statemine-subql-starter",
+    "branch": "master",
+    "network": "Statemine",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "statemint-starter",
+    "description": "Starter project for Statemint",
+    "remote": "https://github.com/subquery/statemint-subql-starter",
+    "branch": "master",
+    "network": "Statemint",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "parallel-starter",
+    "description": "Starter project for Parallel",
+    "remote": "https://github.com/subquery/parallel-subql-starter",
+    "branch": "master",
+    "network": "Parallel",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "kusama-starter",
+    "description": "Starter project for Kusama",
+    "remote": "https://github.com/subquery/kusama-subql-starter",
+    "branch": "master",
+    "network": "Parallel",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "clover-starter",
+    "description": "Starter project for Clover",
+    "remote": "https://github.com/subquery/clover-subql-starter",
+    "branch": "master",
+    "network": "Clover",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "clover-starter",
+    "description": "Starter project for Astar",
+    "remote": "https://github.com/subquery/astar-subql-starter",
+    "branch": "master",
+    "network": "Astar",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "acala-starter",
+    "description": "Starter project for Acala",
+    "remote": "https://github.com/subquery/acala-subql-starter",
+    "branch": "master",
+    "network": "Acala",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "altair-starter",
+    "description": "Starter project for Altair",
+    "remote": "https://github.com/subquery/altair-subql-starter",
+    "branch": "master",
+    "network": "Altair",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "automata-starter",
+    "description": "Starter project for Automata",
+    "remote": "https://github.com/subquery/automata-subql-starter",
+    "branch": "master",
+    "network": "Automata",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "basilisk-starter",
+    "description": "Starter project for Basilisk",
+    "remote": "https://github.com/subquery/basilisk-subql-starter",
+    "branch": "master",
+    "network": "Basilisk",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "bifrost-starter",
+    "description": "Starter project for Bifrost",
+    "remote": "https://github.com/subquery/bifrost-subql-starter",
+    "branch": "master",
+    "network": "Bifrost",
     "specVersion": "0.2.0"
   }
 ]
