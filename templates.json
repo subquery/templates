@@ -68,7 +68,7 @@
     "description": "Starter project for Kusama",
     "remote": "https://github.com/subquery/kusama-subql-starter",
     "branch": "master",
-    "network": "Parallel",
+    "network": "Kusama",
     "specVersion": "0.2.0"
   },
   {
@@ -125,6 +125,30 @@
     "remote": "https://github.com/subquery/bifrost-subql-starter",
     "branch": "master",
     "network": "Bifrost",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "bitcountry-starter",
+    "description": "Starter project for Bit.Country",
+    "remote": "https://github.com/subquery/bitcountry-pioneer-subql-starter",
+    "branch": "master",
+    "network": "Bit.Country",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "calamari-starter",
+    "description": "Starter project for Calamari",
+    "remote": "https://github.com/subquery/calamari-subql-starter",
+    "branch": "master",
+    "network": "Calamari",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "contextfree-starter",
+    "description": "Starter project for Contextfree",
+    "remote": "https://github.com/subquery/contextfree-subql-starter",
+    "branch": "master",
+    "network": "ContextFree",
     "specVersion": "0.2.0"
   }
 ]
