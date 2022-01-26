@@ -190,5 +190,61 @@
     "branch": "master",
     "network": "Neumann",
     "specVersion": "0.2.0"
+  },
+  {
+    "name": "nodle-starter",
+    "description": "Starter project for Nodle",
+    "remote": "https://github.com/subquery/nodle-subql-starter",
+    "branch": "master",
+    "network": "Nodle",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "parallel-heiko-starter",
+    "description": "Starter project for Parallel Heiko",
+    "remote": "https://github.com/subquery/parallel-heiko-subql-starter",
+    "branch": "master",
+    "network": "Parallel",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "quartz-starter",
+    "description": "Starter project for Quartz",
+    "remote": "https://github.com/subquery/quartz-subql-starter",
+    "branch": "master",
+    "network": "Quartz",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "quartz-starter",
+    "description": "Starter project for Quartz",
+    "remote": "https://github.com/subquery/quartz-subql-starter",
+    "branch": "master",
+    "network": "Quartz",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "shiden-starter",
+    "description": "Starter project for Shiden",
+    "remote": "https://github.com/subquery/shiden-subql-starter",
+    "branch": "master",
+    "network": "Shiden",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "shiden-starter",
+    "description": "Starter project for Shiden",
+    "remote": "https://github.com/subquery/shiden-subql-starter",
+    "branch": "master",
+    "network": "Shiden",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "westend-starter",
+    "description": "Starter project for Westend",
+    "remote": "https://github.com/subquery/westend-subql-starter",
+    "branch": "master",
+    "network": "Westend",
+    "specVersion": "0.2.0"
   }
 ]
