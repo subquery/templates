@@ -166,5 +166,29 @@
     "branch": "master",
     "network": "Khala",
     "specVersion": "0.2.0"
+  },
+  {
+    "name": "moonbeam-alpha-starter",
+    "description": "Starter project for Moonbeam alpha",
+    "remote": "https://github.com/subquery/moonbeam-alpha-subql-starter",
+    "branch": "master",
+    "network": "Moonbeam",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "moonriver-starter",
+    "description": "Starter project for Moonriver",
+    "remote": "https://github.com/subquery/moonriver-subql-starter",
+    "branch": "master",
+    "network": "Moonriver",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "neumann-starter",
+    "description": "Starter project for Neumann",
+    "remote": "https://github.com/subquery/neumann-subql-starter",
+    "branch": "master",
+    "network": "Neumann",
+    "specVersion": "0.2.0"
   }
 ]
