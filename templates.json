@@ -33,7 +33,7 @@
   },
   {
     "name": "moonbeam-dictionary",
-    "description": "Moonriver dictionary",
+    "description": "Moonbeam dictionary",
     "remote": "https://github.com/subquery/moonbeam-dictionary",
     "branch": "main",
     "network": "Moonbeam",
@@ -80,7 +80,7 @@
     "specVersion": "0.2.0"
   },
   {
-    "name": "clover-starter",
+    "name": "astar-starter",
     "description": "Starter project for Astar",
     "remote": "https://github.com/subquery/astar-subql-starter",
     "branch": "master",
@@ -169,10 +169,10 @@
   },
   {
     "name": "moonbeam-alpha-starter",
-    "description": "Starter project for Moonbeam alpha",
+    "description": "Starter project for Moonbeam Alpha",
     "remote": "https://github.com/subquery/moonbeam-alpha-subql-starter",
     "branch": "master",
-    "network": "Moonbeam",
+    "network": "Moonbeam Alpha",
     "specVersion": "0.2.0"
   },
   {
