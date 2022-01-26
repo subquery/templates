@@ -232,14 +232,6 @@
     "specVersion": "0.2.0"
   },
   {
-    "name": "shiden-starter",
-    "description": "Starter project for Shiden",
-    "remote": "https://github.com/subquery/shiden-subql-starter",
-    "branch": "master",
-    "network": "Shiden",
-    "specVersion": "0.2.0"
-  },
-  {
     "name": "westend-starter",
     "description": "Starter project for Westend",
     "remote": "https://github.com/subquery/westend-subql-starter",
