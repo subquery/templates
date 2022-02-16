@@ -230,5 +230,13 @@
     "branch": "master",
     "network": "Westend",
     "specVersion": "0.2.0"
+  },
+  {
+    "name": "subqlstarter-terra",
+    "description": "Starter project for Terra",
+    "remote": "https://github.com/DeveloperInProgress/subqlstarter-terra",
+    "branch": "main",
+    "network": "Terra",
+    "specVersion": "0.3.0"
   }
 ]
