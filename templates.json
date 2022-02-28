@@ -18,9 +18,17 @@
   {
     "name": "moonriver-evm-starter",
     "description": "Moonriver EVM project template tutorial",
-    "remote": "https://github.com/subquery/tutorials-moonriver-evm-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/tutorials-frontier-evm-starter",
+    "branch": "moonriver",
     "network": "Moonriver",
+    "specVersion": "0.2.0"
+  },
+  {
+    "name": "astar-evm-starter",
+    "description": "Astar EVM project template tutorial",
+    "remote": "https://github.com/subquery/tutorials-frontier-evm-starter",
+    "branch": "astar",
+    "network": "Astar",
     "specVersion": "0.2.0"
   },
   {
