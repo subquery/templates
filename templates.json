@@ -3,17 +3,17 @@
     "name": "subql-starter",
     "description": "Starter project for subquery",
     "remote": "https://github.com/subquery/subql-starter/",
-    "branch": "v0.2.0",
+    "branch": "v1.0.0",
     "network": "Polkadot",
-    "specVersion": "0.2.0"
+    "specVersion": "1.0.0"
   },
   {
     "name": "subql-starter",
     "description": "Starter project for subquery",
     "remote": "https://github.com/subquery/subql-starter/",
-    "branch": "v0.0.1",
+    "branch": "v0.2.0",
     "network": "Polkadot",
-    "specVersion": "0.0.1"
+    "specVersion": "0.2.0"
   },
   {
     "name": "moonriver-evm-starter",
