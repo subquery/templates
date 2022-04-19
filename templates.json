@@ -242,7 +242,7 @@
   {
     "name": "subqlstarter-terra",
     "description": "Starter project for Terra",
-    "remote": "https://github.com/DeveloperInProgress/subqlstarter-terra",
+    "remote": "https://github.com/subquery/terra-subql-starter",
     "branch": "main",
     "network": "Terra",
     "specVersion": "0.3.0"
