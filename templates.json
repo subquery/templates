@@ -5,7 +5,8 @@
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "v1.0.0",
     "network": "Polkadot",
-    "specVersion": "1.0.0"
+    "specVersion": "1.0.0",
+    "family": "Substrate"
   },
   {
     "name": "subql-starter",
@@ -13,7 +14,8 @@
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "v0.2.0",
     "network": "Polkadot",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "moonriver-evm-starter",
@@ -21,7 +23,8 @@
     "remote": "https://github.com/subquery/tutorials-frontier-evm-starter",
     "branch": "moonriver",
     "network": "Moonriver",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "astar-evm-starter",
@@ -29,7 +32,8 @@
     "remote": "https://github.com/subquery/tutorials-frontier-evm-starter",
     "branch": "astar",
     "network": "Astar",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "moonbeam-starter",
@@ -37,7 +41,8 @@
     "remote": "https://github.com/subquery/moonbeam-subql-starter",
     "branch": "master",
     "network": "Moonbeam",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "moonbeam-dictionary",
@@ -45,7 +50,8 @@
     "remote": "https://github.com/subquery/moonbeam-dictionary",
     "branch": "main",
     "network": "Moonbeam",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "statemine-starter",
@@ -53,7 +59,8 @@
     "remote": "https://github.com/subquery/statemine-subql-starter",
     "branch": "master",
     "network": "Statemine",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "statemint-starter",
@@ -61,7 +68,8 @@
     "remote": "https://github.com/subquery/statemint-subql-starter",
     "branch": "master",
     "network": "Statemint",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "parallel-starter",
@@ -69,7 +77,8 @@
     "remote": "https://github.com/subquery/parallel-subql-starter",
     "branch": "master",
     "network": "Parallel",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "kusama-starter",
@@ -77,7 +86,8 @@
     "remote": "https://github.com/subquery/kusama-subql-starter",
     "branch": "master",
     "network": "Kusama",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "clover-starter",
@@ -85,7 +95,8 @@
     "remote": "https://github.com/subquery/clover-subql-starter",
     "branch": "master",
     "network": "Clover",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "astar-starter",
@@ -93,7 +104,8 @@
     "remote": "https://github.com/subquery/astar-subql-starter",
     "branch": "master",
     "network": "Astar",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "acala-starter",
@@ -101,7 +113,8 @@
     "remote": "https://github.com/subquery/acala-subql-starter",
     "branch": "master",
     "network": "Acala",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "altair-starter",
@@ -109,7 +122,8 @@
     "remote": "https://github.com/subquery/altair-subql-starter",
     "branch": "master",
     "network": "Altair",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "automata-starter",
@@ -117,7 +131,8 @@
     "remote": "https://github.com/subquery/automata-subql-starter",
     "branch": "master",
     "network": "Automata",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "basilisk-starter",
@@ -125,7 +140,8 @@
     "remote": "https://github.com/subquery/basilisk-subql-starter",
     "branch": "master",
     "network": "Basilisk",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "bifrost-starter",
@@ -133,7 +149,8 @@
     "remote": "https://github.com/subquery/bifrost-subql-starter",
     "branch": "master",
     "network": "Bifrost",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "bitcountry-starter",
@@ -141,7 +158,8 @@
     "remote": "https://github.com/subquery/bitcountry-pioneer-subql-starter",
     "branch": "master",
     "network": "Bit.Country",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "calamari-starter",
@@ -149,7 +167,8 @@
     "remote": "https://github.com/subquery/calamari-subql-starter",
     "branch": "master",
     "network": "Calamari",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "contextfree-starter",
@@ -157,7 +176,8 @@
     "remote": "https://github.com/subquery/contextfree-subql-starter",
     "branch": "master",
     "network": "ContextFree",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "karura-starter",
@@ -165,7 +185,8 @@
     "remote": "https://github.com/subquery/karura-subql-starter",
     "branch": "master",
     "network": "Karura",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "khala-starter",
@@ -173,7 +194,8 @@
     "remote": "https://github.com/subquery/khala-subql-starter",
     "branch": "master",
     "network": "Khala",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "moonbeam-alpha-starter",
@@ -181,7 +203,8 @@
     "remote": "https://github.com/subquery/moonbeam-alpha-subql-starter",
     "branch": "master",
     "network": "Moonbeam Alpha",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "moonriver-starter",
@@ -189,7 +212,8 @@
     "remote": "https://github.com/subquery/moonriver-subql-starter",
     "branch": "master",
     "network": "Moonriver",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "neumann-starter",
@@ -197,7 +221,8 @@
     "remote": "https://github.com/subquery/neumann-subql-starter",
     "branch": "master",
     "network": "Neumann",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "nodle-starter",
@@ -205,7 +230,8 @@
     "remote": "https://github.com/subquery/nodle-subql-starter",
     "branch": "master",
     "network": "Nodle",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "parallel-heiko-starter",
@@ -213,7 +239,8 @@
     "remote": "https://github.com/subquery/parallel-heiko-subql-starter",
     "branch": "master",
     "network": "Parallel",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "quartz-starter",
@@ -221,7 +248,8 @@
     "remote": "https://github.com/subquery/quartz-subql-starter",
     "branch": "master",
     "network": "Quartz",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "shiden-starter",
@@ -229,7 +257,8 @@
     "remote": "https://github.com/subquery/shiden-subql-starter",
     "branch": "master",
     "network": "Shiden",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "westend-starter",
@@ -237,7 +266,8 @@
     "remote": "https://github.com/subquery/westend-subql-starter",
     "branch": "master",
     "network": "Westend",
-    "specVersion": "0.2.0"
+    "specVersion": "0.2.0",
+    "family": "Substrate"
   },
   {
     "name": "subqlstarter-terra",
@@ -245,6 +275,16 @@
     "remote": "https://github.com/subquery/terra-subql-starter",
     "branch": "main",
     "network": "Terra",
-    "specVersion": "1.0.0"
+    "specVersion": "1.0.0",
+    "family": "Terra"
+  },
+  {
+    "name": "avalanche-subql-starter",
+    "description": "Starter project for Avalanche",
+    "remote": "https://github.com/subquery/avalanche-subql-starter",
+    "branch": "main",
+    "network": "Avalanche",
+    "specVersion": "1.0.0",
+    "family": "Avalanche"
   }
 ]
