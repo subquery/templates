@@ -197,6 +197,15 @@
     "specVersion": "0.2.0",
     "family": "Substrate"
   },
+    {
+    "name": "karura-evm-starter",
+    "description": "Starter project for Karura EVM",
+    "remote": "https://github.com/subquery/acala-evm-starter",
+    "branch": "karura",
+    "network": "Acala",
+    "specVersion": "1.0.0",
+    "family": "Substrate"
+  },
   {
     "name": "khala-starter",
     "description": "Starter project for Khala",
