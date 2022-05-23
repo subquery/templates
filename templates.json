@@ -117,6 +117,15 @@
     "family": "Substrate"
   },
   {
+    "name": "acala-evm-starter",
+    "description": "Starter project for Acala EVM",
+    "remote": "https://github.com/subquery/acala-evm-starter",
+    "branch": "main",
+    "network": "Acala",
+    "specVersion": "1.0.0",
+    "family": "Substrate"
+  },
+  {
     "name": "altair-starter",
     "description": "Starter project for Altair",
     "remote": "https://github.com/subquery/altair-subql-starter",
@@ -186,6 +195,15 @@
     "branch": "master",
     "network": "Karura",
     "specVersion": "0.2.0",
+    "family": "Substrate"
+  },
+    {
+    "name": "karura-evm-starter",
+    "description": "Starter project for Karura EVM",
+    "remote": "https://github.com/subquery/acala-evm-starter",
+    "branch": "karura",
+    "network": "Acala",
+    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
