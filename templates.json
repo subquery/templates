@@ -305,4 +305,40 @@
     "specVersion": "1.0.0",
     "family": "Avalanche"
   }
+  {
+    "name": "cosmos-juno-starter",
+    "description": "Starter project for Cosmos (Juno)",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Juno",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "cosmos-stargaze-starter",
+    "description": "Starter project for Cosmos (Stargaze)",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "stargaze-1",
+    "network": "Stargaze",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "cosmos-fetchhub-starter",
+    "description": "Starter project for Cosmos (Fetch.ai)",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "fetchhub-4",
+    "network": "Fetch.ai",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "cosmos-cosmoshub-starter",
+    "description": "Starter project for Cosmos (Cosmos Hub)",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "cosmoshub-4",
+    "network": "Cosmos",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  }
 ]
