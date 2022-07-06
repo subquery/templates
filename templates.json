@@ -32,7 +32,7 @@
     "remote": "https://github.com/subquery/tutorials-frontier-evm-starter",
     "branch": "astar",
     "network": "Astar",
-    "specVersion": "0.2.0",
+    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
