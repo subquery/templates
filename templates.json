@@ -331,5 +331,14 @@
     "network": "Cosmos",
     "specVersion": "1.0.0",
     "family": "Cosmos"
+  },
+  {
+    "name": "algorand-starter",
+    "description": "Starter project for Algorand",
+    "remote": "https://github.com/subquery/algorand-subql-starter",
+    "branch": "main",
+    "network": "Algorand",
+    "specVersion": "1.0.0",
+    "family": "Algorand"
   }
 ]
