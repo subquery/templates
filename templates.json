@@ -1,6 +1,6 @@
 [
   {
-    "name": "subql-starter",
+    "name": "Polkadot-starter",
     "description": "Starter project for subquery",
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "multi",
@@ -8,11 +8,11 @@
     "network": "Polkadot"
   },
   {
-    "name": "moonriver-evm-starter",
-    "description": "Moonriver EVM project template tutorial",
+    "name": "Moonbeam-evm-starter",
+    "description": "Moonbeam EVM project template tutorial",
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "multi",
-    "network": "Moonriver",
+    "network": "Moonbeam",
     "family": "Substrate"
   },
   {
@@ -97,7 +97,7 @@
     "family": "Substrate"
   },
   {
-    "name": "acala-starter",
+    "name": "Acala-starter",
     "description": "Starter project for Acala",
     "remote": "https://github.com/subquery/subql-starter/",
     "branch": "multi",
