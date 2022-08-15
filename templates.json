@@ -8,11 +8,11 @@
     "network": "Polkadot"
   },
   {
-    "name": "moonriver-evm-starter",
+    "name": "moonbeam-evm-starter",
     "description": "Moonbeam EVM project template tutorial",
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "multi",
-    "network": "Moonriver",
+    "network": "Moonbeam",
     "family": "Substrate"
   },
   {
@@ -172,29 +172,11 @@
     "family": "Substrate"
   },
   {
-    "name": "moonbeam-alpha-starter",
-    "description": "Starter project for Moonbeam Alpha",
-    "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
-    "network": "Moonbeam Alpha",
-
-    "family": "Substrate"
-  },
-  {
-    "name": "moonriver-starter",
-    "description": "Starter project for Moonriver",
-    "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
-    "network": "Moonriver",
-    "family": "Substrate"
-  },
-  {
     "name": "nodle-starter",
     "description": "Starter project for Nodle",
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "multi",
     "network": "Nodle",
-
     "family": "Substrate"
   },
   {
@@ -220,7 +202,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "multi",
     "network": "Shiden",
-
     "family": "Substrate"
   },
   {
