@@ -216,7 +216,7 @@
     "name": "avalanche-subql-starter",
     "description": "Starter project for Avalanche",
     "remote": "https://github.com/subquery/avalanche-subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Avalanche",
     "family": "Avalanche"
   },
