@@ -3,7 +3,7 @@
     "name": "polkadot-starter",
     "description": "Starter project for subquery",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "family": "Substrate",
     "network": "Polkadot"
   },
@@ -11,7 +11,7 @@
     "name": "moonbeam-evm-starter",
     "description": "Moonbeam EVM project template tutorial",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Moonbeam",
     "family": "Substrate"
   },
@@ -19,7 +19,7 @@
     "name": "astar-evm-starter",
     "description": "Astar EVM project template tutorial",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Astar",
 
     "family": "Substrate"
@@ -28,7 +28,7 @@
     "name": "moonbeam-starter",
     "description": "Starter project for Moonbeam",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Moonbeam",
     "family": "Substrate"
   },
@@ -36,7 +36,7 @@
     "name": "statemine-starter",
     "description": "Starter project for Statemine",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Statemine",
 
     "family": "Substrate"
@@ -45,7 +45,7 @@
     "name": "statemint-starter",
     "description": "Starter project for Statemint",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Statemint",
 
     "family": "Substrate"
@@ -54,7 +54,7 @@
     "name": "parallel-starter",
     "description": "Starter project for Parallel",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Parallel",
 
     "family": "Substrate"
@@ -63,7 +63,7 @@
     "name": "kusama-starter",
     "description": "Starter project for Kusama",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Kusama",
     "family": "Substrate"
   },
@@ -71,7 +71,7 @@
     "name": "clover-starter",
     "description": "Starter project for Clover",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Clover",
 
     "family": "Substrate"
@@ -80,7 +80,7 @@
     "name": "astar-starter",
     "description": "Starter project for Astar",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Astar",
 
     "family": "Substrate"
@@ -89,7 +89,7 @@
     "name": "acala-starter",
     "description": "Starter project for Acala",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Acala",
 
     "family": "Substrate"
@@ -98,7 +98,7 @@
     "name": "altair-starter",
     "description": "Starter project for Altair",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Altair",
 
     "family": "Substrate"
@@ -107,7 +107,7 @@
     "name": "automata-starter",
     "description": "Starter project for Automata",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Automata",
 
     "family": "Substrate"
@@ -116,7 +116,7 @@
     "name": "basilisk-starter",
     "description": "Starter project for Basilisk",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Basilisk",
 
     "family": "Substrate"
@@ -125,7 +125,7 @@
     "name": "bifrost-starter",
     "description": "Starter project for Bifrost",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Bifrost",
 
     "family": "Substrate"
@@ -134,7 +134,7 @@
     "name": "bitcountry-starter",
     "description": "Starter project for Bit.Country",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Bit.Country",
 
     "family": "Substrate"
@@ -143,7 +143,7 @@
     "name": "calamari-starter",
     "description": "Starter project for Calamari",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Calamari",
     "family": "Substrate"
   },
@@ -151,7 +151,7 @@
     "name": "contextfree-starter",
     "description": "Starter project for Contextfree",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "ContextFree",
     "family": "Substrate"
   },
@@ -159,7 +159,7 @@
     "name": "karura-starter",
     "description": "Starter project for Karura",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Karura",
     "family": "Substrate"
   },
@@ -167,7 +167,7 @@
     "name": "khala-starter",
     "description": "Starter project for Khala",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Khala",
     "family": "Substrate"
   },
@@ -175,7 +175,7 @@
     "name": "nodle-starter",
     "description": "Starter project for Nodle",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Nodle",
     "family": "Substrate"
   },
@@ -183,7 +183,7 @@
     "name": "parallel-heiko-starter",
     "description": "Starter project for Parallel Heiko",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Parallel",
 
     "family": "Substrate"
@@ -192,7 +192,7 @@
     "name": "quartz-starter",
     "description": "Starter project for Quartz",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Quartz",
     "family": "Substrate"
   },
@@ -200,7 +200,7 @@
     "name": "shiden-starter",
     "description": "Starter project for Shiden",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Shiden",
     "family": "Substrate"
   },
@@ -208,7 +208,7 @@
     "name": "westend-starter",
     "description": "Starter project for Westend",
     "remote": "https://github.com/subquery/subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Westend",
     "family": "Substrate"
   },
@@ -224,7 +224,7 @@
     "name": "juno-subql-starter",
     "description": "Starter project for Juno",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Juno",
     "family": "Cosmos"
   },
@@ -232,7 +232,7 @@
     "name": "cosmos-stargaze-starter",
     "description": "Starter project for Cosmos (Stargaze)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "mutli",
+    "branch": "main",
     "network": "Stargaze",
     "specVersion": "1.0.0",
     "family": "Cosmos"
@@ -241,7 +241,7 @@
     "name": "cosmos-fetchhub-starter",
     "description": "Starter project for Cosmos (Fetch.ai)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Fetch.ai",
     "specVersion": "1.0.0",
     "family": "Cosmos"
@@ -250,7 +250,7 @@
     "name": "cosmos-cosmoshub-starter",
     "description": "Starter project for Cosmos (Cosmos Hub)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Cosmos",
     "specVersion": "1.0.0",
     "family": "Cosmos"
@@ -259,7 +259,7 @@
     "name": "algorand-starter",
     "description": "Starter project for Algorand",
     "remote": "https://github.com/subquery/algorand-subql-starter",
-    "branch": "multi",
+    "branch": "main",
     "network": "Algorand",
     "specVersion": "1.0.0",
     "family": "Algorand"
