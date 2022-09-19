@@ -1,6 +1,6 @@
 [
   {
-    "name": "polkadot-starter",
+    "name": "Polkadot-starter",
     "description": "Starter project for subquery",
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
@@ -21,11 +21,10 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Astar",
-
     "family": "Substrate"
   },
   {
-    "name": "moonbeam-starter",
+    "name": "Moonbeam-starter",
     "description": "Starter project for Moonbeam",
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
@@ -38,7 +37,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Statemine",
-
     "family": "Substrate"
   },
   {
@@ -47,7 +45,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Statemint",
-
     "family": "Substrate"
   },
   {
@@ -56,7 +53,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Parallel",
-
     "family": "Substrate"
   },
   {
@@ -73,7 +69,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Clover",
-
     "family": "Substrate"
   },
   {
@@ -82,7 +77,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Astar",
-
     "family": "Substrate"
   },
   {
@@ -91,7 +85,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Acala",
-
     "family": "Substrate"
   },
   {
@@ -100,7 +93,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Altair",
-
     "family": "Substrate"
   },
   {
@@ -109,7 +101,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Automata",
-
     "family": "Substrate"
   },
   {
@@ -118,7 +109,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Basilisk",
-
     "family": "Substrate"
   },
   {
@@ -127,7 +117,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Bifrost",
-
     "family": "Substrate"
   },
   {
@@ -136,7 +125,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Bit.Country",
-
     "family": "Substrate"
   },
   {
@@ -152,7 +140,7 @@
     "description": "Starter project for Contextfree",
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
-    "network": "ContextFree",
+    "network": "Contextfree",
     "family": "Substrate"
   },
   {
@@ -185,7 +173,6 @@
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Parallel",
-
     "family": "Substrate"
   },
   {
