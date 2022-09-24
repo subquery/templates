@@ -1,291 +1,203 @@
 [
   {
-    "name": "subql-starter",
+    "name": "Polkadot-starter",
     "description": "Starter project for subquery",
-    "remote": "https://github.com/subquery/subql-starter/",
-    "branch": "v1.0.0",
-    "network": "Polkadot",
-    "specVersion": "1.0.0",
-    "family": "Substrate"
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "family": "Substrate",
+    "network": "Polkadot"
   },
   {
-    "name": "subql-starter",
-    "description": "Starter project for subquery",
-    "remote": "https://github.com/subquery/subql-starter/",
-    "branch": "v0.2.0",
-    "network": "Polkadot",
-    "specVersion": "0.2.0",
-    "family": "Substrate"
-  },
-  {
-    "name": "moonriver-evm-starter",
-    "description": "Moonriver EVM project template tutorial",
-    "remote": "https://github.com/subquery/tutorials-frontier-evm-starter",
-    "branch": "moonriver",
-    "network": "Moonriver",
-    "specVersion": "1.0.0",
+    "name": "moonbeam-evm-starter",
+    "description": "Moonbeam EVM project template tutorial",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Moonbeam",
     "family": "Substrate"
   },
   {
     "name": "astar-evm-starter",
     "description": "Astar EVM project template tutorial",
-    "remote": "https://github.com/subquery/tutorials-frontier-evm-starter",
-    "branch": "astar",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Astar",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
-    "name": "moonbeam-starter",
+    "name": "Moonbeam-starter",
     "description": "Starter project for Moonbeam",
-    "remote": "https://github.com/subquery/moonbeam-subql-starter",
-    "branch": "master",
-    "network": "Moonbeam",
-    "specVersion": "1.0.0",
-    "family": "Substrate"
-  },
-  {
-    "name": "moonbeam-dictionary",
-    "description": "Moonbeam dictionary",
-    "remote": "https://github.com/subquery/moonbeam-dictionary",
+    "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Moonbeam",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "statemine-starter",
     "description": "Starter project for Statemine",
-    "remote": "https://github.com/subquery/statemine-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Statemine",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "statemint-starter",
     "description": "Starter project for Statemint",
-    "remote": "https://github.com/subquery/statemint-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Statemint",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "parallel-starter",
     "description": "Starter project for Parallel",
-    "remote": "https://github.com/subquery/parallel-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Parallel",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "kusama-starter",
     "description": "Starter project for Kusama",
-    "remote": "https://github.com/subquery/kusama-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Kusama",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "clover-starter",
     "description": "Starter project for Clover",
-    "remote": "https://github.com/subquery/clover-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Clover",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "astar-starter",
     "description": "Starter project for Astar",
-    "remote": "https://github.com/subquery/astar-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Astar",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "acala-starter",
     "description": "Starter project for Acala",
-    "remote": "https://github.com/subquery/acala-subql-starter",
-    "branch": "master",
-    "network": "Acala",
-    "specVersion": "1.0.0",
-    "family": "Substrate"
-  },
-  {
-    "name": "acala-evm-starter",
-    "description": "Starter project for Acala EVM",
-    "remote": "https://github.com/subquery/acala-evm-starter",
+    "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
     "network": "Acala",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "altair-starter",
     "description": "Starter project for Altair",
-    "remote": "https://github.com/subquery/altair-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Altair",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "automata-starter",
     "description": "Starter project for Automata",
-    "remote": "https://github.com/subquery/automata-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Automata",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "basilisk-starter",
     "description": "Starter project for Basilisk",
-    "remote": "https://github.com/subquery/basilisk-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Basilisk",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "bifrost-starter",
     "description": "Starter project for Bifrost",
-    "remote": "https://github.com/subquery/bifrost-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Bifrost",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "bitcountry-starter",
     "description": "Starter project for Bit.Country",
-    "remote": "https://github.com/subquery/bitcountry-pioneer-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Bit.Country",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "calamari-starter",
     "description": "Starter project for Calamari",
-    "remote": "https://github.com/subquery/calamari-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Calamari",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "contextfree-starter",
     "description": "Starter project for Contextfree",
-    "remote": "https://github.com/subquery/contextfree-subql-starter",
-    "branch": "master",
-    "network": "ContextFree",
-    "specVersion": "1.0.0",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Contextfree",
     "family": "Substrate"
   },
   {
     "name": "karura-starter",
     "description": "Starter project for Karura",
-    "remote": "https://github.com/subquery/karura-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Karura",
-    "specVersion": "1.0.0",
-    "family": "Substrate"
-  },
-    {
-    "name": "karura-evm-starter",
-    "description": "Starter project for Karura EVM",
-    "remote": "https://github.com/subquery/acala-evm-starter",
-    "branch": "karura",
-    "network": "Acala",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "khala-starter",
     "description": "Starter project for Khala",
-    "remote": "https://github.com/subquery/khala-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Khala",
-    "specVersion": "1.0.0",
-    "family": "Substrate"
-  },
-  {
-    "name": "moonbeam-alpha-starter",
-    "description": "Starter project for Moonbeam Alpha",
-    "remote": "https://github.com/subquery/moonbeam-alpha-subql-starter",
-    "branch": "master",
-    "network": "Moonbeam Alpha",
-    "specVersion": "1.0.0",
-    "family": "Substrate"
-  },
-  {
-    "name": "moonriver-starter",
-    "description": "Starter project for Moonriver",
-    "remote": "https://github.com/subquery/moonriver-subql-starter",
-    "branch": "master",
-    "network": "Moonriver",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "nodle-starter",
     "description": "Starter project for Nodle",
-    "remote": "https://github.com/subquery/nodle-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Nodle",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "parallel-heiko-starter",
     "description": "Starter project for Parallel Heiko",
-    "remote": "https://github.com/subquery/parallel-heiko-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Parallel",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "quartz-starter",
     "description": "Starter project for Quartz",
-    "remote": "https://github.com/subquery/quartz-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Quartz",
-    "specVersion": "0.2.0",
     "family": "Substrate"
   },
   {
     "name": "shiden-starter",
     "description": "Starter project for Shiden",
-    "remote": "https://github.com/subquery/shiden-subql-starter",
-    "branch": "master",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
     "network": "Shiden",
-    "specVersion": "1.0.0",
     "family": "Substrate"
   },
   {
     "name": "westend-starter",
     "description": "Starter project for Westend",
-    "remote": "https://github.com/subquery/westend-subql-starter",
-    "branch": "master",
-    "network": "Westend",
-    "specVersion": "1.0.0",
-    "family": "Substrate"
-  },
-  {
-    "name": "subqlstarter-terra",
-    "description": "Starter project for Terra",
-    "remote": "https://github.com/subquery/terra-subql-starter",
+    "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
-    "network": "Terra",
-    "specVersion": "1.0.0",
-    "family": "Terra"
+    "network": "Westend",
+    "family": "Substrate"
   },
   {
     "name": "avalanche-subql-starter",
@@ -293,23 +205,21 @@
     "remote": "https://github.com/subquery/avalanche-subql-starter",
     "branch": "main",
     "network": "Avalanche",
-    "specVersion": "1.0.0",
     "family": "Avalanche"
   },
   {
-    "name": "cosmos-juno-starter",
-    "description": "Starter project for Cosmos (Juno)",
+    "name": "juno-subql-starter",
+    "description": "Starter project for Juno",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
     "network": "Juno",
-    "specVersion": "1.0.0",
     "family": "Cosmos"
   },
   {
     "name": "cosmos-stargaze-starter",
     "description": "Starter project for Cosmos (Stargaze)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "stargaze-1",
+    "branch": "main",
     "network": "Stargaze",
     "specVersion": "1.0.0",
     "family": "Cosmos"
@@ -318,7 +228,7 @@
     "name": "cosmos-fetchhub-starter",
     "description": "Starter project for Cosmos (Fetch.ai)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "fetchhub-4",
+    "branch": "main",
     "network": "Fetch.ai",
     "specVersion": "1.0.0",
     "family": "Cosmos"
@@ -327,7 +237,7 @@
     "name": "cosmos-cosmoshub-starter",
     "description": "Starter project for Cosmos (Cosmos Hub)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "cosmoshub-4",
+    "branch": "main",
     "network": "Cosmos",
     "specVersion": "1.0.0",
     "family": "Cosmos"
