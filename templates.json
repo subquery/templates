@@ -88,6 +88,14 @@
     "family": "Substrate"
   },
   {
+    "name": "acala-evm-starter",
+    "description": "Starter project for Acala-evm",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Acala",
+    "family": "Substrate"
+  },
+  {
     "name": "altair-starter",
     "description": "Starter project for Altair",
     "remote": "https://github.com/subquery/subql-starter",
