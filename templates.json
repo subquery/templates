@@ -216,7 +216,7 @@
     "family": "Avalanche"
   },
   {
-    "name": "juno-subql-starter",
+    "name": "juno-starter",
     "description": "Starter project for Juno",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
