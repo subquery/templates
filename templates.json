@@ -251,7 +251,7 @@
     "family": "Cosmos"
   },
   {
-    "name": "cosmos-cronos-evm-starter",
+    "name": "cronos-evm-starter",
     "description": "Starter project for Cronos",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
