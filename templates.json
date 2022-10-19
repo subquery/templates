@@ -208,6 +208,14 @@
     "family": "Substrate"
   },
   {
+    "name": "humanode-starter",
+    "description": "Starter project for Humanode",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Humanode",
+    "family": "Substrate"
+  },
+  {
     "name": "avalanche-subql-starter",
     "description": "Starter project for Avalanche",
     "remote": "https://github.com/subquery/avalanche-subql-starter",
