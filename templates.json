@@ -262,7 +262,16 @@
     "description": "Starter project for Cosmos (Cosmos Hub)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
-    "network": "Cosmos",
+    "network": "CosmosHub",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "cosmos-osmosis-starter",
+    "description": "Starter project for Osmosis",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Osmosis",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
