@@ -240,7 +240,7 @@
     "family": "Cosmos"
   },
   {
-    "name": "cosmos-stargaze-starter",
+    "name": "stargaze-starter",
     "description": "Starter project for Cosmos (Stargaze)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
@@ -249,7 +249,7 @@
     "family": "Cosmos"
   },
   {
-    "name": "cosmos-fetchhub-starter",
+    "name": "fetchhub-starter",
     "description": "Starter project for Cosmos (Fetch.ai)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
@@ -258,7 +258,7 @@
     "family": "Cosmos"
   },
   {
-    "name": "cosmos-cosmoshub-starter",
+    "name": "cosmoshub-starter",
     "description": "Starter project for Cosmos (Cosmos Hub)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
