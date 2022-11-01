@@ -267,7 +267,7 @@
     "family": "Cosmos"
   },
   {
-    "name": "cosmos-osmosis-starter",
+    "name": "osmosis-starter",
     "description": "Starter project for Osmosis",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
