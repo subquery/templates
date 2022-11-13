@@ -276,7 +276,16 @@
     "family": "Cosmos"
   },
   {
-    "name": "cronos-evm-starter",
+    "name": "cronos-evm-starter-via-rpc",
+    "description": "Starter project for Cronos",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Cronos",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "cronos-evm-starter-via-eth",
     "description": "Starter project for Cronos",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
