@@ -301,5 +301,23 @@
     "network": "Algorand",
     "specVersion": "1.0.0",
     "family": "Algorand"
-  }
+  },
+  {
+    "name": "flare-starter",
+    "description": "Starter project for Flare",
+    "remote": "https://github.com/subquery/flare-subql-starter",
+    "branch": "main",
+    "network": "Flare",
+    "specVersion": "1.0.0",
+    "family": "Flare"
+  },
+  {
+    "name": "songbird-starter",
+    "description": "Starter project for Flare Songbird",
+    "remote": "https://github.com/subquery/flare-subql-starter",
+    "branch": "main",
+    "network": "Flare",
+    "specVersion": "1.0.0",
+    "family": "Flare"
+  },
 ]
