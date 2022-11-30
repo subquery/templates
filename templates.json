@@ -300,7 +300,7 @@
     "branch": "main",
     "network": "OKX",
     "specVersion": "1.0.0",
-    "family": "OKX"
+    "family": "Cosmos"
   },
   {
     "name": "algorand-starter",
