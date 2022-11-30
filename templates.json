@@ -294,6 +294,15 @@
     "family": "Cosmos"
   },
   {
+    "name": "okx-starter",
+    "description": "Starter project for OKX",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "OKX",
+    "specVersion": "1.0.0",
+    "family": "OKX"
+  },
+  {
     "name": "algorand-starter",
     "description": "Starter project for Algorand",
     "remote": "https://github.com/subquery/algorand-subql-starter",
