@@ -336,5 +336,14 @@
     "network": "Flare",
     "specVersion": "1.0.0",
     "family": "Flare"
+  },
+  {
+    "name": "ethereum-subql-starter",
+    "description": "Starter project for Ethereum",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Ethereum",
+    "specVersion": "1.0.0",
+    "family": "Ethereum"
   }
 ]
