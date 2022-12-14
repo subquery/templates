@@ -232,6 +232,14 @@
     "family": "Substrate"
   },
   {
+    "name": "watr-starter",
+    "description": "Starter project for Watr",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Watr",
+    "family": "Substrate"
+  },
+  {
     "name": "avalanche-subql-starter",
     "description": "Starter project for Avalanche",
     "remote": "https://github.com/subquery/avalanche-subql-starter",
