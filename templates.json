@@ -144,6 +144,14 @@
     "family": "Substrate"
   },
   {
+    "name": "centrifuge-starter",
+    "description": "Starter project for Centrifuge",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Centrifuge",
+    "family": "Substrate"
+  },
+  {
     "name": "contextfree-starter",
     "description": "Starter project for Contextfree",
     "remote": "https://github.com/subquery/subql-starter",
