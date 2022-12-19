@@ -112,6 +112,14 @@
     "family": "Substrate"
   },
   {
+    "name": "aresodyssey-starter",
+    "description": "Starter project for Ajuna",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Ares Odyssey",
+    "family": "Substrate"
+  },
+  {
     "name": "automata-starter",
     "description": "Starter project for Automata",
     "remote": "https://github.com/subquery/subql-starter",
