@@ -216,6 +216,14 @@
     "family": "Substrate"
   },
   {
+    "name": "frequency-starter",
+    "description": "Starter project for Frequency",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Frequency",
+    "family": "Substrate"
+  },
+  {
     "name": "interlay-starter",
     "description": "Starter project for Interlay",
     "remote": "https://github.com/subquery/subql-starter",
