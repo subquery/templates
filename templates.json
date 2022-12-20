@@ -256,6 +256,14 @@
     "family": "Substrate"
   },
   {
+    "name": "kapex-starter",
+    "description": "Starter project for Kapex",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Kapex",
+    "family": "Substrate"
+  },
+  {
     "name": "khala-starter",
     "description": "Starter project for Khala",
     "remote": "https://github.com/subquery/subql-starter",
