@@ -176,6 +176,14 @@
     "family": "Substrate"
   },
   {
+    "name": "composable-finance-starter",
+    "description": "Starter project for Composable Finance",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Composable Finance",
+    "family": "Substrate"
+  },
+  {
     "name": "efinity-starter",
     "description": "Starter project for Efinity",
     "remote": "https://github.com/subquery/subql-starter",
