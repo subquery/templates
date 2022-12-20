@@ -176,6 +176,14 @@
     "family": "Substrate"
   },
   {
+    "name": "efinity-starter",
+    "description": "Starter project for Efinity",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Efinity",
+    "family": "Substrate"
+  },
+  {
     "name": "karura-starter",
     "description": "Starter project for Karura",
     "remote": "https://github.com/subquery/subql-starter",
