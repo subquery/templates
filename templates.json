@@ -152,6 +152,14 @@
     "family": "Substrate"
   },
   {
+    "name": "bitgreen-starter",
+    "description": "Starter project for Bitgreen",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "BitGreen",
+    "family": "Substrate"
+  },
+  {
     "name": "calamari-starter",
     "description": "Starter project for Calamari",
     "remote": "https://github.com/subquery/subql-starter",
