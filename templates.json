@@ -272,6 +272,14 @@
     "family": "Substrate"
   },
   {
+    "name": "kylin-starter",
+    "description": "Starter project for Kylin",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Kylin",
+    "family": "Substrate"
+  },
+  {
     "name": "nodle-starter",
     "description": "Starter project for Nodle",
     "remote": "https://github.com/subquery/subql-starter",
