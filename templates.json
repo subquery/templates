@@ -200,6 +200,14 @@
     "family": "Substrate"
   },
   {
+    "name": "equilibrium-starter",
+    "description": "Starter project for Equilibrium",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Equilibrium",
+    "family": "Substrate"
+  },
+  {
     "name": "interlay-starter",
     "description": "Starter project for Interlay",
     "remote": "https://github.com/subquery/subql-starter",
