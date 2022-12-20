@@ -184,6 +184,14 @@
     "family": "Substrate"
   },
   {
+    "name": "interlay-starter",
+    "description": "Starter project for Interlay",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Interlay",
+    "family": "Substrate"
+  },
+  {
     "name": "karura-starter",
     "description": "Starter project for Karura",
     "remote": "https://github.com/subquery/subql-starter",
