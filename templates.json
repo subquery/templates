@@ -456,6 +456,15 @@
     "family": "Cosmos"
   },
   {
+    "name": "axelar-starter",
+    "description": "Starter project for Axelar",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Axelar",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "algorand-starter",
     "description": "Starter project for Algorand",
     "remote": "https://github.com/subquery/algorand-subql-starter",
