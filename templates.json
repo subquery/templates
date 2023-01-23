@@ -465,6 +465,15 @@
     "family": "Cosmos"
   },
   {
+    "name": "injective-starter",
+    "description": "Starter project for Injective",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Injective",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "algorand-starter",
     "description": "Starter project for Algorand",
     "remote": "https://github.com/subquery/algorand-subql-starter",
