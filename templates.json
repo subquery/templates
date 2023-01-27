@@ -499,5 +499,14 @@
     "network": "Flare",
     "specVersion": "1.0.0",
     "family": "Flare"
+  },
+  {
+    "name": "near-starter",
+    "description": "Starter project for NEAR",
+    "remote": "https://github.com/subquery/near-subql-starter",
+    "branch": "main",
+    "network": "Near",
+    "specVersion": "1.0.0",
+    "family": "Near"
   }
 ]
