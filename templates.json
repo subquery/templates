@@ -376,28 +376,20 @@
     "family": "Avalanche"
   },
   {
-    "name": "juno-starter",
-    "description": "Starter project for Juno",
+    "name": "axelar-starter",
+    "description": "Starter project for Axelar",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
-    "network": "Juno",
-    "family": "Cosmos"
-  },
-  {
-    "name": "stargaze-starter",
-    "description": "Starter project for Cosmos (Stargaze)",
-    "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "main",
-    "network": "Stargaze",
+    "network": "Axelar",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
   {
-    "name": "fetchhub-starter",
-    "description": "Starter project for Cosmos (Fetch.ai)",
+    "name": "comdex-starter",
+    "description": "Starter project for Comdex",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
-    "network": "Fetch.ai",
+    "network": "Comdex",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
@@ -407,15 +399,6 @@
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
     "network": "CosmosHub",
-    "specVersion": "1.0.0",
-    "family": "Cosmos"
-  },
-  {
-    "name": "osmosis-starter",
-    "description": "Starter project for Osmosis",
-    "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "main",
-    "network": "Osmosis",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
@@ -438,29 +421,11 @@
     "family": "Cosmos"
   },
   {
-    "name": "okx-starter",
-    "description": "Starter project for OKX",
+    "name": "fetchhub-starter",
+    "description": "Starter project for Cosmos (Fetch.ai)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
-    "network": "OKX",
-    "specVersion": "1.0.0",
-    "family": "Cosmos"
-  },
-  {
-    "name": "thorchain-starter",
-    "description": "Starter project for Thorchain",
-    "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "main",
-    "network": "Thorchain",
-    "specVersion": "1.0.0",
-    "family": "Cosmos"
-  },
-  {
-    "name": "axelar-starter",
-    "description": "Starter project for Axelar",
-    "remote": "https://github.com/subquery/cosmos-subql-starter",
-    "branch": "main",
-    "network": "Axelar",
+    "network": "Fetch.ai",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
@@ -470,6 +435,50 @@
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
     "network": "Injective",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "juno-starter",
+    "description": "Starter project for Juno",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Juno",
+    "family": "Cosmos"
+  },
+  {
+    "name": "okx-starter",
+    "description": "Starter project for OKX",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "OKX",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "osmosis-starter",
+    "description": "Starter project for Osmosis",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Osmosis",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "stargaze-starter",
+    "description": "Starter project for Cosmos (Stargaze)",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Stargaze",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "thorchain-starter",
+    "description": "Starter project for Thorchain",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Thorchain",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
