@@ -517,5 +517,14 @@
     "network": "Near",
     "specVersion": "1.0.0",
     "family": "Near"
+  },
+  {
+    "name": "ethereum-starter",
+    "description": "Starter project for Ethereum networks",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Ethereum",
+    "specVersion": "1.0.0",
+    "family": "Ethereum"
   }
 ]
