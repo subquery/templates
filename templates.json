@@ -421,6 +421,15 @@
     "family": "Cosmos"
   },
   {
+    "name": "evmos-starter",
+    "description": "Starter project for Evmos",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Evmos",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "fetchhub-starter",
     "description": "Starter project for Cosmos (Fetch.ai)",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
