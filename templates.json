@@ -544,5 +544,14 @@
     "network": "Polygon",
     "specVersion": "1.0.0",
     "family": "Polygon"
+  },
+  {
+    "name": "bsc-starter",
+    "description": "Starter project for the BNB Smart Chain network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "BNB Smart Chain",
+    "specVersion": "1.0.0",
+    "family": "BNB Smart Chain"
   }
 ]
