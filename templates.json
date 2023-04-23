@@ -455,6 +455,14 @@
     "network": "Juno",
     "family": "Cosmos"
   },
+    {
+    "name": "kava-starter",
+    "description": "Starter project for Kava",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Kava",
+    "family": "Cosmos"
+  },
   {
     "name": "okx-starter",
     "description": "Starter project for OKX",
@@ -474,8 +482,17 @@
     "family": "Cosmos"
   },
   {
+    "name": "persistence-starter",
+    "description": "Starter project for Persistence",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Persistence",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "stargaze-starter",
-    "description": "Starter project for Cosmos (Stargaze)",
+    "description": "Starter project for Stargaze",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
     "network": "Stargaze",
