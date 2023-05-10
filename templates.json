@@ -24,6 +24,14 @@
     "family": "Substrate"
   },
   {
+    "name": "astar-wasm-starter",
+    "description": "Astar WASM project template tutorial",
+    "remote": "https://github.com/subquery/subql-starter",
+    "branch": "main",
+    "network": "Astar",
+    "family": "Substrate"
+  },
+  {
     "name": "Moonbeam-starter",
     "description": "Starter project for Moonbeam",
     "remote": "https://github.com/subquery/subql-starter",
