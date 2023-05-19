@@ -376,7 +376,7 @@
     "family": "Substrate"
   },
   {
-    "name": "avalanche-subql-starter",
+    "name": "avalanche-starter",
     "description": "Starter project for Avalanche C Chain",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
