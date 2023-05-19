@@ -377,8 +377,8 @@
   },
   {
     "name": "avalanche-subql-starter",
-    "description": "Starter project for Avalanche",
-    "remote": "https://github.com/subquery/avalanche-subql-starter",
+    "description": "Starter project for Avalanche C Chain",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
     "network": "Avalanche",
     "family": "Avalanche"
