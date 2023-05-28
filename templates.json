@@ -586,5 +586,14 @@
     "network": "BNB Smart Chain",
     "specVersion": "1.0.0",
     "family": "BNB Smart Chain"
+  },
+  {
+    "name": "arbitrum-starter",
+    "description": "Starter project for the Arbitrum Smart Chain network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Arbitrum",
+    "specVersion": "1.0.0",
+    "family": "Arbitrum"
   }
 ]
