@@ -588,12 +588,30 @@
     "family": "BNB Smart Chain"
   },
   {
-    "name": "arbitrum-starter",
-    "description": "Starter project for the Arbitrum Smart Chain network",
+    "name": "arbitrum-nova-starter",
+    "description": "Starter project for the Arbitrum Nova network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
-    "network": "Arbitrum",
+    "network": "Arbitrum Nova",
     "specVersion": "1.0.0",
     "family": "Arbitrum"
+  },
+  {
+    "name": "arbitrum-one-starter",
+    "description": "Starter project for the Arbitrum One network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Arbitrum One",
+    "specVersion": "1.0.0",
+    "family": "Arbitrum"
+  },
+  {
+    "name": "optimism-starter",
+    "description": "Starter project for the Optimism network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Optimism",
+    "specVersion": "1.0.0",
+    "family": "Optimism"
   }
 ]
