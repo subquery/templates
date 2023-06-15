@@ -613,5 +613,14 @@
     "network": "Optimism",
     "specVersion": "1.0.0",
     "family": "Optimism"
+  },
+  {
+    "name": "aurora-starter",
+    "description": "Starter project for the Aurora network",
+    "remote": "https://github.com/subquery/near-subql-starter",
+    "branch": "main",
+    "network": "Aurora",
+    "specVersion": "1.0.0",
+    "family": "Aurora"
   }
 ]
