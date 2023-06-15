@@ -568,7 +568,7 @@
     "network": "NEAR Aurora",
     "specVersion": "1.0.0",
     "family": "Near"
-  }
+  },
   {
     "name": "ethereum-starter",
     "description": "Starter project for Ethereum networks",
@@ -622,5 +622,5 @@
     "network": "Optimism",
     "specVersion": "1.0.0",
     "family": "Optimism"
-  },
+  }
 ]
