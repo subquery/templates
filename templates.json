@@ -558,16 +558,16 @@
     "branch": "main",
     "network": "Near",
     "specVersion": "1.0.0",
-    "family": "Near"
+    "family": "NEAR"
   },
     {
     "name": "near-aurora-starter",
     "description": "Starter project for the Aurora network",
     "remote": "https://github.com/subquery/near-subql-starter",
     "branch": "main",
-    "network": "NEAR Aurora",
+    "network": "Near",
     "specVersion": "1.0.0",
-    "family": "Near"
+    "family": "NEAR"
   },
   {
     "name": "ethereum-starter",
