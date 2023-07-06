@@ -622,5 +622,14 @@
     "network": "Optimism",
     "specVersion": "1.0.0",
     "family": "Optimism"
+  },
+  {
+    "name": "gnosis-starter",
+    "description": "Starter project for the Gnosis network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Gnosis",
+    "specVersion": "1.0.0",
+    "family": "Gnosis"
   }
 ]
