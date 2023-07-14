@@ -392,6 +392,15 @@
     "family": "Avalanche"
   },
   {
+    "name": "archway-starter",
+    "description": "Starter project for Archway",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Archway",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "axelar-starter",
     "description": "Starter project for Axelar",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
@@ -471,12 +480,20 @@
     "network": "Juno",
     "family": "Cosmos"
   },
-    {
+  {
     "name": "kava-starter",
     "description": "Starter project for Kava",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
     "network": "Kava",
+    "family": "Cosmos"
+  },
+  {
+    "name": "neutron-starter",
+    "description": "Starter project for Neutron",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Neutron",
     "family": "Cosmos"
   },
   {
@@ -503,6 +520,15 @@
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
     "network": "Persistence",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "sei-starter",
+    "description": "Starter project for Sei",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Sei",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
