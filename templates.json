@@ -623,6 +623,15 @@
     "family": "BNB Smart Chain"
   },
   {
+    "name": "base-goerli-starter",
+    "description": "Starter project for the Base Goerli network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Base",
+    "specVersion": "1.0.0",
+    "family": "Base"
+  },  
+  {
     "name": "arbitrum-nova-starter",
     "description": "Starter project for the Arbitrum Nova network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
