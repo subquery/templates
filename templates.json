@@ -630,6 +630,15 @@
     "network": "Base",
     "specVersion": "1.0.0",
     "family": "Base"
+  },
+  {
+    "name": "base-starter",
+    "description": "Starter project for the Base network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Base",
+    "specVersion": "1.0.0",
+    "family": "Base"
   },  
   {
     "name": "arbitrum-nova-starter",
