@@ -645,7 +645,7 @@
     "description": "Starter project for the Arbitrum Nova network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
-    "network": "Arbitrum Nova",
+    "network": "Arbitrum",
     "specVersion": "1.0.0",
     "family": "Arbitrum"
   },
@@ -654,7 +654,7 @@
     "description": "Starter project for the Arbitrum One network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
-    "network": "Arbitrum One",
+    "network": "Arbitrum",
     "specVersion": "1.0.0",
     "family": "Arbitrum"
   },
