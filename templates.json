@@ -675,5 +675,41 @@
     "network": "Gnosis",
     "specVersion": "1.0.0",
     "family": "Gnosis"
+  },
+  {
+    "name": "immutable-testnet-starter",
+    "description": "Starter project for the Immutable test network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Immutable",
+    "specVersion": "1.0.0",
+    "family": "Immutable"
+  },
+  {
+    "name": "meter-starter",
+    "description": "Starter project for the Meter.io network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Meter",
+    "specVersion": "1.0.0",
+    "family": "Meter"
+  },
+  {
+    "name": "scroll-sepolia-starter",
+    "description": "Starter project for the Scroll Sepolia test network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Scroll",
+    "specVersion": "1.0.0",
+    "family": "Scroll"
+  },
+  {
+    "name": "zksync-starter",
+    "description": "Starter project for the zkSync network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Zksync",
+    "specVersion": "1.0.0",
+    "family": "Zksyns"
   }
 ]
