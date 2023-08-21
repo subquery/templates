@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "outDir": "./dist",
-    "strict": true
-  },
-  "include": ["*.ts"]
+    "lib": ["ES2018"],
+    "target": "ES2018" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "rootDir": "./",
+    "outDir": "./dist" /* Specify the root folder within your source files. */,
+    "esModuleInterop": true /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true /* Skip type checking .d.ts files that are included with TypeScript. */,
+    "skipLibCheck": true
+  }
 }

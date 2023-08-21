@@ -1,3 +1,6 @@
+import { createGenerator } from "ts-to-json";
+import { writeFile } from "fs";
+
 interface NetworkFamily {
   name: string;
   description: string;
@@ -16,7 +19,7 @@ interface NetworkFamily {
   }[];
 }
 
-export const NetworkFamilies: NetworkFamily[] = [
+const networkFamilies: NetworkFamily[] = [
   {
     name: "EVM",
     description: "",
@@ -1343,3 +1346,9 @@ export const NetworkFamilies: NetworkFamily[] = [
     ],
   },
 ];
+
+const schemaString = JSON.stringify(networkFamilies, null, 2);
+
+writeFile("./dist/output.json", schemaString, (err) => {
+  if (err) throw err;
+});
