@@ -1,23 +1,26 @@
-import { createGenerator } from "ts-to-json";
 import { writeFile } from "fs";
 
-interface NetworkFamily {
+type Examples = {
+  name: string;
+  description: string;
+  remote: string;
+  path: string;
+};
+
+type Network = {
+  name: string;
+  chain_id: string;
+  description: string;
+  logo: string;
+  examples: Examples[];
+};
+
+type NetworkFamily = {
   name: string;
   description: string;
   logo: string;
-  networks: {
-    name: string;
-    chain_id: string;
-    description: string;
-    logo: string;
-    examples: {
-      name: string;
-      description: string;
-      remote: string;
-      path: string;
-    }[];
-  }[];
-}
+  networks: Network[];
+};
 
 const networkFamilies: NetworkFamily[] = [
   {
