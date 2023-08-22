@@ -9,6 +9,7 @@ on:
 jobs:
   publish_json:
     runs-on: ubuntu-latest
+    if: "!startsWith(github.event.head_commit.message, '[SKIP CI]') && github.repository == 'subquery/templates'"
 
     steps:
       - name: Checkout repository
@@ -17,3 +18,9 @@ jobs:
         run: npm install
       - name: Build and Deploy
         run: npm run build && npm run start
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: '[SKIP CI] update output'
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
