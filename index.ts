@@ -8,6 +8,12 @@ type Examples = {
 };
 
 type Network = {
+  // Code is special and must be http url param compatible (e.g. no spaces or special chars)
+  // For EVM chains, we use the chain_id
+  // For Cosmos chains, we use the chain_id
+  // For Polkadot chains, we use the network ID to match Talisman's
+  //   > https://github.com/TalismanSociety/chaindata/blob/v3/chaindata.json
+  code: string;
   name: string;
   chain_id: string;
   description: string;
@@ -16,6 +22,7 @@ type Network = {
 };
 
 type NetworkFamily = {
+  code: "evm" | "algorand" | "cosmos" | "near" | "polkadot";
   name: string;
   description: string;
   logo: string;
@@ -24,11 +31,13 @@ type NetworkFamily = {
 
 const networkFamilies: NetworkFamily[] = [
   {
-    name: "EVM",
+    code: "evm",
+    name: "EVM Networks",
     description: "",
     logo: "",
     networks: [
       {
+        code: "42170",
         name: "Arbitrum Nova",
         chain_id: "42170",
         description: "",
@@ -44,6 +53,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "42161",
         name: "Arbitrum One",
         chain_id: "42161",
         description: "",
@@ -59,6 +69,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "43114",
         name: "Avalanche",
         chain_id: "43114",
         description: "",
@@ -74,6 +85,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "8453",
         name: "Base",
         chain_id: "8453",
         description: "",
@@ -89,6 +101,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "84531",
         name: "Base Goerli",
         chain_id: "84531",
         description: "",
@@ -104,6 +117,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "56",
         name: "BNB Smart Chain",
         chain_id: "56",
         description: "",
@@ -119,6 +133,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "1",
         name: "Ethereum",
         chain_id: "1",
         description: "",
@@ -134,8 +149,9 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "14",
         name: "Flare",
-        chain_id: "",
+        chain_id: "14",
         description: "",
         logo: "",
         examples: [
@@ -145,6 +161,15 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/flare-subql-starter",
             path: "Flare/flare-starter",
           },
+        ],
+      },
+      {
+        code: "19",
+        name: "Flare Songbird",
+        chain_id: "19",
+        description: "",
+        logo: "",
+        examples: [
           {
             name: "songbird-starter",
             description: "",
@@ -154,6 +179,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "100",
         name: "Gnosis",
         chain_id: "100",
         description: "",
@@ -169,6 +195,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "13472",
         name: "Immutable Testnet",
         chain_id: "13472",
         description: "",
@@ -184,6 +211,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "82",
         name: "Meter",
         chain_id: "82",
         description: "",
@@ -199,6 +227,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "10",
         name: "Optimism",
         chain_id: "10",
         description: "",
@@ -214,6 +243,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "137",
         name: "Polygon",
         chain_id: "137",
         description: "",
@@ -229,6 +259,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "534351",
         name: "Scroll Sepolia",
         chain_id: "534351",
         description: "",
@@ -244,6 +275,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "324",
         name: "Zksync",
         chain_id: "324",
         description: "",
@@ -261,11 +293,13 @@ const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
+    code: "algorand",
     name: "Algorand",
     description: "",
     logo: "",
     networks: [
       {
+        code: "algorand",
         name: "Algorand",
         chain_id: "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8",
         description: "",
@@ -283,11 +317,13 @@ const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
+    code: "cosmos",
     name: "Cosmos",
     description: "",
     logo: "",
     networks: [
       {
+        code: "akashnet-2",
         name: "Akash",
         chain_id: "akashnet-2",
         description: "",
@@ -303,6 +339,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "archway-1",
         name: "Archway",
         chain_id: "archway-1",
         description: "",
@@ -318,6 +355,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "axelar-dojo-1",
         name: "Axelar",
         chain_id: "axelar-dojo-1",
         description: "",
@@ -333,6 +371,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "comdex-1",
         name: "Comdex",
         chain_id: "comdex-1",
         description: "",
@@ -348,6 +387,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "cosmoshub-4",
         name: "CosmosHub",
         chain_id: "cosmoshub-4",
         description: "",
@@ -363,6 +403,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "cronosmainnet_25-1",
         name: "Cronos",
         chain_id: "cronosmainnet_25-1",
         description: "",
@@ -385,6 +426,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "evmos_9001-2",
         name: "Evmos",
         chain_id: "evmos_9001-2",
         description: "",
@@ -400,6 +442,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "evmos_9000-4",
         name: "Evmos Testnet",
         chain_id: "evmos_9000-4",
         description: "",
@@ -415,6 +458,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "fetchhub-4",
         name: "Fetch.ai",
         chain_id: "fetchhub-4",
         description: "",
@@ -430,6 +474,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "injective-1",
         name: "Injective",
         chain_id: "injective-1",
         description: "",
@@ -445,6 +490,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "juno-1",
         name: "Juno",
         chain_id: "juno-1",
         description: "",
@@ -460,6 +506,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "kava_2222-10",
         name: "Kava",
         chain_id: "kava_2222-10",
         description: "",
@@ -475,6 +522,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "neutron-1",
         name: "Neutron",
         chain_id: "neutron-1",
         description: "",
@@ -490,6 +538,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "66",
         name: "OKX",
         chain_id: "66",
         description: "",
@@ -505,6 +554,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "osmosis-1",
         name: "Osmosis",
         chain_id: "osmosis-1",
         description: "",
@@ -520,6 +570,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "core-1",
         name: "Persistence",
         chain_id: "core-1",
         description: "",
@@ -535,6 +586,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "atlantic-2",
         name: "Sei",
         chain_id: "atlantic-2",
         description: "",
@@ -550,6 +602,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "stargaze-1",
         name: "Stargaze",
         chain_id: "stargaze-1",
         description: "",
@@ -565,6 +618,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "thorchain-mainnet-v1",
         name: "Thorchain",
         chain_id: "thorchain-mainnet-v1",
         description: "",
@@ -582,11 +636,13 @@ const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
+    code: "near",
     name: "NEAR",
     description: "",
     logo: "",
     networks: [
       {
+        code: "near",
         name: "Near",
         chain_id: "mainnet",
         description: "",
@@ -608,6 +664,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "near-aurora",
         name: "Near Aurora",
         chain_id: "1313161554",
         description: "",
@@ -625,11 +682,13 @@ const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
+    code: "polkadot",
     name: "Polkadot",
     description: "",
     logo: "",
     networks: [
       {
+        code: "acala",
         name: "Acala",
         chain_id:
           "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
@@ -651,6 +710,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "ajuna",
         name: "Ajuna",
         chain_id:
           "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
@@ -666,6 +726,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "altair",
         name: "Altair",
         chain_id:
           "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
@@ -681,6 +742,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "astar",
         name: "Astar",
         chain_id:
           "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
@@ -708,6 +770,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "automata",
         name: "Automata",
         chain_id:
           "0xc8eda34601b5a48c73f47ee39a3a86a858c34f044185b17dc7d5ad155813dc63",
@@ -723,6 +786,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "basilisk",
         name: "Basilisk",
         chain_id:
           "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
@@ -738,6 +802,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "bifrost-kusama",
         name: "Bifrost",
         chain_id:
           "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
@@ -753,6 +818,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "bitcountry-pioneer",
         name: "Bit.Country",
         chain_id:
           "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
@@ -768,6 +834,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "bitgreen",
         name: "BitGreen",
         chain_id:
           "0xc14597baeccb232d662770d2d50ae832ca8c3192693d2b0814e6433f2888ddd6",
@@ -783,6 +850,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "calamari",
         name: "Calamari",
         chain_id:
           "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
@@ -798,6 +866,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "centrifuge-polkadot",
         name: "Centrifuge",
         chain_id:
           "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
@@ -813,6 +882,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "clover",
         name: "Clover",
         chain_id:
           "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
@@ -828,6 +898,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "composable-finance",
         name: "Composable Finance",
         chain_id:
           "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
@@ -843,21 +914,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        name: "Contextfree",
-        chain_id:
-          "0x6254c948b5eb7199a112cb308be3385c39c8c942625540ac749c77fe2aebc299",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "contextfree-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Contextfree/contextfree-starter",
-          },
-        ],
-      },
-      {
+        code: "darwinia",
         name: "Darwinia",
         chain_id:
           "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
@@ -873,6 +930,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "efinity-polkadot",
         name: "Efinity",
         chain_id:
           "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
@@ -888,6 +946,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "encointer",
         name: "Encointer",
         chain_id:
           "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
@@ -903,6 +962,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "equilibrium-polkadot",
         name: "Equilibrium",
         chain_id:
           "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
@@ -918,6 +978,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "frequency",
         name: "Frequency",
         chain_id:
           "0x4a587bf17a404e3572747add7aab7bbe56e805a5479c6c436f07f36fcc8d3ae1",
@@ -933,6 +994,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "hashed",
         name: "Hashed Network",
         chain_id:
           "0x331645ae3db556c7754a82f79cece12cce3420975d5b0219d51b1cb4f6ddc21c",
@@ -948,6 +1010,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "humanode",
         name: "Humanode",
         chain_id:
           "0xc56fa32442b2dad76f214b3ae07998e4ca09736e4813724bfb0717caae2c8bee",
@@ -963,6 +1026,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "hydradx",
         name: "HydraDX",
         chain_id:
           "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
@@ -978,6 +1042,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "integritee-polkadot",
         name: "Integritee Shell",
         chain_id:
           "0xe13e7af377c64e83f95e0d70d5e5c3c01d697a84538776c5b9bbe0e7d7b6034c",
@@ -993,6 +1058,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "interlay",
         name: "Interlay",
         chain_id:
           "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
@@ -1008,6 +1074,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "karura",
         name: "Karura",
         chain_id:
           "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -1029,6 +1096,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "khala",
         name: "Khala",
         chain_id:
           "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
@@ -1044,6 +1112,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "kilt-spiritnet",
         name: "KILT Spiritnet",
         chain_id:
           "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
@@ -1065,6 +1134,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "kusama",
         name: "Kusama",
         chain_id:
           "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -1080,6 +1150,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "kylin",
         name: "Kylin",
         chain_id:
           "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
@@ -1095,6 +1166,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "moonbeam",
         name: "Moonbeam",
         chain_id:
           "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
@@ -1116,6 +1188,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "moonriver",
         name: "Moonriver",
         chain_id:
           "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
@@ -1137,6 +1210,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "nodle",
         name: "Nodle",
         chain_id:
           "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
@@ -1152,6 +1226,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "origintrail-parachain",
         name: "OriginTrail",
         chain_id:
           "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
@@ -1167,6 +1242,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "parallel",
         name: "Parallel",
         chain_id:
           "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
@@ -1182,6 +1258,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "heiko-kusama",
         name: "Parallel Heiko",
         chain_id:
           "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
@@ -1197,6 +1274,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "polkadex-standalone",
         name: "Polkadex",
         chain_id:
           "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
@@ -1212,6 +1290,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "polkadot",
         name: "Polkadot",
         chain_id:
           "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
@@ -1227,6 +1306,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "quartz",
         name: "Quartz",
         chain_id:
           "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
@@ -1242,6 +1322,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "shiden-kusama",
         name: "Shiden",
         chain_id:
           "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
@@ -1257,7 +1338,8 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        name: "Statemine",
+        code: "kusama-asset-hub",
+        name: "Kusama Asset Hub (Statemine)",
         chain_id:
           "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         description: "",
@@ -1272,7 +1354,8 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        name: "Statemint",
+        code: "polkadot-asset-hub",
+        name: "Polkadot Asset Hub (Statemint)",
         chain_id:
           "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
         description: "",
@@ -1287,6 +1370,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "unique",
         name: "Unique",
         chain_id:
           "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
@@ -1302,6 +1386,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "vara",
         name: "Vara",
         chain_id:
           "0xfe1b4c55fd4d668101126434206571a7838a8b6b93a6d1b95d607e78e6c53763",
@@ -1317,6 +1402,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "watr",
         name: "Watr",
         chain_id:
           "0xb53c620c41860278fa3068a5367c8eedceefce8a7c29237d830bc09a71737b5d",
@@ -1332,6 +1418,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "westend",
         name: "Westend",
         chain_id:
           "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
