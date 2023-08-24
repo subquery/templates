@@ -259,6 +259,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "1101",
+        name: "Polygon zkEVM",
+        chain_id: "1101",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "polygon-zkevm-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polgon zkEVM Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Polygon/polygon-zkevm-starter",
+          },
+        ],
+      },
+      {
         code: "534351",
         name: "Scroll Sepolia",
         chain_id: "534351",
