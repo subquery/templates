@@ -560,6 +560,15 @@
     "family": "Algorand"
   },
   {
+    "name": "fantom-starter",
+    "description": "Starter project for the Fantom Opera network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Fantom",
+    "specVersion": "1.0.0",
+    "family": "Fantom"
+  },
+  {
     "name": "flare-starter",
     "description": "Starter project for Flare",
     "remote": "https://github.com/subquery/flare-subql-starter",
@@ -607,6 +616,15 @@
   {
     "name": "polygon-starter",
     "description": "Starter project for the Polygon network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Polygon",
+    "specVersion": "1.0.0",
+    "family": "Polygon"
+  },
+  {
+    "name": "polygon-zkevm-starter",
+    "description": "Starter project for the Polygon zkEVM network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
     "network": "Polygon",
@@ -708,8 +726,8 @@
     "description": "Starter project for the zkSync network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
-    "network": "Zksync",
+    "network": "ZkSync",
     "specVersion": "1.0.0",
-    "family": "Zksyns"
+    "family": "ZkSync"
   }
 ]
