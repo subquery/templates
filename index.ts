@@ -211,6 +211,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "5000",
+        name: "Mantle",
+        chain_id: "5000",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "mantle-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Mantle Native token on Mantle Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Mantle/mantle-starter",
+          },
+        ],
+      },
+      {
         code: "82",
         name: "Meter",
         chain_id: "82",
