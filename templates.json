@@ -368,6 +368,14 @@
     "family": "Substrate"
   },
   {
+    "name": "Harmony-starter",
+    "description": "Starter project for Harmony Network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Harmony",
+    "family": "Harmony"
+  },
+  {
     "name": "watr-starter",
     "description": "Starter project for Watr",
     "remote": "https://github.com/subquery/subql-starter",
@@ -386,6 +394,14 @@
   {
     "name": "avalanche-starter",
     "description": "Starter project for Avalanche C Chain",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Avalanche",
+    "family": "Avalanche"
+  },
+  {
+    "name": "avalanche-fuji-starter",
+    "description": "Starter project for Avalanche Fuji Testnet",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
     "network": "Avalanche",
@@ -623,6 +639,15 @@
     "family": "Polygon"
   },
   {
+    "name": "polygon-mumbai-starter",
+    "description": "Starter project for the Polygon Mumbai network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Polygon",
+    "specVersion": "1.0.0",
+    "family": "Polygon"
+  },
+  {
     "name": "polygon-zkevm-starter",
     "description": "Starter project for the Polygon zkEVM network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
@@ -634,6 +659,15 @@
   {
     "name": "bsc-starter",
     "description": "Starter project for the BNB Smart Chain network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "BNB Smart Chain",
+    "specVersion": "1.0.0",
+    "family": "BNB Smart Chain"
+  },
+  {
+    "name": "bsc-testnet-starter",
+    "description": "Starter project for the BNB Smart Chain Test Network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
     "branch": "main",
     "network": "BNB Smart Chain",
