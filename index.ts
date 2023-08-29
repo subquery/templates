@@ -85,6 +85,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "43113",
+        name: "Avalanche",
+        chain_id: "43113",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "avalanche-fuji-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped AVAX on Avalanche Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Avalanche/avalanche-fuji-starter",
+          },
+        ],
+      },
+      {
         code: "8453",
         name: "Base",
         chain_id: "8453",
@@ -129,6 +145,22 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Binance Peg Ethereum token on BNB Smart Chain",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "BNB Smart Chain/bsc-starter",
+          },
+        ],
+      },
+      {
+        code: "97",
+        name: "BNB Smart Chain Testnet",
+        chain_id: "97",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "bsc-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped BNB token on BNB Smart Chain Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "BNB Smart Chain/bsc-testnet-starter",
           },
         ],
       },
@@ -191,6 +223,22 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the ChainLink Token on xDai on Gnosis Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Gnosis/gnosis-starter",
+          },
+        ],
+      },
+      {
+        code: "1666600000",
+        name: "Harmony",
+        chain_id: "1666600000",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "harmony-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped ETH token on Harmony Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Harmony/harmony-starter",
           },
         ],
       },
@@ -268,7 +316,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             name: "polygon-starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polgon Network",
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polygon Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Polygon/polygon-starter",
           },
@@ -287,6 +335,22 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polgon zkEVM Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Polygon/polygon-zkevm-starter",
+          },
+        ],
+      },
+      {
+        code: "80001",
+        name: "Polygon Mumbai",
+        chain_id: "80001",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "polygon-mumbai-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polygon Mumbai Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Polygon/polygon-mumbai-starter",
           },
         ],
       },
