@@ -595,7 +595,7 @@
     "specVersion": "1.0.0",
     "family": "NEAR"
   },
-    {
+  {
     "name": "near-aurora-starter",
     "description": "Starter project for the Aurora network",
     "remote": "https://github.com/subquery/near-subql-starter",
@@ -657,7 +657,7 @@
     "network": "Base",
     "specVersion": "1.0.0",
     "family": "Base"
-  },  
+  },
   {
     "name": "arbitrum-nova-starter",
     "description": "Starter project for the Arbitrum Nova network",
@@ -729,5 +729,14 @@
     "network": "ZkSync",
     "specVersion": "1.0.0",
     "family": "ZkSync"
+  },
+  {
+    "name": "mantle-starter",
+    "description": "Starter project for the Mantle network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Mantle",
+    "specVersion": "1.0.0",
+    "family": "Mantle"
   }
 ]
