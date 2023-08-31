@@ -1,0 +1,26 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "A template registry for SubQuery projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subquery/templates.git"
+  },
+  "author": "SubQuery Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subquery/templates/issues"
+  },
+  "homepage": "https://github.com/subquery/templates#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "ts-node": "^10.9.1",
+    "ts-to-json": "^1.8.3",
+    "typescript": "^5.1.6"
+  }
+}
