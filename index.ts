@@ -135,6 +135,13 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Base/base-starter",
           },
+          {
+            name: "base-nft",
+            description:
+              "This SubQuery project indexes all claiming events for the Bridge to Base NFT on Base Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Base/base-nft",
+          },
         ],
       },
       {
