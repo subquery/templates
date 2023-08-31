@@ -37,6 +37,29 @@ const networkFamilies: NetworkFamily[] = [
     logo: "",
     networks: [
       {
+        code: "42161",
+        name: "Arbitrum One",
+        chain_id: "42161",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "arbitrum-one-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Arbitrum's One Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Arbitrum/arbitrum-one-starter",
+          },
+          {
+            name: "arbitrum-one-winr",
+            description:
+              "This SubQuery project indexes all Arbitrum WINR Staking Rewards on Arbitrum's One Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Arbitrum/arbitrum-one-winr",
+          },
+        ],
+      },
+      {
         code: "42170",
         name: "Arbitrum Nova",
         chain_id: "42170",
@@ -53,22 +76,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "42161",
-        name: "Arbitrum One",
-        chain_id: "42161",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "arbitrum-one-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Arbitrum's One Network",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Arbitrum/arbitrum-one-starter",
-          },
-        ],
-      },
-      {
         code: "43114",
         name: "Avalanche",
         chain_id: "43114",
@@ -81,6 +88,20 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Pangolin Smart Contract token on Avalanche Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Avalanche/avalanche-starter",
+          },
+          {
+            name: "crabada-nft",
+            description:
+              "This project indexes all Crabada NFTs on Avalanche's C-chain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Avalanche/crabada-nft",
+          },
+          {
+            name: "pangolin-rewards-tutorial",
+            description:
+              "The goal of this quick start guide is to index all Pangolin token Approve logs",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Avalanche/pangolin-rewards-tutorial",
           },
         ],
       },
@@ -130,6 +151,13 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Base/base-goerli-starter",
           },
+          {
+            name: "base-goerli-faucet",
+            description:
+              "This SubQuery project indexes all the drips from the USDC faucet contract and calculates the total amount of USDC faucet dripped per day on Base's Goerli Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Base/base-goerli-faucet",
+          },
         ],
       },
       {
@@ -145,6 +173,13 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Binance Peg Ethereum token on BNB Smart Chain",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "BNB Smart Chain/bsc-starter",
+          },
+          {
+            name: "bsc-mobox-rewards",
+            description:
+              "This SubQuery project indexes all deposits and withdrawls to MOBOX pools on BNB Smart Chain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "BNB Smart Chain/bsc-mobox-rewards",
           },
         ],
       },
@@ -177,6 +212,27 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Mainnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Ethereum/ethereum-starter",
+          },
+          {
+            name: "ethereum-ens",
+            description:
+              "This SubQuery project indexes all ENS Records in the ENS registry on Ethereum Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-ens",
+          },
+          {
+            name: "ethereum-gravatar",
+            description:
+              "This SubQuery project indexes all Ethereum Gravatars created or updated on the Ethereum mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-gravatar",
+          },
+          {
+            name: "ethereum-uniswap-v3",
+            description:
+              "This SubQuery project indexes the standard Uniswap V3 project on Ethereum Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-uniswap-v3",
           },
         ],
       },
@@ -223,6 +279,13 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the ChainLink Token on xDai on Gnosis Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Gnosis/gnosis-starter",
+          },
+          {
+            name: "gnosis-poap",
+            description:
+              "This SubQuery project indexes all POAPs mints and transactions on the Gnosis Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Gnosis/gnosis-poap",
           },
         ],
       },
@@ -304,6 +367,13 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Optimism/optimism-starter",
           },
+          {
+            name: "optimism-airdrop",
+            description:
+              "This SubQuery project indexes all the claim events of the Optimism Airdrop on Optimism Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Optimism/optimism-airdrop",
+          },
         ],
       },
       {
@@ -319,6 +389,13 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polygon Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Polygon/polygon-starter",
+          },
+          {
+            name: "polygon-plasma-bridge",
+            description:
+              "This SubQuery project indexes all token deposits and users from the Polygon Plamsa Bridge on the Polgon Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Polygon/polygon-plasma-bridge",
           },
         ],
       },
