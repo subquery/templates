@@ -51,6 +51,21 @@
         ]
       },
       {
+        "code": "43113",
+        "name": "Avalanche",
+        "chain_id": "43113",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "avalanche-fuji-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped AVAX on Avalanche Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Avalanche/avalanche-fuji-starter"
+          }
+        ]
+      },
+      {
         "code": "8453",
         "name": "Base",
         "chain_id": "8453",
@@ -92,6 +107,21 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Binance Peg Ethereum token on BNB Smart Chain",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "BNB Smart Chain/bsc-starter"
+          }
+        ]
+      },
+      {
+        "code": "97",
+        "name": "BNB Smart Chain Testnet",
+        "chain_id": "97",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "bsc-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped BNB token on BNB Smart Chain Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "BNB Smart Chain/bsc-testnet-starter"
           }
         ]
       },
@@ -156,6 +186,21 @@
         ]
       },
       {
+        "code": "1666600000",
+        "name": "Harmony",
+        "chain_id": "1666600000",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "harmony-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped ETH token on Harmony Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Harmony/harmony-starter"
+          }
+        ]
+      },
+      {
         "code": "13472",
         "name": "Immutable Testnet",
         "chain_id": "13472",
@@ -167,6 +212,21 @@
             "description": "This SubQuery project indexes all transfers and approval events tIMX gas token on Immutable Testnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Immutable/immutable-testnet-starter"
+          }
+        ]
+      },
+      {
+        "code": "5000",
+        "name": "Mantle",
+        "chain_id": "5000",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "mantle-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Mantle Native token on Mantle Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Mantle/mantle-starter"
           }
         ]
       },
@@ -209,7 +269,7 @@
         "examples": [
           {
             "name": "polygon-starter",
-            "description": "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polgon Network",
+            "description": "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polygon Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Polygon/polygon-starter"
           }
@@ -227,6 +287,21 @@
             "description": "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polgon zkEVM Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Polygon/polygon-zkevm-starter"
+          }
+        ]
+      },
+      {
+        "code": "80001",
+        "name": "Polygon Mumbai",
+        "chain_id": "80001",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "polygon-mumbai-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polygon Mumbai Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Polygon/polygon-mumbai-starter"
           }
         ]
       },
