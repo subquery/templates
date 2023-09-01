@@ -630,6 +630,24 @@
     "family": "Ethereum"
   },
   {
+    "name": "ethereum-goerli-starter",
+    "description": "Starter project for Ethereum Goerli test network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Ethereum",
+    "specVersion": "1.0.0",
+    "family": "Ethereum"
+  },
+  {
+    "name": "ethereum-sepolia-starter",
+    "description": "Starter project for Ethereum Sepolia test network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Ethereum",
+    "specVersion": "1.0.0",
+    "family": "Ethereum"
+  },
+  {
     "name": "polygon-starter",
     "description": "Starter project for the Polygon network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
