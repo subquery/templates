@@ -223,6 +223,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "11155111",
+        name: "Ethereum Sepolia",
+        chain_id: "11155111",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "ethereum-sepolia-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Sepolia",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-sepolia-starter",
+          },
+        ],
+      },
+      {
         code: "1",
         name: "Ethereum",
         chain_id: "1",
