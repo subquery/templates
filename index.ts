@@ -107,7 +107,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "43113",
-        name: "Avalanche",
+        name: "Avalanche Fuji",
         chain_id: "43113",
         description: "",
         logo: "",
@@ -203,6 +203,22 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Wrapped BNB token on BNB Smart Chain Testnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "BNB Smart Chain/bsc-testnet-starter",
+          },
+        ],
+      },
+      {
+        code: "5",
+        name: "Ethereum Goerli",
+        chain_id: "5",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "ethereum-goerli-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Goerli",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-goerli-starter",
           },
         ],
       },
