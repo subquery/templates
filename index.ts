@@ -377,6 +377,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "8217",
+        name: "Klaytn",
+        chain_id: "8217",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "klaytn-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events Orbit ETH token on Klaytn",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Klaytn/klaytn-starter",
+          },
+        ],
+      },
+      {
         code: "5000",
         name: "Mantle",
         chain_id: "5000",
