@@ -280,6 +280,14 @@
     "family": "Substrate"
   },
   {
+    "name": "klaytn-starter",
+    "description": "Starter project for Klaytn",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Klaytn",
+    "family": "Klaytn"
+  },
+  {
     "name": "kylin-starter",
     "description": "Starter project for Kylin",
     "remote": "https://github.com/subquery/subql-starter",
