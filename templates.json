@@ -629,6 +629,15 @@
     "family": "NEAR"
   },
   {
+    "name": "eos-starter",
+    "description": "Starter project for EOS network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "EOS",
+    "specVersion": "1.0.0",
+    "family": "EOS"
+  },
+  {
     "name": "ethereum-starter",
     "description": "Starter project for Ethereum networks",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
