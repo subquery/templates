@@ -162,6 +162,21 @@
         ]
       },
       {
+        "code": "17777",
+        "name": "EOS",
+        "chain_id": "17777",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "eos-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the wrapped EOS token on EOS EVM",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "EOS/eos-starter"
+          }
+        ]
+      },
+      {
         "code": "5",
         "name": "Ethereum Goerli",
         "chain_id": "5",
