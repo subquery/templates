@@ -280,7 +280,7 @@
     "family": "Substrate"
   },
   {
-    "name": "kilt-starter",
+    "name": "kilt-spiritnet-starter",
     "description": "Starter project for Kilt",
     "remote": "https://github.com/subquery/subql-starter",
     "branch": "main",
