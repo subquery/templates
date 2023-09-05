@@ -424,6 +424,15 @@
     "family": "Avalanche"
   },
   {
+    "name": "akash-starter",
+    "description": "Starter project for Akash",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Akash",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "archway-starter",
     "description": "Starter project for Archway",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
