@@ -223,38 +223,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "5",
-        name: "Ethereum Goerli",
-        chain_id: "5",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "ethereum-goerli-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Goerli",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Ethereum/ethereum-goerli-starter",
-          },
-        ],
-      },
-      {
-        code: "11155111",
-        name: "Ethereum Sepolia",
-        chain_id: "11155111",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "ethereum-sepolia-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Sepolia",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Ethereum/ethereum-sepolia-starter",
-          },
-        ],
-      },
-      {
         code: "1",
         name: "Ethereum",
         chain_id: "1",
@@ -292,6 +260,38 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "5",
+        name: "Ethereum Goerli",
+        chain_id: "5",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "ethereum-goerli-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Goerli",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-goerli-starter",
+          },
+        ],
+      },
+      {
+        code: "11155111",
+        name: "Ethereum Sepolia",
+        chain_id: "11155111",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "ethereum-sepolia-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Sepolia",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-sepolia-starter",
+          },
+        ],
+      },
+      {
         code: "14",
         name: "Flare",
         chain_id: "14",
@@ -318,6 +318,22 @@ const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/flare-subql-starter",
             path: "Flare/songbird-starter",
+          },
+        ],
+      },
+      {
+        code: "250",
+        name: "Fantom",
+        chain_id: "250",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "fantom-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped FTM on Fantom Opera Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Fantom/fantom-starter",
           },
         ],
       },
@@ -393,6 +409,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "59144",
+        name: "Linea",
+        chain_id: "59144",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "linea-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Linea Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Linea/linea-starter",
+          },
+        ],
+      },
+      {
         code: "5000",
         name: "Mantle",
         chain_id: "5000",
@@ -421,6 +453,22 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Meter Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Meter/meter-starter",
+          },
+        ],
+      },
+      {
+        code: "1088",
+        name: "Metis",
+        chain_id: "1088",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "metis-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Metis Token on Metis Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Metis/metis-starter",
           },
         ],
       },
@@ -515,6 +563,22 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Wrapped Eth on Scroll's Sepolia Test Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Scroll/scroll-sepolia-starter",
+          },
+        ],
+      },
+      {
+        code: "2046399126",
+        name: "Skale",
+        chain_id: "2046399126",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "skale-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Skale Token on Skale Europa Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Skale/skale-starter",
           },
         ],
       },
