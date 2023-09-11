@@ -207,6 +207,38 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "56288",
+        name: "Boba BNB Mainnet (ETH)",
+        chain_id: "56288",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "boba-bnb-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped BOBA on Boba BNB Network.",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Boba/boba-bnb-starter",
+          },
+        ],
+      },
+      {
+        code: "288",
+        name: "Boba Network (ETH)",
+        chain_id: "288",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "boba-eth-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Eth on Boba (Ethereum) Network.",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Boba/boba-eth-starter",
+          },
+        ],
+      },
+      {
         code: "17777",
         name: "EOS",
         chain_id: "17777",
