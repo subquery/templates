@@ -34,14 +34,14 @@ const networkFamilies: NetworkFamily[] = [
     code: "evm",
     name: "EVM Networks",
     description: "",
-    logo: "",
+    logo: "https://static.subquery.network/network-logos/1.png",
     networks: [
       {
         code: "42161",
         name: "Arbitrum One",
         chain_id: "42161",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42161.png",
         examples: [
           {
             name: "arbitrum-one-starter",
@@ -80,7 +80,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Avalanche",
         chain_id: "43114",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/43114.png",
         examples: [
           {
             name: "avalanche-starter",
@@ -126,7 +126,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Base",
         chain_id: "8453",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/8453.png",
         examples: [
           {
             name: "base-starter",
@@ -172,7 +172,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "BNB Smart Chain",
         chain_id: "56",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/56.png",
         examples: [
           {
             name: "bsc-starter",
@@ -259,7 +259,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Ethereum",
         chain_id: "1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1.png",
         examples: [
           {
             name: "ethereum-starter",
@@ -328,7 +328,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Flare",
         chain_id: "14",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/14.png",
         examples: [
           {
             name: "flare-starter",
@@ -374,7 +374,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Gnosis",
         chain_id: "100",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/100.png",
         examples: [
           {
             name: "gnosis-starter",
@@ -509,7 +509,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Optimism",
         chain_id: "10",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/10.png",
         examples: [
           {
             name: "optimism-starter",
@@ -532,7 +532,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Polygon",
         chain_id: "137",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/137.png",
         examples: [
           {
             name: "polygon-starter",
@@ -555,7 +555,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Polygon zkEVM",
         chain_id: "1101",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1101.png",
         examples: [
           {
             name: "polygon-zkevm-starter",
@@ -636,14 +636,14 @@ const networkFamilies: NetworkFamily[] = [
     code: "algorand",
     name: "Algorand",
     description: "",
-    logo: "",
+    logo: "https://static.subquery.network/network-logos/algorand.png",
     networks: [
       {
         code: "algorand",
         name: "Algorand",
         chain_id: "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/algorand.png",
         examples: [
           {
             name: "algorand-starter",
@@ -660,7 +660,7 @@ const networkFamilies: NetworkFamily[] = [
     code: "cosmos",
     name: "Cosmos",
     description: "",
-    logo: "",
+    logo: "https://static.subquery.network/network-logos/cosmoshub-4.png",
     networks: [
       {
         code: "akashnet-2",
@@ -731,7 +731,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "CosmosHub",
         chain_id: "cosmoshub-4",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/cosmoshub-4.png",
         examples: [
           {
             name: "cosmoshub-starter",
@@ -979,14 +979,14 @@ const networkFamilies: NetworkFamily[] = [
     code: "near",
     name: "NEAR",
     description: "",
-    logo: "",
+    logo: "https://static.subquery.network/network-logos/near.png",
     networks: [
       {
         code: "near",
         name: "Near",
         chain_id: "mainnet",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/near.png",
         examples: [
           {
             name: "near-starter",
@@ -1008,7 +1008,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Near Aurora",
         chain_id: "1313161554",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/near-aurora.png",
         examples: [
           {
             name: "near-aurora-starter",
@@ -1025,7 +1025,7 @@ const networkFamilies: NetworkFamily[] = [
     code: "polkadot",
     name: "Polkadot",
     description: "",
-    logo: "",
+    logo: "https://static.subquery.network/network-logos/polkadot.png",
     networks: [
       {
         code: "acala",
@@ -1635,7 +1635,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/polkadot.png",
         examples: [
           {
             name: "Polkadot-starter",
