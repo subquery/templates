@@ -3,14 +3,14 @@
     "code": "evm",
     "name": "EVM Networks",
     "description": "",
-    "logo": "",
+    "logo": "https://static.subquery.network/network-logos/1.png",
     "networks": [
       {
         "code": "42161",
         "name": "Arbitrum One",
         "chain_id": "42161",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/42161.png",
         "examples": [
           {
             "name": "arbitrum-one-starter",
@@ -46,7 +46,7 @@
         "name": "Avalanche",
         "chain_id": "43114",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/43114.png",
         "examples": [
           {
             "name": "avalanche-starter",
@@ -88,7 +88,7 @@
         "name": "Base",
         "chain_id": "8453",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/8453.png",
         "examples": [
           {
             "name": "base-starter",
@@ -130,7 +130,7 @@
         "name": "BNB Smart Chain",
         "chain_id": "56",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/56.png",
         "examples": [
           {
             "name": "bsc-starter",
@@ -211,7 +211,7 @@
         "name": "Ethereum",
         "chain_id": "1",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/1.png",
         "examples": [
           {
             "name": "ethereum-starter",
@@ -274,7 +274,7 @@
         "name": "Flare",
         "chain_id": "14",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/14.png",
         "examples": [
           {
             "name": "flare-starter",
@@ -319,7 +319,7 @@
         "name": "Gnosis",
         "chain_id": "100",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/100.png",
         "examples": [
           {
             "name": "gnosis-starter",
@@ -445,7 +445,7 @@
         "name": "Optimism",
         "chain_id": "10",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/10.png",
         "examples": [
           {
             "name": "optimism-starter",
@@ -466,7 +466,7 @@
         "name": "Polygon",
         "chain_id": "137",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/137.png",
         "examples": [
           {
             "name": "polygon-starter",
@@ -487,7 +487,7 @@
         "name": "Polygon zkEVM",
         "chain_id": "1101",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/1101.png",
         "examples": [
           {
             "name": "polygon-zkevm-starter",
@@ -563,14 +563,14 @@
     "code": "algorand",
     "name": "Algorand",
     "description": "",
-    "logo": "",
+    "logo": "https://static.subquery.network/network-logos/algorand.png",
     "networks": [
       {
         "code": "algorand",
         "name": "Algorand",
         "chain_id": "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/algorand.png",
         "examples": [
           {
             "name": "algorand-starter",
@@ -586,7 +586,7 @@
     "code": "cosmos",
     "name": "Cosmos",
     "description": "",
-    "logo": "",
+    "logo": "https://static.subquery.network/network-logos/cosmoshub-4.png",
     "networks": [
       {
         "code": "akashnet-2",
@@ -653,7 +653,7 @@
         "name": "CosmosHub",
         "chain_id": "cosmoshub-4",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/cosmoshub-4.png",
         "examples": [
           {
             "name": "cosmoshub-starter",
@@ -885,14 +885,14 @@
     "code": "near",
     "name": "NEAR",
     "description": "",
-    "logo": "",
+    "logo": "https://static.subquery.network/network-logos/near.png",
     "networks": [
       {
         "code": "near",
         "name": "Near",
         "chain_id": "mainnet",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/near.png",
         "examples": [
           {
             "name": "near-starter",
@@ -913,7 +913,7 @@
         "name": "Near Aurora",
         "chain_id": "1313161554",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/near-aurora.png",
         "examples": [
           {
             "name": "near-aurora-starter",
@@ -929,7 +929,7 @@
     "code": "polkadot",
     "name": "Polkadot",
     "description": "",
-    "logo": "",
+    "logo": "https://static.subquery.network/network-logos/polkadot.png",
     "networks": [
       {
         "code": "acala",
@@ -1503,7 +1503,7 @@
         "name": "Polkadot",
         "chain_id": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/polkadot.png",
         "examples": [
           {
             "name": "Polkadot-starter",
