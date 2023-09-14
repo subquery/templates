@@ -600,6 +600,15 @@
     "family": "Cosmos"
   },
   {
+    "name": "umee-starter",
+    "description": "Starter project for Umee",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Umee",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "algorand-starter",
     "description": "Starter project for Algorand",
     "remote": "https://github.com/subquery/algorand-subql-starter",
