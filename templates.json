@@ -538,6 +538,14 @@
     "family": "Cosmos"
   },
   {
+    "name": "mars-starter",
+    "description": "Starter project for Mars",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Mars",
+    "family": "Cosmos"
+  },
+  {
     "name": "neutron-starter",
     "description": "Starter project for Neutron",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
@@ -551,6 +559,15 @@
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
     "network": "OKX",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
+    "name": "omniflix-starter",
+    "description": "Starter project for Omniflix",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Omniflix",
     "specVersion": "1.0.0",
     "family": "Cosmos"
   },
