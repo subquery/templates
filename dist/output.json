@@ -589,6 +589,21 @@
     "logo": "https://static.subquery.network/network-logos/cosmoshub-4.png",
     "networks": [
       {
+        "code": "agoric-3",
+        "name": "Agoric",
+        "chain_id": "agoric-3",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "agoric-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on Agoric",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Agoric/agoric-starter"
+          }
+        ]
+      },
+      {
         "code": "akashnet-2",
         "name": "Akash",
         "chain_id": "akashnet-2",
@@ -630,6 +645,21 @@
             "description": "This SubQuery project indexes all confirmed deposits on Axelar Network",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Axelar/axelar-starter"
+          }
+        ]
+      },
+      {
+        "code": "cheqd-mainnet-1",
+        "name": "Cheqd",
+        "chain_id": "cheqd-mainnet-1",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "cheqd-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on Cheqd",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Cheqd/cheqd-starter"
           }
         ]
       },
@@ -775,6 +805,36 @@
         ]
       },
       {
+        "code": "mars-1",
+        "name": "Mars",
+        "chain_id": "mars-1",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "mars-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on Mars",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Mars/mars-starter"
+          }
+        ]
+      },
+      {
+        "code": "migaloo-1",
+        "name": "Migaloo",
+        "chain_id": "migaloo-1",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "migaloo-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on Migaloo",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Migaloo/migaloo-starter"
+          }
+        ]
+      },
+      {
         "code": "neutron-1",
         "name": "Neutron",
         "chain_id": "neutron-1",
@@ -801,6 +861,21 @@
             "description": "This SubQuery project indexes transactions and approvals of USDT on OKX/OKC Network",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "OKX/okx-starter"
+          }
+        ]
+      },
+      {
+        "code": "omniflixhub-1",
+        "name": "OmniFlix Hub",
+        "chain_id": "omniflixhub-1",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "omniflixhub-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on OmniFlix Hub",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Migaloo/omniflixhub-starter"
           }
         ]
       },
@@ -876,6 +951,21 @@
             "description": "This SubQuery project indexes all deposit events on Thorchain",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Thorchain/thorchain-starter"
+          }
+        ]
+      },
+      {
+        "code": "umee-1",
+        "name": "Umee",
+        "chain_id": "umee-1",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "umee-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on Umee",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Umee/umee-starter"
           }
         ]
       }
