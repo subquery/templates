@@ -716,6 +716,15 @@
     "family": "Ethereum"
   },
   {
+    "name": "heco-starter",
+    "description": "Starter project for Heco Chain network",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Heco",
+    "specVersion": "1.0.0",
+    "family": "Heco"
+  },
+  {
     "name": "polygon-starter",
     "description": "Starter project for the Polygon network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
