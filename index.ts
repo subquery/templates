@@ -409,6 +409,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "128",
+        name: "Heco Chain",
+        chain_id: "128",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "heco-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped HT token on Heco Chain Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Heco/heco-starter",
+          },
+        ],
+      },
+      {
         code: "13472",
         name: "Immutable Testnet",
         chain_id: "13472",
