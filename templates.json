@@ -743,6 +743,15 @@
     "family": "Polygon"
   },
   {
+    "name": "polygon-plasma-bridge",
+    "description": "Starter project for the Polygon plasma bridge",
+    "remote": "https://github.com/subquery/ethereum-subql-starter",
+    "branch": "main",
+    "network": "Polygon",
+    "specVersion": "1.0.0",
+    "family": "Polygon"
+  },
+  {
     "name": "polygon-zkevm-starter",
     "description": "Starter project for the Polygon zkEVM network",
     "remote": "https://github.com/subquery/ethereum-subql-starter",
