@@ -563,7 +563,7 @@
     "family": "Cosmos"
   },
   {
-    "name": "omniflix-starter",
+    "name": "omniflixhub-starter",
     "description": "Starter project for Omniflix",
     "remote": "https://github.com/subquery/cosmos-subql-starter",
     "branch": "main",
