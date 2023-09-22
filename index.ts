@@ -985,7 +985,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project indexes all transfer events and messages on OmniFlix Hub",
             remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Migaloo/omniflixhub-starter",
+            path: "Omniflixhub/omniflixhub-starter",
           },
         ],
       },
