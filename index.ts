@@ -64,7 +64,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Arbitrum Nova",
         chain_id: "42170",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42170.png",
         examples: [
           {
             name: "arbitrum-nova-starter",
@@ -343,7 +343,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Flare Songbird",
         chain_id: "19",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/19.png",
         examples: [
           {
             name: "songbird-starter",
@@ -429,7 +429,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Immutable Testnet",
         chain_id: "13472",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/13472.png",
         examples: [
           {
             name: "immutable-testnet-starter",
@@ -493,7 +493,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Meter",
         chain_id: "82",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/82.png",
         examples: [
           {
             name: "meter-starter",
@@ -603,7 +603,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Scroll Sepolia",
         chain_id: "534351",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/534351.png",
         examples: [
           {
             name: "scroll-sepolia-starter",
@@ -635,7 +635,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Zksync",
         chain_id: "324",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/324.png",
         examples: [
           {
             name: "zksync-starter",
@@ -699,7 +699,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Akash",
         chain_id: "akashnet-2",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/akashnet-2.png",
         examples: [
           {
             name: "akash-starter",
@@ -715,7 +715,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Archway",
         chain_id: "archway-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/archway-1.png",
         examples: [
           {
             name: "archway-starter",
@@ -731,7 +731,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Axelar",
         chain_id: "axelar-dojo-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/axelar-dojo-1.png",
         examples: [
           {
             name: "axelar-starter",
@@ -763,7 +763,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Comdex",
         chain_id: "comdex-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/comdex-1.png",
         examples: [
           {
             name: "comdex-starter",
@@ -795,7 +795,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Cronos",
         chain_id: "cronosmainnet_25-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/cronosmainnet_25-1.png",
         examples: [
           {
             name: "cronos-evm-starter-via-rpc",
@@ -818,7 +818,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Evmos",
         chain_id: "evmos_9001-2",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/evmos_9001-2.png",
         examples: [
           {
             name: "evmos-starter",
@@ -834,7 +834,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Evmos Testnet",
         chain_id: "evmos_9000-4",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/evmos_9000-4.png",
         examples: [
           {
             name: "evmos-testnet-starter",
@@ -850,7 +850,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Fetch.ai",
         chain_id: "fetchhub-4",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/fetchhub-4.png",
         examples: [
           {
             name: "fetchhub-starter",
@@ -866,7 +866,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Injective",
         chain_id: "injective-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/injective-1.png",
         examples: [
           {
             name: "injective-starter",
@@ -882,7 +882,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Juno",
         chain_id: "juno-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/juno-1.png",
         examples: [
           {
             name: "juno-starter",
@@ -898,7 +898,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Kava",
         chain_id: "kava_2222-10",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/kava_2222-10.png",
         examples: [
           {
             name: "kava-starter",
@@ -946,7 +946,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Neutron",
         chain_id: "neutron-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/neutron-1.png",
         examples: [
           {
             name: "neutron-starter",
@@ -962,7 +962,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "OKX",
         chain_id: "66",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/66.png",
         examples: [
           {
             name: "okx-starter",
@@ -994,7 +994,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Osmosis",
         chain_id: "osmosis-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/osmosis-1.png",
         examples: [
           {
             name: "osmosis-starter",
@@ -1026,7 +1026,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Sei",
         chain_id: "atlantic-2",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/atlantic-2.png",
         examples: [
           {
             name: "sei-starter",
@@ -1042,7 +1042,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Stargaze",
         chain_id: "stargaze-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/stargaze-1.png",
         examples: [
           {
             name: "stargaze-starter",
@@ -1058,7 +1058,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Thorchain",
         chain_id: "thorchain-mainnet-v1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/thorchain-mainnet-v1.png",
         examples: [
           {
             name: "thorchain-starter",
@@ -1145,7 +1145,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/acala.png",
         examples: [
           {
             name: "acala-starter",
@@ -1167,7 +1167,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/ajuna.png",
         examples: [
           {
             name: "ajuna-starter",
@@ -1183,7 +1183,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/altair.png",
         examples: [
           {
             name: "altair-starter",
@@ -1199,7 +1199,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/astar.png",
         examples: [
           {
             name: "astar-evm-starter",
@@ -1227,7 +1227,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xc8eda34601b5a48c73f47ee39a3a86a858c34f044185b17dc7d5ad155813dc63",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/automata.png",
         examples: [
           {
             name: "automata-starter",
@@ -1243,7 +1243,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/basilisk.png",
         examples: [
           {
             name: "basilisk-starter",
@@ -1259,7 +1259,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/bifrost-kusama.png",
         examples: [
           {
             name: "bifrost-starter",
@@ -1275,7 +1275,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/bitcountry-pioneer.png",
         examples: [
           {
             name: "bitcountry-starter",
@@ -1291,7 +1291,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xc14597baeccb232d662770d2d50ae832ca8c3192693d2b0814e6433f2888ddd6",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/bitgreen.png",
         examples: [
           {
             name: "bitgreen-starter",
@@ -1307,7 +1307,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/calamari.png",
         examples: [
           {
             name: "calamari-starter",
@@ -1323,7 +1323,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/centrifuge-polkadot.png",
         examples: [
           {
             name: "centrifuge-starter",
@@ -1339,7 +1339,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/clover.png",
         examples: [
           {
             name: "clover-starter",
@@ -1355,7 +1355,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/composable-finance.png",
         examples: [
           {
             name: "composable-finance-starter",
@@ -1371,7 +1371,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/darwinia.png",
         examples: [
           {
             name: "darwinia-starter",
@@ -1387,7 +1387,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/efinity-polkadot.png",
         examples: [
           {
             name: "efinity-starter",
@@ -1403,7 +1403,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/encointer.png",
         examples: [
           {
             name: "encointer-starter",
@@ -1419,7 +1419,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/equilibrium-polkadot.png",
         examples: [
           {
             name: "equilibrium-starter",
@@ -1435,7 +1435,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x4a587bf17a404e3572747add7aab7bbe56e805a5479c6c436f07f36fcc8d3ae1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/frequency.png",
         examples: [
           {
             name: "frequency-starter",
@@ -1451,7 +1451,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x331645ae3db556c7754a82f79cece12cce3420975d5b0219d51b1cb4f6ddc21c",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/hashed.png",
         examples: [
           {
             name: "hashed-network-starter",
@@ -1467,7 +1467,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xc56fa32442b2dad76f214b3ae07998e4ca09736e4813724bfb0717caae2c8bee",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/humanode.png",
         examples: [
           {
             name: "humanode-starter",
@@ -1483,7 +1483,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/hydradx.png",
         examples: [
           {
             name: "hydradx-starter",
@@ -1499,7 +1499,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xe13e7af377c64e83f95e0d70d5e5c3c01d697a84538776c5b9bbe0e7d7b6034c",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/integritee-polkadot.png",
         examples: [
           {
             name: "integritee-shell-starter",
@@ -1515,7 +1515,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/interlay.png",
         examples: [
           {
             name: "interlay-starter",
@@ -1531,7 +1531,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/karura.png",
         examples: [
           {
             name: "karura-starter",
@@ -1553,7 +1553,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/khala.png",
         examples: [
           {
             name: "khala-starter",
@@ -1569,7 +1569,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/kilt-spiritnet.png",
         examples: [
           {
             name: "kilt-spiritnet-starter",
@@ -1591,7 +1591,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/kusama.png",
         examples: [
           {
             name: "kusama-starter",
@@ -1607,7 +1607,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/kylin.png",
         examples: [
           {
             name: "kylin-starter",
@@ -1623,7 +1623,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/moonbeam.png",
         examples: [
           {
             name: "moonbeam-evm-starter",
@@ -1651,7 +1651,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/moonriver.png",
         examples: [
           {
             name: "moonriver-evm-starter",
@@ -1673,7 +1673,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/nodle.png",
         examples: [
           {
             name: "nodle-starter",
@@ -1689,7 +1689,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/origintrail-parachain.png",
         examples: [
           {
             name: "origintrail-starter",
@@ -1705,7 +1705,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/parallel.png",
         examples: [
           {
             name: "parallel-starter",
@@ -1721,7 +1721,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/heiko-kusama.png",
         examples: [
           {
             name: "parallel-heiko-starter",
@@ -1737,7 +1737,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/polkadex-standalone.png",
         examples: [
           {
             name: "polkedex-starter",
@@ -1769,7 +1769,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/quartz.png",
         examples: [
           {
             name: "quartz-starter",
@@ -1785,7 +1785,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/shiden-kusama.png",
         examples: [
           {
             name: "shiden-starter",
@@ -1801,7 +1801,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/kusama-asset-hub.png",
         examples: [
           {
             name: "statemine-starter",
@@ -1817,7 +1817,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/polkadot-asset-hub.png",
         examples: [
           {
             name: "statemint-starter",
@@ -1833,7 +1833,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/unique.png",
         examples: [
           {
             name: "unique-starter",
@@ -1849,7 +1849,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xfe1b4c55fd4d668101126434206571a7838a8b6b93a6d1b95d607e78e6c53763",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/vara.png",
         examples: [
           {
             name: "vara-starter",
@@ -1865,7 +1865,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xb53c620c41860278fa3068a5367c8eedceefce8a7c29237d830bc09a71737b5d",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/watr.png",
         examples: [
           {
             name: "watr-starter",
