@@ -195,7 +195,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "BNB Smart Chain Testnet",
         chain_id: "97",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/56.png",
         examples: [
           {
             name: "bsc-testnet-starter",
@@ -203,6 +203,22 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Wrapped BNB token on BNB Smart Chain Testnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "BNB Smart Chain/bsc-testnet-starter",
+          },
+        ],
+      },
+      {
+        code: "204",
+        name: "opBNB Mainnet",
+        chain_id: "204",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/56.png",
+        examples: [
+          {
+            name: "opbnb-subql-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Eth token on opBNB Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "BNB Smart Chain/opbnb-starter",
           },
         ],
       },
