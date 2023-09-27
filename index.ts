@@ -22,7 +22,7 @@ type Network = {
 };
 
 type NetworkFamily = {
-  code: "evm" | "algorand" | "cosmos" | "near" | "polkadot";
+  code: "evm" | "algorand" | "cosmos" | "near" | "polkadot" | "stellar";
   name: string;
   description: string;
   logo: string;
@@ -1904,6 +1904,46 @@ const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Westend/westend-starter",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    code: "stellar",
+    name: "Stellar",
+    description: "",
+    logo: "https://static.subquery.network/network-logos/stellar.png",
+    networks: [
+      {
+        code: "testnet",
+        name: "Testnet",
+        chain_id: "testnet",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/stellar.png",
+        examples: [
+          {
+            name: "soroban-testnet-starter",
+            description:
+              "The example project indexes all soroban transfer events on Stellar's Testnet. It also indexes all account payments including credits and debits",
+            remote: "https://github.com/subquery/stellar-subql-starter",
+            path: "Stellar/soroban-testnet-starter",
+          },
+        ],
+      },
+      {
+        code: "futurenet",
+        name: "Futurenet",
+        chain_id: "futurenet",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/stellar.png",
+        examples: [
+          {
+            name: "soroban-futurenet-starter",
+            description:
+              "The example project indexes all soroban transfer events on Stellar's Futurenet. It also indexes all account payments including credits and debits",
+            remote: "https://github.com/subquery/stellar-subql-starter",
+            path: "Stellar/soroban-futurenet-starter",
           },
         ],
       },
