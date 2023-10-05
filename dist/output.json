@@ -247,6 +247,18 @@
             "path": "Ethereum/ethereum-gravatar"
           },
           {
+            "name": "ethereum-chainlink",
+            "description": "This SubQuery project provided below enables individuals to retrieve specific historical price data from the Ethereum Mainnet Chainlink Datafeeds",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Ethereum/ethereum-chainlink"
+          },
+          {
+            "name": "ethereum-opensea",
+            "description": "This project can be use as a starting point for developing your new Ethereum SubQuery project, it indexes NFT data from the Opensea marketplace",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Ethereum/ethereum-opensea"
+          },
+          {
             "name": "ethereum-uniswap-v3",
             "description": "This SubQuery project indexes the standard Uniswap V3 project on Ethereum Mainnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
