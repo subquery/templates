@@ -619,6 +619,12 @@
             "description": "This SubQuery project indexes all transactions involving the Planet Watch asset on Algorand's Mainnet",
             "remote": "https://github.com/subquery/algorand-subql-starter",
             "path": "Algorand/algorand-starter"
+          },
+          {
+            "name": "algorand-planet-watch",
+            "description": "This SubQuery project indexes all transactions involving the Planet Watch asset on Algorand's Mainnet",
+            "remote": "https://github.com/subquery/algorand-subql-starter",
+            "path": "Algorand/algorand-planet-watch"
           }
         ]
       }
@@ -1031,6 +1037,12 @@
             "description": "This SubQuery project indexes all transactions of thetoken.sweat contract token from sweat_welcome.near (which rewards users for physically moving around). It also indexes all storage_deposit calls for the same contract on the NEAR mainnet",
             "remote": "https://github.com/subquery/near-subql-starter",
             "path": "Near/near-starter"
+          },
+          {
+            "name": "near-priceoracle-example",
+            "description": "This is an example project that indexes price oracle feeds from the NEAR blockchain using SubQuery",
+            "remote": "https://github.com/subquery/near-subql-starter",
+            "path": "Near/near-priceoracle-example"
           },
           {
             "name": "paras-starter",
