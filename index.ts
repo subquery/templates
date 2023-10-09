@@ -698,13 +698,6 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/algorand-subql-starter",
             path: "Algorand/algorand-starter",
           },
-          {
-            name: "algorand-planet-watch",
-            description:
-              "This SubQuery project indexes all transactions involving the Planet Watch asset on Algorand's Mainnet",
-            remote: "https://github.com/subquery/algorand-subql-starter",
-            path: "Algorand/algorand-planet-watch",
-          },
         ],
       },
     ],
