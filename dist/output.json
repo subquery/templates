@@ -178,7 +178,7 @@
       },
       {
         "code": "56288",
-        "name": "Boba BNB Mainnet (ETH)",
+        "name": "Boba BNB Mainnet",
         "chain_id": "56288",
         "description": "",
         "logo": "",
@@ -193,7 +193,7 @@
       },
       {
         "code": "288",
-        "name": "Boba Network (ETH)",
+        "name": "Boba Network",
         "chain_id": "288",
         "description": "",
         "logo": "",
@@ -203,6 +203,21 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Wrapped Eth on Boba (Ethereum) Network.",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Boba/boba-eth-starter"
+          }
+        ]
+      },
+      {
+        "code": "42220",
+        "name": "Celo",
+        "chain_id": "42220",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "celo-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the wrapped EOS token on Celo Mainnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Celo/celo-starter"
           }
         ]
       },
