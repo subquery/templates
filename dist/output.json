@@ -250,6 +250,12 @@
             "path": "Ethereum/ethereum-starter"
           },
           {
+            "name": "ethereum-bayc",
+            "description": "This SubQuery project indexes all transfers for the BAYC on Ethereum",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Ethereum/ethereum-bayc"
+          },
+          {
             "name": "ethereum-ens",
             "description": "This SubQuery project indexes all ENS Records in the ENS registry on Ethereum Mainnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
@@ -536,6 +542,12 @@
             "description": "This SubQuery project indexes all token deposits and users from the Polygon Plamsa Bridge on the Polgon Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Polygon/polygon-plasma-bridge"
+          },
+          {
+            "name": "polygon-lens",
+            "description": "This SubQuery project indexes Profile Creation, Post, Follow events for the Lens Protocol on Polygon Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Polygon/polygon-lens"
           }
         ]
       },
