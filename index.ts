@@ -110,7 +110,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Avalanche Fuji",
         chain_id: "43113",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/43113.png",
         examples: [
           {
             name: "avalanche-fuji-starter",
@@ -227,7 +227,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Boba BNB Mainnet",
         chain_id: "56288",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/56288.png",
         examples: [
           {
             name: "boba-bnb-starter",
@@ -243,7 +243,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Boba Network",
         chain_id: "288",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/288.png",
         examples: [
           {
             name: "boba-eth-starter",
@@ -259,7 +259,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Celo",
         chain_id: "42220",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42220.png",
         examples: [
           {
             name: "celo-starter",
@@ -275,7 +275,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "EOS",
         chain_id: "17777",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/17777.png",
         examples: [
           {
             name: "eos-starter",
@@ -349,7 +349,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Ethereum Goerli",
         chain_id: "5",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/5.png",
         examples: [
           {
             name: "ethereum-goerli-starter",
@@ -365,7 +365,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Ethereum Sepolia",
         chain_id: "11155111",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/11155111.png",
         examples: [
           {
             name: "ethereum-sepolia-starter",
@@ -411,7 +411,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Fantom",
         chain_id: "250",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/250.png",
         examples: [
           {
             name: "fantom-starter",
@@ -450,7 +450,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Harmony",
         chain_id: "1666600000",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1666600000.png",
         examples: [
           {
             name: "harmony-starter",
@@ -466,7 +466,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Heco Chain",
         chain_id: "128",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/128.png",
         examples: [
           {
             name: "heco-starter",
@@ -498,7 +498,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Klaytn",
         chain_id: "8217",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/8217.png",
         examples: [
           {
             name: "klaytn-starter",
@@ -514,7 +514,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Linea",
         chain_id: "59144",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/59144.png",
         examples: [
           {
             name: "linea-starter",
@@ -530,7 +530,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Mantle",
         chain_id: "5000",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/5000.png",
         examples: [
           {
             name: "mantle-starter",
@@ -562,7 +562,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Metis",
         chain_id: "1088",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1088.png",
         examples: [
           {
             name: "metis-starter",
@@ -647,7 +647,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Polygon Mumbai",
         chain_id: "80001",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/80001.png",
         examples: [
           {
             name: "polygon-mumbai-starter",
@@ -679,7 +679,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Skale",
         chain_id: "2046399126",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2046399126.png",
         examples: [
           {
             name: "skale-starter",
@@ -743,7 +743,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Agoric",
         chain_id: "agoric-3",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/agoric-3.png",
         examples: [
           {
             name: "agoric-starter",
@@ -807,7 +807,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Cheqd",
         chain_id: "cheqd-mainnet-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/cheqd-mainnet-1.png",
         examples: [
           {
             name: "cheqd-starter",
@@ -974,7 +974,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Mars",
         chain_id: "mars-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/mars-1.png",
         examples: [
           {
             name: "mars-starter",
@@ -990,7 +990,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Migaloo",
         chain_id: "migaloo-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/migaloo-1.png",
         examples: [
           {
             name: "migaloo-starter",
@@ -1038,7 +1038,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "OmniFlix Hub",
         chain_id: "omniflixhub-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/omniflixhub-1.png",
         examples: [
           {
             name: "omniflixhub-starter",
@@ -1134,7 +1134,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Umee",
         chain_id: "umee-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/umee-1.png",
         examples: [
           {
             name: "umee-starter",
