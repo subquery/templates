@@ -24,6 +24,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Arbitrum/arbitrum-one-winr"
           }
+        ],
+        "guides": [
+          {
+            "name": "Arbitrum Quick Start",
+            "description": "The goal of this quick start guide is to index the total claimed dividends paid to users on the WINR staking contract on Arbitrum.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/arbitrum.html"
+          }
         ]
       },
       {
@@ -39,7 +46,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Arbitrum/arbitrum-nova-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "43114",
@@ -66,6 +74,18 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Avalanche/pangolin-rewards-tutorial"
           }
+        ],
+        "guides": [
+          {
+            "name": "Avalanche Quick Start - Pangolin Rewards",
+            "description": "The goal of this quick start guide is to index all token deposits and transfers from the Avalanche's Pangolin token",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/avalanche.html"
+          },
+          {
+            "name": "Avalanche Quick Start - Crabada NFTs",
+            "description": "The goal of this quick start guide is to index all Crabada NFTs on Avalanche's C-chain.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/avalanche-crabada.html"
+          }
         ]
       },
       {
@@ -81,7 +101,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Avalanche/avalanche-fuji-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "8453",
@@ -101,6 +122,13 @@
             "description": "This SubQuery project indexes all claiming events for the Bridge to Base NFT on Base Mainnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Base/base-nft"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Base Quick Start",
+            "description": "The goal of this quick start guide is to index the all the claims from the Bridge to Base NFT contract on Base Mainnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/base.html"
           }
         ]
       },
@@ -123,6 +151,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Base/base-goerli-faucet"
           }
+        ],
+        "guides": [
+          {
+            "name": "Base Goerli Quick Start",
+            "description": "The goal of this quick start guide is to index the total faucets dripped to users from the USDC Faucet contract on Base Goerli Testnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/base-goerli.html"
+          }
         ]
       },
       {
@@ -144,6 +179,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "BNB Smart Chain/bsc-mobox-rewards"
           }
+        ],
+        "guides": [
+          {
+            "name": "BNB Smart Chain (BSC) Quick Start",
+            "description": "The goal of this quick start guide is to index all deposits and withdrawls to MOBOX pools.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/bsc.html"
+          }
         ]
       },
       {
@@ -159,7 +201,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "BNB Smart Chain/bsc-testnet-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "204",
@@ -174,7 +217,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "BNB Smart Chain/opbnb-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "56288",
@@ -188,6 +232,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Wrapped BOBA on Boba BNB Network.",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Boba/boba-bnb-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Boba BNB Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped BOBA on Boba BNB Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/boba-bnb.html"
           }
         ]
       },
@@ -204,6 +255,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Boba/boba-eth-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Boba ETH Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Boba Mainnet Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/boba-eth.html"
+          }
         ]
       },
       {
@@ -218,6 +276,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the wrapped EOS token on Celo Mainnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Celo/celo-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Celo Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Celo Mainnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/celo.html"
           }
         ]
       },
@@ -234,7 +299,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "EOS/eos-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "1",
@@ -285,6 +351,38 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Ethereum/ethereum-uniswap-v3"
           }
+        ],
+        "guides": [
+          {
+            "name": "Ethereum Quick Start - Gravatar (Simple)",
+            "description": "The goal of this quick start guide is to index all Ethereum Gravatars created or updated on the Ethereum mainnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-gravatar.html"
+          },
+          {
+            "name": "Ethereum Quick Start - BAYC (Simple)",
+            "description": "The goal of this article is to provide a comprehensive guide to setting up an indexer for the Bored Ape Yacht Club (BAYC) smart contract.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-bayc.html"
+          },
+          {
+            "name": "Ethereum Quick Start - Chainlink (Medium)",
+            "description": "This guide serves as your gateway to a comprehensive guide on setting up a SubQuery indexer specifically tailored to index data from Chainlink Data Feeds.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-chainlink.html"
+          },
+          {
+            "name": "Ethereum Quick Start - Opensea (Medium)",
+            "description": "This guide is designed to seamlessly lead you through the steps of configuring your personal OpenSea SubQuery indexer.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-opensea.html"
+          },
+          {
+            "name": "Ethereum Quick Start - Uniswap (Complex)",
+            "description": "The objective of this article is to offer a detailed, step-by-step guide on setting up a SubQuery indexer for Uniswap v3 protocol.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-uniswap.html"
+          },
+          {
+            "name": "Ethereum Quick Start - ENS (Complex)",
+            "description": "This project can be use as a starting point for developing your new Ethereum SubQuery project, it indexes all ENS Records in the ENS registry.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-ens.html"
+          }
         ]
       },
       {
@@ -300,7 +398,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Ethereum/ethereum-goerli-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "11155111",
@@ -314,6 +413,29 @@
             "description": "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Sepolia",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Ethereum/ethereum-sepolia-starter"
+          }
+        ],
+        "guides": []
+      },
+      {
+        "code": "250",
+        "name": "Fantom",
+        "chain_id": "250",
+        "description": "",
+        "logo": "https://static.subquery.network/network-logos/250.png",
+        "examples": [
+          {
+            "name": "fantom-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped FTM on Fantom Opera Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Fantom/fantom-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Fantom Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped FTM on Fantom Opera Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/fantom.html"
           }
         ]
       },
@@ -330,6 +452,13 @@
             "remote": "https://github.com/subquery/flare-subql-starter",
             "path": "Flare/flare-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Flare Quick Start",
+            "description": "The goal of this quick start guide is to index all rewards from the Flare FTSO Reward Manager from Flare's Songbird network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/flare.html"
+          }
         ]
       },
       {
@@ -345,22 +474,8 @@
             "remote": "https://github.com/subquery/flare-subql-starter",
             "path": "Flare/songbird-starter"
           }
-        ]
-      },
-      {
-        "code": "250",
-        "name": "Fantom",
-        "chain_id": "250",
-        "description": "",
-        "logo": "https://static.subquery.network/network-logos/250.png",
-        "examples": [
-          {
-            "name": "fantom-starter",
-            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped FTM on Fantom Opera Network",
-            "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Fantom/fantom-starter"
-          }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "100",
@@ -381,6 +496,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Gnosis/gnosis-poap"
           }
+        ],
+        "guides": [
+          {
+            "name": "Gnosis Quick Start",
+            "description": "The goal of this quick start guide is to index all POAP mints and transactions on the Gnosis mainnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/gnosis.html"
+          }
         ]
       },
       {
@@ -395,6 +517,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Wrapped ETH token on Harmony Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Harmony/harmony-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Harmony Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Harmony Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/harmony.html"
           }
         ]
       },
@@ -411,6 +540,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Heco/heco-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Heco Chain Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped HT on Heco Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/heco.html"
+          }
         ]
       },
       {
@@ -425,6 +561,13 @@
             "description": "This SubQuery project indexes all transfers and approval events tIMX gas token on Immutable Testnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Immutable/immutable-testnet-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Immutable (Testnet) Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Immutable Testnet Gas Token on Immutable Testnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/immutable-testnet.html"
           }
         ]
       },
@@ -441,6 +584,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Klaytn/klaytn-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Klaytn Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Orbit ETH on Klaytn Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/klaytn.html"
+          }
         ]
       },
       {
@@ -456,7 +606,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Linea/linea-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "5000",
@@ -470,6 +621,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Mantle Native token on Mantle Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Mantle/mantle-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Mantle Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Mantle Native token on Mantle Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/mantle.html"
           }
         ]
       },
@@ -486,6 +644,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Meter/meter-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Meter Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Meter Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/meter.html"
+          }
         ]
       },
       {
@@ -500,6 +665,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Metis Token on Metis Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Metis/metis-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Metis Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the METIS Token on Metis Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/metis.html"
           }
         ]
       },
@@ -521,6 +693,13 @@
             "description": "This SubQuery project indexes all the claim events of the Optimism Airdrop on Optimism Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Optimism/optimism-airdrop"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Optimism Quick Start",
+            "description": "The goal of this quick start guide is to index all claim events from the Optimism airdrop contract.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/optimism.html"
           }
         ]
       },
@@ -549,6 +728,18 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Polygon/polygon-lens"
           }
+        ],
+        "guides": [
+          {
+            "name": "Polygon Quick Start",
+            "description": "The goal of this quick start guide is to index all token deposits from the Polygon Plasma Bridge.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polygon.html"
+          },
+          {
+            "name": "Polygon Quick Start - Lens Protocol",
+            "description": "This article's purpose is to provide a clear, step-by-step guide on setting up an indexer for the Lens Protocol on the Polygon blockchain.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polygon-lens.html"
+          }
         ]
       },
       {
@@ -563,6 +754,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polgon zkEVM Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Polygon/polygon-zkevm-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Polygon zkEVM Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Polygon zkEVM Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polygon-zkevm.html"
           }
         ]
       },
@@ -579,7 +777,8 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Polygon/polygon-mumbai-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "534351",
@@ -593,6 +792,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Wrapped Eth on Scroll's Sepolia Test Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Scroll/scroll-sepolia-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Scroll (Sepolia Testnet) Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Scroll's Sepolia Test Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/scroll-sepolia.html"
           }
         ]
       },
@@ -609,6 +815,13 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Skale/skale-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Skale Europa Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the SKL Token on Skale Europa Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/skale.html"
+          }
         ]
       },
       {
@@ -623,6 +836,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the wrapped USDC token on Zksync Network",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Zksync/zksync-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "ZkSync (Era) Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped ETH on ZkSync Era Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/zksync-era.html"
           }
         ]
       }
@@ -647,6 +867,13 @@
             "remote": "https://github.com/subquery/algorand-subql-starter",
             "path": "Algorand/algorand-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Algorand Quick Start",
+            "description": "The goal of this quick guide is to adapt the standard starter project and start indexing all the PLANET token transfers from Algorand.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/algorand.html"
+          }
         ]
       }
     ]
@@ -670,7 +897,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Agoric/agoric-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "akashnet-2",
@@ -684,6 +912,13 @@
             "description": "This SubQuery project indexes all rewards paid to delegators on Akash Network",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Akash/akash-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Akash Quick Start",
+            "description": "The goal of this quick start guide is to index all reward transactions for delegators in the Akash network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-akash.html"
           }
         ]
       },
@@ -700,6 +935,13 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Archway/archway-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Archway Quick Start",
+            "description": "The goal of this quick start guide is to index all Archway contract metadata as well as all rewards paid out to contract developers.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-archway.html"
+          }
         ]
       },
       {
@@ -715,7 +957,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Axelar/axelar-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "cheqd-mainnet-1",
@@ -730,7 +973,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Cheqd/cheqd-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "comdex-1",
@@ -745,7 +989,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Comdex/comdex-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "cosmoshub-4",
@@ -760,7 +1005,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "CosmosHub/cosmoshub-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "cronosmainnet_25-1",
@@ -781,6 +1027,13 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Cronos/cronos-evm-starter-via-eth"
           }
+        ],
+        "guides": [
+          {
+            "name": "Cronos Quick Start",
+            "description": "The goal of this quick start guide is to adapt the standard starter project in the Cronos Network and then begin indexing all transfers of Cro Crow Token.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-cronos.html"
+          }
         ]
       },
       {
@@ -796,7 +1049,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Evmos/evmos-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "evmos_9000-4",
@@ -811,7 +1065,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Evmos/evmos-testnet-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "fetchhub-4",
@@ -826,7 +1081,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Fetch.ai/fetchhub-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "injective-1",
@@ -841,7 +1097,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Injective/injective-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "juno-1",
@@ -855,6 +1112,13 @@
             "description": "This SubQuery project indexes all events and messages from Juno",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Juno/juno-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Juno Quick Start",
+            "description": "The goal of this quick start guide is to adapt the standard starter project in the Juno Network and then begin indexing all votes on the Terra Developer Fund (which also contributed to SubQuery) from Cosmos.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-juno.html"
           }
         ]
       },
@@ -871,7 +1135,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Kava/kava-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "mars-1",
@@ -886,7 +1151,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Mars/mars-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "migaloo-1",
@@ -901,7 +1167,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Migaloo/migaloo-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "neutron-1",
@@ -915,6 +1182,13 @@
             "description": "This SubQuery project indexes all airdrop claims on Neutron Network",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Neutron/neutron-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Neutron Quick Start",
+            "description": "The goal of this quick start guide is to index all airdrop claims on Neutron Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-neutron.html"
           }
         ]
       },
@@ -931,7 +1205,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "OKX/okx-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "omniflixhub-1",
@@ -946,7 +1221,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Omniflixhub/omniflixhub-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "osmosis-1",
@@ -960,6 +1236,13 @@
             "description": "This SubQuery project indexes all swaps on Osmosis' on chain DEX",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Osmosis/osmosis-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Osmosis Quick Start",
+            "description": "This guide acts as your entrance to a detailed tutorial for configuring a SubQuery indexer that is specifically designed to index swaps occurring on Osmosis.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-osmosis.html"
           }
         ]
       },
@@ -976,7 +1259,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Persistence/persistence-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "atlantic-2",
@@ -990,6 +1274,13 @@
             "description": "This SubQuery project indexes all eth-usd prices provided to the Levana Dex protocol by the Pyth price oracle on Sei Network",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Sei/sei-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Sei Quick Start",
+            "description": "The goal of this quick start guide is to index all ETH-USD exchange rates provided to Levana's Sei DEX protocol by the Pyth price oracle.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-sei.html"
           }
         ]
       },
@@ -1006,7 +1297,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Stargaze/stargaze-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "thorchain-mainnet-v1",
@@ -1020,6 +1312,13 @@
             "description": "This SubQuery project indexes all deposit events on Thorchain",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Thorchain/thorchain-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Thorchain Quick Start",
+            "description": "The goal of this quick start guide is to indexing all deposit messages of Thorchain.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-thorchain.html"
           }
         ]
       },
@@ -1036,7 +1335,8 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Umee/umee-starter"
           }
-        ]
+        ],
+        "guides": []
       }
     ]
   },
@@ -1071,6 +1371,13 @@
             "remote": "https://github.com/subquery/near-subql-starter",
             "path": "Near/paras-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "NEAR Quick Start",
+            "description": "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/near.html"
+          }
         ]
       },
       {
@@ -1085,6 +1392,13 @@
             "description": "This SubQuery project indexes all transfers and approval events for the wrapped NEAR token on NEAR's Aurora EVM-compatible Network",
             "remote": "https://github.com/subquery/near-subql-starter",
             "path": "Near/near-aurora-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Aurora Quick Start (EVM)",
+            "description": "The goal of this quick start guide is to index transfers and approvals for the Wrapped NEAR smart contract on NEAR Aurora.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/near-aurora.html"
           }
         ]
       }
@@ -1115,7 +1429,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Acala/acala-evm-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "ajuna",
@@ -1130,7 +1445,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Ajuna/ajuna-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "altair",
@@ -1145,7 +1461,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Altair/altair-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "astar",
@@ -1172,6 +1489,13 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Astar/astar-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Astar (WASM) Quick Start",
+            "description": "This example project indexes all Transactions and Approvals from the Astar Wasm based lottery contract, as well as dApp staking events from Astar's dApp Staking functions.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-astar.html"
+          }
         ]
       },
       {
@@ -1187,7 +1511,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Automata/automata-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "basilisk",
@@ -1202,7 +1527,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Basilisk/basilisk-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "bifrost-kusama",
@@ -1217,7 +1543,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Bifrost/bifrost-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "bitcountry-pioneer",
@@ -1232,7 +1559,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Bit.Country/bitcountry-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "bitgreen",
@@ -1247,7 +1575,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "BitGreen/bitgreen-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "calamari",
@@ -1262,7 +1591,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Calamari/calamari-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "centrifuge-polkadot",
@@ -1277,7 +1607,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Centrifuge/centrifuge-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "clover",
@@ -1292,7 +1623,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Clover/clover-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "composable-finance",
@@ -1307,7 +1639,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Composable Finance/composable-finance-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "darwinia",
@@ -1322,7 +1655,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Darwinia/darwinia-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "efinity-polkadot",
@@ -1337,7 +1671,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Efinity/efinity-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "encointer",
@@ -1352,7 +1687,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Encointer/encointer-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "equilibrium-polkadot",
@@ -1367,7 +1703,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Equilibrium/equilibrium-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "frequency",
@@ -1382,7 +1719,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Frequency/frequency-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "hashed",
@@ -1397,7 +1735,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Hashed Network/hashed-network-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "humanode",
@@ -1411,6 +1750,13 @@
             "description": "",
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Humanode/humanode-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Humanode Quick Start",
+            "description": "This quick guide aims to adapt the standard starter project and index all transfers, bioauthenitcation events, and online validator nodes from Humanode chain.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-humanode.html"
           }
         ]
       },
@@ -1427,7 +1773,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "HydraDX/hydradx-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "integritee-polkadot",
@@ -1442,7 +1789,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Integritee Shell/integritee-shell-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "interlay",
@@ -1457,7 +1805,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Interlay/interlay-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "karura",
@@ -1478,7 +1827,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Karura/karura-evm-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "khala",
@@ -1493,7 +1843,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Khala/khala-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "kilt-spiritnet",
@@ -1514,6 +1865,13 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Kilt/kilt-spiritnet-credentials-example"
           }
+        ],
+        "guides": [
+          {
+            "name": "Kilt Quick Start",
+            "description": "The example project indexes all Attestations created and revoked on the Kilt Spiritnet Blockchain.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-kilt.html"
+          }
         ]
       },
       {
@@ -1529,7 +1887,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Kusama/kusama-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "kylin",
@@ -1544,7 +1903,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Kylin/kylin-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "moonbeam",
@@ -1571,6 +1931,13 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Moonbeam/Moonbeam-starter"
           }
+        ],
+        "guides": [
+          {
+            "name": "Moonbeam (EVM) Quick Start",
+            "description": "The example project indexes all Transfers from the Moonbeam EVM FRAX ERC-20 contract, as well as Collators joining and leaving events from Moonbeam's Staking functions.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-moonbeam.html"
+          }
         ]
       },
       {
@@ -1592,7 +1959,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Moonriver/moonriver-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "nodle",
@@ -1607,7 +1975,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Nodle/nodle-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "origintrail-parachain",
@@ -1622,7 +1991,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "OriginTrail/origintrail-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "parallel",
@@ -1637,7 +2007,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Parallel/parallel-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "heiko-kusama",
@@ -1652,7 +2023,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Parallel/parallel-heiko-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "polkadex-standalone",
@@ -1667,7 +2039,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Polkadex/polkedex-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "polkadot",
@@ -1681,6 +2054,13 @@
             "description": "",
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Polkadot/Polkadot-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Polkadot/Substrate Quick Start",
+            "description": "The goal of this quick guide is to adapt the standard starter project and start indexing all transfers from Polkadot.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/polkadot.html"
           }
         ]
       },
@@ -1697,7 +2077,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Quartz/quartz-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "shiden-kusama",
@@ -1712,7 +2093,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Shiden/shiden-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "kusama-asset-hub",
@@ -1727,7 +2109,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Statemine/statemine-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "polkadot-asset-hub",
@@ -1742,7 +2125,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Statemint/statemint-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "unique",
@@ -1757,7 +2141,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Unique/unique-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "vara",
@@ -1772,7 +2157,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Vara/vara-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "watr",
@@ -1787,7 +2173,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Watr/watr-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "westend",
@@ -1802,7 +2189,8 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Westend/westend-starter"
           }
-        ]
+        ],
+        "guides": []
       }
     ]
   },
@@ -1825,7 +2213,8 @@
             "remote": "https://github.com/subquery/stellar-subql-starter",
             "path": "Stellar/soroban-testnet-starter"
           }
-        ]
+        ],
+        "guides": []
       },
       {
         "code": "futurenet",
@@ -1839,6 +2228,13 @@
             "description": "The example project indexes all soroban transfer events on Stellar's Futurenet. It also indexes all account payments including credits and debits",
             "remote": "https://github.com/subquery/stellar-subql-starter",
             "path": "Stellar/soroban-futurenet-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Stellar & Soroban Quick Start",
+            "description": "The example project indexes all soroban transfer events on Stellar's Futurenet. It also indexes all account payments including credits and debits - it's a great way to quickly learn how SubQuery works on a real world hands-on example.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/stellar.html"
           }
         ]
       }
