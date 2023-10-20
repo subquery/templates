@@ -92,6 +92,23 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "11820",
+        name: "Artela Testnet",
+        chain_id: "11820",
+        description: "",
+        logo: "", // "https://static.subquery.network/network-logos/11820.png",
+        examples: [
+          {
+            name: "artela-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped ART (Artella) Token on Artela Test Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Artela/artela-testnet-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "43114",
         name: "Avalanche",
         chain_id: "43114",
