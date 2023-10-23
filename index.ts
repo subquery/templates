@@ -113,7 +113,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Astar zKatana",
         chain_id: "1261120",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/astar.png",
         examples: [
           {
             name: "astar-zkevm-testnet-starter",
