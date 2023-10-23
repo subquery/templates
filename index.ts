@@ -29,7 +29,7 @@ type Network = {
 };
 
 type NetworkFamily = {
-  code: "evm" | "algorand" | "cosmos" | "near" | "polkadot" | "stellar";
+  code: "evm" | "algorand" | "cosmos" | "near" | "polkadot" | "stellar" | "multi";
   name: string;
   description: string;
   logo: string;
