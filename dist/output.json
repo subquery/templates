@@ -66,6 +66,28 @@
         "guides": []
       },
       {
+        "code": "1261120",
+        "name": "Astar zKatana",
+        "chain_id": "1261120",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "astar-zkevm-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the GACHA Token on Astar zkEVM's zKatana Test Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Astar/astar-zkevm-testnet-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Astar zKatana Testnet Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the GACHA Token on Astar's zKatana Test Network.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/astar-zkatana.html"
+          }
+        ]
+      },
+      {
         "code": "43114",
         "name": "Avalanche",
         "chain_id": "43114",
