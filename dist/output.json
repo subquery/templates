@@ -2277,52 +2277,5 @@
         ]
       }
     ]
-  },
-  {
-    "code": "multi",
-    "name": "Multi-chain",
-    "description": "",
-    "logo": "",
-    "networks": [
-      {
-        "code": "multi",
-        "name": "Multi-chain",
-        "chain_id": "multi",
-        "description": "",
-        "logo": "",
-        "examples": [
-          {
-            "name": "Multichain Example - Polkadot Transfers",
-            "description": "This SubQuery project is an example of a multi-chain project that indexes all transfers across both Polkadot and Kusama into the same dataset",
-            "remote": "https://github.com/subquery/subql-starter",
-            "path": "Multi-Chain/transfers"
-          },
-          {
-            "name": "Multichain Example - Safe",
-            "description": "This SubQuery project indexes the Safe multisig signatures from various chains",
-            "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Multi-Chain/safe"
-          },
-          {
-            "name": "Multichain Example - Snapshot",
-            "description": "This SubQuery project indexes the Snapshot Protocol data from various chains",
-            "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Multi-Chain/snapshot"
-          }
-        ],
-        "guides": [
-          {
-            "name": "Multichain Quick Start - Snapshot",
-            "description": "A step-by-step manual for establishing a multi-chain indexer compatible with Snapshot, a voting platform that facilitates effortless and gas-free voting for DAOs, DeFi protocols, and NFT communities.",
-            "link": "https://academy.subquery.network/quickstart/quickstart_multichain/snapshot.html"
-          },
-          {
-            "name": "Multichain Quick Start - Safe",
-            "description": "This page explains how to create an multi-chain indexer for [Safe](https://safe.global/), a system that makes secure wallets requiring multiple authorisations.",
-            "link": "https://academy.subquery.network/quickstart/quickstart_multichain/safe.html"
-          }
-        ]
-      }
-    ]
   }
 ]
