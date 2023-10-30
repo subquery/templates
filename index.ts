@@ -1316,6 +1316,13 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Kava/kava-starter",
           },
+          {
+            name: "kava-evm-starter",
+            description:
+              "This SubQuery project indexes all transactions and approvals of USDT token from Kava's EVM network",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Kava/kava-evm-starter",
+          },
         ],
         guides: [],
       },
