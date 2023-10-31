@@ -29,7 +29,14 @@ type Network = {
 };
 
 type NetworkFamily = {
-  code: "evm" | "algorand" | "cosmos" | "near" | "polkadot" | "stellar";
+  code:
+    | "evm"
+    | "algorand"
+    | "cosmos"
+    | "concordium"
+    | "near"
+    | "polkadot"
+    | "stellar";
   name: string;
   description: string;
   logo: string;
@@ -1540,6 +1547,39 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+      },
+    ],
+  },
+  {
+    code: "concordium",
+    name: "Concordium",
+    description: "",
+    logo: "https://static.subquery.network/network-logos/concordium.png",
+    networks: [
+      {
+        code: "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        name: "Concordium Testnet",
+        chain_id:
+          "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/concordium.png",
+        examples: [
+          {
+            name: "concordium-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
+            remote: "https://github.com/subquery/concordium-subql-starter",
+            path: "Concordium/concordium-testnet-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Concordium Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/concordium.html",
+          },
+        ],
       },
     ],
   },
