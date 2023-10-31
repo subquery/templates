@@ -40,7 +40,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "evm",
     name: "EVM Networks",
-    description: "",
+    description:
+      "Ethereum is a blockchain platform for decentralized applications and smart contracts. The Ethereum Virtual Machine (EVM) is its decentralized computing environment, enabling the execution of code on the network.",
     logo: "https://static.subquery.network/network-logos/1.png",
     networks: [
       {
@@ -1011,7 +1012,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "algorand",
     name: "Algorand",
-    description: "",
+    description:
+      "Algorand is a blockchain platform known for its pure proof-of-stake consensus mechanism, ensuring high scalability, security, and decentralization. It's designed for fast, efficient, and cost-effective transaction processing and smart contract execution.",
     logo: "https://static.subquery.network/network-logos/algorand.png",
     networks: [
       {
@@ -1043,7 +1045,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "cosmos",
     name: "Cosmos",
-    description: "",
+    description:
+      "Cosmos is a network of interoperable blockchains that enable independent blockchains, known as 'zones' to communicate and share assets and data through its hub. It promotes blockchain scalability and cross-chain compatibility.",
     logo: "https://static.subquery.network/network-logos/cosmoshub-4.png",
     networks: [
       {
@@ -1546,7 +1549,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "near",
     name: "NEAR",
-    description: "",
+    description:
+      "NEAR is a blockchain platform focused on developer-friendly experiences, scalability, and user-friendly applications. It employs sharding to enhance speed and efficiency, making it suitable for decentralized applications and financial services.",
     logo: "https://static.subquery.network/network-logos/near.png",
     networks: [
       {
@@ -1615,7 +1619,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "polkadot",
     name: "Polkadot",
-    description: "",
+    description:
+      "Polkadot is a multichain network that connects multiple blockchains, known as parachains, allowing them to share security and communicate. It enhances blockchain interoperability, scalability, and cross-chain applications within its ecosystem.",
     logo: "https://static.subquery.network/network-logos/polkadot.png",
     networks: [
       {
@@ -2454,7 +2459,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "stellar",
     name: "Stellar",
-    description: "",
+    description:
+      "Stellar is a blockchain platform for efficient cross-border payments and token issuance, emphasizing financial inclusion. Soroban is a decentralized, privacy-focused smart contract platform built on Stellar, enhancing confidentiality for decentralized applications.",
     logo: "https://static.subquery.network/network-logos/stellar.png",
     networks: [
       {
