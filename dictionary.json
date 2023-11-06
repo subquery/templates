@@ -68,7 +68,7 @@
     "324": ["https://dict-tyk.subquery.network/query/zksync-mainnet"],
     "280": ["https://dict-tyk.subquery.network/query/zksync-testnet"],
     "7777777": ["https://dict-tyk.subquery.network/query/zora-mainnet"],
-    "999999999": ["https://dict-tyk.subquery.network/query/zora-goerli"],
+    "999999999": ["https://dict-tyk.subquery.network/query/zora-goerli"]
   },
   "cosmos": {
     "cosmoshub-4": ["https://api.subquery.network/sq/subquery/cosmos-hub-dictionary"],
