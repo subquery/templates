@@ -432,6 +432,15 @@
     "family": "Avalanche"
   },
   {
+    "name": "agoric-starter",
+    "description": "Starter project for Agoric",
+    "remote": "https://github.com/subquery/cosmos-subql-starter",
+    "branch": "main",
+    "network": "Agoric",
+    "specVersion": "1.0.0",
+    "family": "Cosmos"
+  },
+  {
     "name": "akash-starter",
     "description": "Starter project for Akash",
     "remote": "https://github.com/subquery/cosmos-subql-starter",

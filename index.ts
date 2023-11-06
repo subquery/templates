@@ -33,6 +33,7 @@ type NetworkFamily = {
     | "evm"
     | "algorand"
     | "cosmos"
+    | "concordium"
     | "near"
     | "polkadot"
     | "stellar"
@@ -47,14 +48,16 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "evm",
     name: "EVM Networks",
-    description: "",
+    description:
+      "Ethereum is a blockchain platform for decentralized applications and smart contracts. The Ethereum Virtual Machine (EVM) is its decentralized computing environment, enabling the execution of code on the network.",
     logo: "https://static.subquery.network/network-logos/1.png",
     networks: [
       {
         code: "42161",
         name: "Arbitrum One",
         chain_id: "42161",
-        description: "",
+        description:
+          "A Layer 2 scaling solution for Ethereum, enhancing transaction throughput and reducing fees while maintaining compatibility with Ethereum's smart contracts.",
         logo: "https://static.subquery.network/network-logos/42161.png",
         examples: [
           {
@@ -85,7 +88,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "42170",
         name: "Arbitrum Nova",
         chain_id: "42170",
-        description: "",
+        description:
+          "A development of Arbitrum aiming to further improve Ethereum scalability, making it faster and more cost-effective.",
         logo: "https://static.subquery.network/network-logos/42170.png",
         examples: [
           {
@@ -116,10 +120,36 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "1261120",
+        name: "Astar zKatana",
+        chain_id: "1261120",
+        description:
+          "A blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
+        logo: "https://static.subquery.network/network-logos/astar.png",
+        examples: [
+          {
+            name: "astar-zkevm-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the GACHA Token on Astar zkEVM's zKatana Test Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Astar/astar-zkevm-testnet-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Astar zKatana Testnet Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events from the GACHA Token on Astar's zKatana Test Network.",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/astar-zkatana.html",
+          },
+        ],
+      },
+      {
         code: "43114",
         name: "Avalanche",
         chain_id: "43114",
-        description: "",
+        description:
+          "A decentralized platform for creating and launching custom blockchain networks, featuring subnets and high throughput for efficient DApp development.",
         logo: "https://static.subquery.network/network-logos/43114.png",
         examples: [
           {
@@ -180,7 +210,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "8453",
         name: "Base",
         chain_id: "8453",
-        description: "",
+        description:
+          "A blockchain network focused on simplifying smart contract development and execution, offering secure and efficient blockchain solutions.",
         logo: "https://static.subquery.network/network-logos/8453.png",
         examples: [
           {
@@ -242,7 +273,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "56",
         name: "BNB Smart Chain",
         chain_id: "56",
-        description: "",
+        description:
+          "Binance's blockchain network, designed for fast and low-cost transactions, powering various DeFi applications and tokens within the Binance ecosystem.",
         logo: "https://static.subquery.network/network-logos/56.png",
         examples: [
           {
@@ -307,7 +339,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "56288",
         name: "Boba BNB Mainnet",
         chain_id: "56288",
-        description: "",
+        description:
+          "A privacy-focused blockchain project, offering features like confidential transactions and data protection to enhance user privacy and security.",
         logo: "https://static.subquery.network/network-logos/56288.png",
         examples: [
           {
@@ -331,7 +364,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "288",
         name: "Boba Network",
         chain_id: "288",
-        description: "",
+        description:
+          "A privacy-focused blockchain project, offering features like confidential transactions and data protection to enhance user privacy and security.",
         logo: "https://static.subquery.network/network-logos/288.png",
         examples: [
           {
@@ -355,7 +389,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "42220",
         name: "Celo",
         chain_id: "42220",
-        description: "",
+        description:
+          "A blockchain platform focused on financial inclusion, offering a mobile-first approach for enabling easy access to decentralized financial services.",
         logo: "https://static.subquery.network/network-logos/42220.png",
         examples: [
           {
@@ -379,7 +414,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "17777",
         name: "EOS",
         chain_id: "17777",
-        description: "",
+        description:
+          "A blockchain network designed for high-performance decentralized applications, known for its scalability, flexibility, and developer-friendly environment.",
         logo: "https://static.subquery.network/network-logos/17777.png",
         examples: [
           {
@@ -396,7 +432,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "1",
         name: "Ethereum",
         chain_id: "1",
-        description: "",
+        description:
+          "A leading decentralized blockchain platform for smart contracts and decentralized applications (DApps), known for its native cryptocurrency Ether (ETH).",
         logo: "https://static.subquery.network/network-logos/1.png",
         examples: [
           {
@@ -526,7 +563,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "250",
         name: "Fantom",
         chain_id: "250",
-        description: "",
+        description:
+          "A fast and scalable blockchain platform designed for smart contracts and DeFi applications, aiming to provide high-speed and low-cost transactions.",
         logo: "https://static.subquery.network/network-logos/250.png",
         examples: [
           {
@@ -550,7 +588,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "14",
         name: "Flare",
         chain_id: "14",
-        description: "",
+        description:
+          "A blockchain network focused on enabling smart contracts for non-native assets, bridging traditional finance and decentralized platforms, with its native token FLR.",
         logo: "https://static.subquery.network/network-logos/14.png",
         examples: [
           {
@@ -589,7 +628,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "100",
         name: "Gnosis",
         chain_id: "100",
-        description: "",
+        description:
+          "A decentralized prediction market and oracle platform on Ethereum, facilitating various DeFi and prediction market applications with GNO and OWL tokens.",
         logo: "https://static.subquery.network/network-logos/100.png",
         examples: [
           {
@@ -620,7 +660,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "1666600000",
         name: "Harmony",
         chain_id: "1666600000",
-        description: "",
+        description:
+          "A scalable blockchain network designed for high-throughput and low-latency applications, featuring sharding and its native ONE token for consensus and staking.",
         logo: "https://static.subquery.network/network-logos/1666600000.png",
         examples: [
           {
@@ -644,7 +685,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "128",
         name: "Heco Chain",
         chain_id: "128",
-        description: "",
+        description:
+          "A blockchain built by Huobi, designed for DeFi and DApps, with a focus on cross-chain compatibility, providing HECO tokens for various use cases.",
         logo: "https://static.subquery.network/network-logos/128.png",
         examples: [
           {
@@ -668,7 +710,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "13472",
         name: "Immutable Testnet",
         chain_id: "13472",
-        description: "",
+        description:
+          " A blockchain protocol for trading and ownership of NFTs within the Ethereum ecosystem, ensuring security and transparency for digital assets.",
         logo: "https://static.subquery.network/network-logos/13472.png",
         examples: [
           {
@@ -692,7 +735,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "8217",
         name: "Klaytn",
         chain_id: "8217",
-        description: "",
+        description:
+          "A public blockchain platform from South Korea, developed by Kakao, focusing on user-friendly DApp development and featuring its native KLAY token.",
         logo: "https://static.subquery.network/network-logos/8217.png",
         examples: [
           {
@@ -757,7 +801,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "82",
         name: "Meter",
         chain_id: "82",
-        description: "",
+        description:
+          "A blockchain network designed for decentralized finance (DeFi) with a stablecoin, supporting high-speed transactions and energy-efficient consensus mechanisms.",
         logo: "https://static.subquery.network/network-logos/82.png",
         examples: [
           {
@@ -781,7 +826,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "1088",
         name: "Metis",
         chain_id: "1088",
-        description: "",
+        description:
+          "A blockchain platform focusing on decentralized applications and organizations, providing scalable and customizable solutions with its Layer 2 framework.",
         logo: "https://static.subquery.network/network-logos/1088.png",
         examples: [
           {
@@ -805,7 +851,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "10",
         name: "Optimism",
         chain_id: "10",
-        description: "",
+        description:
+          "An Ethereum Layer 2 scaling solution, enhancing transaction speed and cost efficiency while maintaining compatibility with the Ethereum network and smart contracts.",
         logo: "https://static.subquery.network/network-logos/10.png",
         examples: [
           {
@@ -836,7 +883,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "137",
         name: "Polygon",
         chain_id: "137",
-        description: "",
+        description:
+          "A multi-chain framework for Ethereum, promoting scalability and interoperability by facilitating the development of various blockchain solutions and dApps.",
         logo: "https://static.subquery.network/network-logos/137.png",
         examples: [
           {
@@ -921,7 +969,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "534351",
         name: "Scroll Sepolia",
         chain_id: "534351",
-        description: "",
+        description:
+          "A blockchain platform emphasizing privacy, featuring confidential transactions and data protection while allowing users to control the visibility of their data.",
         logo: "https://static.subquery.network/network-logos/534351.png",
         examples: [
           {
@@ -945,7 +994,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "2046399126",
         name: "Skale",
         chain_id: "2046399126",
-        description: "",
+        description:
+          "A decentralized network focused on Ethereum scaling solutions, offering high-performance and low-cost smart contract execution through its Layer 2 architecture.",
         logo: "https://static.subquery.network/network-logos/2046399126.png",
         examples: [
           {
@@ -969,7 +1019,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "324",
         name: "Zksync",
         chain_id: "324",
-        description: "",
+        description:
+          "A Layer 2 scaling solution for Ethereum, utilizing zk-rollups to significantly improve transaction throughput and reduce gas fees while maintaining security.",
         logo: "https://static.subquery.network/network-logos/324.png",
         examples: [
           {
@@ -994,14 +1045,16 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "algorand",
     name: "Algorand",
-    description: "",
+    description:
+      "Algorand is a blockchain platform known for its pure proof-of-stake consensus mechanism, ensuring high scalability, security, and decentralization. It's designed for fast, efficient, and cost-effective transaction processing and smart contract execution.",
     logo: "https://static.subquery.network/network-logos/algorand.png",
     networks: [
       {
         code: "algorand",
         name: "Algorand",
         chain_id: "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8",
-        description: "",
+        description:
+          "A blockchain network known for its fast and efficient consensus mechanism, enabling high-speed and secure transactions for a wide range of applications.",
         logo: "https://static.subquery.network/network-logos/algorand.png",
         examples: [
           {
@@ -1026,7 +1079,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "cosmos",
     name: "Cosmos",
-    description: "",
+    description:
+      "Cosmos is a network of interoperable blockchains that enable independent blockchains, known as 'zones' to communicate and share assets and data through its hub. It promotes blockchain scalability and cross-chain compatibility.",
     logo: "https://static.subquery.network/network-logos/cosmoshub-4.png",
     networks: [
       {
@@ -1050,7 +1104,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "akashnet-2",
         name: "Akash",
         chain_id: "akashnet-2",
-        description: "",
+        description:
+          "A decentralized cloud computing platform leveraging blockchain technology to enable users to rent and share their compute resources, creating a decentralized cloud infrastructure.",
         logo: "https://static.subquery.network/network-logos/akashnet-2.png",
         examples: [
           {
@@ -1074,7 +1129,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "archway-1",
         name: "Archway",
         chain_id: "archway-1",
-        description: "",
+        description:
+          "A blockchain platform designed for web3 applications and DeFi, enhancing interoperability and scalability within the blockchain ecosystem.",
         logo: "https://static.subquery.network/network-logos/archway-1.png",
         examples: [
           {
@@ -1098,7 +1154,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "axelar-dojo-1",
         name: "Axelar",
         chain_id: "axelar-dojo-1",
-        description: "",
+        description:
+          "A decentralized network focused on cross-chain communication and interoperability, facilitating data and asset transfers between various blockchain platforms.",
         logo: "https://static.subquery.network/network-logos/axelar-dojo-1.png",
         examples: [
           {
@@ -1115,7 +1172,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "cheqd-mainnet-1",
         name: "Cheqd",
         chain_id: "cheqd-mainnet-1",
-        description: "",
+        description:
+          "A blockchain for identity and credential verification, providing a trustless and efficient means to verify personal and professional information.",
         logo: "https://static.subquery.network/network-logos/cheqd-mainnet-1.png",
         examples: [
           {
@@ -1132,7 +1190,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "comdex-1",
         name: "Comdex",
         chain_id: "comdex-1",
-        description: "",
+        description:
+          "A blockchain ecosystem aiming to transform the commodity trading industry by providing transparency and efficiency through decentralized technologies.",
         logo: "https://static.subquery.network/network-logos/comdex-1.png",
         examples: [
           {
@@ -1149,7 +1208,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "cosmoshub-4",
         name: "CosmosHub",
         chain_id: "cosmoshub-4",
-        description: "",
+        description:
+          "The hub of the Cosmos network, fostering blockchain interoperability and enabling sovereign, interconnected blockchains to exchange data and assets.",
         logo: "https://static.subquery.network/network-logos/cosmoshub-4.png",
         examples: [
           {
@@ -1166,7 +1226,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "cronosmainnet_25-1",
         name: "Cronos",
         chain_id: "cronosmainnet_25-1",
-        description: "",
+        description:
+          "A blockchain within the Cosmos ecosystem, optimized for DeFi and NFTs, providing a scalable and secure environment for these applications.",
         logo: "https://static.subquery.network/network-logos/cronosmainnet_25-1.png",
         examples: [
           {
@@ -1197,7 +1258,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "evmos_9001-2",
         name: "Evmos",
         chain_id: "evmos_9001-2",
-        description: "",
+        description:
+          "A blockchain platform compatible with Ethereum Virtual Machine (EVM), allowing Ethereum developers to deploy their smart contracts and DApps on EVMOS.",
         logo: "https://static.subquery.network/network-logos/evmos_9001-2.png",
         examples: [
           {
@@ -1231,7 +1293,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "fetchhub-4",
         name: "Fetch.ai",
         chain_id: "fetchhub-4",
-        description: "",
+        description:
+          "A blockchain platform focusing on autonomous economic agents, enabling IoT devices and AI systems to interact, trade, and make decentralized decisions.",
         logo: "https://static.subquery.network/network-logos/fetchhub-4.png",
         examples: [
           {
@@ -1248,7 +1311,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "injective-1",
         name: "Injective",
         chain_id: "injective-1",
-        description: "",
+        description:
+          "A decentralized exchange (DEX) protocol built on Cosmos, allowing users to trade various assets with minimal fees and high performance.",
         logo: "https://static.subquery.network/network-logos/injective-1.png",
         examples: [
           {
@@ -1265,7 +1329,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "juno-1",
         name: "Juno",
         chain_id: "juno-1",
-        description: "",
+        description:
+          "A blockchain within the Cosmos network, emphasizing on decentralized finance, enabling the creation of DeFi applications and interoperability.",
         logo: "https://static.subquery.network/network-logos/juno-1.png",
         examples: [
           {
@@ -1289,7 +1354,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "kava_2222-10",
         name: "Kava",
         chain_id: "kava_2222-10",
-        description: "",
+        description:
+          "A DeFi-focused blockchain platform in the Cosmos ecosystem, providing collateralized loans, stablecoins, and other financial services through a secure infrastructure.",
         logo: "https://static.subquery.network/network-logos/kava_2222-10.png",
         examples: [
           {
@@ -1299,6 +1365,13 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Kava/kava-starter",
           },
+          {
+            name: "kava-evm-starter",
+            description:
+              "This SubQuery project indexes all transactions and approvals of USDT token from Kava's EVM network",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Kava/kava-evm-starter",
+          },
         ],
         guides: [],
       },
@@ -1306,7 +1379,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "mars-1",
         name: "Mars",
         chain_id: "mars-1",
-        description: "",
+        description:
+          "A blockchain network designed for enterprise solutions, providing a secure and scalable environment for businesses to build and deploy blockchain applications.",
         logo: "https://static.subquery.network/network-logos/mars-1.png",
         examples: [
           {
@@ -1323,7 +1397,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "migaloo-1",
         name: "Migaloo",
         chain_id: "migaloo-1",
-        description: "",
+        description:
+          "Migaloo is a privacy-focused blockchain network designed for confidential transactions and data sharing, offering enhanced security and anonymity features.",
         logo: "https://static.subquery.network/network-logos/migaloo-1.png",
         examples: [
           {
@@ -1340,7 +1415,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "neutron-1",
         name: "Neutron",
         chain_id: "neutron-1",
-        description: "",
+        description:
+          "Neutron is a scalable blockchain platform known for its smart contract capabilities and decentralized applications, offering high-performance solutions for developers and users.",
         logo: "https://static.subquery.network/network-logos/neutron-1.png",
         examples: [
           {
@@ -1364,7 +1440,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "66",
         name: "OKX",
         chain_id: "66",
-        description: "",
+        description:
+          "OKX is a cryptocurrency exchange platform that provides trading services for various digital assets, supporting a wide range of tokens and offering advanced trading features.",
         logo: "https://static.subquery.network/network-logos/66.png",
         examples: [
           {
@@ -1381,7 +1458,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "omniflixhub-1",
         name: "OmniFlix Hub",
         chain_id: "omniflixhub-1",
-        description: "",
+        description:
+          "Omniflix is a blockchain network tailored for decentralized video streaming and content distribution, aiming to revolutionize the entertainment industry by eliminating intermediaries.",
         logo: "https://static.subquery.network/network-logos/omniflixhub-1.png",
         examples: [
           {
@@ -1398,7 +1476,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "osmosis-1",
         name: "Osmosis",
         chain_id: "osmosis-1",
-        description: "",
+        description:
+          "Osmosis is a decentralized exchange platform built on the Cosmos blockchain, enabling users to trade various tokens and assets while maintaining interoperability with other chains.",
         logo: "https://static.subquery.network/network-logos/osmosis-1.png",
         examples: [
           {
@@ -1463,7 +1542,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "stargaze-1",
         name: "Stargaze",
         chain_id: "stargaze-1",
-        description: "",
+        description:
+          "Stargaze is a blockchain platform dedicated to NFTs (Non-Fungible Tokens), allowing users to create, trade, and interact with unique digital assets.",
         logo: "https://static.subquery.network/network-logos/stargaze-1.png",
         examples: [
           {
@@ -1480,7 +1560,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "thorchain-mainnet-v1",
         name: "Thorchain",
         chain_id: "thorchain-mainnet-v1",
-        description: "",
+        description:
+          "Thorchain is a decentralized liquidity protocol designed to enable cross-chain cryptocurrency swaps, promoting seamless asset exchange between different blockchain networks.",
         logo: "https://static.subquery.network/network-logos/thorchain-mainnet-v1.png",
         examples: [
           {
@@ -1520,16 +1601,51 @@ const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
+    code: "concordium",
+    name: "Concordium",
+    description: "",
+    logo: "https://static.subquery.network/network-logos/concordium.png",
+    networks: [
+      {
+        code: "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        name: "Concordium Testnet",
+        chain_id:
+          "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/concordium.png",
+        examples: [
+          {
+            name: "concordium-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
+            remote: "https://github.com/subquery/concordium-subql-starter",
+            path: "Concordium/concordium-testnet-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Concordium Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/concordium.html",
+          },
+        ],
+      },
+    ],
+  },
+  {
     code: "near",
     name: "NEAR",
-    description: "",
+    description:
+      "NEAR is a blockchain platform focused on developer-friendly experiences, scalability, and user-friendly applications. It employs sharding to enhance speed and efficiency, making it suitable for decentralized applications and financial services.",
     logo: "https://static.subquery.network/network-logos/near.png",
     networks: [
       {
         code: "near",
         name: "Near",
         chain_id: "mainnet",
-        description: "",
+        description:
+          "NEAR is a scalable blockchain platform offering smart contracts and decentralized applications, emphasizing usability and accessibility for developers and users.",
         logo: "https://static.subquery.network/network-logos/near.png",
         examples: [
           {
@@ -1566,7 +1682,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "near-aurora",
         name: "Near Aurora",
         chain_id: "1313161554",
-        description: "",
+        description:
+          "NEAR Aurora is a set of tools and infrastructure that extends the NEAR blockchain, enhancing its capabilities and facilitating compatibility with the Ethereum ecosystem.",
         logo: "https://static.subquery.network/network-logos/near-aurora.png",
         examples: [
           {
@@ -1591,7 +1708,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "polkadot",
     name: "Polkadot",
-    description: "",
+    description:
+      "Polkadot is a multichain network that connects multiple blockchains, known as parachains, allowing them to share security and communicate. It enhances blockchain interoperability, scalability, and cross-chain applications within its ecosystem.",
     logo: "https://static.subquery.network/network-logos/polkadot.png",
     networks: [
       {
@@ -1599,7 +1717,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Acala",
         chain_id:
           "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-        description: "",
+        description:
+          "Acala is a decentralized financial hub on Polkadot, offering stablecoins, DeFi services, and cross-chain compatibility.",
         logo: "https://static.subquery.network/network-logos/acala.png",
         examples: [
           {
@@ -1656,7 +1775,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Astar",
         chain_id:
           "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
-        description: "",
+        description:
+          "A parachain for blockchain developers, offering scalable and customizable smart contract execution environments.",
         logo: "https://static.subquery.network/network-logos/astar.png",
         examples: [
           {
@@ -1743,7 +1863,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Bit.Country",
         chain_id:
           "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-        description: "",
+        description:
+          "Bitcountry enables the creation of decentralized virtual worlds and autonomous communities, giving users the tools to build their own blockchain-based nations.",
         logo: "https://static.subquery.network/network-logos/bitcountry-pioneer.png",
         examples: [
           {
@@ -1794,7 +1915,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Centrifuge",
         chain_id:
           "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
-        description: "",
+        description:
+          "A parachain enabling asset tokenization and decentralized finance with a focus on real-world assets and cross-chain compatibility.",
         logo: "https://static.subquery.network/network-logos/centrifuge-polkadot.png",
         examples: [
           {
@@ -1845,7 +1967,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Darwinia",
         chain_id:
           "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
-        description: "",
+        description:
+          "A parachain for facilitating cross-chain asset transfers and token migrations, enhancing Polkadot's interoperability.",
         logo: "https://static.subquery.network/network-logos/darwinia.png",
         examples: [
           {
@@ -1879,7 +2002,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Encointer",
         chain_id:
           "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
-        description: "",
+        description:
+          "A parachain experimenting with decentralized identity and community-driven economic models, focusing on fairness and inclusivity.",
         logo: "https://static.subquery.network/network-logos/encointer.png",
         examples: [
           {
@@ -1971,7 +2095,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "HydraDX",
         chain_id:
           "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
-        description: "",
+        description:
+          "A parachain for decentralized exchange and liquidity management, designed for seamless asset swapping and DeFi services.",
         logo: "https://static.subquery.network/network-logos/hydradx.png",
         examples: [
           {
@@ -2005,7 +2130,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Interlay",
         chain_id:
           "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
-        description: "",
+        description:
+          "A parachain working on bridging Bitcoin to Polkadot, enabling Bitcoin's use within the Polkadot ecosystem.",
         logo: "https://static.subquery.network/network-logos/interlay.png",
         examples: [
           {
@@ -2045,7 +2171,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Khala",
         chain_id:
           "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-        description: "",
+        description:
+          "A parachain specializing in privacy and confidentiality solutions for decentralized applications within the Polkadot network.",
         logo: "https://static.subquery.network/network-logos/khala.png",
         examples: [
           {
@@ -2062,7 +2189,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "KILT Spiritnet",
         chain_id:
           "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
-        description: "",
+        description:
+          "A parachain focusing on digital identity and trust solutions, empowering users to control their data and online presence.",
         logo: "https://static.subquery.network/network-logos/kilt-spiritnet.png",
         examples: [
           {
@@ -2092,7 +2220,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Kusama",
         chain_id:
           "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        description: "",
+        description:
+          "A sister network to Polkadot, providing a platform for experimenting with blockchain upgrades and innovations before deploying them on Polkadot.",
         logo: "https://static.subquery.network/network-logos/kusama.png",
         examples: [
           {
@@ -2126,7 +2255,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Moonbeam",
         chain_id:
           "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
-        description: "",
+        description:
+          "Moonbeam is a Polkadot parachain focused on Ethereum compatibility, enabling seamless migration of Ethereum DApps to Polkadot while providing developers with smart contract capabilities.",
         logo: "https://static.subquery.network/network-logos/moonbeam.png",
         examples: [
           {
@@ -2162,7 +2292,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Moonriver",
         chain_id:
           "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
-        description: "",
+        description:
+          "Moonriver is a canary network of Moonbeam, offering a stable environment for developers to test and deploy projects before launching on the Polkadot network.",
         logo: "https://static.subquery.network/network-logos/moonriver.png",
         examples: [
           {
@@ -2185,7 +2316,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Nodle",
         chain_id:
           "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
-        description: "",
+        description:
+          "Nodle is a decentralized IoT network parachain on Polkadot, providing infrastructure for the Internet of Things, enabling efficient data sharing, and incentivizing network participants.",
         logo: "https://static.subquery.network/network-logos/nodle.png",
         examples: [
           {
@@ -2219,7 +2351,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Parallel",
         chain_id:
           "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-        description: "",
+        description:
+          "Parallel Finance is a DeFi-focused parachain that offers lending, borrowing, and yield farming services, enabling users to access decentralized financial tools on Polkadot.",
         logo: "https://static.subquery.network/network-logos/parallel.png",
         examples: [
           {
@@ -2253,7 +2386,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Polkadex",
         chain_id:
           "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
-        description: "",
+        description:
+          "Polkadex is a decentralized exchange parachain aiming to provide a trustless, non-custodial, and high-performance trading platform for various assets within the Polkadot ecosystem.",
         logo: "https://static.subquery.network/network-logos/polkadex-standalone.png",
         examples: [
           {
@@ -2270,7 +2404,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Polkadot",
         chain_id:
           "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-        description: "",
+        description:
+          "Polkadot is the foundational parachain network connecting and coordinating various blockchains, enabling interoperability, scalability, and governance through its relay chain.",
         logo: "https://static.subquery.network/network-logos/polkadot.png",
         examples: [
           {
@@ -2311,7 +2446,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Shiden",
         chain_id:
           "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
-        description: "",
+        description:
+          "Shiden is a smart contract parachain designed for developers to create and deploy decentralized applications, utilizing Ethereum-compatible tools and infrastructure within the Kusama network.",
         logo: "https://static.subquery.network/network-logos/shiden-kusama.png",
         examples: [
           {
@@ -2362,7 +2498,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Unique",
         chain_id:
           "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
-        description: "",
+        description:
+          "Unique is a parachain for non-fungible tokens (NFTs), fostering the creation, exchange, and management of unique digital assets in the Polkadot ecosystem.",
         logo: "https://static.subquery.network/network-logos/unique.png",
         examples: [
           {
@@ -2430,7 +2567,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "stellar",
     name: "Stellar",
-    description: "",
+    description:
+      "Stellar is a blockchain platform for efficient cross-border payments and token issuance, emphasizing financial inclusion. Soroban is a decentralized, privacy-focused smart contract platform built on Stellar, enhancing confidentiality for decentralized applications.",
     logo: "https://static.subquery.network/network-logos/stellar.png",
     networks: [
       {
