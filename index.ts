@@ -1123,7 +1123,14 @@ const networkFamilies: NetworkFamily[] = [
             path: "Agoric/agoric-starter",
           },
         ],
-        guides: [],
+        guides: [
+          {
+            name: "Agoric Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfer events and messages on the Agoric network.",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-agoric.html",
+          },
+        ],
       },
       {
         code: "akashnet-2",
@@ -2690,25 +2697,25 @@ const networkFamilies: NetworkFamily[] = [
         ],
         guides: [
           {
-            name: "Multichain Quick Start - Galxe",
+            name: "Galxe - Multichain Quick Start",
             description:
               "A step-by-step guide on how to establish a multi-chain indexer that is compatible with Galxe, a prominent platform for creating web3 communities.",
             link: "https://academy.subquery.network/quickstart/quickstart_multichain/galxe-nft.html",
           },
           {
-            name: "Multichain Quick Start - Plasma Bridge",
+            name: "Plasma Bridge - Multichain Quick Start",
             description:
               "This page explains how to create an multi-chain indexer to index the bridge transfer that are coming from Polygon to Ethereum via the Polygon Plasma Bridge.",
             link: "https://academy.subquery.network/quickstart/quickstart_multichain/polygon-plasma-bridge.html",
           },
           {
-            name: "Multichain Quick Start - Snapshot",
+            name: "Snapshot - Multichain Quick Start",
             description:
               "A step-by-step manual for establishing a multi-chain indexer compatible with Snapshot, a voting platform that facilitates effortless and gas-free voting for DAOs, DeFi protocols, and NFT communities.",
             link: "https://academy.subquery.network/quickstart/quickstart_multichain/snapshot.html",
           },
           {
-            name: "Multichain Quick Start - Safe",
+            name: "Safe - Multichain Quick Start",
             description:
               "This page explains how to create an multi-chain indexer for [Safe](https://safe.global/), a system that makes secure wallets requiring multiple authorisations.",
             link: "https://academy.subquery.network/quickstart/quickstart_multichain/safe.html",
