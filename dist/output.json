@@ -819,6 +819,28 @@
         "guides": []
       },
       {
+        "code": "534352",
+        "name": "Scroll",
+        "chain_id": "534352",
+        "description": "A blockchain platform emphasizing privacy, featuring confidential transactions and data protection while allowing users to control the visibility of their data.",
+        "logo": "https://static.subquery.network/network-logos/534351.png",
+        "examples": [
+          {
+            "name": "scroll-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the USDC token on Scroll's Mainnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Scroll/scroll-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Scroll Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the USDC token on Scroll's Mainnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/scroll.html"
+          }
+        ]
+      },
+      {
         "code": "534351",
         "name": "Scroll Sepolia",
         "chain_id": "534351",
