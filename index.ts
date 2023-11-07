@@ -2653,6 +2653,20 @@ const networkFamilies: NetworkFamily[] = [
         logo: "",
         examples: [
           {
+            name: "Multichain Example - Galxe",
+            description:
+              "This SubQuery project indexes the Galxy NFT claims from various chains",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Multi-Chain/galxe",
+          },
+          {
+            name: "Multichain Example - Plasma Bridge",
+            description:
+              "This sample project indexes transactions on the Plasma Bridge, transferring assets from Polygon to Ethereum",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Multi-Chain/polygon-plasma-bridge",
+          },
+          {
             name: "Multichain Example - Polkadot Transfers",
             description:
               "This SubQuery project is an example of a multi-chain project that indexes all transfers across both Polkadot and Kusama into the same dataset",
@@ -2675,6 +2689,18 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [
+          {
+            name: "Multichain Quick Start - Galxe",
+            description:
+              "A step-by-step guide on how to establish a multi-chain indexer that is compatible with Galxe, a prominent platform for creating web3 communities.",
+            link: "https://academy.subquery.network/quickstart/quickstart_multichain/galxe-nft.html",
+          },
+          {
+            name: "Multichain Quick Start - Plasma Bridge",
+            description:
+              "This page explains how to create an multi-chain indexer to index the bridge transfer that are coming from Polygon to Ethereum via the Polygon Plasma Bridge.",
+            link: "https://academy.subquery.network/quickstart/quickstart_multichain/polygon-plasma-bridge.html",
+          },
           {
             name: "Multichain Quick Start - Snapshot",
             description:
