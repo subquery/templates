@@ -2650,14 +2650,14 @@ const networkFamilies: NetworkFamily[] = [
     code: "multi",
     name: "Multi-chain",
     description: "",
-    logo: "",
+    logo: "https://static.subquery.network/network-logos/multichain.png",
     networks: [
       {
         code: "multi",
         name: "Multi-chain",
         chain_id: "multi",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/multichain.png",
         examples: [
           {
             name: "Multichain Example - Galxe",
