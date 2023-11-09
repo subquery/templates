@@ -291,12 +291,25 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "BNB Smart Chain/bsc-mobox-rewards",
           },
+          {
+            name: "bsc-pancake-swap",
+            description:
+              "This project can be use as a starting point for developing your new Binance SubQuery project, it indexes the standard PancakeSwap project on BSC",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "BNB Smart Chain/bsc-pancake-swap",
+          },
         ],
         guides: [
           {
             name: "BNB Smart Chain (BSC) Quick Start",
             description:
               "The goal of this quick start guide is to index all deposits and withdrawls to MOBOX pools.",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/bsc.html",
+          },
+          {
+            name: "BNB Smart Chain (BSC) - PancakeSwap Example",
+            description:
+              "The goal of this quick start guide is to index the standard PancakeSwap project on BSC",
             link: "https://academy.subquery.network/quickstart/quickstart_chains/bsc.html",
           },
         ],
