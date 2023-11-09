@@ -1640,6 +1640,31 @@ const networkFamilies: NetworkFamily[] = [
     networks: [
       {
         code: "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        name: "Concordium",
+        chain_id:
+          "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/concordium.png",
+        examples: [
+          {
+            name: "concordium-starter",
+            description:
+              "This SubQuery project indexes all transfer transactions, updated transaction events, and block rewards on the Concordium Network",
+            remote: "https://github.com/subquery/concordium-subql-starter",
+            path: "Concordium/concordium-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Concordium Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/concordium.html",
+          },
+        ],
+      },
+      {
+        code: "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
         name: "Concordium Testnet",
         chain_id:
           "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
