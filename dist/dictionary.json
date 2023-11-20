@@ -1,27 +1,71 @@
 {
   "evm": {
-    "1": ["https://dict-tyk.subquery.network/query/eth-mainnet"],
-    "5": ["https://dict-tyk.subquery.network/query/eth-goerli"],
-    "10": ["https://dict-tyk.subquery.network/query/optimism-mainnet"],
-    "14": ["https://dict-tyk.subquery.network/query/flare-mainnet"],
-    "56": ["https://dict-tyk.subquery.network/query/binance"],
-    "97": ["https://dict-tyk.subquery.network/query/binance-testnet"],
-    "100": ["https://dict-tyk.subquery.network/query/gnosis-mainnet"],
-    "137": ["https://dict-tyk.subquery.network/query/polygon"],
-    "250": ["https://dict-tyk.subquery.network/query/fantom"],
-    "324": ["https://dict-tyk.subquery.network/query/zksync-mainnet"],
-    "1101": ["https://dict-tyk.subquery.network/query/polygon-zkevm"],
-    "8453": ["https://dict-tyk.subquery.network/query/base-mainnet"],
-    "42161": ["https://dict-tyk.subquery.network/query/arbitrum"],
-    "42170": ["https://dict-tyk.subquery.network/query/arbitrum-nova"],
-    "43113": ["https://dict-tyk.subquery.network/query/avalanche-testnet"],
-    "43114": ["https://dict-tyk.subquery.network/query/avalanche"],
-    "59144": ["https://dict-tyk.subquery.network/query/linea-mainnet"],
-    "80001": ["https://dict-tyk.subquery.network/query/polygon-mumbai"],
-    "84531": ["https://dict-tyk.subquery.network/query/base-goerli"],
-    "11155111": ["https://dict-tyk.subquery.network/query/sepolia"]
+    "1": [
+      "https://dict-tyk.subquery.network/query/eth-mainnet"
+    ],
+    "5": [
+      "https://dict-tyk.subquery.network/query/eth-goerli"
+    ],
+    "10": [
+      "https://dict-tyk.subquery.network/query/optimism-mainnet"
+    ],
+    "14": [
+      "https://dict-tyk.subquery.network/query/flare-mainnet"
+    ],
+    "56": [
+      "https://dict-tyk.subquery.network/query/binance"
+    ],
+    "97": [
+      "https://dict-tyk.subquery.network/query/binance-testnet"
+    ],
+    "100": [
+      "https://dict-tyk.subquery.network/query/gnosis-mainnet"
+    ],
+    "137": [
+      "https://dict-tyk.subquery.network/query/polygon"
+    ],
+    "250": [
+      "https://dict-tyk.subquery.network/query/fantom"
+    ],
+    "324": [
+      "https://dict-tyk.subquery.network/query/zksync-mainnet"
+    ],
+    "1101": [
+      "https://dict-tyk.subquery.network/query/polygon-zkevm"
+    ],
+    "8453": [
+      "https://dict-tyk.subquery.network/query/base-mainnet"
+    ],
+    "42161": [
+      "https://dict-tyk.subquery.network/query/arbitrum"
+    ],
+    "42170": [
+      "https://dict-tyk.subquery.network/query/arbitrum-nova"
+    ],
+    "43113": [
+      "https://dict-tyk.subquery.network/query/avalanche-testnet"
+    ],
+    "43114": [
+      "https://dict-tyk.subquery.network/query/avalanche"
+    ],
+    "59144": [
+      "https://dict-tyk.subquery.network/query/linea-mainnet"
+    ],
+    "80001": [
+      "https://dict-tyk.subquery.network/query/polygon-mumbai"
+    ],
+    "84531": [
+      "https://dict-tyk.subquery.network/query/base-goerli"
+    ],
+    "11155111": [
+      "https://dict-tyk.subquery.network/query/sepolia"
+    ]
   },
-  "algorand": {},
+  "algorand": {
+    "algorand": [
+      "https://api.subquery.network/sq/subquery/Algorand-Dictionary"
+    ]
+  },
   "cosmos": {
     "cosmoshub-4": [
       "https://api.subquery.network/sq/subquery/cosmos-hub-dictionary"
@@ -44,18 +88,26 @@
   },
   "concordium": {},
   "near": {
-    "near": ["https://api.subquery.network/sq/subquery/near-dictionary"]
+    "near": [
+      "https://api.subquery.network/sq/subquery/near-dictionary"
+    ]
   },
   "polkadot": {
-    "astar": ["https://dict-tyk.subquery.network/query/astar"],
+    "astar": [
+      "https://dict-tyk.subquery.network/query/astar"
+    ],
     "bifrost-kusama": [
       "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
     ],
     "calamari": [
       "https://api.subquery.network/sq/subquery/calamari-dictionary"
     ],
-    "moonbeam": ["https://dict-tyk.subquery.network/query/moonbeam"],
-    "moonriver": ["https://dict-tyk.subquery.network/query/moonriver"],
+    "moonbeam": [
+      "https://dict-tyk.subquery.network/query/moonbeam"
+    ],
+    "moonriver": [
+      "https://dict-tyk.subquery.network/query/moonriver"
+    ],
     "parallel": [
       "https://api.subquery.network/sq/subquery/parallel-dictionary"
     ],

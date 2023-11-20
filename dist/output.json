@@ -1005,6 +1005,9 @@
             "description": "The goal of this quick guide is to adapt the standard starter project and start indexing all the PLANET token transfers from Algorand.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/algorand.html"
           }
+        ],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/Algorand-Dictionary"
         ]
       }
     ]
