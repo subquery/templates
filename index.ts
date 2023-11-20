@@ -26,6 +26,7 @@ type Network = {
   logo: string;
   examples: Examples[];
   guides: Guide[];
+  dictionaries?: string[]; // Array of URLs
 };
 
 type NetworkFamily = {
@@ -83,6 +84,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/arbitrum.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/arbitrum"],
       },
       {
         code: "42170",
@@ -101,6 +103,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: ["https://dict-tyk.subquery.network/query/arbitrum-nova"],
       },
       {
         code: "11820",
@@ -188,6 +191,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/avalanche-crabada.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/avalanche"],
       },
       {
         code: "43113",
@@ -205,6 +209,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/avalanche-testnet",
+        ],
       },
       {
         code: "8453",
@@ -237,6 +244,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/base.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/base-mainnet"],
       },
       {
         code: "84531",
@@ -268,6 +276,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/base-goerli.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/base-goerli"],
       },
       {
         code: "56",
@@ -313,6 +322,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/bsc.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/binance"],
       },
       {
         code: "97",
@@ -330,6 +340,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/binance-testnet",
+        ],
       },
       {
         code: "204",
@@ -537,6 +550,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-ens.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-mainnet"],
       },
       {
         code: "5",
@@ -554,6 +568,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-goerli"],
       },
       {
         code: "11155111",
@@ -571,6 +586,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: ["https://dict-tyk.subquery.network/query/sepolia"],
       },
       {
         code: "250",
@@ -596,6 +612,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/fantom.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/fantom"],
       },
       {
         code: "14",
@@ -620,6 +637,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/flare.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/flare-mainnet"],
       },
       {
         code: "19",
@@ -667,6 +685,9 @@ const networkFamilies: NetworkFamily[] = [
               "The goal of this quick start guide is to index all POAP mints and transactions on the Gnosis mainnet.",
             link: "https://academy.subquery.network/quickstart/quickstart_chains/gnosis.html",
           },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/gnosis-mainnet",
         ],
       },
       {
@@ -785,6 +806,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: ["https://dict-tyk.subquery.network/query/linea-mainnet"],
       },
       {
         code: "5000",
@@ -891,6 +913,9 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/optimism.html",
           },
         ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/optimism-mainnet",
+        ],
       },
       {
         code: "137",
@@ -936,6 +961,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/polygon-lens.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/polygon"],
       },
       {
         code: "1101",
@@ -960,6 +986,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/polygon-zkevm.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/polygon-zkevm"],
       },
       {
         code: "80001",
@@ -977,6 +1004,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/polygon-mumbai",
+        ],
       },
       {
         code: "534352",
@@ -1077,6 +1107,9 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/zksync-era.html",
           },
         ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/zksync-mainnet",
+        ],
       },
     ],
   },
@@ -1110,6 +1143,9 @@ const networkFamilies: NetworkFamily[] = [
               "The goal of this quick guide is to adapt the standard starter project and start indexing all the PLANET token transfers from Algorand.",
             link: "https://academy.subquery.network/quickstart/quickstart_chains/algorand.html",
           },
+        ],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/Algorand-Dictionary",
         ],
       },
     ],
@@ -1266,6 +1302,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/cosmos-hub-dictionary",
+        ],
       },
       {
         code: "cronosmainnet_25-1",
@@ -1297,6 +1336,9 @@ const networkFamilies: NetworkFamily[] = [
               "The goal of this quick start guide is to adapt the standard starter project in the Cronos Network and then begin indexing all transfers of Cro Crow Token.",
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-cronos.html",
           },
+        ],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/cosmos-cronos-dictionary",
         ],
       },
       {
@@ -1351,6 +1393,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary",
+        ],
       },
       {
         code: "injective-1",
@@ -1393,6 +1438,9 @@ const networkFamilies: NetworkFamily[] = [
               "The goal of this quick start guide is to adapt the standard starter project in the Juno Network and then begin indexing all votes on the Terra Developer Fund (which also contributed to SubQuery) from Cosmos.",
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-juno.html",
           },
+        ],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary",
         ],
       },
       {
@@ -1541,6 +1589,9 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-osmosis.html",
           },
         ],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/cosmos-osmosis-dictionary",
+        ],
       },
       {
         code: "core-1",
@@ -1600,6 +1651,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/cosmos-stargaze-dictionary",
+        ],
       },
       {
         code: "thorchain-mainnet-v1",
@@ -1740,6 +1794,9 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/near.html",
           },
         ],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/near-dictionary",
+        ],
       },
       {
         code: "near-aurora",
@@ -1869,6 +1926,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-astar.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/astar"],
       },
       {
         code: "automata",
@@ -1920,6 +1978,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary",
+        ],
       },
       {
         code: "bitcountry-pioneer",
@@ -1972,6 +2033,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/calamari-dictionary",
+        ],
       },
       {
         code: "centrifuge-polkadot",
@@ -2349,6 +2413,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-moonbeam.html",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/moonbeam"],
       },
       {
         code: "moonriver",
@@ -2373,6 +2438,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: ["https://dict-tyk.subquery.network/query/moonriver"],
       },
       {
         code: "nodle",
@@ -2426,6 +2492,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/parallel-dictionary",
+        ],
       },
       {
         code: "heiko-kusama",
@@ -2521,6 +2590,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/shiden-dictionary",
+        ],
       },
       {
         code: "kusama-asset-hub",
@@ -2538,6 +2610,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: [
+          "https://api.subquery.network/sq/subquery/statemint-dictionary",
+        ],
       },
       {
         code: "polkadot-asset-hub",
@@ -2757,8 +2832,27 @@ const networkFamilies: NetworkFamily[] = [
   },
 ];
 
-const schemaString = JSON.stringify(networkFamilies, null, 2);
+const dictionaryString = Object.fromEntries(
+  networkFamilies.map((f) => [
+    f.code.toString(),
+    Object.fromEntries(
+      f.networks
+        .filter((n) => !!n.dictionaries && n.dictionaries.length > 0)
+        .map((network) => [network.code, network.dictionaries])
+    ),
+  ])
+);
 
-writeFile("./dist/output.json", schemaString, (err) => {
+const dictionaryJSONString = JSON.stringify(dictionaryString, null, 2);
+
+writeFile("./dist/dictionary.json", dictionaryJSONString, (err) => {
   if (err) throw err;
 });
+
+const schemaJSONString = JSON.stringify(networkFamilies, null, 2);
+
+writeFile("./dist/output.json", schemaJSONString, (err) => {
+  if (err) throw err;
+});
+
+writeFile;
