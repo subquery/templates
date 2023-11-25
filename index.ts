@@ -1305,7 +1305,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "froopyland_100-1",
         description:
           "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
-        logo: "TODO",
+        logo: "",
         examples: [
           {
             name: "dymension-starter",
@@ -1394,7 +1394,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "irishub-1",
         description:
           "Built with Cosmos-SDK, IRIS Hub enables cross-chain interoperability through a unified service model, while providing a variety of modules to support DeFi applications.",
-        logo: "TODO",
+        logo: "",
         examples: [
           {
             name: "iris-starter",
