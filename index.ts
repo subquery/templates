@@ -1260,7 +1260,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             name: "cosmoshub-starter",
             description:
-              "This SubQuery project indexes all transfer evetns and messages on CosmosHub",
+              "This SubQuery project indexes all transfer events and messages on CosmosHub",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "CosmosHub/cosmoshub-starter",
           },
@@ -1298,6 +1298,24 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-cronos.html",
           },
         ],
+      },
+      {
+        code: "froopyland_100-1",
+        name: "Dymension",
+        chain_id: "froopyland_100-1",
+        description:
+          "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
+        logo: "",
+        examples: [
+          {
+            name: "dymension-starter",
+            description:
+              "This SubQuery project indexes all transfer events on Dymension",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Dymension/dymension-starter",
+          },
+        ],
+        guides: [],
       },
       {
         code: "evmos_9001-2",
@@ -1366,6 +1384,24 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all spot limit orders on Injective",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Injective/injective-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "irishub-1",
+        name: "Iris",
+        chain_id: "irishub-1",
+        description:
+          "Built with Cosmos-SDK, IRIS Hub enables cross-chain interoperability through a unified service model, while providing a variety of modules to support DeFi applications.",
+        logo: "",
+        examples: [
+          {
+            name: "iris-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Iris",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Iris/iris-starter",
           },
         ],
         guides: [],
