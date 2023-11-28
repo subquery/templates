@@ -1,5 +1,5 @@
 {
-  "evm": {
+  "ethereum": {
     "1": [
       "https://dict-tyk.subquery.network/query/eth-mainnet"
     ],

@@ -2870,7 +2870,7 @@ const networkFamilies: NetworkFamily[] = [
 
 const dictionaryString = Object.fromEntries(
   networkFamilies.map((f) => [
-    f.code.toString(),
+    f.code.toString() === 'evm' ? 'ethereum' : f.code.toString(),
     Object.fromEntries(
       f.networks
         .filter((n) => !!n.dictionaries && n.dictionaries.length > 0)
@@ -2890,5 +2890,3 @@ const schemaJSONString = JSON.stringify(networkFamilies, null, 2);
 writeFile("./dist/output.json", schemaJSONString, (err) => {
   if (err) throw err;
 });
-
-writeFile;
