@@ -31,6 +31,9 @@
             "description": "The goal of this quick start guide is to index the total claimed dividends paid to users on the WINR staking contract on Arbitrum.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/arbitrum.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/arbitrum"
         ]
       },
       {
@@ -47,7 +50,10 @@
             "path": "Arbitrum/arbitrum-nova-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/arbitrum-nova"
+        ]
       },
       {
         "code": "11820",
@@ -124,6 +130,9 @@
             "description": "The goal of this quick start guide is to index all Crabada NFTs on Avalanche's C-chain.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/avalanche-crabada.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/avalanche"
         ]
       },
       {
@@ -140,7 +149,10 @@
             "path": "Avalanche/avalanche-fuji-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/avalanche-testnet"
+        ]
       },
       {
         "code": "8453",
@@ -168,6 +180,9 @@
             "description": "The goal of this quick start guide is to index the all the claims from the Bridge to Base NFT contract on Base Mainnet.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/base.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/base-mainnet"
         ]
       },
       {
@@ -196,6 +211,9 @@
             "description": "The goal of this quick start guide is to index the total faucets dripped to users from the USDC Faucet contract on Base Goerli Testnet.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/base-goerli.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/base-goerli"
         ]
       },
       {
@@ -235,6 +253,9 @@
             "description": "The goal of this quick start guide is to index the standard PancakeSwap project on BSC",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/bsc.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/binance"
         ]
       },
       {
@@ -251,7 +272,10 @@
             "path": "BNB Smart Chain/bsc-testnet-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/binance-testnet"
+        ]
       },
       {
         "code": "204",
@@ -432,6 +456,9 @@
             "description": "This project can be use as a starting point for developing your new Ethereum SubQuery project, it indexes all ENS Records in the ENS registry.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-ens.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/eth-mainnet"
         ]
       },
       {
@@ -448,7 +475,10 @@
             "path": "Ethereum/ethereum-goerli-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/eth-goerli"
+        ]
       },
       {
         "code": "11155111",
@@ -464,7 +494,10 @@
             "path": "Ethereum/ethereum-sepolia-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/sepolia"
+        ]
       },
       {
         "code": "250",
@@ -486,6 +519,9 @@
             "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped FTM on Fantom Opera Network.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/fantom.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/fantom"
         ]
       },
       {
@@ -508,6 +544,9 @@
             "description": "The goal of this quick start guide is to index all rewards from the Flare FTSO Reward Manager from Flare's Songbird network.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/flare.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/flare-mainnet"
         ]
       },
       {
@@ -552,6 +591,9 @@
             "description": "The goal of this quick start guide is to index all POAP mints and transactions on the Gnosis mainnet.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/gnosis.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/gnosis-mainnet"
         ]
       },
       {
@@ -656,7 +698,10 @@
             "path": "Linea/linea-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/linea-mainnet"
+        ]
       },
       {
         "code": "5000",
@@ -750,6 +795,9 @@
             "description": "The goal of this quick start guide is to index all claim events from the Optimism airdrop contract.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/optimism.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/optimism-mainnet"
         ]
       },
       {
@@ -789,6 +837,9 @@
             "description": "This article's purpose is to provide a clear, step-by-step guide on setting up an indexer for the Lens Protocol on the Polygon blockchain.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/polygon-lens.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/polygon"
         ]
       },
       {
@@ -811,6 +862,9 @@
             "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Polygon zkEVM Network.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/polygon-zkevm.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/polygon-zkevm"
         ]
       },
       {
@@ -827,7 +881,10 @@
             "path": "Polygon/polygon-mumbai-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/polygon-mumbai"
+        ]
       },
       {
         "code": "534352",
@@ -915,6 +972,9 @@
             "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped ETH on ZkSync Era Network.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/zksync-era.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/zksync-mainnet"
         ]
       }
     ]
@@ -945,6 +1005,9 @@
             "description": "The goal of this quick guide is to adapt the standard starter project and start indexing all the PLANET token transfers from Algorand.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/algorand.html"
           }
+        ],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/Algorand-Dictionary"
         ]
       }
     ]
@@ -1083,7 +1146,10 @@
             "path": "CosmosHub/cosmoshub-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/cosmos-hub-dictionary"
+        ]
       },
       {
         "code": "cronosmainnet_25-1",
@@ -1111,6 +1177,9 @@
             "description": "The goal of this quick start guide is to adapt the standard starter project in the Cronos Network and then begin indexing all transfers of Cro Crow Token.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-cronos.html"
           }
+        ],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/cosmos-cronos-dictionary"
         ]
       },
       {
@@ -1175,7 +1244,10 @@
             "path": "Fetch.ai/fetchhub-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary"
+        ]
       },
       {
         "code": "injective-1",
@@ -1229,6 +1301,9 @@
             "description": "The goal of this quick start guide is to adapt the standard starter project in the Juno Network and then begin indexing all votes on the Terra Developer Fund (which also contributed to SubQuery) from Cosmos.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-juno.html"
           }
+        ],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary"
         ]
       },
       {
@@ -1359,6 +1434,9 @@
             "description": "This guide acts as your entrance to a detailed tutorial for configuring a SubQuery indexer that is specifically designed to index swaps occurring on Osmosis.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-osmosis.html"
           }
+        ],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/cosmos-osmosis-dictionary"
         ]
       },
       {
@@ -1413,7 +1491,10 @@
             "path": "Stargaze/stargaze-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/cosmos-stargaze-dictionary"
+        ]
       },
       {
         "code": "thorchain-mainnet-v1",
@@ -1539,6 +1620,9 @@
             "description": "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/near.html"
           }
+        ],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/near-dictionary"
         ]
       },
       {
@@ -1657,6 +1741,9 @@
             "description": "This example project indexes all Transactions and Approvals from the Astar Wasm based lottery contract, as well as dApp staking events from Astar's dApp Staking functions.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-astar.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/astar"
         ]
       },
       {
@@ -1705,7 +1792,10 @@
             "path": "Bifrost/bifrost-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
+        ]
       },
       {
         "code": "bitcountry-pioneer",
@@ -1753,7 +1843,10 @@
             "path": "Calamari/calamari-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/calamari-dictionary"
+        ]
       },
       {
         "code": "centrifuge-polkadot",
@@ -2099,6 +2192,9 @@
             "description": "The example project indexes all Transfers from the Moonbeam EVM FRAX ERC-20 contract, as well as Collators joining and leaving events from Moonbeam's Staking functions.",
             "link": "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-moonbeam.html"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/moonbeam"
         ]
       },
       {
@@ -2121,7 +2217,10 @@
             "path": "Moonriver/moonriver-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/moonriver"
+        ]
       },
       {
         "code": "nodle",
@@ -2169,7 +2268,10 @@
             "path": "Parallel/parallel-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/parallel-dictionary"
+        ]
       },
       {
         "code": "heiko-kusama",
@@ -2255,7 +2357,10 @@
             "path": "Shiden/shiden-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/shiden-dictionary"
+        ]
       },
       {
         "code": "kusama-asset-hub",
@@ -2271,7 +2376,10 @@
             "path": "Statemine/statemine-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://api.subquery.network/sq/subquery/statemint-dictionary"
+        ]
       },
       {
         "code": "polkadot-asset-hub",
