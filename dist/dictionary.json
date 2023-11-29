@@ -92,7 +92,7 @@
       "https://api.subquery.network/sq/subquery/near-dictionary"
     ]
   },
-  "substrate": {
+  "polkadot": {
     "astar": [
       "https://dict-tyk.subquery.network/query/astar"
     ],
@@ -119,5 +119,31 @@
     ]
   },
   "stellar": {},
-  "multi": {}
+  "multi": {},
+  "substrate": {
+    "astar": [
+      "https://dict-tyk.subquery.network/query/astar"
+    ],
+    "bifrost-kusama": [
+      "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
+    ],
+    "calamari": [
+      "https://api.subquery.network/sq/subquery/calamari-dictionary"
+    ],
+    "moonbeam": [
+      "https://dict-tyk.subquery.network/query/moonbeam"
+    ],
+    "moonriver": [
+      "https://dict-tyk.subquery.network/query/moonriver"
+    ],
+    "parallel": [
+      "https://api.subquery.network/sq/subquery/parallel-dictionary"
+    ],
+    "shiden-kusama": [
+      "https://api.subquery.network/sq/subquery/shiden-dictionary"
+    ],
+    "kusama-asset-hub": [
+      "https://api.subquery.network/sq/subquery/statemint-dictionary"
+    ]
+  }
 }
