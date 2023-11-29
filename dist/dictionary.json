@@ -124,12 +124,6 @@
     "calamari": [
       "https://api.subquery.network/sq/subquery/calamari-dictionary"
     ],
-    "moonbeam": [
-      "https://dict-tyk.subquery.network/query/moonbeam"
-    ],
-    "moonriver": [
-      "https://dict-tyk.subquery.network/query/moonriver"
-    ],
     "parallel": [
       "https://api.subquery.network/sq/subquery/parallel-dictionary"
     ],
