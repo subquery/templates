@@ -2449,7 +2449,7 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-moonbeam.html",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/moonbeam"],
+        dictionaries: [],
       },
       {
         code: "moonriver",
@@ -2474,7 +2474,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/moonriver"],
+        dictionaries: [],
       },
       {
         code: "nodle",
