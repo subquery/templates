@@ -1084,6 +1084,42 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "40",
+        name: "Telos Mainnet",
+        chain_id: "40",
+        description:
+          "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
+        logo: "",
+        examples: [
+          {
+            name: "telos-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDT Token on Telos Mainnetwork",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Telos/telos-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "41",
+        name: "Telos Testnet",
+        chain_id: "41",
+        description:
+          "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
+        logo: "",
+        examples: [
+          {
+            name: "telos-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDT Token on Telos Mainnetwork",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Telos/telos-testnet-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "324",
         name: "Zksync",
         chain_id: "324",
