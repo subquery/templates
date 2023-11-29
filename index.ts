@@ -36,7 +36,7 @@ type NetworkFamily = {
     | "cosmos"
     | "concordium"
     | "near"
-    | "polkadot"
+    | "substrate"
     | "stellar"
     | "multi";
   name: string;
@@ -1862,7 +1862,7 @@ const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
-    code: "polkadot",
+    code: "substrate",
     name: "Polkadot",
     description:
       "Polkadot is a multichain network that connects multiple blockchains, known as parachains, allowing them to share security and communicate. It enhances blockchain interoperability, scalability, and cross-chain applications within its ecosystem.",
