@@ -36,7 +36,7 @@ type NetworkFamily = {
     | "cosmos"
     | "concordium"
     | "near"
-    | "substrate"
+    | "polkadot"
     | "stellar"
     | "multi";
   name: string;
@@ -1862,7 +1862,7 @@ const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
-    code: "substrate",
+    code: "polkadot",
     name: "Polkadot",
     description:
       "Polkadot is a multichain network that connects multiple blockchains, known as parachains, allowing them to share security and communicate. It enhances blockchain interoperability, scalability, and cross-chain applications within its ecosystem.",
@@ -2870,7 +2870,7 @@ const networkFamilies: NetworkFamily[] = [
 
 const dictionaryString = Object.fromEntries(
   networkFamilies.map((f) => [
-    f.code.toString() === 'evm' ? 'ethereum' : f.code.toString(),
+    f.code.toString() === "evm" ? "ethereum" : f.code.toString(),
     Object.fromEntries(
       f.networks
         .filter((n) => !!n.dictionaries && n.dictionaries.length > 0)
@@ -2878,6 +2878,8 @@ const dictionaryString = Object.fromEntries(
     ),
   ])
 );
+// Hack till the SDK is ready
+dictionaryString["substrate"] = dictionaryString["polkadot"];
 
 const dictionaryJSONString = JSON.stringify(dictionaryString, null, 2);
 
