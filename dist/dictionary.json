@@ -92,7 +92,7 @@
       "https://api.subquery.network/sq/subquery/near-dictionary"
     ]
   },
-  "polkadot": {
+  "substrate": {
     "astar": [
       "https://dict-tyk.subquery.network/query/astar"
     ],
