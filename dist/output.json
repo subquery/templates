@@ -1567,17 +1567,17 @@
         ]
       },
       {
-        "code": "umee-1",
-        "name": "Umee",
-        "chain_id": "umee-1",
+        "code": "umeex-1",
+        "name": "UmeeX",
+        "chain_id": "umeex-1",
         "description": "",
         "logo": "https://static.subquery.network/network-logos/umee-1.png",
         "examples": [
           {
-            "name": "umee-starter",
-            "description": "This SubQuery project indexes all transfer events and messages on Umee",
+            "name": "umeex-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on UmeeX",
             "remote": "https://github.com/subquery/cosmos-subql-starter",
-            "path": "Umee/umee-starter"
+            "path": "UmeeX/umeeX-starter"
           }
         ],
         "guides": []
