@@ -1107,7 +1107,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "40",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/telos-transparent.png",
         examples: [
           {
             name: "telos-starter",
@@ -1125,7 +1125,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "41",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/telos-transparent.png",
         examples: [
           {
             name: "telos-starter",
