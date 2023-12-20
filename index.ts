@@ -985,7 +985,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "1101",
         name: "Polygon zkEVM",
         chain_id: "1101",
-        description: "Polygon zkEVM is a Layer 2 scaling solution that utilizes zero-knowledge proofs to enable efficient and secure decentralized applications on the Ethereum network.",
+        description:
+          "Polygon zkEVM is a Layer 2 scaling solution that utilizes zero-knowledge proofs to enable efficient and secure decentralized applications on the Ethereum network.",
         logo: "https://static.subquery.network/network-logos/1101.png",
         examples: [
           {
@@ -1107,7 +1108,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "40",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
-        logo: "https://static.subquery.network/network-logos/telos-transparent.png",
+        logo: "https://static.subquery.network/network-logos/40.png",
         examples: [
           {
             name: "telos-starter",
@@ -1125,7 +1126,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "41",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
-        logo: "https://static.subquery.network/network-logos/telos-transparent.png",
+        logo: "https://static.subquery.network/network-logos/40.png",
         examples: [
           {
             name: "telos-starter",
@@ -1215,7 +1216,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "agoric-3",
         name: "Agoric",
         chain_id: "agoric-3",
-        description: "Agoric is a blockchain platform designed to facilitate secure and enforceable smart contracts, enabling decentralized applications to operate with economic security and scalability.",
+        description:
+          "Agoric is a blockchain platform designed to facilitate secure and enforceable smart contracts, enabling decentralized applications to operate with economic security and scalability.",
         logo: "https://static.subquery.network/network-logos/agoric-3.png",
         examples: [
           {
@@ -1704,7 +1706,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "atlantic-2",
         name: "Sei",
         chain_id: "atlantic-2",
-        description: "Sei is a blockchain platform designed to enable decentralized finance solutions and applications through its scalable, secure, and interoperable network.",
+        description:
+          "Sei is a blockchain platform designed to enable decentralized finance solutions and applications through its scalable, secure, and interoperable network.",
         logo: "https://static.subquery.network/network-logos/atlantic-2.png",
         examples: [
           {
@@ -1792,7 +1795,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "concordium",
     name: "Concordium",
-    description: "Concordium´s innovative blockchain is ideal for building ID-centred and privacy-preserving solutions across verticals such as Web3, ESG, Supply Chain, and AI",
+    description:
+      "Concordium´s innovative blockchain is ideal for building ID-centred and privacy-preserving solutions across verticals such as Web3, ESG, Supply Chain, and AI",
     logo: "https://static.subquery.network/network-logos/concordium.png",
     networks: [
       {
