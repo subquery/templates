@@ -1377,6 +1377,22 @@
         "guides": []
       },
       {
+        "code": "kaiyo-1",
+        "name": "Kujira",
+        "chain_id": "kaiyo-1",
+        "description": "Kujira is a blockchain revolutionizing FinTech for web3 builders, dapps and protocols.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "kujira-starter",
+            "description": "This SubQuery project indexes all sent transfers from Kujira",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Kujira/kujira-starter"
+          }
+        ],
+        "guides": []
+      },
+      {
         "code": "mars-1",
         "name": "Mars",
         "chain_id": "mars-1",
