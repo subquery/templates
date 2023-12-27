@@ -1721,6 +1721,24 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "secret-4",
+        name: "Secret Network",
+        chain_id: "secret-4",
+        description:
+          "Secret Network is the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3.",
+        logo: "",
+        examples: [
+          {
+            name: "secret-starter",
+            description:
+              "This project can be use as a starting point for developing your Cosmos Secret based SubQuery project",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Secret/secret-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "atlantic-2",
         name: "Sei",
         chain_id: "atlantic-2",
