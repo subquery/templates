@@ -1594,6 +1594,23 @@
         ]
       },
       {
+        "code": "phoenix-1",
+        "name": "Terra2",
+        "chain_id": "phoenix-1",
+        "description": "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "terra2-starter",
+            "description": "This project can be use as a starting point for developing your Cosmos Terra2 based SubQuery project",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "Terra2/terra2-starter"
+          }
+        ],
+        "guides": [],
+        "dictionaries": []
+      },
+      {
         "code": "thorchain-mainnet-v1",
         "name": "Thorchain",
         "chain_id": "thorchain-mainnet-v1",
