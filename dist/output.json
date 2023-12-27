@@ -903,6 +903,23 @@
         ]
       },
       {
+        "code": "424",
+        "name": "Public Goods Network",
+        "chain_id": "424",
+        "description": "Public Goods Network is the only L2 network in which the vast majority of net sequencer fees go to projects that are building and/or funding public goods.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "public-goods-network-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Merkly OFT (MERK) Token on Public Goods Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Public Goods Network/public-goods-network-starter"
+          }
+        ],
+        "guides": [],
+        "dictionaries": []
+      },
+      {
         "code": "534352",
         "name": "Scroll",
         "chain_id": "534352",
