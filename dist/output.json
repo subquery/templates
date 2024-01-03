@@ -786,6 +786,22 @@
         "guides": []
       },
       {
+        "code": "23294",
+        "name": "Oasis Sapphire",
+        "chain_id": "23294",
+        "description": "Oasis Sapphire is a high-performance, privacy-focused blockchain platform designed to facilitate secure, scalable, and decentralized applications while prioritizing data confidentiality and integrity.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "oasis-sapphire-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the OCEAN Token on Oasis Sapphire",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Oasis/oasis-sapphire-starter"
+          }
+        ],
+        "guides": []
+      },
+      {
         "code": "10",
         "name": "Optimism",
         "chain_id": "10",
