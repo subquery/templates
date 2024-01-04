@@ -2986,6 +2986,13 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Multi-Chain/snapshot",
           },
+          {
+            name: "Multichain Example - IBC transfers",
+            description:
+              "This SubQuery project indexes all IBC transfer events between Cosmos Hub and Osmosis",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Multi-Chain/osmosis-cosmos-bridge",
+          },
         ],
         guides: [
           {
