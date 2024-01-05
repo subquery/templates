@@ -1971,6 +1971,12 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/near-subql-starter",
             path: "Near/paras-starter",
           },
+          {
+            name: "near-ref-finance",
+            description: "This SubQuery project indexes the swap actions of the v2.ref-finance.near contract on the NEAR mainnet",
+            remote: "https://github.com/subquery/near-subql-starter",
+            path: "Near/near-ref-finance",
+          },
         ],
         guides: [
           {
@@ -2987,7 +2993,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Multi-Chain/snapshot",
           },
           {
-            name: "Multichain Example - IBC transfers",
+            name: "Multichain Example - IBC Transfers",
             description:
               "This SubQuery project indexes all IBC transfer events between Cosmos Hub and Osmosis",
             remote: "https://github.com/subquery/cosmos-subql-starter",
