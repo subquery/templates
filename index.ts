@@ -883,6 +883,42 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "42262",
+        name: "Oasis Emerald",
+        chain_id: "42262",
+        description:
+          "Oasis Emerald is a high-performance, privacy-focused blockchain platform designed to facilitate secure, scalable, and decentralized applications while prioritizing data confidentiality and integrity.",
+        logo: "",
+        examples: [
+          {
+            name: "oasis-emerald-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the YUZU Token on Oasis Emerald",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Oasis/oasis-emerald-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "23294",
+        name: "Oasis Sapphire",
+        chain_id: "23294",
+        description:
+          "Oasis Sapphire is a high-performance, privacy-focused blockchain platform designed to facilitate secure, scalable, and decentralized applications while prioritizing data confidentiality and integrity.",
+        logo: "",
+        examples: [
+          {
+            name: "oasis-sapphire-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the OCEAN Token on Oasis Sapphire",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Oasis/oasis-sapphire-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "10",
         name: "Optimism",
         chain_id: "10",
@@ -967,7 +1003,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "1101",
         name: "Polygon zkEVM",
         chain_id: "1101",
-        description: "",
+        description:
+          "Polygon zkEVM is a Layer 2 scaling solution that utilizes zero-knowledge proofs to enable efficient and secure decentralized applications on the Ethereum network.",
         logo: "https://static.subquery.network/network-logos/1101.png",
         examples: [
           {
@@ -1007,6 +1044,25 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://dict-tyk.subquery.network/query/polygon-mumbai",
         ],
+      },
+      {
+        code: "424",
+        name: "Public Goods Network",
+        chain_id: "424",
+        description:
+          "Public Goods Network is the only L2 network in which the vast majority of net sequencer fees go to projects that are building and/or funding public goods.",
+        logo: "",
+        examples: [
+          {
+            name: "public-goods-network-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Merkly OFT (MERK) Token on Public Goods Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Public Goods Network/public-goods-network-starter",
+          },
+        ],
+        guides: [],
+        dictionaries: [],
       },
       {
         code: "534352",
@@ -1089,7 +1145,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "40",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/40.png",
         examples: [
           {
             name: "telos-starter",
@@ -1107,7 +1163,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "41",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/40.png",
         examples: [
           {
             name: "telos-starter",
@@ -1197,7 +1253,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "agoric-3",
         name: "Agoric",
         chain_id: "agoric-3",
-        description: "",
+        description:
+          "Agoric is a blockchain platform designed to facilitate secure and enforceable smart contracts, enabling decentralized applications to operate with economic security and scalability.",
         logo: "https://static.subquery.network/network-logos/agoric-3.png",
         examples: [
           {
@@ -1541,6 +1598,24 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "kaiyo-1",
+        name: "Kujira",
+        chain_id: "kaiyo-1",
+        description:
+          "Kujira is a blockchain revolutionizing FinTech for web3 builders, dapps and protocols.",
+        logo: "",
+        examples: [
+          {
+            name: "kujira-starter",
+            description:
+              "This SubQuery project indexes all sent transfers from Kujira",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Kujira/kujira-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "mars-1",
         name: "Mars",
         chain_id: "mars-1",
@@ -1683,10 +1758,29 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "secret-4",
+        name: "Secret Network",
+        chain_id: "secret-4",
+        description:
+          "Secret Network is the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3.",
+        logo: "",
+        examples: [
+          {
+            name: "secret-starter",
+            description:
+              "This project can be use as a starting point for developing your Cosmos Secret based SubQuery project",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Secret/secret-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "atlantic-2",
         name: "Sei",
         chain_id: "atlantic-2",
-        description: "",
+        description:
+          "Sei is a blockchain platform designed to enable decentralized finance solutions and applications through its scalable, secure, and interoperable network.",
         logo: "https://static.subquery.network/network-logos/atlantic-2.png",
         examples: [
           {
@@ -1728,6 +1822,25 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "phoenix-1",
+        name: "Terra2",
+        chain_id: "phoenix-1",
+        description:
+          "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
+        logo: "",
+        examples: [
+          {
+            name: "terra2-starter",
+            description:
+              "This project can be use as a starting point for developing your Cosmos Terra2 based SubQuery project",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Terra2/terra2-starter",
+          },
+        ],
+        guides: [],
+        dictionaries: [],
+      },
+      {
         code: "thorchain-mainnet-v1",
         name: "Thorchain",
         chain_id: "thorchain-mainnet-v1",
@@ -1754,17 +1867,17 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "umee-1",
-        name: "Umee",
+        name: "UmeeX",
         chain_id: "umee-1",
         description: "",
         logo: "https://static.subquery.network/network-logos/umee-1.png",
         examples: [
           {
-            name: "umee-starter",
+            name: "umeex-starter",
             description:
-              "This SubQuery project indexes all transfer events and messages on Umee",
+              "This SubQuery project indexes all transfer events and messages on UmeeX",
             remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Umee/umee-starter",
+            path: "UmeeX/umeex-starter",
           },
         ],
         guides: [],
@@ -1774,7 +1887,8 @@ const networkFamilies: NetworkFamily[] = [
   {
     code: "concordium",
     name: "Concordium",
-    description: "",
+    description:
+      "Concordium´s innovative blockchain is ideal for building ID-centred and privacy-preserving solutions across verticals such as Web3, ESG, Supply Chain, and AI",
     logo: "https://static.subquery.network/network-logos/concordium.png",
     networks: [
       {
