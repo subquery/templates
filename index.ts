@@ -1985,6 +1985,12 @@ const networkFamilies: NetworkFamily[] = [
               "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
             link: "https://academy.subquery.network/quickstart/quickstart_chains/near.html",
           },
+          {
+            name: "NEAR Ref Finance",
+            description:
+              "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/near-ref-finance.html",
+          },
         ],
         dictionaries: [
           "https://api.subquery.network/sq/subquery/near-dictionary",
