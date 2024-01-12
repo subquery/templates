@@ -1166,11 +1166,29 @@ const networkFamilies: NetworkFamily[] = [
         logo: "https://static.subquery.network/network-logos/40.png",
         examples: [
           {
-            name: "telos-starter",
+            name: "telos-testnet-starter",
             description:
               "This SubQuery project indexes all transfers and approval events for the USDT Token on Telos Mainnetwork",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Telos/telos-testnet-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "195",
+        name: "X1 Testnet",
+        chain_id: "195",
+        description:
+          "X1 is a ZK-powered layer 2 network that connects the OKX and Ethereum communities to allow anyone to take part in a truly global on-chain ecosystem.",
+        logo: "",
+        examples: [
+          {
+            name: "x1-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped ether token on X1 test network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "X1/x1-testnet-starter",
           },
         ],
         guides: [],
@@ -1973,7 +1991,8 @@ const networkFamilies: NetworkFamily[] = [
           },
           {
             name: "near-ref-finance",
-            description: "This SubQuery project indexes the swap actions of the v2.ref-finance.near contract on the NEAR mainnet",
+            description:
+              "This SubQuery project indexes the swap actions of the v2.ref-finance.near contract on the NEAR mainnet",
             remote: "https://github.com/subquery/near-subql-starter",
             path: "Near/near-ref-finance",
           },
