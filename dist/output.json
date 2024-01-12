@@ -285,7 +285,7 @@
         "logo": "https://static.subquery.network/network-logos/56.png",
         "examples": [
           {
-            "name": "opbnb-subql-starter",
+            "name": "opbnb-starter",
             "description": "This SubQuery project indexes all transfers and approval events for the Wrapped Eth token on opBNB Mainnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "BNB Smart Chain/opbnb-starter"
@@ -702,6 +702,22 @@
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/linea-mainnet"
         ]
+      },
+      {
+        "code": "169",
+        "name": "Manta Pacific",
+        "chain_id": "169",
+        "description": "Manta Pacific is the first EVM-equivalent ZK-application platform that is scalable and secure through Celestia DA and Polygon zkEVM.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "manta-pacific-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the USDC token on Manta Pacific Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Manta/manta-pacific-starter"
+          }
+        ],
+        "guides": []
       },
       {
         "code": "5000",
