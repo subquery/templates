@@ -2369,10 +2369,10 @@ const networkFamilies: NetworkFamily[] = [
         logo: "https://static.subquery.network/network-logos/encointer.png",
         examples: [
           {
-            name: "encointer-starter",
+            name: "Encointer-starter",
             description: "",
             remote: "https://github.com/subquery/subql-starter",
-            path: "Encointer/encointer-starter",
+            path: "Encointer/Encointer-starter",
           },
         ],
         guides: [],
@@ -2423,7 +2423,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "hashed-network-starter",
             description: "",
             remote: "https://github.com/subquery/subql-starter",
-            path: "Hashed Network/hashed-network-starter",
+            path: "HashedNetwork/hashed-network-starter",
           },
         ],
         guides: [],
@@ -2437,10 +2437,10 @@ const networkFamilies: NetworkFamily[] = [
         logo: "https://static.subquery.network/network-logos/humanode.png",
         examples: [
           {
-            name: "humanode-starter",
+            name: "Humanode-starter",
             description: "",
             remote: "https://github.com/subquery/subql-starter",
-            path: "Humanode/humanode-starter",
+            path: "Humanode/Humanode-starter",
           },
         ],
         guides: [
@@ -2482,7 +2482,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "integritee-shell-starter",
             description: "",
             remote: "https://github.com/subquery/subql-starter",
-            path: "Integritee Shell/integritee-shell-starter",
+            path: "IntegriteeShell/integritee-shell-starter",
           },
         ],
         guides: [],
@@ -2758,7 +2758,7 @@ const networkFamilies: NetworkFamily[] = [
         logo: "https://static.subquery.network/network-logos/polkadex-standalone.png",
         examples: [
           {
-            name: "polkedex-starter",
+            name: "polkadex-starter",
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Polkadex/polkadex-starter",
@@ -2800,10 +2800,10 @@ const networkFamilies: NetworkFamily[] = [
         logo: "https://static.subquery.network/network-logos/quartz.png",
         examples: [
           {
-            name: "quartz-starter",
+            name: "quartz-subql-starter",
             description: "",
             remote: "https://github.com/subquery/subql-starter",
-            path: "Quartz/quartz-starter",
+            path: "Quartz/quartz-subql-starter",
           },
         ],
         guides: [],
