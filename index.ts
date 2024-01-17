@@ -2761,7 +2761,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "polkedex-starter",
             description: "",
             remote: "https://github.com/subquery/subql-starter",
-            path: "Polkadex/polkedex-starter",
+            path: "Polkadex/polkadex-starter",
           },
         ],
         guides: [],
