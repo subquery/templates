@@ -1063,7 +1063,13 @@
             "path": "X1/x1-testnet-starter"
           }
         ],
-        "guides": []
+        "guides": [
+          {
+            "name": "X1 (Testnet) Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Wrapped ETH on X1 Testnet.",
+            "link": "https://academy.subquery.network/quickstart/quickstart_chains/x1.html"
+          }
+        ]
       },
       {
         "code": "324",
