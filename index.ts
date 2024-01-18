@@ -31,14 +31,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-    | "evm"
-    | "algorand"
-    | "cosmos"
-    | "concordium"
-    | "near"
-    | "polkadot"
-    | "stellar"
-    | "multi";
+  | "evm"
+  | "algorand"
+  | "cosmos"
+  | "concordium"
+  | "near"
+  | "polkadot"
+  | "stellar"
+  | "multi";
   name: string;
   description: string;
   logo: string;
@@ -211,6 +211,26 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
         dictionaries: [
           "https://dict-tyk.subquery.network/query/avalanche-testnet",
+        ],
+      },
+      {
+        code: "1313161554",
+        name: "Aurora",
+        chain_id: "1313161554",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "aurora-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Tether on Aurora Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Aurora/aurora-starter",
+          },
+        ],
+        guides: [],
+        dictionaries: [
+
         ],
       },
       {
@@ -510,6 +530,13 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes the standard Uniswap V3 project on Ethereum Mainnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Ethereum/ethereum-uniswap-v3",
+          },
+          {
+            name: "ethscriptions",
+            description:
+              "This SubQuery project indexes inscriptions on Ethereum Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethscriptions",
           },
         ],
         guides: [
@@ -1386,6 +1413,24 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "canto_7700-1",
+        name: "Canto",
+        chain_id: "canto_7700-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "canto-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Canto",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Canto/canto-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "cheqd-mainnet-1",
         name: "Cheqd",
         chain_id: "cheqd-mainnet-1",
@@ -1422,6 +1467,24 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "coreum-mainnet-1",
+        name: "Coreum",
+        chain_id: "coreum-mainnet-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "coreum-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Coreum",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Coreum/coreum-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "cosmoshub-4",
         name: "CosmosHub",
         chain_id: "cosmoshub-4",
@@ -1441,6 +1504,24 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-hub-dictionary",
         ],
+      },
+      {
+        code: "crescent-1",
+        name: "Crescent",
+        chain_id: "crescent-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "crescent-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Crescent",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Crescent/crescent-starter",
+          },
+        ],
+        guides: [],
       },
       {
         code: "cronosmainnet_25-1",
@@ -1476,6 +1557,42 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-cronos-dictionary",
         ],
+      },
+      {
+        code: "cudos-1",
+        name: "Cudos",
+        chain_id: "cudos-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "cudos-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Cudos",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Cudos/cudos-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "dydx-mainnet-1",
+        name: "DYDX",
+        chain_id: "dydx-mainnet-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "dydx-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on dYdX",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "DYDX/dydx-starter",
+          },
+        ],
+        guides: [],
       },
       {
         code: "froopyland_100-1",
@@ -1570,6 +1687,23 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "humans_1089-1",
+        name: "HumansAI",
+        chain_id: "humans_1089-1",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "humansai-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on HumansAI",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "HumansAI/humansai-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "irishub-1",
         name: "Iris",
         chain_id: "irishub-1",
@@ -1654,6 +1788,42 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all sent transfers from Kujira",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Kujira/kujira-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "kyve-1",
+        name: "Kyve",
+        chain_id: "kyve-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "kyve-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Kyve",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Kyve/kyve-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "mantle-1",
+        name: "Mantle",
+        chain_id: "mantle-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "mantle-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Mantle",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Mantle/mantle-starter",
           },
         ],
         guides: [],
@@ -1784,6 +1954,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "passage-2",
+        name: "Passage",
+        chain_id: "passage-2",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "passage-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Passage",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Passage/passage-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "core-1",
         name: "Persistence",
         chain_id: "core-1",
@@ -1796,6 +1983,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all rewards paid to delegators on Persistence Network",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Persistence/persistence-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "quasar-1",
+        name: "Persistence",
+        chain_id: "quasar-1",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "quasar-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Quasar",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Quasar/quasar-starter",
           },
         ],
         guides: [],
@@ -1844,6 +2048,48 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "shentu-2.2",
+        name: "Shentu",
+        chain_id: "shentu-2.2",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "shentu-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Shentu",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Shentu/shentu-starter",
+          },
+        ],
+        guides: [],
+        dictionaries: [
+
+        ],
+      },
+      {
+        code: "sommelier-3",
+        name: "Sommelier",
+        chain_id: "sommelier-3",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "sommelier-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Sommelier",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Sommelier/sommelier-starter",
+          },
+        ],
+        guides: [],
+        dictionaries: [
+
+        ],
+      },
+      {
         code: "stargaze-1",
         name: "Stargaze",
         chain_id: "stargaze-1",
@@ -1863,6 +2109,23 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-stargaze-dictionary",
         ],
+      },
+      {
+        code: "stride-1",
+        name: "Stride",
+        chain_id: "stride-1",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "stride-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Stride",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Stride/stride-starter",
+          },
+        ],
+        guides: [],
       },
       {
         code: "phoenix-1",
@@ -2332,6 +2595,40 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "contextfree",
+        name: "contextfree",
+        chain_id:
+          "0x6254c948b5eb7199a112cb308be3385c39c8c942625540ac749c77fe2aebc299",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "contextfree-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Contextfree/contextfree-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "crust",
+        name: "Crust",
+        chain_id:
+          "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "crust-starter",
+            description: "This SubQuery project indexes all asset transfers using the balances pallet on the Crust Network",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Crust/crust-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "darwinia",
         name: "Darwinia",
         chain_id:
@@ -2620,6 +2917,40 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "litentry",
+        name: "litentry",
+        chain_id:
+          "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "litentry-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Litentry/litentry-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "manta-atlantic",
+        name: "manta-atlantic",
+        chain_id:
+          "0xf3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "manta-atlantic-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Manta/manta-atlantic-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "moonbeam",
         name: "Moonbeam",
         chain_id:
@@ -2874,6 +3205,42 @@ const networkFamilies: NetworkFamily[] = [
         guides: [],
       },
       {
+        code: "subsocial",
+        name: "Subsocial",
+        chain_id:
+          "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "subsocial-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Subsocial/subsocial-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "t3rn",
+        name: "T3rn",
+        chain_id:
+          "0x9a33d1af38c2736ecddbbbcdc2cb2c3023e9b91dc295ac3f1473fe226e5944a7",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "t3rn-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "T3rn/t3rn-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "unique",
         name: "Unique",
         chain_id:
@@ -2938,6 +3305,24 @@ const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Westend/westend-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "zeitgeist",
+        name: "Zeitgeist",
+        chain_id:
+          "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "zeitgeist-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Zeitgeist/zeitgeist-starter",
           },
         ],
         guides: [],
@@ -3048,6 +3433,13 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all IBC transfer events between Cosmos Hub and Osmosis",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Multi-Chain/osmosis-cosmos-bridge",
+          },
+          {
+            name: "Multichain Example - Kava",
+            description:
+              "This SubQuery project indexes both transactions and approvals of USDT on Kava EVM Network and all sent transfers from Kava Cosmos Co-chain",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Multi-Chain/kava-evm-cosmos-multi-chain",
           },
         ],
         guides: [
