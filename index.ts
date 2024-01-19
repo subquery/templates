@@ -1669,6 +1669,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "humans_1089-1",
+        name: "HumansAI",
+        chain_id: "humans_1089-1",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "humansai-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on HumansAI",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "HumansAI/humansai-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "injective-1",
         name: "Injective",
         chain_id: "injective-1",
@@ -1682,23 +1699,6 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all spot limit orders on Injective",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Injective/injective-starter",
-          },
-        ],
-        guides: [],
-      },
-      {
-        code: "humans_1089-1",
-        name: "HumansAI",
-        chain_id: "humans_1089-1",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "humansai-starter",
-            description:
-              "This SubQuery project indexes all transfer events and messages on HumansAI",
-            remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "HumansAI/humansai-starter",
           },
         ],
         guides: [],
@@ -2918,7 +2918,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "litentry",
-        name: "litentry",
+        name: "Litentry",
         chain_id:
           "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
         description: "",
@@ -2935,7 +2935,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "manta-atlantic",
-        name: "manta-atlantic",
+        name: "Manta Atlantic",
         chain_id:
           "0xf3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
         description: "",
