@@ -31,14 +31,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-  | "evm"
-  | "algorand"
-  | "cosmos"
-  | "concordium"
-  | "near"
-  | "polkadot"
-  | "stellar"
-  | "multi";
+    | "evm"
+    | "algorand"
+    | "cosmos"
+    | "concordium"
+    | "near"
+    | "polkadot"
+    | "stellar"
+    | "multi";
   name: string;
   description: string;
   logo: string;
@@ -110,7 +110,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Artela Testnet",
         chain_id: "11820",
         description: "",
-        logo: "", // "https://static.subquery.network/network-logos/11820.png",
+        logo: "https://static.subquery.network/network-logos/11820.png",
         examples: [
           {
             name: "artela-testnet-starter",
@@ -229,9 +229,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
-        dictionaries: [
-
-        ],
+        dictionaries: [],
       },
       {
         code: "8453",
@@ -841,7 +839,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "169",
         description:
           "Manta Pacific is the first EVM-equivalent ZK-application platform that is scalable and secure through Celestia DA and Polygon zkEVM.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/169.png",
         examples: [
           {
             name: "manta-pacific-starter",
@@ -1096,7 +1094,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "424",
         description:
           "Public Goods Network is the only L2 network in which the vast majority of net sequencer fees go to projects that are building and/or funding public goods.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/424.png",
         examples: [
           {
             name: "public-goods-network-starter",
@@ -1226,7 +1224,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "195",
         description:
           "X1 is a ZK-powered layer 2 network that connects the OKX and Ethereum communities to allow anyone to take part in a truly global on-chain ecosystem.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/40.png",
         examples: [
           {
             name: "x1-testnet-starter",
@@ -1417,7 +1415,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Canto",
         chain_id: "canto_7700-1",
         description:
-          "",
+          "https://static.subquery.network/network-logos/canto_7700-1.png",
         logo: "",
         examples: [
           {
@@ -1470,9 +1468,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "coreum-mainnet-1",
         name: "Coreum",
         chain_id: "coreum-mainnet-1",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/coreum-mainnet-1.png",
         examples: [
           {
             name: "coreum-starter",
@@ -1509,9 +1506,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "crescent-1",
         name: "Crescent",
         chain_id: "crescent-1",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/crescent-1.png",
         examples: [
           {
             name: "crescent-starter",
@@ -1562,8 +1558,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "cudos-1",
         name: "Cudos",
         chain_id: "cudos-1",
-        description:
-          "",
+        description: "",
         logo: "",
         examples: [
           {
@@ -1580,9 +1575,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "dydx-mainnet-1",
         name: "DYDX",
         chain_id: "dydx-mainnet-1",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/dydx-mainnet-1.png",
         examples: [
           {
             name: "dydx-starter",
@@ -1600,7 +1594,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "froopyland_100-1",
         description:
           "Dymension is a home for easily deployable and lightning fast app-chains, called RollApps.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/froopyland_100-1.png",
         examples: [
           {
             name: "dymension-starter",
@@ -1673,7 +1667,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "HumansAI",
         chain_id: "humans_1089-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/humans_1089-1.png",
         examples: [
           {
             name: "humansai-starter",
@@ -1709,7 +1703,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "irishub-1",
         description:
           "Built with Cosmos-SDK, IRIS Hub enables cross-chain interoperability through a unified service model, while providing a variety of modules to support DeFi applications.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/irishub-1.png",
         examples: [
           {
             name: "iris-starter",
@@ -1780,7 +1774,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "kaiyo-1",
         description:
           "Kujira is a blockchain revolutionizing FinTech for web3 builders, dapps and protocols.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/kaiyo-1.png",
         examples: [
           {
             name: "kujira-starter",
@@ -1796,8 +1790,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "kyve-1",
         name: "Kyve",
         chain_id: "kyve-1",
-        description:
-          "",
+        description: "https://static.subquery.network/network-logos/kyve-1.png",
         logo: "",
         examples: [
           {
@@ -1814,9 +1807,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "mantle-1",
         name: "Mantle",
         chain_id: "mantle-1",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/mantle-1.png",
         examples: [
           {
             name: "mantle-starter",
@@ -1958,7 +1950,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Passage",
         chain_id: "passage-2",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/passage-2.png",
         examples: [
           {
             name: "passage-starter",
@@ -1975,7 +1967,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Persistence",
         chain_id: "core-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/core-1.png",
         examples: [
           {
             name: "persistence-starter",
@@ -1989,7 +1981,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "quasar-1",
-        name: "Persistence",
+        name: "Quasar",
         chain_id: "quasar-1",
         description: "",
         logo: "",
@@ -2010,7 +2002,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "secret-4",
         description:
           "Secret Network is the first blockchain with customizable privacy. You get to choose what you share, with whom, and how. This protects users, and empowers developers to build a better Web3.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/secret-4.png",
         examples: [
           {
             name: "secret-starter",
@@ -2051,9 +2043,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "shentu-2.2",
         name: "Shentu",
         chain_id: "shentu-2.2",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/shentu-2.2.png",
         examples: [
           {
             name: "shentu-starter",
@@ -2064,17 +2055,14 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
-        dictionaries: [
-
-        ],
+        dictionaries: [],
       },
       {
         code: "sommelier-3",
         name: "Sommelier",
         chain_id: "sommelier-3",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/sommelier-3.png",
         examples: [
           {
             name: "sommelier-starter",
@@ -2085,9 +2073,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
-        dictionaries: [
-
-        ],
+        dictionaries: [],
       },
       {
         code: "stargaze-1",
@@ -2115,7 +2101,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Stride",
         chain_id: "stride-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/stride-1.png",
         examples: [
           {
             name: "stride-starter",
@@ -2133,7 +2119,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "phoenix-1",
         description:
           "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/phoenix-1.png",
         examples: [
           {
             name: "terra2-starter",
@@ -2617,11 +2603,12 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/crust.png",
         examples: [
           {
             name: "crust-starter",
-            description: "This SubQuery project indexes all asset transfers using the balances pallet on the Crust Network",
+            description:
+              "This SubQuery project indexes all asset transfers using the balances pallet on the Crust Network",
             remote: "https://github.com/subquery/subql-starter",
             path: "Crust/crust-starter",
           },
@@ -2922,7 +2909,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/litentry.png",
         examples: [
           {
             name: "litentry-starter",
@@ -2939,7 +2926,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xf3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/manta-atlantic.png",
         examples: [
           {
             name: "manta-atlantic-starter",
@@ -3209,9 +3196,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Subsocial",
         chain_id:
           "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/subsocial.png",
         examples: [
           {
             name: "subsocial-starter",
@@ -3227,9 +3213,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "T3rn",
         chain_id:
           "0x9a33d1af38c2736ecddbbbcdc2cb2c3023e9b91dc295ac3f1473fe226e5944a7",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/t3rn.png",
         examples: [
           {
             name: "t3rn-starter",
@@ -3314,9 +3299,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Zeitgeist",
         chain_id:
           "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
-        description:
-          "",
-        logo: "",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/zeitgeist.png",
         examples: [
           {
             name: "zeitgeist-starter",
