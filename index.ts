@@ -455,6 +455,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "1116",
+        name: "Core",
+        chain_id: "1116",
+        description:
+          "Core is embracing the fundamentals of blockchain and building for a decentralized economy, starting with the communities most in need.",
+        logo: "",
+        examples: [
+          {
+            name: "core-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for USDC on Core Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Core/core-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "17777",
         name: "EOS",
         chain_id: "17777",
@@ -791,6 +809,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "4689",
+        name: "Iotex Network",
+        chain_id: "4689",
+        description:
+          "IoTeX is the Platform for DePIN Builders. It combines fast, secure blockchain tech with the Internet of Things (IoT) and smart devices.",
+        logo: "",
+        examples: [
+          {
+            name: "iotex-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for Wrapped Eth on Iotex Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Iotex/iotex-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "8217",
         name: "Klaytn",
         chain_id: "8217",
@@ -1108,6 +1144,23 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [],
       },
       {
+        code: "369",
+        name: "Pulsechain",
+        chain_id: "369",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "pulsechain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for USDT on Pulsechain Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Pulsechain/pulsechain-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "534352",
         name: "Scroll",
         chain_id: "534352",
@@ -1214,6 +1267,24 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the USDT Token on Telos Mainnetwork",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Telos/telos-testnet-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "106",
+        name: "Velas Network",
+        chain_id: "106",
+        description:
+          "Velas is the world's fastest EVM Blockchain and Ecosystem for smart contracts and dApps.",
+        logo: "",
+        examples: [
+          {
+            name: "velas-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for Wrapped Eth on Velas Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Velas/velas-starter",
           },
         ],
         guides: [],
