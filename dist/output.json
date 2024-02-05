@@ -234,6 +234,22 @@
         ]
       },
       {
+        "code": "1501",
+        "name": "BEVM",
+        "chain_id": "1501",
+        "description": "A Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
+        "logo": "",
+        "examples": [
+          {
+            "name": "bevm-canary-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped BTC on BEVM Canary Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "BEVM/bevm-canary-starter"
+          }
+        ],
+        "guides": []
+      },
+      {
         "code": "56",
         "name": "BNB Smart Chain",
         "chain_id": "56",
@@ -841,6 +857,22 @@
         ]
       },
       {
+        "code": "22222",
+        "name": "Nautilus",
+        "chain_id": "22222",
+        "description": "One of the fastest EVM rollups.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "nautilus-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for wrapped Ether on Nautilus Mainnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Nautilus/nautilus-starter"
+          }
+        ],
+        "guides": []
+      },
+      {
         "code": "42262",
         "name": "Oasis Emerald",
         "chain_id": "42262",
@@ -1018,6 +1050,22 @@
             "description": "This SubQuery project indexes all transfers and approval events for USDT on Pulsechain Mainnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Pulsechain/pulsechain-starter"
+          }
+        ],
+        "guides": []
+      },
+      {
+        "code": "3110",
+        "name": "SatoshiVM",
+        "chain_id": "3110",
+        "description": "A decentralized Bitcoin ZK Rollup Layer 2 solution compatible with the Ethereum Virtual Machine (EVM) ecosystem, using native BTC as gas.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "satoshivm-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for SAVM on Satoshivm Testnet Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "SatoshiVM/satoshivm-testnet-starter"
           }
         ],
         "guides": []
