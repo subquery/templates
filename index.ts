@@ -13,6 +13,11 @@ type Guide = {
   link: string;
 };
 
+type externalDocs = {
+  name: string;
+  link: string;
+};
+
 type Network = {
   // Code is special and must be http url param compatible (e.g. no spaces or special chars)
   // For EVM chains, we use the chain_id
@@ -27,6 +32,7 @@ type Network = {
   examples: Examples[];
   guides: Guide[];
   dictionaries?: string[]; // Array of URLs
+  externalDocs?: externalDocs[]
 };
 
 type NetworkFamily = {
@@ -146,6 +152,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/astar-zkatana.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Astar zKatana Documentaiton - SubQuery Entry",
+            link: "https://docs.astar.network/docs/build/zkEVM/integrations/indexers/subquery/",
+          }
+        ]
       },
       {
         code: "43114",
@@ -192,6 +204,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/avalanche"],
+        externalDocs: [
+          {
+            name: "Avalanche Documentaiton - SubQuery Entry",
+            link: "https://docs.avax.network/tooling/indexers#subquery",
+          }
+        ]
       },
       {
         code: "43113",
@@ -212,6 +230,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://dict-tyk.subquery.network/query/avalanche-testnet",
         ],
+        externalDocs: [
+          {
+            name: "Avalanche Documentaiton - SubQuery Entry",
+            link: "https://docs.avax.network/tooling/indexers#subquery",
+          }
+        ]
       },
       {
         code: "1313161554",
@@ -263,6 +287,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/base-mainnet"],
+        externalDocs: [
+          {
+            name: "Base Documentaiton - SubQuery Entry",
+            link: "https://docs.base.org/tools/data-indexers#subquery",
+          }
+        ]
       },
       {
         code: "84531",
@@ -295,6 +325,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/base-goerli"],
+        externalDocs: [
+          {
+            name: "Base Documentaiton - SubQuery Entry",
+            link: "https://docs.base.org/tools/data-indexers#subquery",
+          }
+        ]
       },
       {
         code: "1501",
@@ -422,6 +458,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/boba-bnb.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Boba Documentaiton - SubQuery Entry",
+            link: "https://docs.boba.network/for-developers/indexer/subquery-indexer",
+          }
+        ]
       },
       {
         code: "288",
@@ -447,6 +489,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/boba-eth.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Boba Documentaiton - SubQuery Entry",
+            link: "https://docs.boba.network/for-developers/indexer/subquery-indexer",
+          }
+        ]
       },
       {
         code: "42220",
@@ -700,6 +748,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/flare-mainnet"],
+        externalDocs: [
+          {
+            name: "Flare Documentaiton - SubQuery Entry",
+            link: "https://docs.flare.network/dev/tools/?h=subq#indexing-and-querying",
+          }
+        ]
       },
       {
         code: "19",
@@ -716,6 +770,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Flare Documentaiton - SubQuery Entry",
+            link: "https://docs.flare.network/dev/tools/?h=subq#indexing-and-querying",
+          }
+        ]
       },
       {
         code: "100",
@@ -751,6 +811,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://dict-tyk.subquery.network/query/gnosis-mainnet",
         ],
+        externalDocs: [
+          {
+            name: "Gnosis Documentaiton - SubQuery Entry",
+            link: "https://docs.gnosischain.com/tools/analytics/subquery",
+          }
+        ]
       },
       {
         code: "1666600000",
@@ -869,6 +935,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/klaytn.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Klaytn Documentaiton - SubQuery Entry",
+            link: "https://docs.klaytn.foundation/docs/build/tools/indexers/subquery/",
+          }
+        ]
       },
       {
         code: "59144",
@@ -954,6 +1026,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/meter.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Meter Documentaiton - SubQuery Entry",
+            link: "https://docs.meter.io/developer-documentation/subquery",
+          }
+        ]
       },
       {
         code: "1088",
@@ -1398,6 +1476,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://dict-tyk.subquery.network/query/zksync-mainnet",
         ],
+        externalDocs: [
+          {
+            name: "zkSync Documentaiton - SubQuery Entry",
+            link: "https://docs.zksync.io/build/tutorials/tooling-guides/subquery.html#subquery",
+          }
+        ]
       },
     ],
   },
@@ -1469,6 +1553,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-agoric.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Agoric Documentaiton - SubQuery Entry",
+            link: "https://docs.agoric.com/guides/subquery-indexing.html",
+          }
+        ]
       },
       {
         code: "akashnet-2",
@@ -1494,6 +1584,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-akash.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Akash Documentaiton - SubQuery Entry",
+            link: "https://docs.akash.network/deploy/subquery-indexer",
+          }
+        ]
       },
       {
         code: "archway-1",
@@ -1519,6 +1615,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-archway.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Archway Documentaiton - SubQuery Entry",
+            link: "https://docs.archway.io/developers/developer-tools/subquery",
+          }
+        ]
       },
       {
         code: "axelar-dojo-1",
@@ -1537,6 +1639,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Axelar Documentaiton - SubQuery Entry",
+            link: "https://docs.axelar.dev/dev/indexers/subquery",
+          }
+        ]
       },
       {
         code: "canto_7700-1",
@@ -1768,6 +1876,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Evmos Documentaiton - SubQuery Entry",
+            link: "https://docs.evmos.org/develop/graphs-indexers",
+          }
+        ]
       },
       {
         code: "fetchhub-4",
@@ -1789,6 +1903,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary",
         ],
+        externalDocs: [
+          {
+            name: "FetchAI Documentaiton - SubQuery Entry",
+            link: "https://fetch.ai/docs/concepts/fetch-network/indexer/intro#indexer-/-ledger-subquery",
+          }
+        ]
       },
       {
         code: "humans_1089-1",
@@ -1870,6 +1990,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary",
         ],
+        externalDocs: [
+          {
+            name: "Juno Documentaiton - SubQuery Entry",
+            link: "https://docs.junonetwork.io/developer-guides/subquery",
+          }
+        ]
       },
       {
         code: "kava_2222-10",
@@ -1930,6 +2056,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "KYVE Documentaiton - SubQuery Entry",
+            link: "https://docs.kyve.network/web3_devs/indexers/subquery",
+          }
+        ]
       },
       {
         code: "mantle-1",
@@ -1965,6 +2097,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Mars Documentaiton - SubQuery Entry",
+            link: "https://docs.marsprotocol.io/docs/develop/indexers/subquery",
+          }
+        ]
       },
       {
         code: "migaloo-1",
@@ -2008,6 +2146,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-neutron.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Neutron Documentaiton - SubQuery Entry",
+            link: "https://docs.neutron.org/tutorials/indexers/subquery",
+          }
+        ]
       },
       {
         code: "66",
@@ -2072,6 +2216,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-osmosis-dictionary",
         ],
+        externalDocs: [
+          {
+            name: "Osmosis Documentaiton - SubQuery Entry",
+            link: "https://docs.osmosis.zone/overview/integrate/external_projects/subquery",
+          }
+        ]
       },
       {
         code: "passage-2",
@@ -2106,6 +2256,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Persistence Documentaiton - SubQuery Entry",
+            link: "https://docs.persistence.one/build/indexers/subquery/overview",
+          }
+        ]
       },
       {
         code: "quasar-1",
@@ -2223,6 +2379,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-stargaze-dictionary",
         ],
+        externalDocs: [
+          {
+            name: "Stargaze Documentaiton - SubQuery Entry",
+            link: "https://docs.stargaze.zone/developers/indexers/subquery",
+          }
+        ]
       },
       {
         code: "stride-1",
@@ -2301,6 +2463,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "UX Documentaiton - SubQuery Entry",
+            link: "https://learning.ux.xyz/developers/indexers.html#subquery",
+          }
+        ]
       },
     ],
   },
@@ -2328,6 +2496,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Concordium Documentaiton - SubQuery Entry",
+            link: "https://developer.concordium.software/en/mainnet/net/indexers/subquery.html",
+          }
+        ]
       },
       {
         code: "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
@@ -2353,6 +2527,12 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/concordium.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Concordium Documentaiton - SubQuery Entry",
+            link: "https://developer.concordium.software/en/mainnet/net/indexers/subquery.html",
+          }
+        ]
       },
     ],
   },
@@ -2474,6 +2654,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Acala Documentaiton - SubQuery Entry",
+            link: "https://wiki.acala.network/build/indexers/subquery",
+          }
+        ]
       },
       {
         code: "ajuna",
@@ -2546,6 +2732,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/astar"],
+        externalDocs: [
+          {
+            name: "Astar Documentaiton - SubQuery Entry",
+            link: "https://docs.astar.network/docs/build/integrations/indexers/subquery",
+          }
+        ]
       },
       {
         code: "automata",
@@ -2760,6 +2952,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Darwinia Documentaiton - SubQuery Entry",
+            link: "https://docs.darwinia.network/subquery-24d26214bead4a86a0afcc7b6d05da23",
+          }
+        ]
       },
       {
         code: "efinity-polkadot",
@@ -2946,6 +3144,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Acala Documentaiton - SubQuery Entry",
+            link: "https://wiki.acala.network/build/indexers/subquery",
+          }
+        ]
       },
       {
         code: "khala",
@@ -3013,6 +3217,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Polkadot Documentaiton - SubQuery Entry",
+            link: "https://wiki.polkadot.network/docs/build-data#subquery",
+          }
+        ]
       },
       {
         code: "kylin",
@@ -3102,6 +3312,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [],
+        externalDocs: [
+          {
+            name: "Moonbeam Documentaiton - SubQuery Entry",
+            link: "https://docs.moonbeam.network/builders/integrations/indexers/subquery/",
+          }
+        ]
       },
       {
         code: "moonriver",
@@ -3127,6 +3343,12 @@ const networkFamilies: NetworkFamily[] = [
         ],
         guides: [],
         dictionaries: [],
+        externalDocs: [
+          {
+            name: "Moonbeam Documentaiton - SubQuery Entry",
+            link: "https://docs.moonbeam.network/builders/integrations/indexers/subquery/",
+          }
+        ]
       },
       {
         code: "nodle",
@@ -3243,6 +3465,13 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot.html",
           },
         ],
+        externalDocs: [
+          {
+            name: "Polkadot Documentaiton - SubQuery Entry",
+            link: "https://wiki.polkadot.network/docs/build-data#subquery",
+          }
+        ]
+
       },
       {
         code: "quartz",
@@ -3260,6 +3489,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Unique Documentaiton - SubQuery Entry",
+            link: "https://docs.unique.network/tutorials/subquery-indexer.html",
+          }
+        ]
       },
       {
         code: "shiden-kusama",
@@ -3281,6 +3516,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/shiden-dictionary",
         ],
+        externalDocs: [
+          {
+            name: "Astar Documentaiton - SubQuery Entry",
+            link: "https://docs.astar.network/docs/build/integrations/indexers/subquery",
+          }
+        ]
       },
       {
         code: "kusama-asset-hub",
@@ -3301,6 +3542,12 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://api.subquery.network/sq/subquery/statemint-dictionary",
         ],
+        externalDocs: [
+          {
+            name: "Polkadot Documentaiton - SubQuery Entry",
+            link: "https://wiki.polkadot.network/docs/build-data#subquery",
+          }
+        ]
       },
       {
         code: "polkadot-asset-hub",
@@ -3318,6 +3565,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Polkadot Documentaiton - SubQuery Entry",
+            link: "https://wiki.polkadot.network/docs/build-data#subquery",
+          }
+        ]
       },
       {
         code: "subsocial",
@@ -3370,6 +3623,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Unique Documentaiton - SubQuery Entry",
+            link: "https://docs.unique.network/tutorials/subquery-indexer.html",
+          }
+        ]
       },
       {
         code: "vara",
@@ -3387,6 +3646,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Vara Documentaiton - SubQuery Entry",
+            link: "https://wiki.vara.network/docs/indexers/subquery",
+          }
+        ]
       },
       {
         code: "watr",
@@ -3421,6 +3686,12 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        externalDocs: [
+          {
+            name: "Polkadot Documentaiton - SubQuery Entry",
+            link: "https://wiki.polkadot.network/docs/build-data#subquery",
+          }
+        ]
       },
       {
         code: "zeitgeist",
