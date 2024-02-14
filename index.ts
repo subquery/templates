@@ -2017,6 +2017,13 @@ const networkFamilies: NetworkFamily[] = [
             path: "Kujira/kujira-starter",
           },
         ],
+        guides: [
+          {
+            name: "Kujira Documentation - SubQuery Entry",
+            link: "https://docs.kujira.app/developers/indexers/subquery",
+            internal: false,
+          },
+        ],
       },
       {
         code: "kyve-1",
