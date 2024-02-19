@@ -1894,6 +1894,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "furya-1",
+        name: "Furya",
+        chain_id: "furya-1",
+        description:
+          "",
+        logo: "",
+        examples: [
+          {
+            name: "furya-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Furya",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Furya/furya-starter",
+          },
+        ],
+      },
+      {
         code: "humans_1089-1",
         name: "HumansAI",
         chain_id: "humans_1089-1",
@@ -2167,6 +2184,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfer events and messages on OmniFlix Hub",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Omniflixhub/omniflixhub-starter",
+          },
+        ],
+      },
+      {
+        code: "Oraichain",
+        name: "Oraichain",
+        chain_id: "Oraichain",
+        description:
+          "IBC-enabled Layer 1 to verify multidimensional trustworthiness of AI and to build Web3 applications with AI oracle",
+        logo: "",
+        examples: [
+          {
+            name: "oraichain-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Oraichain",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Oraichain/oraichain-starter",
           },
         ],
       },
