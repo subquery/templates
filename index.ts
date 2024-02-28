@@ -63,6 +63,23 @@ const networkFamilies: NetworkFamily[] = [
         logo: "",
         examples: [
           {
+            name: "altlayer-op-demo-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for ABC token on Altlayer OP Demo Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Altlayer/altlayer-op-demo-starter",
+          },
+        ],
+      },
+      {
+        code: "42161",
+        name: "Arbitrum One",
+        chain_id: "42161",
+        description:
+          "A Layer 2 scaling solution for Ethereum, enhancing transaction throughput and reducing fees while maintaining compatibility with Ethereum's smart contracts.",
+        logo: "https://static.subquery.network/network-logos/42161.png",
+        examples: [
+          {
             name: "arbitrum-one-starter",
             description:
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Arbitrum's One Network",
@@ -87,23 +104,6 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/arbitrum"],
-      },
-      {
-        code: "42161",
-        name: "Arbitrum One",
-        chain_id: "42161",
-        description:
-          "A Layer 2 scaling solution for Ethereum, enhancing transaction throughput and reducing fees while maintaining compatibility with Ethereum's smart contracts.",
-        logo: "https://static.subquery.network/network-logos/42161.png",
-        examples: [
-          {
-            name: "altlayer-op-demo-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for ABC token on Altlayer OP Demo Testnet",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Altlayer/altlayer-op-demo-starter",
-          },
-        ],
       },
       {
         code: "42170",
