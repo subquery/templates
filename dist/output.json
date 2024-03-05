@@ -812,6 +812,21 @@
         ]
       },
       {
+        "code": "81",
+        "name": "Japan Open Chain",
+        "chain_id": "81",
+        "description": "Japan Open Chain (JOC) is Ethereum-Compatible Layer1 Public Blockchain that prioritizes practicality. It operates in collaboration with trusted enterprises, providing a reliable blockchain infrastructure for businesses and local governments to confidently utilize.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "japan-open-chain-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for Kiraboshi Coin Test on Japan Open Chain Mainnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Japan Open Chain/japan-open-chain-starter"
+          }
+        ]
+      },
+      {
         "code": "8217",
         "name": "Klaytn",
         "chain_id": "8217",
