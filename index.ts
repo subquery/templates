@@ -140,6 +140,32 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "3776",
+        name: "Astar zkEVM",
+        chain_id: "3776",
+        description:
+          "A blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
+        logo: "https://static.subquery.network/network-logos/astar.png",
+        examples: [
+          {
+            name: "astar-zkevm-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDC Token on Astar's zkEVM Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Astar/astar-zkevm-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Astar zkEVM Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events from the USDC Token on Astar's zkEVM Mainnet.",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/astar-zkatana.html",
+            internal: true,
+          },
+        ],
+      },
+      {
         code: "1261120",
         name: "Astar zKatana",
         chain_id: "1261120",
@@ -156,13 +182,6 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [
-          {
-            name: "Astar zKatana Testnet Quick Start",
-            description:
-              "The goal of this quick start guide is to index all transfers and approval events from the GACHA Token on Astar's zKatana Test Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/astar-zkatana.html",
-            internal: true,
-          },
           {
             name: "Astar zKatana Documentation - SubQuery Entry",
             link: "https://docs.astar.network/docs/build/zkEVM/integrations/indexers/subquery/",
