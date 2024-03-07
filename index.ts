@@ -368,6 +368,13 @@ const networkFamilies: NetworkFamily[] = [
         description: "",
         logo: "",
         examples: [
+          {
+            name: "base-sepolia-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for a WETH token on Sepolia Base Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Base/base-sepolia-starter",
+          },
         ],
         guides: [
           {
