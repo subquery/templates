@@ -57,6 +57,9 @@
     "84531": [
       "https://dict-tyk.subquery.network/query/base-goerli"
     ],
+    "84532": [
+      "https://dict-tyk.subquery.network/query/base-sepolia"
+    ],
     "11155111": [
       "https://dict-tyk.subquery.network/query/sepolia"
     ]
