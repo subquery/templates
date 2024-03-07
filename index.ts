@@ -362,6 +362,30 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: ["https://dict-tyk.subquery.network/query/base-goerli"],
       },
       {
+        code: "84532",
+        name: "Base Sepolia",
+        chain_id: "84532",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "base-sepolia-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for a WETH token on Sepolia Base Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Base/base-sepolia-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Base Documentation - SubQuery Entry",
+            link: "https://docs.base.org/tools/data-indexers#subquery",
+            internal: false,
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/base-sepolia"],
+      },
+      {
         code: "1501",
         name: "BEVM",
         chain_id: "1501",
