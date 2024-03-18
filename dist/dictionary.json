@@ -66,7 +66,8 @@
   },
   "algorand": {
     "algorand": [
-      "https://api.subquery.network/sq/subquery/Algorand-Dictionary"
+      "https://api.subquery.network/sq/subquery/Algorand-Dictionary",
+      "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW"
     ]
   },
   "cosmos": {
@@ -77,10 +78,12 @@
       "https://api.subquery.network/sq/subquery/cosmos-cronos-dictionary"
     ],
     "fetchhub-4": [
+      "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8",
       "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary"
     ],
     "juno-1": [
-      "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary"
+      "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary",
+      "https://gateway.subquery.network/query/QmPjq55mgUt9S8S491Q3wEbb87fXyEkdxymT6Gwe2xe1Z1"
     ],
     "osmosis-1": [
       "https://api.subquery.network/sq/subquery/cosmos-osmosis-dictionary"
@@ -92,49 +95,124 @@
   "concordium": {},
   "near": {
     "near": [
-      "https://api.subquery.network/sq/subquery/near-dictionary"
+      "https://api.subquery.network/sq/subquery/near-dictionary",
+      "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41"
     ]
   },
   "polkadot": {
+    "acala": [
+      "https://gateway.subquery.network/query/QmUj8yYCE1YU5UNdtm4q4di4GBDEAmL8vprSRWVGrYeEFm"
+    ],
     "astar": [
+      "https://gateway.subquery.network/query/QmapQ6cNKPtZE1jkeUp5V6xy7sPSiJiZpoqZcRRtyc4Stq",
       "https://dict-tyk.subquery.network/query/astar"
     ],
     "bifrost-kusama": [
+      "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy",
       "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
     ],
     "calamari": [
+      "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86",
       "https://api.subquery.network/sq/subquery/calamari-dictionary"
+    ],
+    "karura": [
+      "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N"
+    ],
+    "khala": [
+      "https://gateway.subquery.network/query/QmP2KRbGx4vLaL8HqugVXrNPMyziFL6aM9NAd4NbFqsPA9"
+    ],
+    "kilt-spiritnet": [
+      "https://gateway.subquery.network/query/QmeBTNuhahUo2EhTRxV3qVAVf5bC8zVQRrrHd3SUDXgtbF"
+    ],
+    "kusama": [
+      "https://gateway.subquery.network/query/Qmbe5g5vbEJYYAfpjcwNDzuhjeyaEQPQbxKyKx6PveYnR8"
+    ],
+    "moonbeam": [
+      "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK"
+    ],
+    "moonriver": [
+      "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq"
+    ],
+    "nodle": [
+      "https://gateway.subquery.network/query/QmZpj5wYpUbGqJDg6KWgbkK5bmeuCqYX6kwk317jdJ9DZ4"
     ],
     "parallel": [
       "https://api.subquery.network/sq/subquery/parallel-dictionary"
     ],
+    "polkadot": [
+      "https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL"
+    ],
     "shiden-kusama": [
+      "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
       "https://api.subquery.network/sq/subquery/shiden-dictionary"
     ],
     "kusama-asset-hub": [
       "https://api.subquery.network/sq/subquery/statemint-dictionary"
+    ],
+    "polkadot-asset-hub": [
+      "https://gateway.subquery.network/query/Qme1iQvwLoeh1ZLZVL4zDGZBK1hnMG3xZz1oaLBRvZxT7X"
+    ],
+    "westend": [
+      "https://gateway.subquery.network/query/QmP1BMJoyJ5iFq6XLSfTJ3D23iWuTG1tnsEffJpNieQnwN"
     ]
   },
   "stellar": {},
   "multi": {},
   "substrate": {
+    "acala": [
+      "https://gateway.subquery.network/query/QmUj8yYCE1YU5UNdtm4q4di4GBDEAmL8vprSRWVGrYeEFm"
+    ],
     "astar": [
+      "https://gateway.subquery.network/query/QmapQ6cNKPtZE1jkeUp5V6xy7sPSiJiZpoqZcRRtyc4Stq",
       "https://dict-tyk.subquery.network/query/astar"
     ],
     "bifrost-kusama": [
+      "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy",
       "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
     ],
     "calamari": [
+      "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86",
       "https://api.subquery.network/sq/subquery/calamari-dictionary"
+    ],
+    "karura": [
+      "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N"
+    ],
+    "khala": [
+      "https://gateway.subquery.network/query/QmP2KRbGx4vLaL8HqugVXrNPMyziFL6aM9NAd4NbFqsPA9"
+    ],
+    "kilt-spiritnet": [
+      "https://gateway.subquery.network/query/QmeBTNuhahUo2EhTRxV3qVAVf5bC8zVQRrrHd3SUDXgtbF"
+    ],
+    "kusama": [
+      "https://gateway.subquery.network/query/Qmbe5g5vbEJYYAfpjcwNDzuhjeyaEQPQbxKyKx6PveYnR8"
+    ],
+    "moonbeam": [
+      "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK"
+    ],
+    "moonriver": [
+      "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq"
+    ],
+    "nodle": [
+      "https://gateway.subquery.network/query/QmZpj5wYpUbGqJDg6KWgbkK5bmeuCqYX6kwk317jdJ9DZ4"
     ],
     "parallel": [
       "https://api.subquery.network/sq/subquery/parallel-dictionary"
     ],
+    "polkadot": [
+      "https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL"
+    ],
     "shiden-kusama": [
+      "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
       "https://api.subquery.network/sq/subquery/shiden-dictionary"
     ],
     "kusama-asset-hub": [
       "https://api.subquery.network/sq/subquery/statemint-dictionary"
+    ],
+    "polkadot-asset-hub": [
+      "https://gateway.subquery.network/query/Qme1iQvwLoeh1ZLZVL4zDGZBK1hnMG3xZz1oaLBRvZxT7X"
+    ],
+    "westend": [
+      "https://gateway.subquery.network/query/QmP1BMJoyJ5iFq6XLSfTJ3D23iWuTG1tnsEffJpNieQnwN"
     ]
   }
 }
