@@ -3959,7 +3959,7 @@ const dictionaryString = Object.fromEntries(
     Object.fromEntries(
       f.networks
         .filter((n) => !!n.dictionaries && n.dictionaries.length > 0)
-        .map((network) => [network.code, network.dictionaries])
+        .map((network) => [network.chain_id, network.dictionaries])
     ),
   ])
 );
