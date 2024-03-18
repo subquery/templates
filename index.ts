@@ -1587,6 +1587,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://api.subquery.network/sq/subquery/Algorand-Dictionary",
+          "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW",
         ],
       },
     ],
@@ -1960,6 +1961,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
+          "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8",
           "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary",
         ],
         guides: [
@@ -2069,6 +2071,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary",
+          "https://gateway.subquery.network/query/QmPjq55mgUt9S8S491Q3wEbb87fXyEkdxymT6Gwe2xe1Z1",
         ],
       },
       {
@@ -2681,6 +2684,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://api.subquery.network/sq/subquery/near-dictionary",
+          "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41"
         ],
       },
       {
@@ -2746,6 +2750,9 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://wiki.acala.network/build/indexers/subquery",
             internal: false,
           },
+        ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmUj8yYCE1YU5UNdtm4q4di4GBDEAmL8vprSRWVGrYeEFm",
         ],
       },
       {
@@ -2822,7 +2829,10 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/astar"],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmapQ6cNKPtZE1jkeUp5V6xy7sPSiJiZpoqZcRRtyc4Stq",
+          "https://dict-tyk.subquery.network/query/astar"
+        ],
       },
       {
         code: "automata",
@@ -2872,6 +2882,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
+          "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy",
           "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary",
         ],
       },
@@ -2924,6 +2935,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
+          "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86",
           "https://api.subquery.network/sq/subquery/calamari-dictionary",
         ],
       },
@@ -3217,6 +3229,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N",
+        ],
       },
       {
         code: "khala",
@@ -3233,6 +3248,9 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/subql-starter",
             path: "Khala/khala-starter",
           },
+        ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmP2KRbGx4vLaL8HqugVXrNPMyziFL6aM9NAd4NbFqsPA9",
         ],
       },
       {
@@ -3266,6 +3284,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmeBTNuhahUo2EhTRxV3qVAVf5bC8zVQRrrHd3SUDXgtbF",
+        ],
       },
       {
         code: "kusama",
@@ -3290,6 +3311,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/Qmbe5g5vbEJYYAfpjcwNDzuhjeyaEQPQbxKyKx6PveYnR8"
+        ]
       },
       {
         code: "kylin",
@@ -3381,6 +3405,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK"
+        ],
       },
       {
         code: "moonriver",
@@ -3411,6 +3438,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq"
+        ],
       },
       {
         code: "nodle",
@@ -3427,6 +3457,9 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/subql-starter",
             path: "Nodle/nodle-starter",
           },
+        ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmZpj5wYpUbGqJDg6KWgbkK5bmeuCqYX6kwk317jdJ9DZ4",
         ],
       },
       {
@@ -3528,6 +3561,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
+        dictionaries: ['https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL']
       },
       {
         code: "quartz",
@@ -3569,6 +3603,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
+          "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
           "https://api.subquery.network/sq/subquery/shiden-dictionary",
         ],
         guides: [
@@ -3626,6 +3661,9 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://wiki.polkadot.network/docs/build-data#subquery",
             internal: false,
           },
+        ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/Qme1iQvwLoeh1ZLZVL4zDGZBK1hnMG3xZz1oaLBRvZxT7X",
         ],
       },
       {
@@ -3744,6 +3782,9 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://wiki.polkadot.network/docs/build-data#subquery",
             internal: false,
           },
+        ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmP1BMJoyJ5iFq6XLSfTJ3D23iWuTG1tnsEffJpNieQnwN",
         ],
       },
       {
