@@ -3813,6 +3813,22 @@ const networkFamilies: NetworkFamily[] = [
     logo: "https://static.subquery.network/network-logos/stellar.png",
     networks: [
       {
+        code: "mainnet",
+        name: "Mainnet",
+        chain_id: "Mainnet",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/stellar.png",
+        examples: [
+          {
+            name: "soroban-starter",
+            description:
+              "The example project indexes all soroban transfer events on Stellar's Mainnet. It also indexes all account payments including credits and debits",
+            remote: "https://github.com/subquery/stellar-subql-starter",
+            path: "Stellar/soroban-starter",
+          },
+        ],
+      },
+      {
         code: "testnet",
         name: "Testnet",
         chain_id: "testnet",
