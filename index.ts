@@ -548,6 +548,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "22215",
+        name: "BVM",
+        chain_id: "22215",
+        description:
+          "BVM is the first modular Bitcoin L2 metaprotocol on Bitcoin. With a few clicks, anyone can plug and play the best-of-breed blockchain modules to launch their own Bitcoin L2 blockchain.",
+        logo: "",
+        examples: [
+          {
+            name: "bvm-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped ETH on BVM Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "BVM/bvm-starter",
+          },
+        ],
+      },
+      {
         code: "42220",
         name: "Celo",
         chain_id: "42220",
