@@ -386,8 +386,25 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: ["https://dict-tyk.subquery.network/query/base-sepolia"],
       },
       {
+        code: "80085",
+        name: "Berachain Artio Testnet",
+        chain_id: "80085",
+        description:
+          "EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
+        logo: "",
+        examples: [
+          {
+            name: "berachain-artio-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped ETH on Berachain Artio Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Berachain/berachain-artio-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "1501",
-        name: "BEVM",
+        name: "BEVM Testnet",
         chain_id: "1501",
         description:
           "A Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
@@ -399,6 +416,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Wrapped BTC on BEVM Canary Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "BEVM/bevm-canary-starter",
+          },
+        ],
+      },
+      {
+        code: "11501",
+        name: "BEVM Mainnet",
+        chain_id: "11501",
+        description:
+          "A Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
+        logo: "",
+        examples: [
+          {
+            name: "bevm-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped BTC on BEVM Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "BEVM/bevm-starter",
           },
         ],
       },
