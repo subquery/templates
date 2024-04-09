@@ -1614,7 +1614,7 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "algorand",
         name: "Algorand",
-        chain_id: "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8",
+        chain_id: "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
         description:
           "A blockchain network known for its fast and efficient consensus mechanism, enabling high-speed and secure transactions for a wide range of applications.",
         logo: "https://static.subquery.network/network-logos/algorand.png",
