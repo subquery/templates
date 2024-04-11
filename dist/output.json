@@ -50,6 +50,18 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/arbitrum"
+        ],
+        "public_rpc": [
+          {
+            "type": "ARCHIVE",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x23/overview",
+            "endpoint": "https://arbitrum.rpc.subquery.network/public"
+          },
+          {
+            "type": "FULL",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x22/overview",
+            "endpoint": "https://arbitrum.rpc.subquery.network/public"
+          }
         ]
       },
       {
@@ -254,6 +266,18 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/base-mainnet"
+        ],
+        "public_rpc": [
+          {
+            "type": "ARCHIVE",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x06/overview",
+            "endpoint": "https://base.rpc.subquery.network/public"
+          },
+          {
+            "type": "FULL",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x05/overview",
+            "endpoint": "https://base.rpc.subquery.network/public"
+          }
         ]
       },
       {
@@ -660,6 +684,18 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/eth-mainnet"
+        ],
+        "public_rpc": [
+          {
+            "type": "ARCHIVE",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x04/overview",
+            "endpoint": "https://ethereum.rpc.subquery.network/public"
+          },
+          {
+            "type": "FULL",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x03/overview",
+            "endpoint": "https://ethereum.rpc.subquery.network/public"
+          }
         ]
       },
       {
@@ -696,6 +732,18 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/sepolia"
+        ],
+        "public_rpc": [
+          {
+            "type": "ARCHIVE",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x27/overview",
+            "endpoint": "https://ethereum-sepolia.rpc.subquery.network/public"
+          },
+          {
+            "type": "FULL",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x26/overview",
+            "endpoint": "https://ethereum-sepolia.rpc.subquery.network/public"
+          }
         ]
       },
       {
@@ -1167,6 +1215,18 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/polygon"
+        ],
+        "public_rpc": [
+          {
+            "type": "ARCHIVE",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x25/overview",
+            "endpoint": "https://polygon.rpc.subquery.network/public"
+          },
+          {
+            "type": "FULL",
+            "explorer_url": "https://app.subquery.network/explorer/project/0x24/overview",
+            "endpoint": "https://polygon.rpc.subquery.network/public"
+          }
         ]
       },
       {

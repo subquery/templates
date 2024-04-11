@@ -14,6 +14,12 @@ type Guide = {
   internal: boolean;
 };
 
+type PublicRPC = {
+  type: "DATA_NODE" | "FULL" | "ARCHIVE";
+  endpoint: string;
+  explorer_url: string;
+};
+
 type Network = {
   // Code is special and must be http url param compatible (e.g. no spaces or special chars)
   // For EVM chains, we use the chain_id
@@ -28,6 +34,7 @@ type Network = {
   examples: Examples[];
   guides?: Guide[];
   dictionaries?: string[]; // Array of URLs
+  public_rpc?: PublicRPC[];
 };
 
 type NetworkFamily = {
@@ -104,6 +111,20 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/arbitrum"],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x23/overview",
+            endpoint: "https://arbitrum.rpc.subquery.network/public",
+          },
+          {
+            type: "FULL",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x22/overview",
+            endpoint: "https://arbitrum.rpc.subquery.network/public",
+          },
+        ],
       },
       {
         code: "42170",
@@ -322,6 +343,20 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/base-mainnet"],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x06/overview",
+            endpoint: "https://base.rpc.subquery.network/public",
+          },
+          {
+            type: "FULL",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x05/overview",
+            endpoint: "https://base.rpc.subquery.network/public",
+          },
+        ],
       },
       {
         code: "84531",
@@ -768,6 +803,20 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/eth-mainnet"],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x04/overview",
+            endpoint: "https://ethereum.rpc.subquery.network/public",
+          },
+          {
+            type: "FULL",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x03/overview",
+            endpoint: "https://ethereum.rpc.subquery.network/public",
+          },
+        ],
       },
       {
         code: "5",
@@ -802,6 +851,20 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/sepolia"],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x27/overview",
+            endpoint: "https://ethereum-sepolia.rpc.subquery.network/public",
+          },
+          {
+            type: "FULL",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x26/overview",
+            endpoint: "https://ethereum-sepolia.rpc.subquery.network/public",
+          },
+        ],
       },
       {
         code: "250",
@@ -1316,6 +1379,20 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/polygon"],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x25/overview",
+            endpoint: "https://polygon.rpc.subquery.network/public",
+          },
+          {
+            type: "FULL",
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x24/overview",
+            endpoint: "https://polygon.rpc.subquery.network/public",
+          },
+        ],
       },
       {
         code: "1101",
@@ -2027,8 +2104,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "furya-1",
         name: "Furya",
         chain_id: "furya-1",
-        description:
-          "",
+        description: "",
         logo: "",
         examples: [
           {
@@ -2735,7 +2811,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://api.subquery.network/sq/subquery/near-dictionary",
-          "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41"
+          "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41",
         ],
       },
       {
@@ -2882,7 +2958,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://gateway.subquery.network/query/QmapQ6cNKPtZE1jkeUp5V6xy7sPSiJiZpoqZcRRtyc4Stq",
-          "https://dict-tyk.subquery.network/query/astar"
+          "https://dict-tyk.subquery.network/query/astar",
         ],
       },
       {
@@ -3363,8 +3439,8 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/Qmbe5g5vbEJYYAfpjcwNDzuhjeyaEQPQbxKyKx6PveYnR8"
-        ]
+          "https://gateway.subquery.network/query/Qmbe5g5vbEJYYAfpjcwNDzuhjeyaEQPQbxKyKx6PveYnR8",
+        ],
       },
       {
         code: "kylin",
@@ -3457,7 +3533,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK"
+          "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK",
         ],
       },
       {
@@ -3490,7 +3566,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq"
+          "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq",
         ],
       },
       {
@@ -3612,7 +3688,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
-        dictionaries: ['https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL']
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL",
+        ],
       },
       {
         code: "quartz",
