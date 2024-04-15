@@ -187,6 +187,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "6038361",
+        name: "Astar zKyoto",
+        chain_id: "6038361",
+        description:
+          "A blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
+        logo: "https://static.subquery.network/network-logos/astar.png",
+        examples: [
+          {
+            name: "astar-zkyoto-testnet-starter",
+            description:
+              "This SubQuery project indexes all transactions Astar's zkEVM's zKyoto Test Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Astar/astar-zkyoto-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "1261120",
         name: "Astar zKatana",
         chain_id: "1261120",
@@ -472,6 +489,40 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "81457",
+        name: "Blast",
+        chain_id: "81457",
+        description:
+          "The only Ethereum L2 with native yield for ETH and stablecoins.",
+        logo: "",
+        examples: [
+          {
+            name: "blast-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Eth on Blast Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Blast/blast-starter",
+          },
+        ],
+      },
+      {
+        code: "168587773",
+        name: "Blast Sepolia",
+        chain_id: "168587773",
+        description:
+          "The only Ethereum L2 with native yield for ETH and stablecoins.",
+        logo: "",
+        examples: [
+          {
+            name: "blast-sepolia-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Eth on Blast Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Blast/blast-sepolia-starter",
+          },
+        ],
+      },
+      {
         code: "56",
         name: "BNB Smart Chain",
         chain_id: "56",
@@ -677,6 +728,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "666666666",
+        name: "Degen Chain",
+        chain_id: "666666666",
+        description:
+          "Degen, an ERC-20 token launched in January 2024, has reshaped the Farcaster ecosystem by enabling Casters to reward others with DEGEN for posting quality content.",
+        logo: "",
+        examples: [
+          {
+            name: "degen-chain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for DEGEN on Degen Chain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Degen/degen-chain-starter",
+          },
+        ],
+      },
+      {
         code: "17777",
         name: "EOS",
         chain_id: "17777",
@@ -707,6 +775,13 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Mainnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Ethereum/ethereum-starter",
+          },
+          {
+            name: "ethereum-poap",
+            description:
+              "This SubQuery project indexes all POAPs mints and transactions on the Ethereum mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum/ethereum-poap",
           },
           {
             name: "ethereum-bayc",
@@ -1247,6 +1322,40 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "4200",
+        name: "Merlin Mainnet",
+        chain_id: "4200",
+        description:
+          "Unleashing Bitcoin's Potential with Native L1 Assets, Users and Protocols.",
+        logo: "",
+        examples: [
+          {
+            name: "merlin-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for wrapped BTC on Merlin Chain Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Merlin/merlin-starter",
+          },
+        ],
+      },
+      {
+        code: "686868",
+        name: "Merlin Testnet",
+        chain_id: "686868",
+        description:
+          "Unleashing Bitcoin's Potential with Native L1 Assets, Users and Protocols.",
+        logo: "",
+        examples: [
+          {
+            name: "merlin-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for wrapped BTC on Merlin Test Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Merlin/merlin-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "22222",
         name: "Nautilus",
         chain_id: "22222",
@@ -1646,6 +1755,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "51",
+        name: "XDC Apothem Testnet",
+        chain_id: "51",
+        description:
+          "The XDC Network sets a benchmark for digitizing trade finance by enabling the tokenization of diverse trade finance instruments and assets.",
+        logo: "",
+        examples: [
+          {
+            name: "xdc-apothem-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for FXD on XDC Apothem Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "XDC/xdc-apothem-starterr",
+          },
+        ],
+      },
+      {
         code: "324",
         name: "Zksync",
         chain_id: "324",
@@ -1677,6 +1803,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://dict-tyk.subquery.network/query/zksync-mainnet",
+        ],
+      },
+      {
+        code: "7777777",
+        name: "Zora",
+        chain_id: "7777777",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "zora-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the WETH on Zora Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Zora/zora-starterr",
+          },
         ],
       },
     ],
@@ -2978,6 +3120,41 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "avail",
+        name: "Avail",
+        chain_id:
+          "0x6f09966420b2608d1947ccfb0f2a362450d1fc7fd902c29b67c906eaa965a7ae",
+        description:
+          "Avail is a Web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way.",
+        logo: "",
+        examples: [
+          {
+            name: "avail-starter",
+            description:
+              "This SubQuery project indexes all asset transfers using the balances pallet on the Avail Network",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Avail/avail-starter",
+          },
+        ],
+      },
+      {
+        code: "bajun",
+        name: "Bajun",
+        chain_id:
+          "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "bajun-starter",
+            description:
+              "This SubQuery project indexes all asset transfers using the balances pallet on the Bajun Network",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Bajun/bajun-starter",
+          },
+        ],
+      },
+      {
         code: "basilisk",
         name: "Basilisk",
         chain_id:
@@ -3642,6 +3819,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "peaq",
+        name: "Peaq",
+        chain_id:
+          "0xd2a5d385932d1f650dae03ef8e2748983779ee342c614f80854d32b8cd8fa48c",
+        description:
+          "Powering a global infrastructure revolution · The home of DePIN Decentralized Physical Infra Networks being built on peaq",
+        logo: "",
+        examples: [
+          {
+            name: "peaq-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for all ERC20 tokens on Peaq's EVM",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Peaq/peaq-starter",
+          },
+        ],
+      },
+      {
         code: "polkadex-standalone",
         name: "Polkadex",
         chain_id:
@@ -3712,6 +3907,24 @@ const networkFamilies: NetworkFamily[] = [
             name: "Unique Documentation - SubQuery Entry",
             link: "https://docs.unique.network/tutorials/subquery-indexer.html",
             internal: false,
+          },
+        ],
+      },
+      {
+        code: "reef",
+        name: "Reef",
+        chain_id:
+          "0x7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
+        description:
+          "Reef chain is an EVM compatible blockchain for DeFi. It is fast, scalable, has low transaction costs and does no wasteful mining.",
+        logo: "",
+        examples: [
+          {
+            name: "reef-starter",
+            description:
+              "his SubQuery project indexes all asset transfers using the balances pallet on the Reef Network",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Reef/reef-starter",
           },
         ],
       },
