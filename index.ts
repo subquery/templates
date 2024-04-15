@@ -610,7 +610,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Boba BNB Mainnet",
         chain_id: "56288",
         description:
-          "A privacy-focused blockchain project, offering features like confidential transactions and data protection to enhance user privacy and security.",
+          "A Multichain Optimistic Rollup Solution powered by HybridCompute.",
         logo: "https://static.subquery.network/network-logos/56288.png",
         examples: [
           {
@@ -641,7 +641,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Boba Network",
         chain_id: "288",
         description:
-          "A privacy-focused blockchain project, offering features like confidential transactions and data protection to enhance user privacy and security.",
+          "A Multichain Optimistic Rollup Solution powered by HybridCompute.",
         logo: "https://static.subquery.network/network-logos/288.png",
         examples: [
           {
