@@ -3224,6 +3224,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "bittensor",
+        name: "BitTensor",
+        chain_id:
+          "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
+        description: "The Bittensor protocol establishes a marketplace that transforms machine intelligence into a tradable commodity.",
+        logo: "",
+        examples: [
+          {
+            name: "bittensor-starter",
+            description: "This SubQuery project indexes all asset transfers using the balances pallet on the Bittensor Network",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Bittensor/bittensor-starter",
+          },
+        ],
+      },
+      {
         code: "calamari",
         name: "Calamari",
         chain_id:
