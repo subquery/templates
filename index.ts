@@ -1678,6 +1678,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "17000",
+        name: "Taiko Holesky",
+        chain_id: "17000",
+        description:
+          "Taiko is a fully permissionless, Ethereum-equivalent based rollup. Inspired, secured, and sequenced by Ethereum.",
+        logo: "",
+        examples: [
+          {
+            name: "taiko-holesky-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Taiko Token Katla (TTKOk) on Taiko Holesky",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Taiko/taiko-holesky-starter",
+          },
+        ],
+      },
+      {
         code: "40",
         name: "Telos Mainnet",
         chain_id: "40",
@@ -3228,12 +3245,14 @@ const networkFamilies: NetworkFamily[] = [
         name: "BitTensor",
         chain_id:
           "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
-        description: "The Bittensor protocol establishes a marketplace that transforms machine intelligence into a tradable commodity.",
+        description:
+          "The Bittensor protocol establishes a marketplace that transforms machine intelligence into a tradable commodity.",
         logo: "",
         examples: [
           {
             name: "bittensor-starter",
-            description: "This SubQuery project indexes all asset transfers using the balances pallet on the Bittensor Network",
+            description:
+              "This SubQuery project indexes all asset transfers using the balances pallet on the Bittensor Network",
             remote: "https://github.com/subquery/subql-starter",
             path: "Bittensor/bittensor-starter",
           },
