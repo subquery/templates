@@ -1484,6 +1484,21 @@
         ]
       },
       {
+        "code": "17000",
+        "name": "Taiko Holesky",
+        "chain_id": "17000",
+        "description": "Taiko is a fully permissionless, Ethereum-equivalent based rollup. Inspired, secured, and sequenced by Ethereum.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "taiko-holesky-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Taiko Token Katla (TTKOk) on Taiko Holesky",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Taiko/taiko-holesky-starter"
+          }
+        ]
+      },
+      {
         "code": "40",
         "name": "Telos Mainnet",
         "chain_id": "40",
