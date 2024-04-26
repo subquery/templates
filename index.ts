@@ -1746,27 +1746,45 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "195",
-        name: "X1 Testnet",
-        chain_id: "195",
+        code: "196",
+        name: "X Layer Mainnet",
+        chain_id: "196",
         description:
-          "X1 is a ZK-powered layer 2 network that connects the OKX and Ethereum communities to allow anyone to take part in a truly global on-chain ecosystem.",
+          "A ZK-powered layer 2 network that connects the OKX and Ethereum communities to allow anyone to take part in a truly global on-chain ecosystem.",
         logo: "https://static.subquery.network/network-logos/40.png",
         examples: [
           {
-            name: "x1-testnet-starter",
+            name: "xlayer-mainnet-starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped ether token on X1 test network",
+              "This SubQuery project indexes all transfers and approval events for the wrapped ether token on X Layer Mainnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "X1/x1-testnet-starter",
+            path: "XLayer/xlayer-mainnet-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
+        code: "195",
+        name: "X Layer Testnet",
+        chain_id: "195",
+        description:
+          "A ZK-powered layer 2 network that connects the OKX and Ethereum communities to allow anyone to take part in a truly global on-chain ecosystem.",
+        logo: "https://static.subquery.network/network-logos/40.png",
+        examples: [
+          {
+            name: "xlayer-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped ether token on X Layer Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "XLayer/xlayer-testnet-starter",
           },
         ],
         guides: [
           {
-            name: "X1 (Testnet) Quick Start",
+            name: "X Layer (Testnet) Quick Start",
             description:
-              "The goal of this quick start guide is to index all transfers and approval events from the Wrapped ETH on X1 Testnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/x1.html",
+              "The goal of this quick start guide is to index all transfers and approval events from the Wrapped ETH on X Layer Testnet.",
+            link: "https://academy.subquery.network/quickstart/quickstart_chains/xlayer-testnet.html",
             internal: true,
           },
         ],
