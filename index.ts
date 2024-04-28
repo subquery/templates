@@ -106,7 +106,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Arbitrum Quick Start",
             description:
               "The goal of this quick start guide is to index the total claimed dividends paid to users on the WINR staking contract on Arbitrum.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/arbitrum.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/arbitrum.html",
             internal: true,
           },
         ],
@@ -181,7 +181,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Astar zkEVM Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the USDC Token on Astar's zkEVM Mainnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/astar-zkatana.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/astar-zkatana.html",
             internal: true,
           },
         ],
@@ -262,14 +262,14 @@ const networkFamilies: NetworkFamily[] = [
             name: "Avalanche Quick Start - Pangolin Rewards",
             description:
               "The goal of this quick start guide is to index all token deposits and transfers from the Avalanche's Pangolin token",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/avalanche.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/avalanche.html",
             internal: true,
           },
           {
             name: "Avalanche Quick Start - Crabada NFTs",
             description:
               "The goal of this quick start guide is to index all Crabada NFTs on Avalanche's C-chain.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/avalanche-crabada.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/avalanche-crabada.html",
             internal: true,
           },
           {
@@ -350,7 +350,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Base Quick Start",
             description:
               "The goal of this quick start guide is to index the all the claims from the Bridge to Base NFT contract on Base Mainnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/base.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/base.html",
             internal: true,
           },
           {
@@ -402,7 +402,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Base Goerli Quick Start",
             description:
               "The goal of this quick start guide is to index the total faucets dripped to users from the USDC Faucet contract on Base Goerli Testnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/base-goerli.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/base-goerli.html",
             internal: true,
           },
           {
@@ -557,14 +557,14 @@ const networkFamilies: NetworkFamily[] = [
             name: "BNB Smart Chain (BSC) Quick Start",
             description:
               "The goal of this quick start guide is to index all deposits and withdrawls to MOBOX pools.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/bsc.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/bsc.html",
             internal: true,
           },
           {
             name: "BNB Smart Chain (BSC) - PancakeSwap Example",
             description:
               "The goal of this quick start guide is to index the standard PancakeSwap project on BSC",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/bsc.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/bsc.html",
             internal: true,
           },
         ],
@@ -626,7 +626,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Boba BNB Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped BOBA on Boba BNB Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/boba-bnb.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/boba-bnb.html",
             internal: true,
           },
           {
@@ -657,7 +657,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Boba ETH Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Boba Mainnet Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/boba-eth.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/boba-eth.html",
             internal: true,
           },
           {
@@ -705,7 +705,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Celo Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Celo Mainnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/celo.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/celo.html",
             internal: true,
           },
         ],
@@ -838,42 +838,42 @@ const networkFamilies: NetworkFamily[] = [
             name: "Ethereum Quick Start - Gravatar (Simple)",
             description:
               "The goal of this quick start guide is to index all Ethereum Gravatars created or updated on the Ethereum mainnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-gravatar.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/ethereum-gravatar.html",
             internal: true,
           },
           {
             name: "Ethereum Quick Start - BAYC (Simple)",
             description:
               "The goal of this article is to provide a comprehensive guide to setting up an indexer for the Bored Ape Yacht Club (BAYC) smart contract.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-bayc.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/ethereum-bayc.html",
             internal: true,
           },
           {
             name: "Ethereum Quick Start - Chainlink (Medium)",
             description:
               "This guide serves as your gateway to a comprehensive guide on setting up a SubQuery indexer specifically tailored to index data from Chainlink Data Feeds.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-chainlink.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/ethereum-chainlink.html",
             internal: true,
           },
           {
             name: "Ethereum Quick Start - Opensea (Medium)",
             description:
               "This guide is designed to seamlessly lead you through the steps of configuring your personal OpenSea SubQuery indexer.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-opensea.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/ethereum-opensea.html",
             internal: true,
           },
           {
             name: "Ethereum Quick Start - Uniswap (Complex)",
             description:
               "The objective of this article is to offer a detailed, step-by-step guide on setting up a SubQuery indexer for Uniswap v3 protocol.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-uniswap.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/ethereum-uniswap.html",
             internal: true,
           },
           {
             name: "Ethereum Quick Start - ENS (Complex)",
             description:
               "This project can be use as a starting point for developing your new Ethereum SubQuery project, it indexes all ENS Records in the ENS registry.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/ethereum-ens.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/ethereum-ens.html",
             internal: true,
           },
         ],
@@ -962,7 +962,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Fantom Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped FTM on Fantom Opera Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/fantom.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/fantom.html",
             internal: true,
           },
         ],
@@ -988,7 +988,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Flare Quick Start",
             description:
               "The goal of this quick start guide is to index all rewards from the Flare FTSO Reward Manager from Flare's Songbird network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/flare.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/flare.html",
             internal: true,
           },
           {
@@ -1049,7 +1049,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Gnosis Quick Start",
             description:
               "The goal of this quick start guide is to index all POAP mints and transactions on the Gnosis mainnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/gnosis.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/gnosis.html",
             internal: true,
           },
           {
@@ -1083,7 +1083,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Harmony Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Harmony Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/harmony.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/harmony.html",
             internal: true,
           },
         ],
@@ -1109,7 +1109,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Heco Chain Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped HT on Heco Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/heco.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/heco.html",
             internal: true,
           },
         ],
@@ -1135,7 +1135,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Immutable (Testnet) Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Immutable Testnet Gas Token on Immutable Testnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/immutable-testnet.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/immutable-testnet.html",
             internal: true,
           },
         ],
@@ -1195,7 +1195,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Klaytn Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Orbit ETH on Klaytn Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/klaytn.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/klaytn.html",
             internal: true,
           },
           {
@@ -1259,7 +1259,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Mantle Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Mantle Native token on Mantle Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/mantle.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/mantle.html",
             internal: true,
           },
         ],
@@ -1285,7 +1285,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Meter Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Meter Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/meter.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/meter.html",
             internal: true,
           },
           {
@@ -1316,7 +1316,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Metis Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the METIS Token on Metis Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/metis.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/metis.html",
             internal: true,
           },
         ],
@@ -1433,7 +1433,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Optimism Quick Start",
             description:
               "The goal of this quick start guide is to index all claim events from the Optimism airdrop contract.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/optimism.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/optimism.html",
             internal: true,
           },
         ],
@@ -1476,14 +1476,14 @@ const networkFamilies: NetworkFamily[] = [
             name: "Polygon Quick Start",
             description:
               "The goal of this quick start guide is to index all token deposits from the Polygon Plasma Bridge.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polygon.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polygon.html",
             internal: true,
           },
           {
             name: "Polygon Quick Start - Lens Protocol",
             description:
               "This article's purpose is to provide a clear, step-by-step guide on setting up an indexer for the Lens Protocol on the Polygon blockchain.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polygon-lens.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polygon-lens.html",
             internal: true,
           },
         ],
@@ -1524,7 +1524,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Polygon zkEVM Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Polygon zkEVM Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polygon-zkevm.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polygon-zkevm.html",
             internal: true,
           },
         ],
@@ -1620,7 +1620,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Scroll Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the USDC token on Scroll's Mainnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/scroll.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/scroll.html",
             internal: true,
           },
         ],
@@ -1646,7 +1646,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Scroll (Sepolia Testnet) Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Scroll's Sepolia Test Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/scroll-sepolia.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/scroll-sepolia.html",
             internal: true,
           },
         ],
@@ -1672,7 +1672,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Skale Europa Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the SKL Token on Skale Europa Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/skale.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/skale.html",
             internal: true,
           },
         ],
@@ -1784,7 +1784,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "X Layer (Testnet) Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped ETH on X Layer Testnet.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/xlayer-testnet.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/xlayer-testnet.html",
             internal: true,
           },
         ],
@@ -1827,7 +1827,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "ZkSync (Era) Quick Start",
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped ETH on ZkSync Era Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/zksync-era.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/zksync-era.html",
             internal: true,
           },
           {
@@ -1886,7 +1886,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Algorand Quick Start",
             description:
               "The goal of this quick guide is to adapt the standard starter project and start indexing all the PLANET token transfers from Algorand.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/algorand.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/algorand.html",
             internal: true,
           },
         ],
@@ -1925,7 +1925,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Agoric Quick Start",
             description:
               "The goal of this quick start guide is to index all transfer events and messages on the Agoric network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-agoric.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-agoric.html",
             internal: true,
           },
           {
@@ -1956,7 +1956,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Akash Quick Start",
             description:
               "The goal of this quick start guide is to index all reward transactions for delegators in the Akash network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-akash.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-akash.html",
             internal: true,
           },
           {
@@ -1987,7 +1987,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Archway Quick Start",
             description:
               "The goal of this quick start guide is to index all Archway contract metadata as well as all rewards paid out to contract developers.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-archway.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-archway.html",
             internal: true,
           },
           {
@@ -2152,7 +2152,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Cronos Quick Start",
             description:
               "The goal of this quick start guide is to adapt the standard starter project in the Cronos Network and then begin indexing all transfers of Cro Crow Token.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-cronos.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-cronos.html",
             internal: true,
           },
         ],
@@ -2364,7 +2364,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Juno Quick Start",
             description:
               "The goal of this quick start guide is to adapt the standard starter project in the Juno Network and then begin indexing all votes on the Terra Developer Fund (which also contributed to SubQuery) from Cosmos.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-juno.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-juno.html",
             internal: true,
           },
           {
@@ -2527,7 +2527,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Neutron Quick Start",
             description:
               "The goal of this quick start guide is to index all airdrop claims on Neutron Network.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-neutron.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-neutron.html",
             internal: true,
           },
           {
@@ -2609,7 +2609,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Osmosis Quick Start",
             description:
               "This guide acts as your entrance to a detailed tutorial for configuring a SubQuery indexer that is specifically designed to index swaps occurring on Osmosis.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-osmosis.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-osmosis.html",
             internal: true,
           },
           {
@@ -2715,7 +2715,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Sei Quick Start",
             description:
               "The goal of this quick start guide is to index all ETH-USD exchange rates provided to Levana's Sei DEX protocol by the Pyth price oracle.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-sei.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-sei.html",
             internal: true,
           },
         ],
@@ -2833,7 +2833,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Thorchain Quick Start",
             description:
               "The goal of this quick start guide is to indexing all deposit messages of Thorchain.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/cosmos-thorchain.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-thorchain.html",
             internal: true,
           },
         ],
@@ -2915,7 +2915,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Concordium Quick Start",
             description:
               "The goal of this quick start guide is to index all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/concordium.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/concordium.html",
             internal: true,
           },
           {
@@ -2975,14 +2975,14 @@ const networkFamilies: NetworkFamily[] = [
             name: "NEAR Quick Start",
             description:
               "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/near.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near.html",
             internal: true,
           },
           {
             name: "NEAR Ref Finance",
             description:
               "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/near-ref-finance.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near-ref-finance.html",
             internal: true,
           },
         ],
@@ -3012,7 +3012,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Aurora Quick Start (EVM)",
             description:
               "The goal of this quick start guide is to index transfers and approvals for the Wrapped NEAR smart contract on NEAR Aurora.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/near-aurora.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near-aurora.html",
             internal: true,
           },
         ],
@@ -3124,7 +3124,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Astar (WASM) Quick Start",
             description:
               "This example project indexes all Transactions and Approvals from the Astar Wasm based lottery contract, as well as dApp staking events from Astar's dApp Staking functions.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-astar.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polkadot-astar.html",
             internal: true,
           },
           {
@@ -3503,7 +3503,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Humanode Quick Start",
             description:
               "This quick guide aims to adapt the standard starter project and index all transfers, bioauthenitcation events, and online validator nodes from Humanode chain.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-humanode.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polkadot-humanode.html",
             internal: true,
           },
         ],
@@ -3637,7 +3637,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Kilt Quick Start",
             description:
               "The example project indexes all Attestations created and revoked on the Kilt Spiritnet Blockchain.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-kilt.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polkadot-kilt.html",
             internal: true,
           },
         ],
@@ -3753,7 +3753,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Moonbeam (EVM) Quick Start",
             description:
               "The example project indexes all Transfers from the Moonbeam EVM FRAX ERC-20 contract, as well as Collators joining and leaving events from Moonbeam's Staking functions.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot-moonbeam.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polkadot-moonbeam.html",
             internal: true,
           },
           {
@@ -3927,7 +3927,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Polkadot/Substrate Quick Start",
             description:
               "The goal of this quick guide is to adapt the standard starter project and start indexing all transfers from Polkadot.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/polkadot.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/polkadot.html",
             internal: true,
           },
           {
@@ -4259,7 +4259,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Stellar & Soroban Quick Start",
             description:
               "The example project indexes all soroban transfer events on Stellar's Futurenet. It also indexes all account payments including credits and debits - it's a great way to quickly learn how SubQuery works on a real world hands-on example.",
-            link: "https://academy.subquery.network/quickstart/quickstart_chains/stellar.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/stellar.html",
             internal: true,
           },
         ],
@@ -4334,28 +4334,28 @@ const networkFamilies: NetworkFamily[] = [
             name: "Galxe - Multichain Quick Start",
             description:
               "A step-by-step guide on how to establish a multi-chain indexer that is compatible with Galxe, a prominent platform for creating web3 communities.",
-            link: "https://academy.subquery.network/quickstart/quickstart_multichain/galxe-nft.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_multichain/galxe-nft.html",
             internal: true,
           },
           {
             name: "Plasma Bridge - Multichain Quick Start",
             description:
               "This page explains how to create an multi-chain indexer to index the bridge transfer that are coming from Polygon to Ethereum via the Polygon Plasma Bridge.",
-            link: "https://academy.subquery.network/quickstart/quickstart_multichain/polygon-plasma-bridge.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_multichain/polygon-plasma-bridge.html",
             internal: true,
           },
           {
             name: "Snapshot - Multichain Quick Start",
             description:
               "A step-by-step manual for establishing a multi-chain indexer compatible with Snapshot, a voting platform that facilitates effortless and gas-free voting for DAOs, DeFi protocols, and NFT communities.",
-            link: "https://academy.subquery.network/quickstart/quickstart_multichain/snapshot.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_multichain/snapshot.html",
             internal: true,
           },
           {
             name: "Safe - Multichain Quick Start",
             description:
               "This page explains how to create an multi-chain indexer for [Safe](https://safe.global/), a system that makes secure wallets requiring multiple authorisations.",
-            link: "https://academy.subquery.network/quickstart/quickstart_multichain/safe.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_multichain/safe.html",
             internal: true,
           },
         ],
