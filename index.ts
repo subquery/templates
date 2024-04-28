@@ -1805,6 +1805,15 @@ const networkFamilies: NetworkFamily[] = [
             path: "XDC/xdc-apothem-starterr",
           },
         ],
+        guides: [
+          {
+            name: "XDC Apothem Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events for FXD on XDC Apothem Testnet.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/xdc-apothem.html",
+            internal: true,
+          },
+        ],
       },
       {
         code: "324",
