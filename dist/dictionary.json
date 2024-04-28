@@ -1,6 +1,7 @@
 {
   "ethereum": {
     "1": [
+      "https://ethereum.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/eth-mainnet"
     ],
     "5": [
@@ -34,6 +35,7 @@
       "https://dict-tyk.subquery.network/query/polygon-zkevm"
     ],
     "8453": [
+      "https://base.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/base-mainnet"
     ],
     "42161": [

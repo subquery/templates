@@ -280,6 +280,7 @@
           }
         ],
         "dictionaries": [
+          "https://base.node.subquery.network/public",
           "https://dict-tyk.subquery.network/query/base-mainnet"
         ],
         "public_rpc": [
@@ -749,6 +750,7 @@
           }
         ],
         "dictionaries": [
+          "https://ethereum.node.subquery.network/public",
           "https://dict-tyk.subquery.network/query/eth-mainnet"
         ],
         "public_rpc": [
