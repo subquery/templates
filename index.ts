@@ -359,7 +359,10 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/base-mainnet"],
+        dictionaries: [
+          "https://base.node.subquery.network/public",
+          "https://dict-tyk.subquery.network/query/base-mainnet"
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -877,7 +880,10 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/eth-mainnet"],
+        dictionaries: [
+          "https://ethereum.node.subquery.network/public",
+          "https://dict-tyk.subquery.network/query/eth-mainnet"
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
