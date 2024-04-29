@@ -361,7 +361,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://base.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/base-mainnet"
+          "https://dict-tyk.subquery.network/query/base-mainnet",
         ],
         public_rpc: [
           {
@@ -882,7 +882,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://ethereum.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/eth-mainnet"
+          "https://dict-tyk.subquery.network/query/eth-mainnet",
         ],
         public_rpc: [
           {
@@ -3184,6 +3184,24 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all asset transfers using the balances pallet on the Avail Network",
             remote: "https://github.com/subquery/subql-starter",
             path: "Avail/avail-starter",
+          },
+        ],
+      },
+      {
+        code: "avail-turing",
+        name: "Avail Turing",
+        chain_id:
+          "0xd3d2f3a3495dc597434a99d7d449ebad6616db45e4e4f178f31cc6fa14378b70",
+        description:
+          "Avail is a Web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way.",
+        logo: "",
+        examples: [
+          {
+            name: "avail-turing-starter",
+            description:
+              "This SubQuery project indexes all asset transfers using the balances pallet on the Avail Turing Network",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Avail/avail-turing-starter",
           },
         ],
       },
