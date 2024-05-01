@@ -383,7 +383,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Base Goerli",
         chain_id: "84531",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/8453.png",
         examples: [
           {
             name: "base-goerli-starter",
@@ -421,7 +421,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Base Sepolia",
         chain_id: "84532",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/8453.png",
         examples: [
           {
             name: "base-sepolia-starter",
