@@ -441,6 +441,22 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: ["https://dict-tyk.subquery.network/query/base-sepolia"],
       },
       {
+        code: "4337",
+        name: "Beam",
+        chain_id: "4337",
+        description: "Beam is a sovereign network focused on gaming.",
+        logo: "",
+        examples: [
+          {
+            name: "beam-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDC token on Beam",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Beam/beam-starter",
+          },
+        ],
+      },
+      {
         code: "80085",
         name: "Berachain Artio Testnet",
         chain_id: "80085",
@@ -744,6 +760,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for DEGEN on Degen Chain",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Degen/degen-chain-starter",
+          },
+        ],
+      },
+      {
+        code: "246",
+        name: "Energy Web",
+        chain_id: "246",
+        description:
+          "Decentralized Computation Powering the energy transition.",
+        logo: "",
+        examples: [
+          {
+            name: "energy-web-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped SolarCoin token on Energy Web",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Energy Web/energy-web-starter",
           },
         ],
       },
