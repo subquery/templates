@@ -687,6 +687,39 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "3636",
+        name: "Botanix Testnet",
+        chain_id: "3636",
+        description:
+          "Botanix Labs solved one of the hardest problems for any Proof-of-Stake network - the Verifiable Random Function - by leveraging Bitcoin block hashes.",
+        logo: "",
+        examples: [
+          {
+            name: "botanix-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Btc on Botanix Testnet.",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Botanix/botanix-testnet-starter",
+          },
+        ],
+      },
+      {
+        code: "223",
+        name: "bSquared",
+        chain_id: "223",
+        description: "B² Network is the most practical Bitcoin Layer2 Network.",
+        logo: "",
+        examples: [
+          {
+            name: "bsquared-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Btc on bSquared.",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "bSquared/bSquared-mainnet-starter",
+          },
+        ],
+      },
+      {
         code: "22215",
         name: "BVM",
         chain_id: "22215",
