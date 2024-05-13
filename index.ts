@@ -1891,7 +1891,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project indexes all transfers and approval events for FXD on XDC Apothem Testnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "XDC/xdc-apothem-starterr",
+            path: "XDC/xdc-apothem-starter",
           },
         ],
         guides: [
