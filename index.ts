@@ -3552,6 +3552,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "energy-web-x",
+        name: "Energy Web X",
+        chain_id:
+          "0x5a51e04b88a4784d205091aa7bada002f3e5da3045e5b05655ee4db2589c33b5",
+        description:
+          "Decentralized Computation Powering the energy transition.",
+        logo: "",
+        examples: [
+          {
+            name: "energy-web-x-starter",
+            description:
+              "This SubQuery project indexes all asset transfers using the balances pallet on the Energy Web X Network",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Energy Web X/energy-web-x-starter",
+          },
+        ],
+      },
+      {
         code: "equilibrium-polkadot",
         name: "Equilibrium",
         chain_id:
