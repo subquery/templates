@@ -1478,6 +1478,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "5039",
+        name: "ONIGIRI Testnet",
+        chain_id: "5039",
+        description:
+          "We see ONIGIRI as a protocol in food. We aim to be the blockchain solution for various food-related services, including cooking apps, e-commerce, apps, health care apps and more.",
+        logo: "",
+        examples: [
+          {
+            name: "onigiri-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the SQSample Token on ONIGIRI Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "ONIGIRI/onigiri-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "10",
         name: "Optimism",
         chain_id: "10",
