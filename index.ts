@@ -797,6 +797,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "7979",
+        name: "DOS Chain",
+        chain_id: "7979",
+        description:
+          "DOS is the fastest and zero gas fee blockchain network to build a wide range of products from gaming, entertainment to finance.",
+        logo: "",
+        examples: [
+          {
+            name: "dos-chain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Heroes and Empires (HE) on DOS Chain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "DOS Chain/dos-chain-starter",
+          },
+        ],
+      },
+      {
         code: "246",
         name: "Energy Web",
         chain_id: "246",
