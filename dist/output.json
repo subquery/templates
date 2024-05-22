@@ -3504,12 +3504,6 @@
             "path": "Moonbeam/moonbeam-evm-starter"
           },
           {
-            "name": "moonbeam-substrate-evm-starter",
-            "description": "",
-            "remote": "https://github.com/subquery/subql-starter",
-            "path": "Moonbeam/moonbeam-substrate-evm-starter"
-          },
-          {
             "name": "Moonbeam-starter",
             "description": "",
             "remote": "https://github.com/subquery/subql-starter",
