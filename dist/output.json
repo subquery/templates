@@ -1315,6 +1315,21 @@
         ]
       },
       {
+        "code": "5040",
+        "name": "ONIGIRI Mainnet",
+        "chain_id": "5040",
+        "description": "We see ONIGIRI as a protocol in food. We aim to be the blockchain solution for various food-related services, including cooking apps, e-commerce, apps, health care apps and more.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "onigiri-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the SQSample Token on ONIGIRI Mainnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "ONIGIRI/onigiri-starter"
+          }
+        ]
+      },
+      {
         "code": "5039",
         "name": "ONIGIRI Testnet",
         "chain_id": "5039",
