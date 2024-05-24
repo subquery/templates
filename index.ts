@@ -780,6 +780,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "282",
+        name: "Cronos",
+        chain_id: "282",
+        description:
+          "A zkEVM Layer-2 for Cronos, optimized for DeFi and NFTs, providing a scalable and secure environment for these applications.",
+        logo: "https://static.subquery.network/network-logos/cronosmainnet_25-1.png",
+        examples: [
+          {
+            name: "cronos-zkevm-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for zkTCRO on Cronos zkEVM Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Cronos/cronos-zkevm-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "666666666",
         name: "Degen Chain",
         chain_id: "666666666",
