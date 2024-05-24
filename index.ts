@@ -1478,6 +1478,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "12227331",
+        name: "Neo X Testnet",
+        chain_id: "12227331",
+        description: "Neo X is an EVM-compatible sidechain incorporating Neo's distinctive dBFT consensus mechanism.",
+        logo: "",
+        examples: [
+          {
+            name: "neox-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for GM token on Neo X Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Neo X/neox-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "42262",
         name: "Oasis Emerald",
         chain_id: "42262",
