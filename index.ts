@@ -702,6 +702,15 @@ const networkFamilies: NetworkFamily[] = [
             path: "Botanix/botanix-testnet-starter",
           },
         ],
+        guides: [
+          {
+            name: "Botanix Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Btc on Botanix Testnet.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/botanix.html",
+            internal: true,
+          },
+        ],
       },
       {
         code: "223",
