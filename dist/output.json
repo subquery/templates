@@ -2717,6 +2717,21 @@
             "internal": false
           }
         ]
+      },
+      {
+        "code": "xion-testnet-1",
+        "name": "XION Testnet",
+        "chain_id": "xion-testnet-1",
+        "description": "XION empowers developers and brands to create frictionless Web3 experiences, with a Generalized Abstraction layer that removes technical barriers for all users.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "xion-testnet-starter",
+            "description": "This SubQuery project indexes all transfer events and messages on XION Testnet",
+            "remote": "https://github.com/subquery/cosmos-subql-starter",
+            "path": "XION/xion-testnet-starter"
+          }
+        ]
       }
     ]
   },
