@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --build",
-    "start": "node ./dist"
+    "start": "node ./dist",
+    "validate": "node ./dist/utils/validation"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,12 @@
     "url": "https://github.com/subquery/templates/issues"
   },
   "homepage": "https://github.com/subquery/templates#readme",
+  "dependencies": {
+    "node-fetch": "^2"
+  },
   "devDependencies": {
     "@types/node": "^20.5.1",
+    "@types/node-fetch": "^2.6.11",
     "ts-node": "^10.9.1",
     "ts-to-json": "^1.8.3",
     "typescript": "^5.1.6"
