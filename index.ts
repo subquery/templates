@@ -1889,7 +1889,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Unicorn Ultra Solaris",
         chain_id: "39",
         description:
-          "Unicorn Ultra is the Layer-1 blockchain platform designed based on the venture builder model that enables creators and developers to build any potential projects to serve for a decentralized future.",
+          "Unicorn Ultra (U2U) Solaris is the Layer-1 blockchain platform designed based on the venture builder model that enables creators and developers to build any potential projects to serve for a decentralized future.",
         logo: "",
         examples: [
           {
