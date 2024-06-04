@@ -18,6 +18,10 @@ type PublicRPC = {
   type: "DATA_NODE" | "FULL" | "ARCHIVE";
   endpoint: string;
   explorer_url: string;
+  name: string;
+  description: string;
+  rate_limit: { burst: number; rate: number };
+  example_request: string;
 };
 
 type Network = {
@@ -114,15 +118,18 @@ const networkFamilies: NetworkFamily[] = [
         public_rpc: [
           {
             type: "ARCHIVE",
+            name: "Arbitrum One Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x23/overview",
             endpoint: "https://arbitrum.rpc.subquery.network/public",
-          },
-          {
-            type: "FULL",
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x22/overview",
-            endpoint: "https://arbitrum.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://arbitrum.rpc.subquery.network/public\'',
           },
         ],
       },
@@ -366,15 +373,18 @@ const networkFamilies: NetworkFamily[] = [
         public_rpc: [
           {
             type: "ARCHIVE",
+            name: "Base Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x06/overview",
             endpoint: "https://base.rpc.subquery.network/public",
-          },
-          {
-            type: "FULL",
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x05/overview",
-            endpoint: "https://base.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://base.rpc.subquery.network/public\'',
           },
         ],
       },
@@ -996,15 +1006,18 @@ const networkFamilies: NetworkFamily[] = [
         public_rpc: [
           {
             type: "ARCHIVE",
+            name: "Ethereum Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x04/overview",
             endpoint: "https://ethereum.rpc.subquery.network/public",
-          },
-          {
-            type: "FULL",
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x03/overview",
-            endpoint: "https://ethereum.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://ethereum.rpc.subquery.network/public\'',
           },
         ],
       },
@@ -1044,15 +1057,18 @@ const networkFamilies: NetworkFamily[] = [
         public_rpc: [
           {
             type: "ARCHIVE",
+            name: "Ethereum Sepolia Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x27/overview",
-            endpoint: "https://ethereum-sepolia.rpc.subquery.network/public",
-          },
-          {
-            type: "FULL",
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x26/overview",
-            endpoint: "https://ethereum-sepolia.rpc.subquery.network/public",
+            endpoint: "https://base.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://ethereum-sepolia.rpc.subquery.network/public\'',
           },
         ],
       },
@@ -1657,15 +1673,18 @@ const networkFamilies: NetworkFamily[] = [
         public_rpc: [
           {
             type: "ARCHIVE",
+            name: "Polygon Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x25/overview",
             endpoint: "https://polygon.rpc.subquery.network/public",
-          },
-          {
-            type: "FULL",
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x24/overview",
-            endpoint: "https://polygon.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://polygon.rpc.subquery.network/public\'',
           },
         ],
       },
