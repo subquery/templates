@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["ES2018"],
-    "target": "ES2018" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "lib": ["ESNext"],
+    "target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "module": "commonjs" /* Specify what module code is generated. */,
     "rootDir": "./",
     "outDir": "./dist" /* Specify the root folder within your source files. */,

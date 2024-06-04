@@ -4647,3 +4647,37 @@ const schemaJSONString = JSON.stringify(networkFamilies, null, 2);
 writeFile("./dist/output.json", schemaJSONString, (err) => {
   if (err) throw err;
 });
+
+const rpcsOutput: {
+  code: string;
+  name: string;
+  chain_id: string;
+  description: string;
+  logo: string;
+  network_family_code: string;
+  network_family_name: string;
+  rpc: PublicRPC;
+}[] = networkFamilies
+  .flatMap((nf) =>
+    nf.networks
+      .filter((n) => n.public_rpc && n.public_rpc.length > 0)
+      .flatMap((n) =>
+        n.public_rpc?.map((rpc) => {
+          return {
+            code: n.code,
+            name: n.name,
+            chain_id: n.chain_id,
+            description: n.description,
+            logo: n.logo,
+            network_family_code: nf.code,
+            network_family_name: nf.name,
+            rpc: rpc,
+          };
+        })
+      )
+  )
+  .flatMap((item) => (item ? [item] : []));
+
+writeFile("./dist/rpcs.json", JSON.stringify(rpcsOutput), (err) => {
+  if (err) throw err;
+});
