@@ -67,7 +67,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "20240219",
         description:
           "An Altlayer OP testnet is an OP stack powered L2 that is used as a testnet.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/20240219.png",
         examples: [
           {
             name: "altlayer-op-demo-starter",
@@ -445,7 +445,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Beam",
         chain_id: "4337",
         description: "Beam is a sovereign network focused on gaming.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/4337.png",
         examples: [
           {
             name: "beam-starter",
@@ -462,7 +462,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "80085",
         description:
           "EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/80085.png",
         examples: [
           {
             name: "berachain-artio-testnet-starter",
@@ -479,7 +479,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1501",
         description:
           "A Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1501.png",
         examples: [
           {
             name: "bevm-canary-starter",
@@ -496,7 +496,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "11501",
         description:
           "A Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1501.png",
         examples: [
           {
             name: "bevm-starter",
@@ -513,7 +513,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "81457",
         description:
           "The only Ethereum L2 with native yield for ETH and stablecoins.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/81457.png",
         examples: [
           {
             name: "blast-starter",
@@ -530,7 +530,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "168587773",
         description:
           "The only Ethereum L2 with native yield for ETH and stablecoins.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/168587773.png",
         examples: [
           {
             name: "blast-sepolia-starter",
@@ -692,7 +692,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "3636",
         description:
           "Botanix Labs solved one of the hardest problems for any Proof-of-Stake network - the Verifiable Random Function - by leveraging Bitcoin block hashes.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/3636.png",
         examples: [
           {
             name: "botanix-testnet-starter",
@@ -717,7 +717,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "bSquared",
         chain_id: "223",
         description: "B² Network is the most practical Bitcoin Layer2 Network.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/223.png",
         examples: [
           {
             name: "bsquared-starter",
@@ -734,7 +734,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "22215",
         description:
           "BVM is the first modular Bitcoin L2 metaprotocol on Bitcoin. With a few clicks, anyone can plug and play the best-of-breed blockchain modules to launch their own Bitcoin L2 blockchain.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/22215.png",
         examples: [
           {
             name: "bvm-starter",
@@ -777,7 +777,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1116",
         description:
           "Core is embracing the fundamentals of blockchain and building for a decentralized economy, starting with the communities most in need.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1116.png",
         examples: [
           {
             name: "core-starter",
@@ -811,7 +811,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "666666666",
         description:
           "Degen, an ERC-20 token launched in January 2024, has reshaped the Farcaster ecosystem by enabling Casters to reward others with DEGEN for posting quality content.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/666666666.png",
         examples: [
           {
             name: "degen-chain-starter",
@@ -845,7 +845,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "246",
         description:
           "Decentralized Computation Powering the energy transition.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/246.png",
         examples: [
           {
             name: "energy-web-starter",
@@ -1261,7 +1261,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "4689",
         description:
           "IoTeX is the Platform for DePIN Builders. It combines fast, secure blockchain tech with the Internet of Things (IoT) and smart devices.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/4689.png",
         examples: [
           {
             name: "iotex-starter",
@@ -1278,7 +1278,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "81",
         description:
           "Japan Open Chain (JOC) is Ethereum-Compatible Layer1 Public Blockchain that prioritizes practicality. It operates in collaboration with trusted enterprises, providing a reliable blockchain infrastructure for businesses and local governments to confidently utilize.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/81.png",
         examples: [
           {
             name: "japan-open-chain-starter",
@@ -1442,7 +1442,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "4200",
         description:
           "Unleashing Bitcoin's Potential with Native L1 Assets, Users and Protocols.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/4200.png",
         examples: [
           {
             name: "merlin-starter",
@@ -1459,7 +1459,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "686868",
         description:
           "Unleashing Bitcoin's Potential with Native L1 Assets, Users and Protocols.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/4200.png",
         examples: [
           {
             name: "merlin-starter",
@@ -1475,7 +1475,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Nautilus",
         chain_id: "22222",
         description: "One of the fastest EVM rollups.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/22222.png",
         examples: [
           {
             name: "nautilus-starter",
@@ -1490,7 +1490,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "12227331",
         name: "Neo X Testnet",
         chain_id: "12227331",
-        description: "Neo X is an EVM-compatible sidechain incorporating Neo's distinctive dBFT consensus mechanism.",
+        description:
+          "Neo X is an EVM-compatible sidechain incorporating Neo's distinctive dBFT consensus mechanism.",
         logo: "",
         examples: [
           {
@@ -1508,7 +1509,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "42262",
         description:
           "Oasis Emerald is a high-performance, privacy-focused blockchain platform designed to facilitate secure, scalable, and decentralized applications while prioritizing data confidentiality and integrity.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42262.png",
         examples: [
           {
             name: "oasis-emerald-starter",
@@ -1525,7 +1526,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "23294",
         description:
           "Oasis Sapphire is a high-performance, privacy-focused blockchain platform designed to facilitate secure, scalable, and decentralized applications while prioritizing data confidentiality and integrity.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/23294.png",
         examples: [
           {
             name: "oasis-sapphire-starter",
@@ -1542,7 +1543,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "5040",
         description:
           "We see ONIGIRI as a protocol in food. We aim to be the blockchain solution for various food-related services, including cooking apps, e-commerce, apps, health care apps and more.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/5039.png",
         examples: [
           {
             name: "onigiri-starter",
@@ -1559,7 +1560,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "5039",
         description:
           "We see ONIGIRI as a protocol in food. We aim to be the blockchain solution for various food-related services, including cooking apps, e-commerce, apps, health care apps and more.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/5039.png",
         examples: [
           {
             name: "onigiri-testnet-starter",
@@ -1736,7 +1737,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Pulsechain",
         chain_id: "369",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/369.png",
         examples: [
           {
             name: "pulsechain-starter",
@@ -1753,7 +1754,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "3110",
         description:
           "A decentralized Bitcoin ZK Rollup Layer 2 solution compatible with the Ethereum Virtual Machine (EVM) ecosystem, using native BTC as gas.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/3110.png",
         examples: [
           {
             name: "satoshivm-testnet-starter",
@@ -1848,7 +1849,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "17000",
         description:
           "Taiko is a fully permissionless, Ethereum-equivalent based rollup. Inspired, secured, and sequenced by Ethereum.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/17000.png",
         examples: [
           {
             name: "taiko-holesky-starter",
@@ -1899,7 +1900,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "39",
         description:
           "Unicorn Ultra (U2U) Solaris is the Layer-1 blockchain platform designed based on the venture builder model that enables creators and developers to build any potential projects to serve for a decentralized future.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/39.png",
         examples: [
           {
             name: "unicorn-ultra-solaris-starter",
@@ -1916,7 +1917,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "106",
         description:
           "Velas is the world's fastest EVM Blockchain and Ecosystem for smart contracts and dApps.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/106.png",
         examples: [
           {
             name: "velas-starter",
@@ -1977,7 +1978,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "51",
         description:
           "The XDC Network sets a benchmark for digitizing trade finance by enabling the tokenization of diverse trade finance instruments and assets.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/51.png",
         examples: [
           {
             name: "xdc-apothem-starter",
@@ -2035,7 +2036,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "7777777",
         name: "Zora",
         chain_id: "7777777",
-        description: "",
+        description:
+          "https://static.subquery.network/network-logos/7777777.png",
         logo: "",
         examples: [
           {
@@ -2356,7 +2358,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Cudos",
         chain_id: "cudos-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/cudos-1.png",
         examples: [
           {
             name: "cudos-starter",
@@ -2473,7 +2475,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Furya",
         chain_id: "furya-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/furya-1.png",
         examples: [
           {
             name: "furya-starter",
@@ -2763,12 +2765,12 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "Oraichain",
+        code: "oraichain",
         name: "Oraichain",
-        chain_id: "Oraichain",
+        chain_id: "oraichain",
         description:
           "IBC-enabled Layer 1 to verify multidimensional trustworthiness of AI and to build Web3 applications with AI oracle",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/oraichain.png",
         examples: [
           {
             name: "oraichain-starter",
@@ -2857,7 +2859,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Quasar",
         chain_id: "quasar-1",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/quasar-1.png",
         examples: [
           {
             name: "quasar-starter",
@@ -3056,7 +3058,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "xion-testnet-1",
         name: "XION Testnet",
         chain_id: "xion-testnet-1",
-        description: "XION empowers developers and brands to create frictionless Web3 experiences, with a Generalized Abstraction layer that removes technical barriers for all users.",
+        description:
+          "XION empowers developers and brands to create frictionless Web3 experiences, with a Generalized Abstraction layer that removes technical barriers for all users.",
         logo: "",
         examples: [
           {
@@ -3368,7 +3371,7 @@ const networkFamilies: NetworkFamily[] = [
           "0x6f09966420b2608d1947ccfb0f2a362450d1fc7fd902c29b67c906eaa965a7ae",
         description:
           "Avail is a Web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/avail.png",
         examples: [
           {
             name: "avail-starter",
@@ -3386,7 +3389,7 @@ const networkFamilies: NetworkFamily[] = [
           "0xd3d2f3a3495dc597434a99d7d449ebad6616db45e4e4f178f31cc6fa14378b70",
         description:
           "Avail is a Web3 infrastructure layer that allows modular execution layers to scale and interoperate in a trust minimized way.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/avail-turing.png",
         examples: [
           {
             name: "avail-turing-starter",
@@ -3403,7 +3406,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/bajun.png",
         examples: [
           {
             name: "bajun-starter",
@@ -3490,7 +3493,7 @@ const networkFamilies: NetworkFamily[] = [
           "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
         description:
           "The Bittensor protocol establishes a marketplace that transforms machine intelligence into a tradable commodity.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/bittensor.png",
         examples: [
           {
             name: "bittensor-starter",
@@ -3667,7 +3670,7 @@ const networkFamilies: NetworkFamily[] = [
           "0x5a51e04b88a4784d205091aa7bada002f3e5da3045e5b05655ee4db2589c33b5",
         description:
           "Decentralized Computation Powering the energy transition.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/energy-web-x.png",
         examples: [
           {
             name: "energy-web-x-starter",
@@ -4115,7 +4118,7 @@ const networkFamilies: NetworkFamily[] = [
           "0xd2a5d385932d1f650dae03ef8e2748983779ee342c614f80854d32b8cd8fa48c",
         description:
           "Powering a global infrastructure revolution · The home of DePIN Decentralized Physical Infra Networks being built on peaq",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/peaq.png",
         examples: [
           {
             name: "peaq-starter",
@@ -4207,7 +4210,7 @@ const networkFamilies: NetworkFamily[] = [
           "0x7834781d38e4798d548e34ec947d19deea29df148a7bf32484b7b24dacf8d4b7",
         description:
           "Reef chain is an EVM compatible blockchain for DeFi. It is fast, scalable, has low transaction costs and does no wasteful mining.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/reef.png",
         examples: [
           {
             name: "reef-starter",
@@ -4399,7 +4402,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/westend.png",
         examples: [
           {
             name: "westend-starter",
