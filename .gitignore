@@ -3,3 +3,4 @@ node_modules/
 dist/
 !/dist/dictionary.json
 !/dist/output.json
+!/dist/rpcs.json
