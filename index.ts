@@ -1337,11 +1337,27 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "42",
+        name: "Lukso",
+        chain_id: "42",
+        description: "The blockchain built for SOCIAL, CULTURE and CREATORS, LUKSO is the foundation for the new decentralized social web.",
+        logo: "",
+        examples: [
+          {
+            name: "lukso-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the LYX token on Lukso Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Lukso/lukso-starter",
+          },
+        ],
+      },
+      {
         code: "59144",
         name: "Linea",
         chain_id: "59144",
         description: "",
-        logo: "https://static.subquery.network/network-logos/59144.png",
+        logo: "",
         examples: [
           {
             name: "linea-starter",
@@ -1483,6 +1499,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for wrapped BTC on Merlin Test Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Merlin/merlin-testnet-starter",
+          },
+        ],
+      },
+      {
+        code: "34443",
+        name: "Mode Network",
+        chain_id: "34443",
+        description:
+          "Mode is the Ethereum L2 that rewards you for growing the network via new economic mechanisms. Powered by Optimism.",
+        logo: "",
+        examples: [
+          {
+            name: "mode-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for wrapped Ether (WETH) on Mode Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Mode/mode-starter",
           },
         ],
       },
@@ -2234,6 +2267,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "laozi-mainnet",
+        name: "Band",
+        chain_id: "laozi-mainnet",
+        description: "BandChain is a High-performance Blockchain Built for Data Oracle. Based on Cosmos' state-of-the-art SDK, BandChain allows efficient, flexible, and scalable data query secured through cryptographic proofs",
+        logo: "",
+        examples: [
+          {
+            name: "band-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Band",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Band/band-starter",
+          },
+        ],
+      },
+      {
         code: "canto_7700-1",
         name: "Canto",
         chain_id: "canto_7700-1",
@@ -2886,6 +2935,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfer events and messages on Quasar",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Quasar/quasar-starter",
+          },
+        ],
+      },
+      {
+        code: "ssc-1",
+        name: "Saga Protocol",
+        chain_id: "ssc-1",
+        description:
+          "Saga is a Layer-1 protocol that allows developers to automatically spin up parallelized, VM-agnostic, and interoperable dedicated chains, or “Chainlets,” that provide applications with infinite horizontal scalability.",
+        logo: "",
+        examples: [
+          {
+            name: "saga-starter",
+            description:
+              "This project can be use as a starting point for developing your Cosmos Saga based SubQuery project",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Saga/saga-starter",
           },
         ],
       },
