@@ -1896,6 +1896,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "167008",
+        name: "Taiko Katla",
+        chain_id: "167008",
+        description:
+          "Taiko is a fully permissionless, Ethereum-equivalent based rollup. Inspired, secured, and sequenced by Ethereum.",
+        logo: "https://static.subquery.network/network-logos/17000.png",
+        examples: [
+          {
+            name: "taiko-katla-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Taiko Token Katla (TTKOk) on Taiko Katla",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Taiko/taiko-katla-starter",
+          },
+        ],
+      },
+      {
         code: "17000",
         name: "Taiko Holesky",
         chain_id: "17000",
