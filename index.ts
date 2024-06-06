@@ -2089,8 +2089,8 @@ const networkFamilies: NetworkFamily[] = [
         name: "Zora",
         chain_id: "7777777",
         description:
-          "https://static.subquery.network/network-logos/7777777.png",
-        logo: "",
+          "",
+        logo: "https://static.subquery.network/network-logos/7777777.png",
         examples: [
           {
             name: "zora-starter",
