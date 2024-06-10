@@ -17,6 +17,7 @@ type Guide = {
 type PublicRPC = {
   type: "DATA_NODE" | "FULL" | "ARCHIVE";
   endpoint: string;
+  endpoint_ws?: string;
   explorer_url: string;
   name: string;
   description: string;
@@ -598,6 +599,23 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/binance"],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "BNB Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x2d/overview",
+            endpoint: "https://bnb.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://bnb.rpc.subquery.network/public\'',
+          },
+        ],
       },
       {
         code: "97",
@@ -1340,7 +1358,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "42",
         name: "Lukso",
         chain_id: "42",
-        description: "The blockchain built for SOCIAL, CULTURE and CREATORS, LUKSO is the foundation for the new decentralized social web.",
+        description:
+          "The blockchain built for SOCIAL, CULTURE and CREATORS, LUKSO is the foundation for the new decentralized social web.",
         logo: "",
         examples: [
           {
@@ -1654,6 +1673,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://dict-tyk.subquery.network/query/optimism-mainnet",
+        ],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Optimism Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x2f/overview",
+            endpoint: "https://optimism.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://optimism.rpc.subquery.network/public\'',
+          },
         ],
       },
       {
@@ -2105,8 +2141,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "7777777",
         name: "Zora",
         chain_id: "7777777",
-        description:
-          "",
+        description: "",
         logo: "https://static.subquery.network/network-logos/7777777.png",
         examples: [
           {
@@ -2287,7 +2322,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "laozi-mainnet",
         name: "Band",
         chain_id: "laozi-mainnet",
-        description: "BandChain is a High-performance Blockchain Built for Data Oracle. Based on Cosmos' state-of-the-art SDK, BandChain allows efficient, flexible, and scalable data query secured through cryptographic proofs",
+        description:
+          "BandChain is a High-performance Blockchain Built for Data Oracle. Based on Cosmos' state-of-the-art SDK, BandChain allows efficient, flexible, and scalable data query secured through cryptographic proofs",
         logo: "",
         examples: [
           {
@@ -4019,6 +4055,24 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: [
           "https://gateway.subquery.network/query/Qmbe5g5vbEJYYAfpjcwNDzuhjeyaEQPQbxKyKx6PveYnR8",
         ],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Kusama Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x31/overview",
+            endpoint: "https://kusama.rpc.subquery.network/public",
+            endpoint_ws: "https://kusama.rpc.subquery.network/public/ws",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://kusama.rpc.subquery.network/public\'',
+          },
+        ],
       },
       {
         code: "kylin",
@@ -4280,6 +4334,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL",
+        ],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Polkadot Public RPC",
+            description:
+              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            rate_limit: {
+              burst: 1000,
+              rate: 100,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x30/overview",
+            endpoint: "https://polkadot.rpc.subquery.network/public",
+            endpoint_ws: "https://polkadot.rpc.subquery.network/public/ws",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://polkadot.rpc.subquery.network/public\'',
+          },
         ],
       },
       {
