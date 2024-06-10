@@ -519,6 +519,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "200901",
+        name: "Bitlayer",
+        chain_id: "200901",
+        description:
+          "Bitlayer is the first Layer 2 solution offering Bitcoin-equivalent security and Turing completeness. It's also the first built on BitVM.",
+        logo: "",
+        examples: [
+          {
+            name: "bitlayer-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Tether USD (USDT) on Bitlayer",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Bitlayer/bitlayer-starter",
+          },
+        ],
+      },
+      {
         code: "81457",
         name: "Blast",
         chain_id: "81457",
@@ -649,6 +666,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Wrapped Eth token on opBNB Mainnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "BNB Smart Chain/opbnb-starter",
+          },
+        ],
+      },
+      {
+        code: "60808",
+        name: "BOB Mainnet",
+        chain_id: "60808",
+        description:
+          "BOB is a hybrid L2 that combines the security of Bitcoin with the versatility of Ethereum. BOB's mission is to onboard the next billion users to Bitcoin.",
+        logo: "",
+        examples: [
+          {
+            name: "bob-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Eth token on BOB",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "BOB/bob-starter",
           },
         ],
       },
@@ -796,6 +830,23 @@ const networkFamilies: NetworkFamily[] = [
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Celo Mainnet.",
             link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/celo.html",
             internal: true,
+          },
+        ],
+      },
+      {
+        code: "62298",
+        name: "Citrea Devnet",
+        chain_id: "62298",
+        description:
+          "Citrea is the first rollup that enhances the capabilities of Bitcoin blockspace with zero knowledge technology. Citrea is the only scalability solution that uses Bitcoin both as a data availability and a settlement layer, via its BitVM-based trust-minimized two-way peg program - Clementine.",
+        logo: "",
+        examples: [
+          {
+            name: "citrea-devnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for ESADOSHI on Citrea DevNet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Citrea/citrea-devnet-starter",
           },
         ],
       },
