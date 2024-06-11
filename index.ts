@@ -21,7 +21,7 @@ type PublicRPC = {
   explorer_url: string;
   name: string;
   description: string;
-  rate_limit: { burst: number; rate: number };
+  rate_limit: { rate: number; burst?: number };
   example_request: string;
 };
 
@@ -123,8 +123,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x23/overview",
@@ -378,8 +377,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x06/overview",
@@ -623,8 +621,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x2d/overview",
@@ -1079,8 +1076,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x04/overview",
@@ -1130,8 +1126,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x27/overview",
@@ -1732,8 +1727,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x2f/overview",
@@ -1797,8 +1791,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x25/overview",
@@ -4113,8 +4106,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x31/overview",
@@ -4393,8 +4385,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
             rate_limit: {
-              burst: 1000,
-              rate: 100,
+              rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x30/overview",
