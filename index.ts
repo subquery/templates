@@ -120,8 +120,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Arbitrum One Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -374,8 +373,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Base Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -618,8 +616,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "BNB Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1073,8 +1070,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Ethereum Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1123,8 +1119,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Ethereum Sepolia Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1724,8 +1719,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Optimism Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1788,8 +1782,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Polygon Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -4103,8 +4096,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Kusama Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -4382,8 +4374,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Polkadot Public RPC",
-            description:
-              "Connect in seconds to SubQuery's decentralised network of RPC node operators running around the world so your dApps benefit from more reliable, scalable, and affordable RPC services. By accessing this public RPC endpoint, you agree to our [Free Public RPC terms of service](https://subquery.foundation/public-rpc-terms).",
+            description: "",
             rate_limit: {
               rate: 50,
             },
