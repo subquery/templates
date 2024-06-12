@@ -4105,7 +4105,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://kusama.rpc.subquery.network/public",
             endpoint_ws: "https://kusama.rpc.subquery.network/public/ws",
             example_request:
-              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://kusama.rpc.subquery.network/public\'',
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://kusama.rpc.subquery.network/public\'',
           },
         ],
       },
@@ -4383,7 +4383,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://polkadot.rpc.subquery.network/public",
             endpoint_ws: "https://polkadot.rpc.subquery.network/public/ws",
             example_request:
-              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://polkadot.rpc.subquery.network/public\'',
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://polkadot.rpc.subquery.network/public\'',
           },
         ],
       },
