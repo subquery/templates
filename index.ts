@@ -1169,7 +1169,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             name: "flare-starter",
             description: "",
-            remote: "https://github.com/subquery/flare-subql-starter",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Flare/flare-starter",
           },
         ],
@@ -1199,7 +1199,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             name: "songbird-starter",
             description: "",
-            remote: "https://github.com/subquery/flare-subql-starter",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Flare/songbird-starter",
           },
         ],
