@@ -120,7 +120,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Arbitrum One Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -373,7 +374,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Base Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -616,7 +618,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "BNB Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -1070,7 +1073,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Ethereum Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -1119,7 +1123,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Ethereum Sepolia Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -1719,7 +1724,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Optimism Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -1782,7 +1788,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Polygon Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -4096,7 +4103,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Kusama Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
@@ -4374,7 +4382,8 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Polkadot Public RPC",
-            description: "",
+            description:
+              "This RPC does not yet support batch JSON RPC requests, support will be added in the next week.",
             rate_limit: {
               rate: 50,
             },
