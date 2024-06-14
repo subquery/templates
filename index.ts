@@ -120,8 +120,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Arbitrum One Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -374,8 +373,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Base Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -618,8 +616,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "BNB Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1073,8 +1070,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Ethereum Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1123,8 +1119,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Ethereum Sepolia Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1724,8 +1719,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Optimism Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -1788,8 +1782,7 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Polygon Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
@@ -4103,15 +4096,14 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Kusama Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x31/overview",
             endpoint: "https://kusama.rpc.subquery.network/public",
-            endpoint_ws: "https://kusama.rpc.subquery.network/public/ws",
+            endpoint_ws: "wss://kusama.rpc.subquery.network/public/ws",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://kusama.rpc.subquery.network/public\'',
           },
@@ -4382,15 +4374,14 @@ const networkFamilies: NetworkFamily[] = [
           {
             type: "ARCHIVE",
             name: "Polkadot Public RPC",
-            description:
-              "",
+            description: "",
             rate_limit: {
               rate: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x30/overview",
             endpoint: "https://polkadot.rpc.subquery.network/public",
-            endpoint_ws: "https://polkadot.rpc.subquery.network/public/ws",
+            endpoint_ws: "wss://polkadot.rpc.subquery.network/public/ws",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://polkadot.rpc.subquery.network/public\'',
           },
