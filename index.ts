@@ -1125,7 +1125,7 @@ const networkFamilies: NetworkFamily[] = [
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x27/overview",
-            endpoint: "https://base.rpc.subquery.network/public",
+            endpoint: "https://ethereum-sepolia.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://ethereum-sepolia.rpc.subquery.network/public\'',
           },
