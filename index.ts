@@ -1396,19 +1396,18 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "42",
-        name: "Lukso",
-        chain_id: "42",
-        description:
-          "The blockchain built for SOCIAL, CULTURE and CREATORS, LUKSO is the foundation for the new decentralized social web.",
+        code: "3456",
+        name: "LayerEdge Testnet",
+        chain_id: "3456",
+        description: "LayerEdge introducing an innovative layer of Optimistic Rollups and Hybrid Modular Data Availability (DA) to extend Bitcoin's capabilities.",
         logo: "",
         examples: [
           {
-            name: "lukso-starter",
+            name: "layeredge-testnet-starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the LYX token on Lukso Mainnet",
+              "This SubQuery project indexes all transfers and approval events for the Tether token on LayerEdge Testnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Lukso/lukso-starter",
+            path: "LayerEdge/layeredge-testnet-starter",
           },
         ],
       },
@@ -1428,6 +1427,23 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/linea-mainnet"],
+      },
+      {
+        code: "42",
+        name: "Lukso",
+        chain_id: "42",
+        description:
+          "The blockchain built for SOCIAL, CULTURE and CREATORS, LUKSO is the foundation for the new decentralized social web.",
+        logo: "",
+        examples: [
+          {
+            name: "lukso-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the LYX token on Lukso Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Lukso/lukso-starter",
+          },
+        ],
       },
       {
         code: "169",
