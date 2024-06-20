@@ -1864,6 +1864,21 @@
         ]
       },
       {
+        "code": "50",
+        "name": "XDC Network",
+        "chain_id": "50",
+        "description": "The XDC Network sets a benchmark for digitizing trade finance by enabling the tokenization of diverse trade finance instruments and assets.",
+        "logo": "https://static.subquery.network/network-logos/51.png",
+        "examples": [
+          {
+            "name": "xdc-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for EURS token on XDC Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "XDC/xdc-starter"
+          }
+        ]
+      },
+      {
         "code": "51",
         "name": "XDC Apothem Testnet",
         "chain_id": "51",
