@@ -2071,6 +2071,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "88",
+        name: "Viction Network",
+        chain_id: "88",
+        description:
+          "Viction, previously known as TomoChain, is a people-centric layer-1 blockchain that provides zero-gas transactions and heightened security.",
+        logo: "",
+        examples: [
+          {
+            name: "viction-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for CUST on Viction",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Viction/viction-starter",
+          },
+        ],
+      },
+      {
         code: "196",
         name: "X Layer Mainnet",
         chain_id: "196",
