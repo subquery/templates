@@ -330,37 +330,6 @@
         ]
       },
       {
-        "code": "84531",
-        "name": "Base Goerli",
-        "chain_id": "84531",
-        "description": "",
-        "logo": "https://static.subquery.network/network-logos/8453.png",
-        "examples": [
-          {
-            "name": "base-goerli-starter",
-            "description": "This SubQuery project indexes all transfers and approval events for the USDC token on Base's Goerli Network",
-            "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Base/base-goerli-starter"
-          },
-          {
-            "name": "base-goerli-faucet",
-            "description": "This SubQuery project indexes all the drips from the USDC faucet contract and calculates the total amount of USDC faucet dripped per day on Base's Goerli Network",
-            "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Base/base-goerli-faucet"
-          }
-        ],
-        "guides": [
-          {
-            "name": "Base Documentation - SubQuery Entry",
-            "link": "https://docs.base.org/tools/data-indexers#subquery",
-            "internal": false
-          }
-        ],
-        "dictionaries": [
-          "https://dict-tyk.subquery.network/query/base-goerli"
-        ]
-      },
-      {
         "code": "4337",
         "name": "Beam",
         "chain_id": "4337",
