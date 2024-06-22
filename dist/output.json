@@ -99,6 +99,21 @@
         ]
       },
       {
+        "code": "42421",
+        "name": "Asset Chain Testnet",
+        "chain_id": "42421",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "asset-chain-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the WRWA Token on Asset Chain Test Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Asset Chain/asset-chain-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "3776",
         "name": "Astar zkEVM",
         "chain_id": "3776",
