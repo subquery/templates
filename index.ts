@@ -2176,6 +2176,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "7000",
+        name: "Zetachain",
+        chain_id: "7000",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "zetachain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ETH on Zetachain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Zetachain/zetachain-starterr",
+          },
+        ],
+      },
+      {
         code: "324",
         name: "Zksync",
         chain_id: "324",
