@@ -1748,6 +1748,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Optopia/optopia-starter",
           },
         ],
+      },
       {
         code: "137",
         name: "Polygon",
