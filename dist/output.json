@@ -1519,6 +1519,21 @@
         ]
       },
       {
+        "code": "62050",
+        "name": "Optopia",
+        "chain_id": "62050",
+        "description": "Optopia is an experimental Layer 2 network owned and driven by the community.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "optopia-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Optopia Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Optopia/optopia-starter"
+          }
+        ]
+      },
+      {
         "code": "137",
         "name": "Polygon",
         "chain_id": "137",
