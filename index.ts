@@ -1381,6 +1381,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "255",
+        name: "Kroma",
+        chain_id: "255",
+        description:
+          "A universal ZK Rollup based on the OP Stack",
+        logo: "",
+        examples: [
+          {
+            name: "kroma-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for USDT on Kroma Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Kroma/kroma-starter",
+          },
+        ],
+      },
+      {
         code: "3456",
         name: "LayerEdge Testnet",
         chain_id: "3456",
