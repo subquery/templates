@@ -1564,6 +1564,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "185",
+        name: "Mint",
+        chain_id: "185",
+        description:
+          "A L2 blockchain built on OP Stack focusing on the NFT ecosystem.",
+        logo: "",
+        examples: [
+          {
+            name: "mint-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for USDC On Mint Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter/",
+            path: "Mint/mint-starter",
+          },
+        ],
+      },
+      {
         code: "34443",
         name: "Mode Network",
         chain_id: "34443",
