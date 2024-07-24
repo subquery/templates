@@ -1971,7 +1971,22 @@
             "name": "zetachain-starter",
             "description": "This SubQuery project indexes all transfers and approval events for the ETH on Zetachain",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Zetachain/zetachain-starterr"
+            "path": "Zetachain/zetachain-starter"
+          }
+        ]
+      },
+      {
+        "code": "7001",
+        "name": "Zetachain Testnet",
+        "chain_id": "7001",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "zetachain-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for sETH.SEPOLIA on Zetachain Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Zetachain/zetachain-testnet-starter"
           }
         ]
       },
