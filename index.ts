@@ -2556,6 +2556,15 @@ const networkFamilies: NetworkFamily[] = [
             path: "Coreum/coreum-starter",
           },
         ],
+        guides: [
+          {
+            name: "Coreum Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfer events and messages on the Coreum network",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-coreum.html",
+            internal: true,
+          },
+        ],
       },
       {
         code: "cosmoshub-4",
