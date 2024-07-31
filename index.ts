@@ -2241,6 +2241,15 @@ const networkFamilies: NetworkFamily[] = [
             path: "Zetachain/zetachain-starter",
           },
         ],
+        guides: [
+          {
+            name: "ZetaChain Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events for Eth on ZetaChain.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/zetachain.html",
+            internal: true,
+          },
+        ],
       },
       {
         code: "7001",
