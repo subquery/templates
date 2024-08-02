@@ -2231,7 +2231,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Zetachain",
         chain_id: "7000",
         description: "",
-        logo: "https://static.subquery.network/network-logos/700.png",
+        logo: "https://static.subquery.network/network-logos/7000.png",
         examples: [
           {
             name: "zetachain-starter",
