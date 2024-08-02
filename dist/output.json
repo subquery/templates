@@ -1965,7 +1965,7 @@
         "name": "Zetachain",
         "chain_id": "7000",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/700.png",
         "examples": [
           {
             "name": "zetachain-starter",
@@ -1988,7 +1988,7 @@
         "name": "Zetachain Testnet",
         "chain_id": "7001",
         "description": "",
-        "logo": "",
+        "logo": "https://static.subquery.network/network-logos/7001.png",
         "examples": [
           {
             "name": "zetachain-testnet-starter",
