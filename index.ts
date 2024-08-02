@@ -1384,8 +1384,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "255",
         name: "Kroma",
         chain_id: "255",
-        description:
-          "A universal ZK Rollup based on the OP Stack",
+        description: "A universal ZK Rollup based on the OP Stack",
         logo: "",
         examples: [
           {
@@ -1401,7 +1400,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "3456",
         name: "LayerEdge Testnet",
         chain_id: "3456",
-        description: "LayerEdge introducing an innovative layer of Optimistic Rollups and Hybrid Modular Data Availability (DA) to extend Bitcoin's capabilities.",
+        description:
+          "LayerEdge introducing an innovative layer of Optimistic Rollups and Hybrid Modular Data Availability (DA) to extend Bitcoin's capabilities.",
         logo: "",
         examples: [
           {
@@ -2198,7 +2198,7 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "XDC/xdc-starter",
           },
-        ]
+        ],
       },
       {
         code: "51",
@@ -2231,7 +2231,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Zetachain",
         chain_id: "7000",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/700.png",
         examples: [
           {
             name: "zetachain-starter",
@@ -2256,7 +2256,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Zetachain Testnet",
         chain_id: "7001",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/7001.png",
         examples: [
           {
             name: "zetachain-testnet-starter",
