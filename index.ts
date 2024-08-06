@@ -61,7 +61,7 @@ type NetworkFamily = {
 const networkFamilies: NetworkFamily[] = [
   {
     code: "evm",
-    name: "EVM Networks",
+    name: "EVM",
     description:
       "Ethereum is a blockchain platform for decentralized applications and smart contracts. The Ethereum Virtual Machine (EVM) is its decentralized computing environment, enabling the execution of code on the network.",
     logo: "https://static.subquery.network/network-logos/1.png",
