@@ -2124,7 +2124,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "88",
-        name: "Viction Network",
+        name: "Viction",
         chain_id: "88",
         description:
           "Viction, previously known as TomoChain, is a people-centric layer-1 blockchain that provides zero-gas transactions and heightened security.",
