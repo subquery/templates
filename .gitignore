@@ -4,3 +4,4 @@ dist/
 !/dist/dictionary.json
 !/dist/output.json
 !/dist/rpcs.json
+!/dist/ai-models.json
