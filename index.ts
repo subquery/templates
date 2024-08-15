@@ -58,6 +58,17 @@ type NetworkFamily = {
   networks: Network[];
 };
 
+type PublicAiModel = {
+  code: string;
+  name: string;
+  logo: string;
+  description: string;
+  extended_description: string;
+  parameter_size: number;
+  context_window_size: number;
+  url: string;
+};
+
 const networkFamilies: NetworkFamily[] = [
   {
     code: "evm",
@@ -4947,6 +4958,31 @@ const networkFamilies: NetworkFamily[] = [
   },
 ];
 
+const publicAIModels: PublicAiModel[] = [
+  {
+    code: "llama-3-1-instruct-8b",
+    name: "Llama 3.1",
+    description:
+      "Llama 3.1 is a state-of-the-art large language model developed by Meta (formerly Facebook). It builds on the advancements of its predecessors in the Llama series, offering improved natural language understanding, generation, and interaction. Llama 3.1 is designed to be highly efficient, with enhanced capabilities in text completion, translation, summarization, and more, making it useful across a wide range of applications. This version likely includes better contextual understanding, reduced biases, and optimized performance, reflecting the latest innovations in AI and machine learning research.",
+    logo: "https://static.subquery.network/ai-logos/llama.png",
+    extended_description: "",
+    parameter_size: 405000000000,
+    context_window_size: 128000,
+    url: "https://subquery.network/ai/demo",
+  },
+  {
+    code: "mistral-large-2",
+    name: "Mistral",
+    description:
+      "Mistral is an advanced language model known for its exceptional performance in natural language processing tasks. Developed by a cutting-edge AI research team, Mistral focuses on delivering high efficiency and accuracy in tasks like text generation, translation, summarization, and comprehension. It is designed to handle complex language structures with ease, making it suitable for diverse applications in various industries. Mistral emphasizes scalability and robustness, offering a flexible solution for developers and businesses looking to leverage AI for language-related challenges.",
+    logo: "https://static.subquery.network/ai-logos/mistral.png",
+    extended_description: "",
+    parameter_size: 123000000000,
+    context_window_size: 128000,
+    url: "https://subquery.network/ai/demo",
+  },
+];
+
 const dictionaryString = Object.fromEntries(
   networkFamilies.map((f) => [
     f.code.toString() === "evm" ? "ethereum" : f.code.toString(),
@@ -5003,5 +5039,9 @@ const rpcsOutput: {
   .flatMap((item) => (item ? [item] : []));
 
 writeFile("./dist/rpcs.json", JSON.stringify(rpcsOutput), (err) => {
+  if (err) throw err;
+});
+
+writeFile("./dist/ai-models.json", JSON.stringify(publicAIModels), (err) => {
   if (err) throw err;
 });
