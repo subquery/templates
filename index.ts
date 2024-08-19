@@ -1249,6 +1249,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "1625",
+        name: "Gravity Alpha Mainnet",
+        chain_id: "1625",
+        description:
+          "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
+        logo: "",
+        examples: [
+          {
+            name: "gravity-alpha-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for Wrapped Eth on Gravity Alpha Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Gravity/gravity-alpha-starter",
+          },
+        ],
+      },
+      {
         code: "1666600000",
         name: "Harmony",
         chain_id: "1666600000",
@@ -1689,6 +1706,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the OCEAN Token on Oasis Sapphire",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Oasis/oasis-sapphire-starter",
+          },
+        ],
+      },
+      {
+        code: "185947263",
+        name: "Open Frabric Testnet",
+        chain_id: "185947263",
+        description:
+          "A planetary-scale network for building and connecting decentralized AI applications.",
+        logo: "",
+        examples: [
+          {
+            name: "ofn-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the OFN (0x8899ec96ed8c96b5c86c23c3f069c3def75b6d97) on OFN Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "OFN/ofn-testnet-starter",
           },
         ],
       },
