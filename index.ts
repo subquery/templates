@@ -2397,7 +2397,6 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://api.subquery.network/sq/subquery/Algorand-Dictionary",
           "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW",
         ],
       },
@@ -2636,9 +2635,6 @@ const networkFamilies: NetworkFamily[] = [
             path: "CosmosHub/cosmoshub-starter",
           },
         ],
-        dictionaries: [
-          "https://api.subquery.network/sq/subquery/cosmos-hub-dictionary",
-        ],
       },
       {
         code: "crescent-1",
@@ -2687,9 +2683,6 @@ const networkFamilies: NetworkFamily[] = [
             link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-cronos.html",
             internal: true,
           },
-        ],
-        dictionaries: [
-          "https://api.subquery.network/sq/subquery/cosmos-cronos-dictionary",
         ],
       },
       {
@@ -2799,7 +2792,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8",
-          "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary",
         ],
         guides: [
           {
@@ -2906,7 +2898,6 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary",
           "https://gateway.subquery.network/query/QmPjq55mgUt9S8S491Q3wEbb87fXyEkdxymT6Gwe2xe1Z1",
         ],
       },
@@ -3150,9 +3141,6 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
-        dictionaries: [
-          "https://api.subquery.network/sq/subquery/cosmos-osmosis-dictionary",
-        ],
       },
       {
         code: "passage-2",
@@ -3316,9 +3304,6 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Stargaze/stargaze-starter",
           },
-        ],
-        dictionaries: [
-          "https://api.subquery.network/sq/subquery/cosmos-stargaze-dictionary",
         ],
         guides: [
           {
@@ -3553,7 +3538,6 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://api.subquery.network/sq/subquery/near-dictionary",
           "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41",
         ],
       },
@@ -3806,7 +3790,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy",
-          "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary",
         ],
       },
       {
@@ -3877,7 +3860,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86",
-          "https://api.subquery.network/sq/subquery/calamari-dictionary",
         ],
       },
       {
@@ -4463,9 +4445,6 @@ const networkFamilies: NetworkFamily[] = [
             path: "Parallel/parallel-starter",
           },
         ],
-        dictionaries: [
-          "https://api.subquery.network/sq/subquery/parallel-dictionary",
-        ],
       },
       {
         code: "heiko-kusama",
@@ -4627,7 +4606,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
-          "https://api.subquery.network/sq/subquery/shiden-dictionary",
         ],
         guides: [
           {
@@ -4651,9 +4629,6 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/subql-starter",
             path: "Statemine/statemine-starter",
           },
-        ],
-        dictionaries: [
-          "https://api.subquery.network/sq/subquery/statemint-dictionary",
         ],
         guides: [
           {
