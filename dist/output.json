@@ -2105,7 +2105,6 @@
           }
         ],
         "dictionaries": [
-          "https://api.subquery.network/sq/subquery/Algorand-Dictionary",
           "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW"
         ]
       }
@@ -2319,9 +2318,6 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "CosmosHub/cosmoshub-starter"
           }
-        ],
-        "dictionaries": [
-          "https://api.subquery.network/sq/subquery/cosmos-hub-dictionary"
         ]
       },
       {
@@ -2366,9 +2362,6 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cosmos-cronos.html",
             "internal": true
           }
-        ],
-        "dictionaries": [
-          "https://api.subquery.network/sq/subquery/cosmos-cronos-dictionary"
         ]
       },
       {
@@ -2468,8 +2461,7 @@
           }
         ],
         "dictionaries": [
-          "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8",
-          "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary"
+          "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8"
         ],
         "guides": [
           {
@@ -2567,7 +2559,6 @@
           }
         ],
         "dictionaries": [
-          "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary",
           "https://gateway.subquery.network/query/QmPjq55mgUt9S8S491Q3wEbb87fXyEkdxymT6Gwe2xe1Z1"
         ]
       },
@@ -2787,9 +2778,6 @@
             "link": "https://docs.osmosis.zone/overview/integrate/external_projects/subquery",
             "internal": false
           }
-        ],
-        "dictionaries": [
-          "https://api.subquery.network/sq/subquery/cosmos-osmosis-dictionary"
         ]
       },
       {
@@ -2940,9 +2928,6 @@
             "remote": "https://github.com/subquery/cosmos-subql-starter",
             "path": "Stargaze/stargaze-starter"
           }
-        ],
-        "dictionaries": [
-          "https://api.subquery.network/sq/subquery/cosmos-stargaze-dictionary"
         ],
         "guides": [
           {
@@ -3155,7 +3140,6 @@
           }
         ],
         "dictionaries": [
-          "https://api.subquery.network/sq/subquery/near-dictionary",
           "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41"
         ]
       },
@@ -3385,8 +3369,7 @@
           }
         ],
         "dictionaries": [
-          "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy",
-          "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
+          "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy"
         ]
       },
       {
@@ -3449,8 +3432,7 @@
           }
         ],
         "dictionaries": [
-          "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86",
-          "https://api.subquery.network/sq/subquery/calamari-dictionary"
+          "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86"
         ]
       },
       {
@@ -3987,9 +3969,6 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Parallel/parallel-starter"
           }
-        ],
-        "dictionaries": [
-          "https://api.subquery.network/sq/subquery/parallel-dictionary"
         ]
       },
       {
@@ -4134,8 +4113,7 @@
           }
         ],
         "dictionaries": [
-          "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
-          "https://api.subquery.network/sq/subquery/shiden-dictionary"
+          "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6"
         ],
         "guides": [
           {
@@ -4158,9 +4136,6 @@
             "remote": "https://github.com/subquery/subql-starter",
             "path": "Statemine/statemine-starter"
           }
-        ],
-        "dictionaries": [
-          "https://api.subquery.network/sq/subquery/statemint-dictionary"
         ],
         "guides": [
           {
