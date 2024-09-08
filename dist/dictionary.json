@@ -65,36 +65,20 @@
   },
   "algorand": {
     "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=": [
-      "https://api.subquery.network/sq/subquery/Algorand-Dictionary",
       "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW"
     ]
   },
   "cosmos": {
-    "cosmoshub-4": [
-      "https://api.subquery.network/sq/subquery/cosmos-hub-dictionary"
-    ],
-    "cronosmainnet_25-1": [
-      "https://api.subquery.network/sq/subquery/cosmos-cronos-dictionary"
-    ],
     "fetchhub-4": [
-      "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8",
-      "https://api.subquery.network/sq/subquery/cosmos-fetch-ai-dictionary"
+      "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8"
     ],
     "juno-1": [
-      "https://api.subquery.network/sq/subquery/cosmos-juno-dictionary",
       "https://gateway.subquery.network/query/QmPjq55mgUt9S8S491Q3wEbb87fXyEkdxymT6Gwe2xe1Z1"
-    ],
-    "osmosis-1": [
-      "https://api.subquery.network/sq/subquery/cosmos-osmosis-dictionary"
-    ],
-    "stargaze-1": [
-      "https://api.subquery.network/sq/subquery/cosmos-stargaze-dictionary"
     ]
   },
   "concordium": {},
   "near": {
     "mainnet": [
-      "https://api.subquery.network/sq/subquery/near-dictionary",
       "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41"
     ]
   },
@@ -107,12 +91,10 @@
       "https://dict-tyk.subquery.network/query/astar"
     ],
     "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed": [
-      "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy",
-      "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
+      "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy"
     ],
     "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1": [
-      "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86",
-      "https://api.subquery.network/sq/subquery/calamari-dictionary"
+      "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86"
     ],
     "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b": [
       "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N"
@@ -135,18 +117,11 @@
     "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21": [
       "https://gateway.subquery.network/query/QmZpj5wYpUbGqJDg6KWgbkK5bmeuCqYX6kwk317jdJ9DZ4"
     ],
-    "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97": [
-      "https://api.subquery.network/sq/subquery/parallel-dictionary"
-    ],
     "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3": [
       "https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL"
     ],
     "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108": [
-      "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
-      "https://api.subquery.network/sq/subquery/shiden-dictionary"
-    ],
-    "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a": [
-      "https://api.subquery.network/sq/subquery/statemint-dictionary"
+      "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6"
     ],
     "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f": [
       "https://gateway.subquery.network/query/Qme1iQvwLoeh1ZLZVL4zDGZBK1hnMG3xZz1oaLBRvZxT7X"
@@ -166,12 +141,10 @@
       "https://dict-tyk.subquery.network/query/astar"
     ],
     "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed": [
-      "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy",
-      "https://api.subquery.network/sq/subquery/bifrost-parachain-dictionary"
+      "https://gateway.subquery.network/query/QmcvcN4gZkiB2JkmK6BdHh7Wzy8Gfp8R7ZHSgGajbGv6Wy"
     ],
     "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1": [
-      "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86",
-      "https://api.subquery.network/sq/subquery/calamari-dictionary"
+      "https://gateway.subquery.network/query/QmdrqzazvSmrr6rgfxJEssJH9jqhYCZARm92UxNXMv5f86"
     ],
     "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b": [
       "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N"
@@ -194,18 +167,11 @@
     "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21": [
       "https://gateway.subquery.network/query/QmZpj5wYpUbGqJDg6KWgbkK5bmeuCqYX6kwk317jdJ9DZ4"
     ],
-    "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97": [
-      "https://api.subquery.network/sq/subquery/parallel-dictionary"
-    ],
     "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3": [
       "https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL"
     ],
     "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108": [
-      "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
-      "https://api.subquery.network/sq/subquery/shiden-dictionary"
-    ],
-    "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a": [
-      "https://api.subquery.network/sq/subquery/statemint-dictionary"
+      "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6"
     ],
     "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f": [
       "https://gateway.subquery.network/query/Qme1iQvwLoeh1ZLZVL4zDGZBK1hnMG3xZz1oaLBRvZxT7X"
