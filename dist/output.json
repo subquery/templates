@@ -537,6 +537,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "BNB Smart Chain/opbnb-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/opbnb-mainnet"
         ]
       },
       {
