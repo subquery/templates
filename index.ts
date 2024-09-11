@@ -658,6 +658,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "BNB Smart Chain/opbnb-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/opbnb-mainnet"],
       },
       {
         code: "60808",
