@@ -720,8 +720,31 @@
         ]
       },
       {
+        "code": "388",
+        "name": "Cronos ZKEVM",
+        "chain_id": "388",
+        "description": "A zkEVM Layer-2 for Cronos, optimized for DeFi and NFTs, providing a scalable and secure environment for these applications.",
+        "logo": "https://static.subquery.network/network-logos/cronosmainnet_25-1.png",
+        "examples": [
+          {
+            "name": "cronos-zkevm-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for zkTCRO on Cronos zkEVM Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Cronos/cronos-zkevm-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Cronos zkEVM Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the CRO token on Cronos zkEVM Mainnet.",
+            "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/cronos-zkevm.html",
+            "internal": true
+          }
+        ]
+      },
+      {
         "code": "282",
-        "name": "Cronos",
+        "name": "Cronos ZKEVM Testnet",
         "chain_id": "282",
         "description": "A zkEVM Layer-2 for Cronos, optimized for DeFi and NFTs, providing a scalable and secure environment for these applications.",
         "logo": "https://static.subquery.network/network-logos/cronosmainnet_25-1.png",
