@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/subquery/templates#readme",
   "dependencies": {
+    "https-proxy-agent": "^7.0.5",
     "node-fetch": "^2"
   },
   "devDependencies": {
