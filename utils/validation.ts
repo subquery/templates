@@ -1,12 +1,13 @@
+import yargs from 'yargs/yargs';
 import { apiGet, apiPost } from './request';
 const TEMPLATE_OUTPUT_PATH = 'https://raw.githubusercontent.com/subquery/templates/main/dist/dictionary.json'
 
 // This code validates the health of endpoints in dictionary.json file
 
-async function checkHealth(): Promise<void> {
+async function checkHealth(isLocal: boolean): Promise<void> {
   try {
     // Fetch JSON data from the provided URL
-    const data = await apiGet(TEMPLATE_OUTPUT_PATH);
+    const data = !isLocal ? await apiGet(TEMPLATE_OUTPUT_PATH) : require('../dist/dictionary.json');
 
     // Iterate through the data and check if it matches the GraphQL query
     for (const network in data) {
@@ -53,4 +54,17 @@ async function checkHealth(): Promise<void> {
   }
 }
 
-checkHealth();
+yargs(process.argv.slice(2))
+  .command('$0', 'Run an query-subgraph server', {
+    local: {
+      demandOption: false,
+      describe: 'Verify the local project files',
+      type: 'boolean',
+      default: false,
+    },
+  }, (argv) => {
+    console.log(argv)
+    checkHealth(argv.local);
+  })
+  .help()
+  .argv;
