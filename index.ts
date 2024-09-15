@@ -1,4 +1,5 @@
 import { writeFile } from "fs";
+import { discoverTykEndpointFromSubsquid } from "./utils/subsquid-discover";
 
 type Examples = {
   name: string;
@@ -44,14 +45,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-    | "evm"
-    | "algorand"
-    | "cosmos"
-    | "concordium"
-    | "near"
-    | "polkadot"
-    | "stellar"
-    | "multi";
+  | "evm"
+  | "algorand"
+  | "cosmos"
+  | "concordium"
+  | "near"
+  | "polkadot"
+  | "stellar"
+  | "multi";
   name: string;
   description: string;
   logo: string;
@@ -5031,23 +5032,44 @@ const publicAIModels: PublicAiModel[] = [
   },
 ];
 
-const dictionaryString = Object.fromEntries(
+
+discoverTykEndpointFromSubsquid().then((tykEndpointInfo) => Object.fromEntries(
   networkFamilies.map((f) => [
     f.code.toString() === "evm" ? "ethereum" : f.code.toString(),
     Object.fromEntries(
       f.networks
-        .filter((n) => !!n.dictionaries && n.dictionaries.length > 0)
-        .map((network) => [network.chain_id, network.dictionaries])
+        .filter((network) => {
+          const discoverTykEndoint = tykEndpointInfo[network.chain_id]?.tykEndpoint;
+          if (discoverTykEndoint) return true
+          return !!network.dictionaries && network.dictionaries.length > 0
+        })
+        .map((network) => {
+          const discoverTykEndoint = tykEndpointInfo[network.chain_id]?.tykEndpoint;
+          if (!discoverTykEndoint || network.dictionaries?.includes(discoverTykEndoint)) {
+            return [network.chain_id, network.dictionaries];
+          }
+          if (!network.dictionaries) {
+            // Create Tyk endpoint to dictionary
+            network.dictionaries = [discoverTykEndoint];
+          } else if (!network.dictionaries.includes(discoverTykEndoint)) {
+            // Append Tyk endpoint to dictionary
+            network.dictionaries.push(discoverTykEndoint);
+          }
+          console.log(`Adding Tyk endpoint to dictionary (${network.chain_id}), ${discoverTykEndoint}`);
+
+          return [network.chain_id, network.dictionaries];
+        })
     ),
   ])
-);
-// Hack till the SDK is ready
-dictionaryString["substrate"] = dictionaryString["polkadot"];
+)).then(dictionaryString => {
+  // Hack till the SDK is ready
+  dictionaryString["substrate"] = dictionaryString["polkadot"];
 
-const dictionaryJSONString = JSON.stringify(dictionaryString, null, 2);
+  const dictionaryJSONString = JSON.stringify(dictionaryString, null, 2);
 
-writeFile("./dist/dictionary.json", dictionaryJSONString, (err) => {
-  if (err) throw err;
+  writeFile("./dist/dictionary.json", dictionaryJSONString, (err) => {
+    if (err) throw err;
+  });
 });
 
 const schemaJSONString = JSON.stringify(networkFamilies, null, 2);
