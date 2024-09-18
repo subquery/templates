@@ -134,6 +134,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/astar-zkatana.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/astar-zkevm-mainnet"
         ]
       },
       {
@@ -149,6 +152,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Astar/astar-zkyoto-testnet-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/astar-zkyoto"
         ]
       },
       {
@@ -432,6 +438,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Blast/blast-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/blast-l2-mainnet"
         ]
       },
       {
@@ -447,6 +456,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Blast/blast-sepolia-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/blast-sepolia"
         ]
       },
       {
@@ -555,6 +567,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "BOB/bob-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/bob-mainnet"
         ]
       },
       {
@@ -717,6 +732,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Core/core-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/core-mainnet"
         ]
       },
       {
@@ -770,6 +788,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Degen/degen-chain-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/degen-chain"
         ]
       },
       {
@@ -968,7 +989,7 @@
           }
         ],
         "dictionaries": [
-          "https://dict-tyk.subquery.network/query/sepolia"
+          "https://dict-tyk.subquery.network/query/eth-sepolia"
         ],
         "public_rpc": [
           {
@@ -1113,6 +1134,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Gravity/gravity-alpha-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/galxe-gravity"
         ]
       },
       {
@@ -1212,6 +1236,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Japan Open Chain/japan-open-chain-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/shibuya-testnet"
         ]
       },
       {
@@ -1318,6 +1345,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Manta/manta-pacific-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/manta-pacific"
         ]
       },
       {
@@ -1341,6 +1371,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/mantle.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/mantle-mainnet"
         ]
       },
       {
@@ -1392,6 +1425,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/metis.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/metis-mainnet"
         ]
       },
       {
@@ -1407,6 +1443,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Merlin/merlin-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/merlin-mainnet"
         ]
       },
       {
@@ -1422,6 +1461,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Merlin/merlin-testnet-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/merlin-testnet"
         ]
       },
       {
@@ -1452,6 +1494,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Mode/mode-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/mode-mainnet"
         ]
       },
       {
@@ -1786,6 +1831,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/scroll.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/scroll-mainnet"
         ]
       },
       {
@@ -1809,6 +1857,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/scroll-sepolia.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/scroll-sepolia"
         ]
       },
       {
@@ -1862,6 +1913,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Taiko/taiko-holesky-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/eth-holesky"
         ]
       },
       {
@@ -1953,7 +2007,10 @@
             "path": "XLayer/xlayer-mainnet-starter"
           }
         ],
-        "guides": []
+        "guides": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/xlayer-mainnet"
+        ]
       },
       {
         "code": "195",
@@ -1976,6 +2033,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/xlayer-testnet.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/xlayer-testnet"
         ]
       },
       {
@@ -2098,6 +2158,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Zora/zora-starterr"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/zora-mainnet"
         ]
       }
     ]

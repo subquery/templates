@@ -16,6 +16,9 @@
     "56": [
       "https://dict-tyk.subquery.network/query/binance"
     ],
+    "81": [
+      "https://dict-tyk.subquery.network/query/shibuya-testnet"
+    ],
     "97": [
       "https://dict-tyk.subquery.network/query/binance-testnet"
     ],
@@ -24,6 +27,15 @@
     ],
     "137": [
       "https://dict-tyk.subquery.network/query/polygon"
+    ],
+    "169": [
+      "https://dict-tyk.subquery.network/query/manta-pacific"
+    ],
+    "195": [
+      "https://dict-tyk.subquery.network/query/xlayer-testnet"
+    ],
+    "196": [
+      "https://dict-tyk.subquery.network/query/xlayer-mainnet"
     ],
     "204": [
       "https://dict-tyk.subquery.network/query/opbnb-mainnet"
@@ -34,12 +46,36 @@
     "324": [
       "https://dict-tyk.subquery.network/query/zksync-mainnet"
     ],
+    "1088": [
+      "https://dict-tyk.subquery.network/query/metis-mainnet"
+    ],
     "1101": [
       "https://dict-tyk.subquery.network/query/polygon-zkevm"
+    ],
+    "1116": [
+      "https://dict-tyk.subquery.network/query/core-mainnet"
+    ],
+    "1625": [
+      "https://dict-tyk.subquery.network/query/galxe-gravity"
+    ],
+    "3776": [
+      "https://dict-tyk.subquery.network/query/astar-zkevm-mainnet"
+    ],
+    "4200": [
+      "https://dict-tyk.subquery.network/query/merlin-mainnet"
+    ],
+    "5000": [
+      "https://dict-tyk.subquery.network/query/mantle-mainnet"
     ],
     "8453": [
       "https://base.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/base-mainnet"
+    ],
+    "17000": [
+      "https://dict-tyk.subquery.network/query/eth-holesky"
+    ],
+    "34443": [
+      "https://dict-tyk.subquery.network/query/mode-mainnet"
     ],
     "42161": [
       "https://dict-tyk.subquery.network/query/arbitrum"
@@ -56,14 +92,41 @@
     "59144": [
       "https://dict-tyk.subquery.network/query/linea-mainnet"
     ],
+    "60808": [
+      "https://dict-tyk.subquery.network/query/bob-mainnet"
+    ],
     "80001": [
       "https://dict-tyk.subquery.network/query/polygon-mumbai"
+    ],
+    "81457": [
+      "https://dict-tyk.subquery.network/query/blast-l2-mainnet"
     ],
     "84532": [
       "https://dict-tyk.subquery.network/query/base-sepolia"
     ],
+    "534351": [
+      "https://dict-tyk.subquery.network/query/scroll-sepolia"
+    ],
+    "534352": [
+      "https://dict-tyk.subquery.network/query/scroll-mainnet"
+    ],
+    "686868": [
+      "https://dict-tyk.subquery.network/query/merlin-testnet"
+    ],
+    "6038361": [
+      "https://dict-tyk.subquery.network/query/astar-zkyoto"
+    ],
+    "7777777": [
+      "https://dict-tyk.subquery.network/query/zora-mainnet"
+    ],
     "11155111": [
-      "https://dict-tyk.subquery.network/query/sepolia"
+      "https://dict-tyk.subquery.network/query/eth-sepolia"
+    ],
+    "168587773": [
+      "https://dict-tyk.subquery.network/query/blast-sepolia"
+    ],
+    "666666666": [
+      "https://dict-tyk.subquery.network/query/degen-chain"
     ]
   },
   "algorand": {

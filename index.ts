@@ -44,14 +44,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-    | "evm"
-    | "algorand"
-    | "cosmos"
-    | "concordium"
-    | "near"
-    | "polkadot"
-    | "stellar"
-    | "multi";
+  | "evm"
+  | "algorand"
+  | "cosmos"
+  | "concordium"
+  | "near"
+  | "polkadot"
+  | "stellar"
+  | "multi";
   name: string;
   description: string;
   logo: string;
@@ -218,6 +218,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/astar-zkevm-mainnet"],
       },
       {
         code: "6038361",
@@ -235,6 +236,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Astar/astar-zkyoto-testnet-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/astar-zkyoto"],
       },
       {
         code: "1261120",
@@ -543,6 +545,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Blast/blast-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/blast-l2-mainnet"],
       },
       {
         code: "168587773",
@@ -560,6 +563,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Blast/blast-sepolia-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/blast-sepolia"],
       },
       {
         code: "56",
@@ -676,6 +680,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "BOB/bob-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/bob-mainnet"],
       },
       {
         code: "56288",
@@ -857,6 +862,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Core/core-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/core-mainnet"],
       },
       {
         code: "388",
@@ -917,6 +923,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Degen/degen-chain-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/degen-chain"],
       },
       {
         code: "7979",
@@ -1137,7 +1144,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Ethereum/ethereum-sepolia-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/sepolia"],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-sepolia"],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -1291,6 +1298,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Gravity/gravity-alpha-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/galxe-gravity"],
       },
       {
         code: "1666600000",
@@ -1403,6 +1411,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Japan Open Chain/japan-open-chain-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/shibuya-testnet"],
       },
       {
         code: "8217",
@@ -1518,6 +1527,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Manta/manta-pacific-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/manta-pacific"],
       },
       {
         code: "5000",
@@ -1543,6 +1553,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/mantle-mainnet"]
       },
       {
         code: "82",
@@ -1600,6 +1611,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/metis-mainnet"],
       },
       {
         code: "4200",
@@ -1617,6 +1629,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Merlin/merlin-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/merlin-mainnet"],
       },
       {
         code: "686868",
@@ -1634,6 +1647,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Merlin/merlin-testnet-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/merlin-testnet"],
       },
       {
         code: "185",
@@ -1668,6 +1682,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Mode/mode-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/mode-mainnet"],
       },
       {
         code: "22222",
@@ -2039,6 +2054,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/scroll-mainnet"]
       },
       {
         code: "534351",
@@ -2065,6 +2081,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/scroll-sepolia"]
       },
       {
         code: "2046399126",
@@ -2125,6 +2142,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Taiko/taiko-holesky-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-holesky"]
       },
       {
         code: "40",
@@ -2228,6 +2246,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
+        dictionaries: ["https://dict-tyk.subquery.network/query/xlayer-mainnet"]
       },
       {
         code: "195",
@@ -2254,6 +2273,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/xlayer-testnet"]
       },
       {
         code: "50",
@@ -2388,6 +2408,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Zora/zora-starterr",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/zora-mainnet"]
       },
     ],
   },
