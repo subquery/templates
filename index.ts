@@ -847,6 +847,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "5115",
+        name: "Citrea Testnet",
+        chain_id: "5115",
+        description:
+          "Citrea is the first rollup that enhances the capabilities of Bitcoin blockspace with zero knowledge technology. Citrea is the only scalability solution that uses Bitcoin both as a data availability and a settlement layer, via its BitVM-based trust-minimized two-way peg program - Clementine.",
+        logo: "",
+        examples: [
+          {
+            name: "citrea-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for USDC on Citrea Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Citrea/citrea-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "1116",
         name: "Core",
         chain_id: "1116",
