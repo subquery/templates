@@ -1258,28 +1258,28 @@
       },
       {
         "code": "8217",
-        "name": "Klaytn",
+        "name": "Kaia",
         "chain_id": "8217",
         "description": "A public blockchain platform from South Korea, developed by Kakao, focusing on user-friendly DApp development and featuring its native KLAY token.",
         "logo": "https://static.subquery.network/network-logos/8217.png",
         "examples": [
           {
-            "name": "klaytn-starter",
-            "description": "This SubQuery project indexes all transfers and approval events Orbit ETH token on Klaytn",
+            "name": "kaia-starter",
+            "description": "This SubQuery project indexes all transfers and approval events Orbit ETH token on Kaia",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Klaytn/klaytn-starter"
+            "path": "Kaia/kaia-starter"
           }
         ],
         "guides": [
           {
-            "name": "Klaytn Quick Start",
-            "description": "The goal of this quick start guide is to index all transfers and approval events from the Orbit ETH on Klaytn Network.",
-            "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/klaytn.html",
+            "name": "Kaia Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from the Orbit ETH on Kaia Network.",
+            "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/kaia.html",
             "internal": true
           },
           {
-            "name": "Klaytn Documentation - SubQuery Entry",
-            "link": "https://docs.klaytn.foundation/docs/build/tools/indexers/subquery/",
+            "name": "Kaia Documentation - SubQuery Entry",
+            "link": "https://docs.kaia.io/build/tools/indexers/subquery",
             "internal": false
           }
         ]
