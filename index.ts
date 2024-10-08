@@ -2883,6 +2883,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "gitopia",
+        name: "Gitopia",
+        chain_id: "gitopia",
+        description: "Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.",
+        logo: "",
+        examples: [
+          {
+            name: "gitopia-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Gitopia",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Gitopia/gitopia-starter",
+          },
+        ],
+      },
+      {
         code: "humans_1089-1",
         name: "HumansAI",
         chain_id: "humans_1089-1",
