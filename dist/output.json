@@ -1964,6 +1964,29 @@
         ]
       },
       {
+        "code": "1301",
+        "name": "Unichain Testnet",
+        "chain_id": "1301",
+        "description": "Unichain, built by the Uniswap Labs, is a DeFi-native Ethereum L2, optimized to be the home for liquidity across chains.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "unichain-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for USDC on Unichain's Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Unichain/unichain-testnet-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Unichain Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from USDC on Unichain's Testnet.",
+            "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/unichain.html",
+            "internal": true
+          }
+        ]
+      },
+      {
         "code": "39",
         "name": "Unicorn Ultra Solaris",
         "chain_id": "39",
