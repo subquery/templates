@@ -1871,6 +1871,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "58",
+        name: "Ontology EVM",
+        chain_id: "58",
+        description:
+          "The Ontology blockchain is a high speed, low cost public blockchain bringing decentralized identity and data solutions to Web3.",
+        logo: "",
+        examples: [
+          {
+            name: "ontology-evm-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the WONT Token on Ontology EVM Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ontology/ontology-evm-starter",
+          },
+        ],
+      },
+      {
         code: "5851",
         name: "Ontology EVM Testnet",
         chain_id: "5851",
