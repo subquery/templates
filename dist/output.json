@@ -1665,6 +1665,21 @@
         ]
       },
       {
+        "code": "5851",
+        "name": "Ontology EVM Testnet",
+        "chain_id": "5851",
+        "description": "The Ontology blockchain is a high speed, low cost public blockchain bringing decentralized identity and data solutions to Web3.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "ontology-evm-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the WONT Token on Ontology EVM Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Ontology/ontology-evm-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "62050",
         "name": "Optopia",
         "chain_id": "62050",
