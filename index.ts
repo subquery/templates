@@ -4108,6 +4108,22 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Darwinia Public RPC",
+            description: "",
+            rate_limit: {
+              rate: 60,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x48/overview",
+            endpoint: "https://darwinia.rpc.subquery.network/public",
+            endpoint_ws: "wss://darwiniw.rpc.subquery.network/public/ws",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://darwinia.rpc.subquery.network/public\'',
+          },
+        ],
       },
       {
         code: "efinity-polkadot",
