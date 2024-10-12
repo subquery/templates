@@ -4119,7 +4119,7 @@ const networkFamilies: NetworkFamily[] = [
             explorer_url:
               "https://app.subquery.network/explorer/project/0x48/overview",
             endpoint: "https://darwinia.rpc.subquery.network/public",
-            endpoint_ws: "wss://darwiniw.rpc.subquery.network/public/ws",
+            endpoint_ws: "wss://darwinia.rpc.subquery.network/public/ws",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://darwinia.rpc.subquery.network/public\'',
           },
