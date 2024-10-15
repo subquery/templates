@@ -61,7 +61,8 @@
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x23/overview",
             "endpoint": "https://arbitrum.rpc.subquery.network/public",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://arbitrum.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://arbitrum.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -315,7 +316,8 @@
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x06/overview",
             "endpoint": "https://base.rpc.subquery.network/public",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://base.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://base.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -514,7 +516,8 @@
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x2d/overview",
             "endpoint": "https://bnb.rpc.subquery.network/public",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://bnb.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://bnb.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -967,7 +970,8 @@
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x04/overview",
             "endpoint": "https://ethereum.rpc.subquery.network/public",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://ethereum.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://ethereum.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -1016,7 +1020,8 @@
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x27/overview",
             "endpoint": "https://ethereum-sepolia.rpc.subquery.network/public",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://ethereum-sepolia.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://ethereum-sepolia.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -1660,7 +1665,8 @@
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x2f/overview",
             "endpoint": "https://optimism.rpc.subquery.network/public",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://optimism.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://optimism.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -1762,7 +1768,8 @@
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x25/overview",
             "endpoint": "https://polygon.rpc.subquery.network/public",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://polygon.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://polygon.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -3714,7 +3721,10 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x48/overview",
             "endpoint": "https://darwinia.rpc.subquery.network/public",
             "endpoint_ws": "wss://darwinia.rpc.subquery.network/public/ws",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"chain_getBlock\"}' 'https://darwinia.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"chain_getBlock\"}' 'https://darwinia.rpc.subquery.network/public'",
+            "tags": [
+              "EVM"
+            ]
           }
         ]
       },
@@ -3992,7 +4002,8 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x31/overview",
             "endpoint": "https://kusama.rpc.subquery.network/public",
             "endpoint_ws": "wss://kusama.rpc.subquery.network/public/ws",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"chain_getBlock\"}' 'https://kusama.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"chain_getBlock\"}' 'https://kusama.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
@@ -4243,7 +4254,8 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x30/overview",
             "endpoint": "https://polkadot.rpc.subquery.network/public",
             "endpoint_ws": "wss://polkadot.rpc.subquery.network/public/ws",
-            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"chain_getBlock\"}' 'https://polkadot.rpc.subquery.network/public'"
+            "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"chain_getBlock\"}' 'https://polkadot.rpc.subquery.network/public'",
+            "tags": []
           }
         ]
       },
