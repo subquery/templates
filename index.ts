@@ -23,6 +23,7 @@ type PublicRPC = {
   description: string;
   rate_limit: { rate: number; burst?: number };
   example_request: string;
+  tags: string[];
 };
 
 type Network = {
@@ -44,14 +45,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-  | "evm"
-  | "algorand"
-  | "cosmos"
-  | "concordium"
-  | "near"
-  | "polkadot"
-  | "stellar"
-  | "multi";
+    | "evm"
+    | "algorand"
+    | "cosmos"
+    | "concordium"
+    | "near"
+    | "polkadot"
+    | "stellar"
+    | "multi";
   name: string;
   description: string;
   logo: string;
@@ -140,6 +141,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://arbitrum.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://arbitrum.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -218,7 +220,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/astar-zkevm-mainnet"],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/astar-zkevm-mainnet",
+        ],
       },
       {
         code: "6038361",
@@ -411,6 +415,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://base.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://base.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -545,7 +550,9 @@ const networkFamilies: NetworkFamily[] = [
             path: "Blast/blast-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/blast-l2-mainnet"],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/blast-l2-mainnet",
+        ],
       },
       {
         code: "168587773",
@@ -625,6 +632,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://bnb.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://bnb.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -1126,6 +1134,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://ethereum.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://ethereum.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -1175,6 +1184,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://ethereum-sepolia.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://ethereum-sepolia.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -1428,7 +1438,9 @@ const networkFamilies: NetworkFamily[] = [
             path: "Japan Open Chain/japan-open-chain-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/shibuya-testnet"],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/shibuya-testnet",
+        ],
       },
       {
         code: "8217",
@@ -1570,7 +1582,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/mantle-mainnet"]
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/mantle-mainnet",
+        ],
       },
       {
         code: "82",
@@ -1646,7 +1660,9 @@ const networkFamilies: NetworkFamily[] = [
             path: "Merlin/merlin-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/merlin-mainnet"],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/merlin-mainnet",
+        ],
       },
       {
         code: "686868",
@@ -1664,7 +1680,9 @@ const networkFamilies: NetworkFamily[] = [
             path: "Merlin/merlin-testnet-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/merlin-testnet"],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/merlin-testnet",
+        ],
       },
       {
         code: "185",
@@ -1867,6 +1885,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://optimism.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://optimism.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -1981,6 +2000,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://polygon.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://polygon.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -2105,7 +2125,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/scroll-mainnet"]
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/scroll-mainnet",
+        ],
       },
       {
         code: "534351",
@@ -2132,7 +2154,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/scroll-sepolia"]
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/scroll-sepolia",
+        ],
       },
       {
         code: "2046399126",
@@ -2193,7 +2217,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Taiko/taiko-holesky-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/eth-holesky"]
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-holesky"],
       },
       {
         code: "40",
@@ -2323,7 +2347,9 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         guides: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/xlayer-mainnet"]
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/xlayer-mainnet",
+        ],
       },
       {
         code: "195",
@@ -2350,7 +2376,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/xlayer-testnet"]
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/xlayer-testnet",
+        ],
       },
       {
         code: "50",
@@ -2485,7 +2513,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Zora/zora-starterr",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/zora-mainnet"]
+        dictionaries: ["https://dict-tyk.subquery.network/query/zora-mainnet"],
       },
     ],
   },
@@ -2946,7 +2974,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "gitopia",
         name: "Gitopia",
         chain_id: "gitopia",
-        description: "Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.",
+        description:
+          "Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.",
         logo: "",
         examples: [
           {
@@ -4122,6 +4151,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint_ws: "wss://darwinia.rpc.subquery.network/public/ws",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://darwinia.rpc.subquery.network/public\'',
+            tags: ["EVM"],
           },
         ],
       },
@@ -4426,6 +4456,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint_ws: "wss://kusama.rpc.subquery.network/public/ws",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://kusama.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -4701,6 +4732,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint_ws: "wss://polkadot.rpc.subquery.network/public/ws",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://polkadot.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
