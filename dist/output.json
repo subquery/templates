@@ -62,7 +62,9 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x23/overview",
             "endpoint": "https://arbitrum.rpc.subquery.network/public",
             "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://arbitrum.rpc.subquery.network/public'",
-            "tags": []
+            "tags": [
+              "Layer-2"
+            ]
           }
         ]
       },
@@ -317,7 +319,9 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x06/overview",
             "endpoint": "https://base.rpc.subquery.network/public",
             "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://base.rpc.subquery.network/public'",
-            "tags": []
+            "tags": [
+              "Layer-2"
+            ]
           }
         ]
       },
@@ -517,7 +521,9 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x2d/overview",
             "endpoint": "https://bnb.rpc.subquery.network/public",
             "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://bnb.rpc.subquery.network/public'",
-            "tags": []
+            "tags": [
+              "Layer-2"
+            ]
           }
         ]
       },
@@ -1021,7 +1027,9 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x27/overview",
             "endpoint": "https://ethereum-sepolia.rpc.subquery.network/public",
             "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://ethereum-sepolia.rpc.subquery.network/public'",
-            "tags": []
+            "tags": [
+              "Testnet"
+            ]
           }
         ]
       },
@@ -1666,7 +1674,9 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x2f/overview",
             "endpoint": "https://optimism.rpc.subquery.network/public",
             "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://optimism.rpc.subquery.network/public'",
-            "tags": []
+            "tags": [
+              "Layer-2"
+            ]
           }
         ]
       },
@@ -1769,7 +1779,9 @@
             "explorer_url": "https://app.subquery.network/explorer/project/0x25/overview",
             "endpoint": "https://polygon.rpc.subquery.network/public",
             "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://polygon.rpc.subquery.network/public'",
-            "tags": []
+            "tags": [
+              "Layer-2"
+            ]
           }
         ]
       },
