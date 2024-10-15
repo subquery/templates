@@ -141,7 +141,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://arbitrum.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://arbitrum.rpc.subquery.network/public\'',
-            tags: [],
+            tags: ["Layer-2"],
           },
         ],
       },
@@ -415,7 +415,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://base.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://base.rpc.subquery.network/public\'',
-            tags: [],
+            tags: ["Layer-2"],
           },
         ],
       },
@@ -632,7 +632,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://bnb.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://bnb.rpc.subquery.network/public\'',
-            tags: [],
+            tags: ["Layer-2"],
           },
         ],
       },
@@ -1184,7 +1184,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://ethereum-sepolia.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://ethereum-sepolia.rpc.subquery.network/public\'',
-            tags: [],
+            tags: ["Testnet"],
           },
         ],
       },
@@ -1885,7 +1885,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://optimism.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://optimism.rpc.subquery.network/public\'',
-            tags: [],
+            tags: ["Layer-2"],
           },
         ],
       },
@@ -2000,7 +2000,7 @@ const networkFamilies: NetworkFamily[] = [
             endpoint: "https://polygon.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://polygon.rpc.subquery.network/public\'',
-            tags: [],
+            tags: ["Layer-2"],
           },
         ],
       },
