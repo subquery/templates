@@ -1753,6 +1753,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "7210",
+        name: "Nibiru Testnet",
+        chain_id: "7210",
+        description:
+          "A secure smart contract platform driven by a vibrant community.",
+        logo: "",
+        examples: [
+          {
+            name: "nibiru-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for NIBI token on Nibiru Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Nibiru/nibiru-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "42262",
         name: "Oasis Emerald",
         chain_id: "42262",
