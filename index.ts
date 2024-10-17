@@ -180,6 +180,22 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "42420",
+        name: "Asset Chain Mainnet",
+        chain_id: "42420",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "asset-chain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the WRWA Token on Asset Chain Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Asset Chain/asset-chain-starter",
+          },
+        ],
+      },
+      {
         code: "42421",
         name: "Asset Chain Testnet",
         chain_id: "42421",
@@ -192,6 +208,20 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the WRWA Token on Asset Chain Test Network",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Asset Chain/asset-chain-testnet-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Asset Chain Testnet Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events from the Wrapped RWA on Asset Chain Testnet.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/asset-chain-testnet.html",
+            internal: true,
+          },
+          {
+            name: "Setting up an Indexer",
+            link: "https://academy.assetchain.org/module-4-intermediate-tutorials/setting-up-an-indexer",
+            internal: false,
           },
         ],
       },
