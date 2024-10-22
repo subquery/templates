@@ -400,6 +400,21 @@
         ]
       },
       {
+        "code": "80084",
+        "name": "Berachain BArtio Testnet",
+        "chain_id": "80084",
+        "description": "EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
+        "logo": "https://static.subquery.network/network-logos/80085.png",
+        "examples": [
+          {
+            "name": "berachain-bartio-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the BGT token on Berachain bArtio Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Berachain/berachain-bartio-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "80085",
         "name": "Berachain Artio Testnet",
         "chain_id": "80085",
