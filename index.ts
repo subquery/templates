@@ -2332,6 +2332,13 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Unichain/unichain-testnet-starter",
           },
+          {
+            name: "unichain-testnet-uniswap-v3",
+            description:
+              "This SubQuery project indexes the standard Uniswap Exchange-V3 project on Unichain Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Unichain/unichain-testnet-uniswap-v3",
+          },
         ],
         guides: [
           {
