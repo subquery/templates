@@ -2082,6 +2082,12 @@
             "description": "This SubQuery project indexes all transfers and approval events for USDC on Unichain's Testnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Unichain/unichain-testnet-starter"
+          },
+          {
+            "name": "unichain-testnet-uniswap-v3",
+            "description": "This SubQuery project indexes the standard Uniswap Exchange-V3 project on Unichain Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Unichain/unichain-testnet-uniswap-v3"
           }
         ],
         "guides": [
