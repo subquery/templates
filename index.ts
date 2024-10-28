@@ -3844,6 +3844,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "acurast-canary",
+        name: "Acurast Canary",
+        chain_id:
+          "0xce7681fb12aa8f7265d229a9074be0ea1d5e99b53eedcec2deade43857901808",
+        description:
+          "A truly decentralized compute layer hosted across the world offering confidential and verifiable computation.",
+        logo: "https://static.subquery.network/network-logos/acala.png",
+        examples: [
+          {
+            name: "acurast-canary-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Acurast/acurast-canary-starter",
+          },
+        ],
+      },
+      {
         code: "ajuna",
         name: "Ajuna",
         chain_id:
