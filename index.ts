@@ -34,6 +34,7 @@ type Network = {
   //   > https://github.com/TalismanSociety/chaindata/blob/v3/chaindata.json
   code: string;
   name: string;
+  onfinality_code?: string;
   chain_id: string;
   description: string;
   logo: string;
@@ -98,6 +99,7 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "42161",
         name: "Arbitrum One",
+        onfinality_code: "arbitrum",
         chain_id: "42161",
         description:
           "A Layer 2 scaling solution for Ethereum, enhancing transaction throughput and reducing fees while maintaining compatibility with Ethereum's smart contracts.",
@@ -395,6 +397,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "8453",
         name: "Base",
         chain_id: "8453",
+        onfinality_code: "base",
         description:
           "A blockchain network focused on simplifying smart contract development and execution, offering secure and efficient blockchain solutions.",
         logo: "https://static.subquery.network/network-logos/8453.png",
@@ -622,6 +625,7 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "56",
         name: "BNB Smart Chain",
+        onfinality_code: "bnb",
         chain_id: "56",
         description:
           "Binance's blockchain network, designed for fast and low-cost transactions, powering various DeFi applications and tokens within the Binance ecosystem.",
@@ -1052,6 +1056,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "1",
         name: "Ethereum",
         chain_id: "1",
+        onfinality_code: "eth",
         description:
           "A leading decentralized blockchain platform for smart contracts and decentralized applications (DApps), known for its native cryptocurrency Ether (ETH).",
         logo: "https://static.subquery.network/network-logos/1.png",
@@ -1205,6 +1210,7 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "11155111",
         name: "Ethereum Sepolia",
+        onfinality_code: "eth-sepolia",
         chain_id: "11155111",
         description: "",
         logo: "https://static.subquery.network/network-logos/11155111.png",
@@ -1904,6 +1910,7 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "10",
         name: "Optimism",
+        onfinality_code: "optimism",
         chain_id: "10",
         description:
           "An Ethereum Layer 2 scaling solution, enhancing transaction speed and cost efficiency while maintaining compatibility with the Ethereum network and smart contracts.",
@@ -2007,6 +2014,7 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "137",
         name: "Polygon",
+        onfinality_code: "polygon",
         chain_id: "137",
         description:
           "A multi-chain framework for Ethereum, promoting scalability and interoperability by facilitating the development of various blockchain solutions and dApps.",
@@ -4205,6 +4213,7 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "darwinia",
         name: "Darwinia",
+        onfinality_code: "darwinia2",
         chain_id:
           "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
         description:
@@ -5309,6 +5318,7 @@ writeFile("./dist/output.json", schemaJSONString, (err) => {
 const rpcsOutput: {
   code: string;
   name: string;
+  onfinality_code: string;
   chain_id: string;
   description: string;
   logo: string;
@@ -5324,6 +5334,7 @@ const rpcsOutput: {
           return {
             code: n.code,
             name: n.name,
+            onfinality_code: n.onfinality_code || n.code,
             chain_id: n.chain_id,
             description: n.description,
             logo: n.logo,
