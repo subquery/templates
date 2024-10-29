@@ -1527,6 +1527,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "920637907288165",
+        name: "Kakarot Starknet Sepolia",
+        chain_id: "920637907288165",
+        description:
+          "Kakarot is a verifiable EVM, and KKRT Labs is bringing it to Starknet L2 as well as to all EVM chains - L1 and rollups alike.",
+        logo: "",
+        examples: [
+          {
+            name: "kakarot-starknet-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the kUSDC on Kakarot Starknet Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Kakarot Starknet/kakarot-starknet-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "255",
         name: "Kroma",
         chain_id: "255",
