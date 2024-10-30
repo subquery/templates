@@ -21,6 +21,21 @@
         ]
       },
       {
+        "code": "888888888",
+        "name": "Ancient8",
+        "chain_id": "888888888",
+        "description": "Ancient8 Chain is a gaming-focused community-driven Ethereum layer 2 built to onboard the next 100M Web3 citizens.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "ancient8-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the A8 on Ancient8 Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Ancient8/ancient8-starter"
+          }
+        ]
+      },
+      {
         "code": "42161",
         "name": "Arbitrum One",
         "onfinality_code": "arbitrum",
@@ -846,6 +861,21 @@
         ]
       },
       {
+        "code": "4157",
+        "name": "CrossFi Testnet",
+        "chain_id": "4157",
+        "description": "Dive into the world of blockchain ecosystem! Explore the opportunities of crypto banking, pay with crypto debit card, use web3 wallet and defi tools.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "crossfi-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for SHIBA on CrossFi Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "CrossFi/crossfi-zkevm-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "666666666",
         "name": "Degen Chain",
         "chain_id": "666666666",
@@ -1157,6 +1187,36 @@
             "name": "Flare Documentation - SubQuery Entry",
             "link": "https://docs.flare.network/dev/tools/?h=subq#indexing-and-querying",
             "internal": false
+          }
+        ]
+      },
+      {
+        "code": "747",
+        "name": "Flow",
+        "chain_id": "747",
+        "description": "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "flow-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped Flow on Flow",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Flow/flow-starter"
+          }
+        ]
+      },
+      {
+        "code": "545",
+        "name": "Flow Testnet",
+        "chain_id": "545",
+        "description": "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "flow-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped Flow on Flow testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Flow/flow-testnet-starter"
           }
         ]
       },
@@ -1636,6 +1696,21 @@
         ]
       },
       {
+        "code": "2014",
+        "name": "Now Chain",
+        "chain_id": "2014",
+        "description": "Step into the future with NOW Chain, where cutting-edge technology meets unparalleled security.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "now-chain-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for Tether USDT token on Now Chain",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Now Chain/now-chain-starter"
+          }
+        ]
+      },
+      {
         "code": "42262",
         "name": "Oasis Emerald",
         "chain_id": "42262",
@@ -1940,6 +2015,51 @@
         ]
       },
       {
+        "code": "2020",
+        "name": "Ronin",
+        "chain_id": "2020",
+        "description": "Ronin is an EVM blockchain tailored for developers building player-owned economies.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "ronin-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for USDC on Ronin Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Ronin/ronin-starter"
+          }
+        ]
+      },
+      {
+        "code": "2021",
+        "name": "Ronin Testnet",
+        "chain_id": "2021",
+        "description": "Ronin is an EVM blockchain tailored for developers building player-owned economies.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "ronin-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for USDC on Ronin Testnet Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Ronin/ronin-testnet-starter"
+          }
+        ]
+      },
+      {
+        "code": "30",
+        "name": "Rootstock",
+        "chain_id": "30",
+        "description": "Deploy EVM compatible smart contracts on Rootstock and with the security of the Bitcoin network.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "rootstock-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for RIF on Rootstock Network",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Rootstock/rootstock-starter"
+          }
+        ]
+      },
+      {
         "code": "3110",
         "name": "SatoshiVM",
         "chain_id": "3110",
@@ -2089,6 +2209,21 @@
             "description": "This SubQuery project indexes all transfers and approval events for the USDT Token on Telos Mainnetwork",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Telos/telos-testnet-starter"
+          }
+        ]
+      },
+      {
+        "code": "8192",
+        "name": "Torus",
+        "chain_id": "8192",
+        "description": "An open source, non-custodial key management network. Making Web3 simple, secure, and easy to use.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "torus-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped TQF Token on Torus",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Torus/torus-starter"
           }
         ]
       },
