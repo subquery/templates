@@ -100,7 +100,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "888888888",
         name: "Ancient8",
         chain_id: "888888888",
-        description: "Ancient8 Chain is a gaming-focused community-driven Ethereum layer 2 built to onboard the next 100M Web3 citizens.",
+        description:
+          "Ancient8 Chain is a gaming-focused community-driven Ethereum layer 2 built to onboard the next 100M Web3 citizens.",
         logo: "",
         examples: [
           {
@@ -447,10 +448,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: false,
           },
         ],
-        dictionaries: [
-          "https://base.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/base-mainnet",
-        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/base-mainnet"],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -1202,10 +1200,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: [
-          "https://ethereum.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/eth-mainnet",
-        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-mainnet"],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -1358,12 +1353,14 @@ const networkFamilies: NetworkFamily[] = [
         code: "747",
         name: "Flow",
         chain_id: "747",
-        description: "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
+        description:
+          "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
         logo: "",
         examples: [
           {
             name: "flow-starter",
-            description: "This SubQuery project indexes all transfers and approval events for the Wrapped Flow on Flow",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Flow on Flow",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Flow/flow-starter",
           },
@@ -1373,12 +1370,14 @@ const networkFamilies: NetworkFamily[] = [
         code: "545",
         name: "Flow Testnet",
         chain_id: "545",
-        description: "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
+        description:
+          "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
         logo: "",
         examples: [
           {
             name: "flow-testnet-starter",
-            description: "This SubQuery project indexes all transfers and approval events for the Wrapped Flow on Flow testnet",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Flow on Flow testnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Flow/flow-testnet-starter",
           },
