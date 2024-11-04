@@ -4404,7 +4404,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Darwinia Public RPC",
             description: "",
             rate_limit: {
-              rate: 60,
+              rate: 200,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x48/overview",
