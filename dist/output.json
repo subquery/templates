@@ -1370,9 +1370,6 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Japan Open Chain/japan-open-chain-starter"
           }
-        ],
-        "dictionaries": [
-          "https://dict-tyk.subquery.network/query/shibuya-testnet"
         ]
       },
       {
@@ -2252,6 +2249,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/unichain.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://v2.archive.subsquid.io/network/unichain-sepolia"
         ]
       },
       {
@@ -2467,6 +2467,633 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/zora-mainnet"
+        ]
+      },
+      {
+        "code": "16600",
+        "name": "0G Newton Testnet",
+        "chain_id": "16600",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/0g-testnet"
+        ]
+      },
+      {
+        "code": "41455",
+        "name": "Aleph Zero EVM",
+        "chain_id": "41455",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/aleph-zero-evm-mainnet"
+        ]
+      },
+      {
+        "code": "421614",
+        "name": "Arbitrum Sepolia",
+        "chain_id": "421614",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/arbitrum-sepolia"
+        ]
+      },
+      {
+        "code": "10242",
+        "name": "Arthera Mainnet",
+        "chain_id": "10242",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/arthera-mainnet"
+        ]
+      },
+      {
+        "code": "592",
+        "name": "Astar",
+        "chain_id": "592",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/astar-mainnet"
+        ]
+      },
+      {
+        "code": "8333",
+        "name": "B3",
+        "chain_id": "8333",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/b3-mainnet"
+        ]
+      },
+      {
+        "code": "1993",
+        "name": "B3 Sepolia",
+        "chain_id": "1993",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/b3-sepolia"
+        ]
+      },
+      {
+        "code": "355110",
+        "name": "Bitfinity Mainnet",
+        "chain_id": "355110",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/bitfinity-mainnet"
+        ]
+      },
+      {
+        "code": "355113",
+        "name": "Bitfinity Testnet",
+        "chain_id": "355113",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/bitfinity-testnet"
+        ]
+      },
+      {
+        "code": "32520",
+        "name": "Bitgert",
+        "chain_id": "32520",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/bitgert-mainnet"
+        ]
+      },
+      {
+        "code": "64668",
+        "name": "Bitgert Testnet",
+        "chain_id": "64668",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/bitgert-testnet"
+        ]
+      },
+      {
+        "code": "7701",
+        "name": "Canto Testnet",
+        "chain_id": "7701",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/canto-testnet"
+        ]
+      },
+      {
+        "code": "44787",
+        "name": "Celo Alfajores Testnet",
+        "chain_id": "44787",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/celo-alfajores-testnet"
+        ]
+      },
+      {
+        "code": "4158",
+        "name": "CrossFi Mainnet",
+        "chain_id": "4158",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/crossfi-mainnet"
+        ]
+      },
+      {
+        "code": "7560",
+        "name": "Cyber Mainnet",
+        "chain_id": "7560",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/cyber-mainnet"
+        ]
+      },
+      {
+        "code": "111557560",
+        "name": "Cyberconnect L2 Testnet",
+        "chain_id": "111557560",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/cyberconnect-l2-testnet"
+        ]
+      },
+      {
+        "code": "53935",
+        "name": "DFK Chain",
+        "chain_id": "53935",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/dfk-chain"
+        ]
+      },
+      {
+        "code": "2000",
+        "name": "Dogechain",
+        "chain_id": "2000",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/dogechain-mainnet"
+        ]
+      },
+      {
+        "code": "568",
+        "name": "Dogechain Testnet",
+        "chain_id": "568",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/dogechain-testnet"
+        ]
+      },
+      {
+        "code": "17000",
+        "name": "Ethereum Holesky",
+        "chain_id": "17000",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/ethereum-holesky"
+        ]
+      },
+      {
+        "code": "42793",
+        "name": "Etherlink Mainnet",
+        "chain_id": "42793",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/etherlink-mainnet"
+        ]
+      },
+      {
+        "code": "128123",
+        "name": "Etherlink Testnet",
+        "chain_id": "128123",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/etherlink-testnet"
+        ]
+      },
+      {
+        "code": "2109",
+        "name": "Exosama",
+        "chain_id": "2109",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/exosama"
+        ]
+      },
+      {
+        "code": "4002",
+        "name": "Fantom Testnet",
+        "chain_id": "4002",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/fantom-testnet"
+        ]
+      },
+      {
+        "code": "88153591557",
+        "name": "Arbitrum Blueberry",
+        "chain_id": "88153591557",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/gelato-arbitrum-blueberry"
+        ]
+      },
+      {
+        "code": "123420111",
+        "name": "OP Celestia Raspberry",
+        "chain_id": "123420111",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/gelato-opcelestia-raspberry"
+        ]
+      },
+      {
+        "code": "13371",
+        "name": "Immutable zkEVM",
+        "chain_id": "13371",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/immutable-zkevm-mainnet"
+        ]
+      },
+      {
+        "code": "13473",
+        "name": "Immutable zkEVM Testnet",
+        "chain_id": "13473",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/immutable-zkevm-testnet"
+        ]
+      },
+      {
+        "code": "1998",
+        "name": "Kyoto Testnet",
+        "chain_id": "1998",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/kyoto-testnet"
+        ]
+      },
+      {
+        "code": "3441006",
+        "name": "Manta Pacific Sepolia",
+        "chain_id": "3441006",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/manta-pacific-sepolia"
+        ]
+      },
+      {
+        "code": "1287",
+        "name": "Moonbase Alpha",
+        "chain_id": "1287",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/moonbase-testnet"
+        ]
+      },
+      {
+        "code": "1284",
+        "name": "Moonbeam",
+        "chain_id": "1284",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/moonbeam-mainnet"
+        ]
+      },
+      {
+        "code": "1285",
+        "name": "Moonriver",
+        "chain_id": "1285",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/moonriver-mainnet"
+        ]
+      },
+      {
+        "code": "42225",
+        "name": "Naka Chain",
+        "chain_id": "42225",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/nakachain"
+        ]
+      },
+      {
+        "code": "245022926",
+        "name": "Neon EVM DevNet",
+        "chain_id": "245022926",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/neon-devnet"
+        ]
+      },
+      {
+        "code": "245022934",
+        "name": "Neon EVM",
+        "chain_id": "245022934",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/neon-mainnet"
+        ]
+      },
+      {
+        "code": "5611",
+        "name": "opBNB Testnet",
+        "chain_id": "5611",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/opbnb-testnet"
+        ]
+      },
+      {
+        "code": "11155420",
+        "name": "Optimism Sepolia",
+        "chain_id": "11155420",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/optimism-sepolia"
+        ]
+      },
+      {
+        "code": "3338",
+        "name": "Peaq",
+        "chain_id": "3338",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/peaq-mainnet"
+        ]
+      },
+      {
+        "code": "98865",
+        "name": "Plume Mainnet",
+        "chain_id": "98865",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/plume-mainnet"
+        ]
+      },
+      {
+        "code": "98864",
+        "name": "Plume Testnet",
+        "chain_id": "98864",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/plume-testnet"
+        ]
+      },
+      {
+        "code": "80002",
+        "name": "Polygon Amoy Testnet",
+        "chain_id": "80002",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/polygon-amoy-testnet"
+        ]
+      },
+      {
+        "code": "2442",
+        "name": "Polygon zkEVM Cardona Testnet",
+        "chain_id": "2442",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/polygon-zkevm-cardona-testnet"
+        ]
+      },
+      {
+        "code": "97072271",
+        "name": "Prom Testnet",
+        "chain_id": "97072271",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/prom-testnet"
+        ]
+      },
+      {
+        "code": "584548796",
+        "name": "Prom Testnet (v2)",
+        "chain_id": "584548796",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/prom-testnet-v2"
+        ]
+      },
+      {
+        "code": "157",
+        "name": "Puppynet Shibarium",
+        "chain_id": "157",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/puppynet"
+        ]
+      },
+      {
+        "code": "109",
+        "name": "Shibarium",
+        "chain_id": "109",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/shibarium"
+        ]
+      },
+      {
+        "code": "336",
+        "name": "Shiden",
+        "chain_id": "336",
+        "description": "",
+        "logo": "https://static.subquery.network/network-logos/shiden-kusama.png",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/shiden-mainnet"
+        ]
+      },
+      {
+        "code": "1482601649",
+        "name": "Skale Nebula",
+        "chain_id": "1482601649",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/skale-nebula"
+        ]
+      },
+      {
+        "code": "64165",
+        "name": "Sonic Testnet",
+        "chain_id": "64165",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/sonic-testnet"
+        ]
+      },
+      {
+        "code": "93747",
+        "name": "StratoVM Testnet",
+        "chain_id": "93747",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/stratovm-sepolia"
+        ]
+      },
+      {
+        "code": "53302",
+        "name": "Superseed Sepolia",
+        "chain_id": "53302",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/superseed-sepolia"
+        ]
+      },
+      {
+        "code": "167000",
+        "name": "Taiko Mainnet",
+        "chain_id": "167000",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/taiko-mainnet"
+        ]
+      },
+      {
+        "code": "5678",
+        "name": "Tanssi Demo",
+        "chain_id": "5678",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/tanssi"
+        ]
+      },
+      {
+        "code": "810180",
+        "name": "zkLink Nova Mainnet",
+        "chain_id": "810180",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/zklink-nova-mainnet"
+        ]
+      },
+      {
+        "code": "300",
+        "name": "zkSync Sepolia",
+        "chain_id": "300",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/zksync-sepolia"
+        ]
+      },
+      {
+        "code": "999999999",
+        "name": "Zora Sepolia",
+        "chain_id": "999999999",
+        "description": "",
+        "logo": "",
+        "examples": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/zora-sepolia"
         ]
       }
     ]
