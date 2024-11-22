@@ -46,14 +46,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-  | "evm"
-  | "algorand"
-  | "cosmos"
-  | "concordium"
-  | "near"
-  | "polkadot"
-  | "stellar"
-  | "multi";
+    | "evm"
+    | "algorand"
+    | "cosmos"
+    | "concordium"
+    | "near"
+    | "polkadot"
+    | "stellar"
+    | "multi";
   name: string;
   description: string;
   logo: string;
@@ -1008,9 +1008,9 @@ const networkFamilies: NetworkFamily[] = [
           {
             name: "crossfi-testnet-starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for SHIBA on CrossFi Testnet",
+              "This SubQuery project indexes all transfers and approval events for the CrossFi Foundation Token (0xdb5c548684221ce2f55f16456ec5cf43a028d8e9) on CrossFi Testnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "CrossFi/crossfi-zkevm-testnet-starter",
+            path: "CrossFi Testnet/crossfi-testnet-starter",
           },
         ],
       },
@@ -2520,8 +2520,8 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          'https://v2.archive.subsquid.io/network/unichain-sepolia'
-        ]
+          "https://v2.archive.subsquid.io/network/unichain-sepolia",
+        ],
       },
       {
         code: "39",
@@ -2765,8 +2765,16 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "16600",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/0g-testnet"]
+        examples: [
+          {
+            name: "0g-newton-testnet-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the FunToken (0x911a31a3450aabfd38d1484aae457c88b66d1561) on 0G Newton Testnet Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "0G Newton Testnet/0g-newton-testnet-testnet-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/0g-testnet"],
       },
       {
         code: "41455",
@@ -2774,8 +2782,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "41455",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/aleph-zero-evm-mainnet"]
+        examples: [
+          {
+            name: "aleph-zero-evm-mainet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Merkly Hyperlane FT (0xAFa5f9313F1F2b599173f24807a882F498Be118c) on Aleph Zero EVM Mainet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Aleph Zero EVM/aleph-zero-evm-mainet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/aleph-zero-evm-mainnet",
+        ],
       },
       {
         code: "421614",
@@ -2783,8 +2801,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "421614",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/arbitrum-sepolia"]
+        examples: [
+          {
+            name: "arbitrum-sepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the TestUSDC (0x5fabd132b58b29d0f98A9eB51651A695fc46BD9c) on Arbitrum Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Arbitrum Sepolia/arbitrum-sepolia-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/arbitrum-sepolia",
+        ],
       },
       {
         code: "10242",
@@ -2792,26 +2820,54 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "10242",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/arthera-mainnet"]
+        examples: [
+          {
+            name: "arthera-mainnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the XPArthera (0x8FF4E393D983fb2EEdCfcFcB55a0aaB9250d0AE6) on Arthera Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Arthera Mainnet/arthera-mainnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/arthera-mainnet",
+        ],
       },
+      /*
       {
         code: "592",
         name: "Astar",
         chain_id: "592",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/astar-mainnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/astar-mainnet"],
       },
+      */
       {
         code: "8333",
         name: "B3",
         chain_id: "8333",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/b3-mainnet"]
+        examples: [
+          {
+            name: "b3-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Portal Fantasy XP (0xE01cc077f4E477e8f9A69BbB282aD5cc5267e013) on B3",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "B3/b3-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/b3-mainnet"],
       },
       {
         code: "1993",
@@ -2819,8 +2875,16 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1993",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/b3-sepolia"]
+        examples: [
+          {
+            name: "b3-sepolia-testnet-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the PEWPEW (0x79B4c9ceBD2C45f7c40d605868af6AC08b8554C2) on B3 Sepolia Testnet Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "B3 Sepolia Testnet/b3-sepolia-testnet-testnet-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/b3-sepolia"],
       },
       {
         code: "355110",
@@ -2828,8 +2892,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "355110",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/bitfinity-mainnet"]
+        examples: [
+          {
+            name: "bitfinity-network-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ICP (0x51cCdE9Ca75d95BB55eCe1775fCBFF91324B18A6) on Bitfinity Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Bitfinity Network/bitfinity-network-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/bitfinity-mainnet",
+        ],
       },
       {
         code: "355113",
@@ -2837,8 +2911,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "355113",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/bitfinity-testnet"]
+        examples: [
+          {
+            name: "bitfinity-network-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Test USD (0xbd9A5c1d9fBbBEC84633ec9Cb046C01fB79809f2) on Bitfinity Network Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Bitfinity Network/bitfinity-network-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/bitfinity-testnet",
+        ],
       },
       {
         code: "32520",
@@ -2846,26 +2930,56 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "32520",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/bitgert-mainnet"]
+        examples: [
+          {
+            name: "bitgert-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Bitcoin Future (0x9Ba88b1edCBd8f24aa3fa0c7472e07903f6d0098) on Bitgert",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Bitgert/bitgert-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/bitgert-mainnet",
+        ],
       },
+      /*
       {
         code: "64668",
         name: "Bitgert Testnet",
         chain_id: "64668",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/bitgert-testnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/bitgert-testnet",
+        ],
       },
+      */
       {
         code: "7701",
         name: "Canto Testnet",
         chain_id: "7701",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/canto-testnet"]
+        examples: [
+          {
+            name: "canto-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Canto/canto-testnet-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/canto-testnet"],
       },
       {
         code: "44787",
@@ -2873,8 +2987,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "44787",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/celo-alfajores-testnet"]
+        examples: [
+          {
+            name: "celo-alfajores-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the MyTether USD (0x5C68B64d52B651916796f195fb776cB49bAa12d8) on Celo Alfajores Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Celo Alfajores/celo-alfajores-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/celo-alfajores-testnet",
+        ],
       },
       {
         code: "4158",
@@ -2882,8 +3006,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "4158",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/crossfi-mainnet"]
+        examples: [
+          {
+            name: "crossfi-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the CrossFi Foundation Token (0xdb5c548684221ce2f55f16456ec5cf43a028d8e9) on CrossFi",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "CrossFi/crossfi-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/crossfi-mainnet",
+        ],
       },
       {
         code: "7560",
@@ -2891,8 +3025,16 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "7560",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/cyber-mainnet"]
+        examples: [
+          {
+            name: "cyber-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the CyberConnect (0x14778860e937f509e651192a90589de711fb88a9) on Cyber",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Cyber/cyber-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/cyber-mainnet"],
       },
       {
         code: "111557560",
@@ -2900,8 +3042,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "111557560",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/cyberconnect-l2-testnet"]
+        examples: [
+          {
+            name: "cyber-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Compound CYBER (0x580278859b01bfdc303ca80b36be364b438105d6) on Cyber Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Cyber/cyber-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/cyberconnect-l2-testnet",
+        ],
       },
       {
         code: "53935",
@@ -2909,8 +3061,16 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "53935",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/dfk-chain"]
+        examples: [
+          {
+            name: "dfk-chain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the WJEWEL Token (0xCCb93dABD71c8Dad03Fc4CE5559dC3D89F67a260) on DFK Chain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "DFK Chain/dfk-chain-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/dfk-chain"],
       },
       {
         code: "2000",
@@ -2918,8 +3078,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "2000",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/dogechain-mainnet"]
+        examples: [
+          {
+            name: "dogechain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the XEN Crypto (0x948eed4490833D526688fD1E5Ba0b9B35CD2c32e) on Dogechain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Dogechain/dogechain-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/dogechain-mainnet",
+        ],
       },
       {
         code: "568",
@@ -2927,8 +3097,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "568",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/dogechain-testnet"]
+        examples: [
+          {
+            name: "dogechain-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the uREKT Token (0x6F301941acF13997eF81E2F9e676f263d938b82D) on Dogechain Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Dogechain/dogechain-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/dogechain-testnet",
+        ],
       },
       {
         code: "17000",
@@ -2936,8 +3116,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "17000",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/ethereum-holesky"]
+        examples: [
+          {
+            name: "ethereum-holesky-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the GaspV2 (0x5620cDb94BaAaD10c20483bd8705DA711b2Bc0a3) on Ethereum Holesky Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum Holesky/ethereum-holesky-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/ethereum-holesky",
+        ],
       },
       {
         code: "42793",
@@ -2945,8 +3135,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "42793",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/etherlink-mainnet"]
+        examples: [
+          {
+            name: "etherlink-mainnet-etherlink-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Ether (0xfc24f770F94edBca6D6f885E12d4317320BcB401) on Etherlink Mainnet Etherlink",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Etherlink Mainnet/etherlink-mainnet-etherlink-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/etherlink-mainnet",
+        ],
       },
       {
         code: "128123",
@@ -2954,8 +3154,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "128123",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/etherlink-testnet"]
+        examples: [
+          {
+            name: "etherlink-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped XTZ (0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8) on Etherlink Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Etherlink/etherlink-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/etherlink-testnet",
+        ],
       },
       {
         code: "2109",
@@ -2963,8 +3173,16 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "2109",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/exosama"]
+        examples: [
+          {
+            name: "exosama-network-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Stone (0x122EBE2B679cF54Bc8a6e89c1009714b354e2d10) on Exosama Network",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Exosama Network/exosama-network-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/exosama"],
       },
       {
         code: "4002",
@@ -2972,8 +3190,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "4002",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/fantom-testnet"]
+        examples: [
+          {
+            name: "fantom-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the WFTM (0xE8175A3C1Dd1337aD276a8105ae6375367bf620B) on Fantom Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Fantom/fantom-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/fantom-testnet",
+        ],
       },
       {
         code: "88153591557",
@@ -2981,8 +3209,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "88153591557",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/gelato-arbitrum-blueberry"]
+        examples: [
+          {
+            name: "arbitrum-blueberry-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Playnance (0x73C3cDd1418c3F17D54A81148387d93122802E72) on Arbitrum Blueberry Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Arbitrum Blueberry/arbitrum-blueberry-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/gelato-arbitrum-blueberry",
+        ],
       },
       {
         code: "123420111",
@@ -2990,8 +3228,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "123420111",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/gelato-opcelestia-raspberry"]
+        examples: [
+          {
+            name: "optimism-celestia-raspberry-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the TEST (0x39008557c498c7B620Ec9F882e556faD8ADBdCd5) on Optimism Celestia Raspberry Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Optimism Celestia Raspberry/optimism-celestia-raspberry-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/gelato-opcelestia-raspberry",
+        ],
       },
       {
         code: "13371",
@@ -2999,8 +3247,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "13371",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/immutable-zkevm-mainnet"]
+        examples: [
+          {
+            name: "immutable-zkevm-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the BitGem (0xd82bbD600c5Ee9fAF1647d39f25F2aF356B2c565) on Immutable zkEVM",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Immutable zkEVM/immutable-zkevm-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/immutable-zkevm-mainnet",
+        ],
       },
       {
         code: "13473",
@@ -3008,35 +3266,76 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "13473",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/immutable-zkevm-testnet"]
+        examples: [
+          {
+            name: "immutable-zkevm-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Best Game Token (0x1303F139FEac224ff877e6071C782A41C30F3255) on Immutable zkEVM Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Immutable zkEVM/immutable-zkevm-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/immutable-zkevm-testnet",
+        ],
       },
+      /*
       {
         code: "1998",
         name: "Kyoto Testnet",
         chain_id: "1998",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/kyoto-testnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/kyoto-testnet"],
       },
+      */
       {
         code: "3441006",
         name: "Manta Pacific Sepolia",
         chain_id: "3441006",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/manta-pacific-sepolia"]
+        examples: [
+          {
+            name: "manta-pacific-sepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the testUSDC (0x9c76c6304885661CdB97F3984b13114B6D4b5248) on Manta Pacific Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Manta Pacific Sepolia/manta-pacific-sepolia-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/manta-pacific-sepolia",
+        ],
       },
+      /*
       {
         code: "1287",
         name: "Moonbase Alpha",
         chain_id: "1287",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/moonbase-testnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/moonbase-testnet",
+        ],
       },
       {
         code: "1284",
@@ -3044,8 +3343,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1284",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/moonbeam-mainnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/moonbeam-mainnet",
+        ],
       },
       {
         code: "1285",
@@ -3053,53 +3362,110 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1285",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/moonriver-mainnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/moonriver-mainnet",
+        ],
       },
+      
       {
         code: "42225",
         name: "Naka Chain",
         chain_id: "42225",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/nakachain"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/nakachain"],
       },
+      
       {
         code: "245022926",
         name: "Neon EVM DevNet",
         chain_id: "245022926",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/neon-devnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/neon-devnet"],
       },
+      */
       {
         code: "245022934",
         name: "Neon EVM",
         chain_id: "245022934",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/neon-mainnet"]
+        examples: [
+          {
+            name: "neon-evm-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Mora (0x2043191e10a2A4b4601F5123D6C94E000b5d915F) on Neon EVM",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Neon EVM/neon-evm-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/neon-mainnet"],
       },
+      /*
       {
         code: "5611",
         name: "opBNB Testnet",
         chain_id: "5611",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/opbnb-testnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/opbnb-testnet"],
       },
+      */
       {
         code: "11155420",
         name: "Optimism Sepolia",
         chain_id: "11155420",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/optimism-sepolia"]
+        examples: [
+          {
+            name: "op-sepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDC (0x5fd84259d66Cd46123540766Be93DFE6D43130D7) on OP Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "OP Sepolia/op-sepolia-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/optimism-sepolia",
+        ],
       },
       {
         code: "3338",
@@ -3107,17 +3473,34 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "3338",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/peaq-mainnet"]
+        examples: [
+          {
+            name: "peaq-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the PEAQ (0x0000000000000000000000000000000000000809) on Peaq",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Peaq/peaq-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/peaq-mainnet"],
       },
+      /*
       {
         code: "98865",
         name: "Plume Mainnet",
         chain_id: "98865",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/plume-mainnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/plume-mainnet"],
       },
       {
         code: "98864",
@@ -3125,17 +3508,36 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "98864",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/plume-testnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/plume-testnet"],
       },
+      */
       {
         code: "80002",
         name: "Polygon Amoy Testnet",
         chain_id: "80002",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/polygon-amoy-testnet"]
+        examples: [
+          {
+            name: "polygon-amoy-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ADIX (0xC9d291858a0F86A499835783093b643D812b3711) on Polygon Amoy Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Polygon Amoy/polygon-amoy-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/polygon-amoy-testnet",
+        ],
       },
       {
         code: "2442",
@@ -3143,17 +3545,36 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "2442",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/polygon-zkevm-cardona-testnet"]
+        examples: [
+          {
+            name: "polygon-zkevm-cardona-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the LINK (0x5576815a38A3706f37bf815b261cCc7cCA77e975) on Polygon zkEVM Cardona Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Polygon zkEVM Cardona/polygon-zkevm-cardona-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/polygon-zkevm-cardona-testnet",
+        ],
       },
+      /*
       {
         code: "97072271",
         name: "Prom Testnet",
         chain_id: "97072271",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/prom-testnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/prom-testnet"],
       },
       {
         code: "584548796",
@@ -3161,17 +3582,36 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "584548796",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/prom-testnet-v2"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/prom-testnet-v2",
+        ],
       },
+      */
       {
         code: "157",
         name: "Puppynet Shibarium",
         chain_id: "157",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/puppynet"]
+        examples: [
+          {
+            name: "puppynet-shibarium-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the App Shib Club (0x165BD68cB3027Ca8fc0F5302cA427192121049aB) on Puppynet Shibarium",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Puppynet Shibarium/puppynet-shibarium-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/puppynet"],
       },
       {
         code: "109",
@@ -3179,44 +3619,92 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "109",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/shibarium"]
+        examples: [
+          {
+            name: "shibarium-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the BAD IDEA AI (0xef99cd3e619C058658043F8775ED9077105D8581) on Shibarium",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Shibarium/shibarium-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/shibarium"],
       },
+      /*
       {
         code: "336",
         name: "Shiden",
         chain_id: "336",
         description: "",
         logo: "https://static.subquery.network/network-logos/shiden-kusama.png",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/shiden-mainnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/shiden-mainnet",
+        ],
       },
+      
       {
         code: "1482601649",
         name: "Skale Nebula",
         chain_id: "1482601649",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"],
       },
+      
       {
         code: "64165",
         name: "Sonic Testnet",
         chain_id: "64165",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"],
       },
+      */
       {
         code: "93747",
         name: "StratoVM Testnet",
         chain_id: "93747",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/stratovm-sepolia"]
+        examples: [
+          {
+            name: "stratovm-testnet-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the IceCream (0xcc82bD85a3CaAdE271756FB24C831456Ff7c053F) on StratoVM Testnet Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "StratoVM Testnet/stratovm-testnet-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/stratovm-sepolia",
+        ],
       },
       {
         code: "53302",
@@ -3224,8 +3712,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "53302",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/superseed-sepolia"]
+        examples: [
+          {
+            name: "superseed-sepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDC (0x85773169ee07022AA2b4785A5e69803540E9106A) on Superseed Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Superseed Sepolia/superseed-sepolia-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/superseed-sepolia",
+        ],
       },
       {
         code: "167000",
@@ -3233,26 +3731,54 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "167000",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/taiko-mainnet"]
+        examples: [
+          {
+            name: "taiko-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Ether (0xA51894664A773981C6C112C43ce576f315d5b1B6) on Taiko",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Taiko/taiko-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/taiko-mainnet"],
       },
+      /*
       {
         code: "5678",
         name: "Tanssi Demo",
         chain_id: "5678",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/tanssi"]
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/tanssi"],
       },
+      */
       {
         code: "810180",
         name: "zkLink Nova Mainnet",
         chain_id: "810180",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/zklink-nova-mainnet"]
+        examples: [
+          {
+            name: "zklink-nova-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped BTC (0xDa4AaEd3A53962c83B35697Cd138cc6df43aF71f) on zkLink Nova",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "zkLink Nova/zklink-nova-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/zklink-nova-mainnet",
+        ],
       },
       {
         code: "300",
@@ -3260,8 +3786,18 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "300",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/zksync-sepolia"]
+        examples: [
+          {
+            name: "zksync-sepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Bonsai (0xB0588f9A9cADe7CD5f194a5fe77AcD6A58250f82) on zkSync Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "zkSync Sepolia/zksync-sepolia-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/zksync-sepolia",
+        ],
       },
       {
         code: "999999999",
@@ -3269,8 +3805,16 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "999999999",
         description: "",
         logo: "",
-        examples: [],
-        dictionaries: ["https://dict-tyk.subquery.network/query/zora-sepolia"]
+        examples: [
+          {
+            name: "zora-sepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Atlantis (0xb9E09063BF9C3a9dbFC78Cb294DD9a65273d60e9) on Zora Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Zora Sepolia/zora-sepolia-testnet-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/zora-sepolia"],
       },
     ],
   },
