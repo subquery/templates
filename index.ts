@@ -515,7 +515,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "80084",
-        name: "Berachain BArtio Testnet",
+        name: "Berachain BArtio",
         chain_id: "80084",
         description:
           "EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
@@ -529,6 +529,8 @@ const networkFamilies: NetworkFamily[] = [
             path: "Berachain/berachain-bartio-testnet-starter",
           },
         ],
+        dictionaries: [
+          'https://dict-tyk.subquery.network/query/berachain-bartio']
       },
       {
         code: "80085",
@@ -901,6 +903,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: [
+          'https://dict-tyk.subquery.network/query/celo-mainnet'
+        ]
       },
       {
         code: "62298",
@@ -1013,6 +1018,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "CrossFi Testnet/crossfi-testnet-starter",
           },
         ],
+        dictionaries: ['https://dict-tyk.subquery.network/query/crossfi-testnet']
       },
       {
         code: "666666666",
@@ -2520,7 +2526,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://v2.archive.subsquid.io/network/unichain-sepolia",
+          "https://dict-tyk.subquery.network/query/unichain-sepolia",
         ],
       },
       {
