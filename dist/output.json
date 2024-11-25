@@ -417,7 +417,7 @@
       },
       {
         "code": "80084",
-        "name": "Berachain BArtio Testnet",
+        "name": "Berachain BArtio",
         "chain_id": "80084",
         "description": "EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
         "logo": "https://static.subquery.network/network-logos/80085.png",
@@ -428,6 +428,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Berachain/berachain-bartio-testnet-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/berachain-bartio"
         ]
       },
       {
@@ -771,6 +774,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/celo.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/celo-mainnet"
         ]
       },
       {
@@ -872,6 +878,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "CrossFi Testnet/crossfi-testnet-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/crossfi-testnet"
         ]
       },
       {
@@ -2251,7 +2260,7 @@
           }
         ],
         "dictionaries": [
-          "https://v2.archive.subsquid.io/network/unichain-sepolia"
+          "https://dict-tyk.subquery.network/query/unichain-sepolia"
         ]
       },
       {

@@ -64,7 +64,7 @@
       "https://dict-tyk.subquery.network/query/core-mainnet"
     ],
     "1301": [
-      "https://v2.archive.subsquid.io/network/unichain-sepolia"
+      "https://dict-tyk.subquery.network/query/unichain-sepolia"
     ],
     "1625": [
       "https://dict-tyk.subquery.network/query/galxe-gravity"
@@ -89,6 +89,9 @@
     ],
     "4002": [
       "https://dict-tyk.subquery.network/query/fantom-testnet"
+    ],
+    "4157": [
+      "https://dict-tyk.subquery.network/query/crossfi-testnet"
     ],
     "4158": [
       "https://dict-tyk.subquery.network/query/crossfi-mainnet"
@@ -141,6 +144,9 @@
     "42170": [
       "https://dict-tyk.subquery.network/query/arbitrum-nova"
     ],
+    "42220": [
+      "https://dict-tyk.subquery.network/query/celo-mainnet"
+    ],
     "42793": [
       "https://dict-tyk.subquery.network/query/etherlink-mainnet"
     ],
@@ -170,6 +176,9 @@
     ],
     "80002": [
       "https://dict-tyk.subquery.network/query/polygon-amoy-testnet"
+    ],
+    "80084": [
+      "https://dict-tyk.subquery.network/query/berachain-bartio"
     ],
     "81457": [
       "https://dict-tyk.subquery.network/query/blast-l2-mainnet"
