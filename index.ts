@@ -3499,6 +3499,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/zora-sepolia"],
       },
+      {
+        code: "5678",
+        name: "Tanssi Demo",
+        chain_id: "5678",
+        description: "Tanssi lets developers launch secure, scalable networks in minutes using no-code templates or fully customizable infrastructure.",
+        logo: "",
+        examples: [
+          {
+            name: "tannsi-demo-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Catzilla (0xfD523866EB0a1750310c901179b94b6cEE19Dd2C) on Tannsi Demo Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Tannsi Demo/tannsi-demo-testnet-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/tanssi"],
+      },
       /*
       {
         code: "592",
@@ -3784,23 +3801,6 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"],
-      },
-      {
-        code: "5678",
-        name: "Tanssi Demo",
-        chain_id: "5678",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/tanssi"],
       },
       */
     ],
