@@ -102,6 +102,9 @@
     "5000": [
       "https://dict-tyk.subquery.network/query/mantle-mainnet"
     ],
+    "5678": [
+      "https://dict-tyk.subquery.network/query/tanssi"
+    ],
     "7560": [
       "https://dict-tyk.subquery.network/query/cyber-mainnet"
     ],
