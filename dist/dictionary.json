@@ -15,17 +15,20 @@
     "56": [
       "https://dict-tyk.subquery.network/query/binance"
     ],
-    "81": [
-      "https://dict-tyk.subquery.network/query/shibuya-testnet"
-    ],
     "97": [
       "https://dict-tyk.subquery.network/query/binance-testnet"
     ],
     "100": [
       "https://dict-tyk.subquery.network/query/gnosis-mainnet"
     ],
+    "109": [
+      "https://dict-tyk.subquery.network/query/shibarium"
+    ],
     "137": [
       "https://dict-tyk.subquery.network/query/polygon"
+    ],
+    "157": [
+      "https://dict-tyk.subquery.network/query/puppynet"
     ],
     "169": [
       "https://dict-tyk.subquery.network/query/manta-pacific"
@@ -42,8 +45,14 @@
     "250": [
       "https://dict-tyk.subquery.network/query/fantom"
     ],
+    "300": [
+      "https://dict-tyk.subquery.network/query/zksync-sepolia"
+    ],
     "324": [
       "https://dict-tyk.subquery.network/query/zksync-mainnet"
+    ],
+    "568": [
+      "https://dict-tyk.subquery.network/query/dogechain-testnet"
     ],
     "1088": [
       "https://dict-tyk.subquery.network/query/metis-mainnet"
@@ -54,11 +63,38 @@
     "1116": [
       "https://dict-tyk.subquery.network/query/core-mainnet"
     ],
+    "1301": [
+      "https://dict-tyk.subquery.network/query/unichain-sepolia"
+    ],
     "1625": [
       "https://dict-tyk.subquery.network/query/galxe-gravity"
     ],
+    "1993": [
+      "https://dict-tyk.subquery.network/query/b3-sepolia"
+    ],
+    "2000": [
+      "https://dict-tyk.subquery.network/query/dogechain-mainnet"
+    ],
+    "2109": [
+      "https://dict-tyk.subquery.network/query/exosama"
+    ],
+    "2442": [
+      "https://dict-tyk.subquery.network/query/polygon-zkevm-cardona-testnet"
+    ],
+    "3338": [
+      "https://dict-tyk.subquery.network/query/peaq-mainnet"
+    ],
     "3776": [
       "https://dict-tyk.subquery.network/query/astar-zkevm-mainnet"
+    ],
+    "4002": [
+      "https://dict-tyk.subquery.network/query/fantom-testnet"
+    ],
+    "4157": [
+      "https://dict-tyk.subquery.network/query/crossfi-testnet"
+    ],
+    "4158": [
+      "https://dict-tyk.subquery.network/query/crossfi-mainnet"
     ],
     "4200": [
       "https://dict-tyk.subquery.network/query/merlin-mainnet"
@@ -66,14 +102,41 @@
     "5000": [
       "https://dict-tyk.subquery.network/query/mantle-mainnet"
     ],
+    "7560": [
+      "https://dict-tyk.subquery.network/query/cyber-mainnet"
+    ],
+    "7701": [
+      "https://dict-tyk.subquery.network/query/canto-testnet"
+    ],
+    "8333": [
+      "https://dict-tyk.subquery.network/query/b3-mainnet"
+    ],
     "8453": [
       "https://dict-tyk.subquery.network/query/base-mainnet"
     ],
+    "10242": [
+      "https://dict-tyk.subquery.network/query/arthera-mainnet"
+    ],
+    "13371": [
+      "https://dict-tyk.subquery.network/query/immutable-zkevm-mainnet"
+    ],
+    "13473": [
+      "https://dict-tyk.subquery.network/query/immutable-zkevm-testnet"
+    ],
+    "16600": [
+      "https://dict-tyk.subquery.network/query/0g-testnet"
+    ],
     "17000": [
-      "https://dict-tyk.subquery.network/query/eth-holesky"
+      "https://dict-tyk.subquery.network/query/ethereum-holesky"
+    ],
+    "32520": [
+      "https://dict-tyk.subquery.network/query/bitgert-mainnet"
     ],
     "34443": [
       "https://dict-tyk.subquery.network/query/mode-mainnet"
+    ],
+    "41455": [
+      "https://dict-tyk.subquery.network/query/aleph-zero-evm-mainnet"
     ],
     "42161": [
       "https://dict-tyk.subquery.network/query/arbitrum"
@@ -81,11 +144,26 @@
     "42170": [
       "https://dict-tyk.subquery.network/query/arbitrum-nova"
     ],
+    "42220": [
+      "https://dict-tyk.subquery.network/query/celo-mainnet"
+    ],
+    "42793": [
+      "https://dict-tyk.subquery.network/query/etherlink-mainnet"
+    ],
     "43113": [
       "https://dict-tyk.subquery.network/query/avalanche-testnet"
     ],
     "43114": [
       "https://dict-tyk.subquery.network/query/avalanche"
+    ],
+    "44787": [
+      "https://dict-tyk.subquery.network/query/celo-alfajores-testnet"
+    ],
+    "53302": [
+      "https://dict-tyk.subquery.network/query/superseed-sepolia"
+    ],
+    "53935": [
+      "https://dict-tyk.subquery.network/query/dfk-chain"
     ],
     "59144": [
       "https://dict-tyk.subquery.network/query/linea-mainnet"
@@ -96,11 +174,35 @@
     "80001": [
       "https://dict-tyk.subquery.network/query/polygon-mumbai"
     ],
+    "80002": [
+      "https://dict-tyk.subquery.network/query/polygon-amoy-testnet"
+    ],
+    "80084": [
+      "https://dict-tyk.subquery.network/query/berachain-bartio"
+    ],
     "81457": [
       "https://dict-tyk.subquery.network/query/blast-l2-mainnet"
     ],
     "84532": [
       "https://dict-tyk.subquery.network/query/base-sepolia"
+    ],
+    "93747": [
+      "https://dict-tyk.subquery.network/query/stratovm-sepolia"
+    ],
+    "128123": [
+      "https://dict-tyk.subquery.network/query/etherlink-testnet"
+    ],
+    "167000": [
+      "https://dict-tyk.subquery.network/query/taiko-mainnet"
+    ],
+    "355110": [
+      "https://dict-tyk.subquery.network/query/bitfinity-mainnet"
+    ],
+    "355113": [
+      "https://dict-tyk.subquery.network/query/bitfinity-testnet"
+    ],
+    "421614": [
+      "https://dict-tyk.subquery.network/query/arbitrum-sepolia"
     ],
     "534351": [
       "https://dict-tyk.subquery.network/query/scroll-sepolia"
@@ -111,6 +213,12 @@
     "686868": [
       "https://dict-tyk.subquery.network/query/merlin-testnet"
     ],
+    "810180": [
+      "https://dict-tyk.subquery.network/query/zklink-nova-mainnet"
+    ],
+    "3441006": [
+      "https://dict-tyk.subquery.network/query/manta-pacific-sepolia"
+    ],
     "6038361": [
       "https://dict-tyk.subquery.network/query/astar-zkyoto"
     ],
@@ -120,11 +228,29 @@
     "11155111": [
       "https://dict-tyk.subquery.network/query/eth-sepolia"
     ],
+    "11155420": [
+      "https://dict-tyk.subquery.network/query/optimism-sepolia"
+    ],
+    "111557560": [
+      "https://dict-tyk.subquery.network/query/cyberconnect-l2-testnet"
+    ],
+    "123420111": [
+      "https://dict-tyk.subquery.network/query/gelato-opcelestia-raspberry"
+    ],
     "168587773": [
       "https://dict-tyk.subquery.network/query/blast-sepolia"
     ],
+    "245022934": [
+      "https://dict-tyk.subquery.network/query/neon-mainnet"
+    ],
     "666666666": [
       "https://dict-tyk.subquery.network/query/degen-chain"
+    ],
+    "999999999": [
+      "https://dict-tyk.subquery.network/query/zora-sepolia"
+    ],
+    "88153591557": [
+      "https://dict-tyk.subquery.network/query/gelato-arbitrum-blueberry"
     ]
   },
   "algorand": {
