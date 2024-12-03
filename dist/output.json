@@ -828,6 +828,21 @@
         ]
       },
       {
+        "code": "66665",
+        "name": "Creator Testnet",
+        "chain_id": "66665",
+        "description": "Layer 2 blockchain built on the Superchain by Optimism, designed to enhance scalability, efficiency, and reward-driven growth.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "creator-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for USDT on Creator Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Creator/creator-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "388",
         "name": "Cronos ZKEVM",
         "chain_id": "388",
