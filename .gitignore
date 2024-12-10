@@ -5,3 +5,5 @@ dist/
 !/dist/output.json
 !/dist/rpcs.json
 !/dist/ai-models.json
+
+.DS_Store

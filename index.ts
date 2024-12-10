@@ -46,14 +46,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-    | "evm"
-    | "algorand"
-    | "cosmos"
-    | "concordium"
-    | "near"
-    | "polkadot"
-    | "stellar"
-    | "multi";
+  | "evm"
+  | "algorand"
+  | "cosmos"
+  | "concordium"
+  | "near"
+  | "polkadot"
+  | "stellar"
+  | "multi";
   name: string;
   description: string;
   logo: string;
@@ -6405,7 +6405,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Multichain Example - Plasma Bridge",
             description:
               "This sample project indexes transactions on the Plasma Bridge, transferring assets from Polygon to Ethereum",
-            remote: "https://github.com/subquery/subql-starter",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Multi-Chain/polygon-plasma-bridge",
           },
           {
