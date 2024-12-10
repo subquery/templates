@@ -5591,7 +5591,7 @@
           {
             "name": "Multichain Example - Plasma Bridge",
             "description": "This sample project indexes transactions on the Plasma Bridge, transferring assets from Polygon to Ethereum",
-            "remote": "https://github.com/subquery/subql-starter",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Multi-Chain/polygon-plasma-bridge"
           },
           {
