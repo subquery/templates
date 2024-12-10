@@ -6413,7 +6413,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project is an example of a multi-chain project that indexes all transfers across both Polkadot and Kusama into the same dataset",
             remote: "https://github.com/subquery/subql-starter",
-            path: "Multi-Chain/transfers",
+            path: "Multi-chain/transfers",
           },
           {
             name: "Multichain Example - Safe",
