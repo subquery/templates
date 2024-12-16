@@ -46,14 +46,14 @@ type Network = {
 
 type NetworkFamily = {
   code:
-  | "evm"
-  | "algorand"
-  | "cosmos"
-  | "concordium"
-  | "near"
-  | "polkadot"
-  | "stellar"
-  | "multi";
+    | "evm"
+    | "algorand"
+    | "cosmos"
+    | "concordium"
+    | "near"
+    | "polkadot"
+    | "stellar"
+    | "multi";
   name: string;
   description: string;
   logo: string;
@@ -467,6 +467,32 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "65100004",
+        name: "Autonity",
+        chain_id: "65100004",
+        onfinality_code: "Autonity",
+        description:
+          "Autonity is a public, EVM based, proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
+        logo: "https://static.subquery.network/network-logos/65100004.svg",
+        examples: [],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Autonity Piccadilly (Tiber) Testnet",
+            description: "",
+            rate_limit: {
+              rate: 5,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x4d/overview",
+            endpoint: "https://autonity-piccadilly.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://autonity-piccadilly.rpc.subquery.network/public\'',
+            tags: ["Testnet"],
+          },
+        ],
+      },
+      {
         code: "84532",
         name: "Base Sepolia",
         chain_id: "84532",
@@ -530,7 +556,8 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          'https://dict-tyk.subquery.network/query/berachain-bartio']
+          "https://dict-tyk.subquery.network/query/berachain-bartio",
+        ],
       },
       {
         code: "80085",
@@ -903,9 +930,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: [
-          'https://dict-tyk.subquery.network/query/celo-mainnet'
-        ]
+        dictionaries: ["https://dict-tyk.subquery.network/query/celo-mainnet"],
       },
       {
         code: "62298",
@@ -1035,7 +1060,9 @@ const networkFamilies: NetworkFamily[] = [
             path: "CrossFi Testnet/crossfi-testnet-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/crossfi-testnet']
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/crossfi-testnet",
+        ],
       },
       {
         code: "666666666",
@@ -3520,7 +3547,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "5678",
         name: "Tanssi Demo",
         chain_id: "5678",
-        description: "Tanssi lets developers launch secure, scalable networks in minutes using no-code templates or fully customizable infrastructure.",
+        description:
+          "Tanssi lets developers launch secure, scalable networks in minutes using no-code templates or fully customizable infrastructure.",
         logo: "",
         examples: [
           {
