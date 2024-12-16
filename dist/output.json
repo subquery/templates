@@ -389,7 +389,7 @@
             "endpoint": "https://autonity-piccadilly.rpc.subquery.network/public",
             "example_request": "curl -H 'content-type:application/json' -d '{\"id\": 1, \"jsonrpc\": \"2.0\", \"method\": \"eth_blockNumber\"}' 'https://autonity-piccadilly.rpc.subquery.network/public'",
             "tags": [
-              "Layer-2"
+              "Testnet"
             ]
           }
         ]
