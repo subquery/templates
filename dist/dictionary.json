@@ -1,6 +1,7 @@
 {
   "ethereum": {
     "1": [
+      "https://ethereum.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/eth-mainnet"
     ],
     "5": [
@@ -229,6 +230,7 @@
       "https://dict-tyk.subquery.network/query/zora-mainnet"
     ],
     "11155111": [
+      "https://ethereum-sepolia.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/eth-sepolia"
     ],
     "11155420": [

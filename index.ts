@@ -1254,7 +1254,10 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/eth-mainnet"],
+        dictionaries: [
+          "https://ethereum.node.subquery.network/public",
+          "https://dict-tyk.subquery.network/query/eth-mainnet"
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -1306,7 +1309,10 @@ const networkFamilies: NetworkFamily[] = [
             path: "Ethereum/ethereum-sepolia-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/eth-sepolia"],
+        dictionaries: [
+          "https://ethereum-sepolia.node.subquery.network/public",
+          "https://dict-tyk.subquery.network/query/eth-sepolia"
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
