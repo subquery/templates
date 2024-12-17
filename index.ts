@@ -483,8 +483,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Autonity Piccadilly (Tiber) Testnet",
             description: "",
             rate_limit: {
-              rate: 20,
-              burst: 30,
+              rate: 50,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x4d/overview",
@@ -5502,8 +5502,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Darwinia Public RPC",
             description: "",
             rate_limit: {
-              rate: 20,
-              burst: 30,
+              rate: 200,
+              burst: 200,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x48/overview",
@@ -5808,8 +5808,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Kusama Public RPC",
             description: "",
             rate_limit: {
-              rate: 20,
-              burst: 30,
+              rate: 50,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x31/overview",
@@ -6085,8 +6085,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Polkadot Public RPC",
             description: "",
             rate_limit: {
-              rate: 20,
-              burst: 30,
+              rate: 50,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x30/overview",
