@@ -73,8 +73,8 @@
             "name": "Arbitrum One Public RPC",
             "description": "",
             "rate_limit": {
-              "rate": 20,
-              "burst": 30
+              "rate": 25,
+              "burst": 35
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x23/overview",
             "endpoint": "https://arbitrum.rpc.subquery.network/public",
@@ -359,8 +359,8 @@
             "name": "Base Public RPC",
             "description": "",
             "rate_limit": {
-              "rate": 20,
-              "burst": 30
+              "rate": 25,
+              "burst": 35
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x06/overview",
             "endpoint": "https://base.rpc.subquery.network/public",
@@ -607,8 +607,8 @@
             "name": "BNB Public RPC",
             "description": "",
             "rate_limit": {
-              "rate": 20,
-              "burst": 30
+              "rate": 25,
+              "burst": 35
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x2d/overview",
             "endpoint": "https://bnb.rpc.subquery.network/public",
@@ -1101,8 +1101,8 @@
             "name": "Ethereum Public RPC",
             "description": "",
             "rate_limit": {
-              "rate": 20,
-              "burst": 30
+              "rate": 25,
+              "burst": 35
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x04/overview",
             "endpoint": "https://ethereum.rpc.subquery.network/public",
@@ -1154,8 +1154,8 @@
             "name": "Ethereum Sepolia Public RPC",
             "description": "",
             "rate_limit": {
-              "rate": 20,
-              "burst": 30
+              "rate": 25,
+              "burst": 35
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x27/overview",
             "endpoint": "https://ethereum-sepolia.rpc.subquery.network/public",
@@ -1875,8 +1875,8 @@
             "name": "Optimism Public RPC",
             "description": "",
             "rate_limit": {
-              "rate": 20,
-              "burst": 30
+              "rate": 25,
+              "burst": 35
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x2f/overview",
             "endpoint": "https://optimism.rpc.subquery.network/public",
@@ -1982,8 +1982,8 @@
             "name": "Polygon Public RPC",
             "description": "",
             "rate_limit": {
-              "rate": 20,
-              "burst": 30
+              "rate": 25,
+              "burst": 35
             },
             "explorer_url": "https://app.subquery.network/explorer/project/0x25/overview",
             "endpoint": "https://polygon.rpc.subquery.network/public",
