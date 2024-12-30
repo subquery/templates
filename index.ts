@@ -1256,7 +1256,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://ethereum.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/eth-mainnet"
+          "https://dict-tyk.subquery.network/query/eth-mainnet",
         ],
         public_rpc: [
           {
@@ -1311,7 +1311,7 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://ethereum-sepolia.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/eth-sepolia"
+          "https://dict-tyk.subquery.network/query/eth-sepolia",
         ],
         public_rpc: [
           {
@@ -5806,7 +5806,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/Qmbe5g5vbEJYYAfpjcwNDzuhjeyaEQPQbxKyKx6PveYnR8",
+          "https://gateway.subquery.network/query/QmVuW3RxNLySTXzv2mA3xknT7ndXzRWAYHkJ86biYqLUs1",
         ],
         public_rpc: [
           {
@@ -6083,7 +6083,7 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmUGBdhQKnzE8q6x6MPqP6LNZGa8gzXf5gkdmhzWjdFGfL",
+          "https://gateway.subquery.network/query/QmSxAgGGpaMrYzooWpydmwzutREwomL5nupLZqxURzuJTo",
         ],
         public_rpc: [
           {
