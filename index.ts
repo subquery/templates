@@ -153,8 +153,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Arbitrum One Public RPC",
             description: "",
             rate_limit: {
-              rate: 25,
-              burst: 35,
+              rate: 30,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x23/overview",
@@ -456,8 +456,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Base Public RPC",
             description: "",
             rate_limit: {
-              rate: 25,
-              burst: 35,
+              rate: 30,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x06/overview",
@@ -722,8 +722,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "BNB Public RPC",
             description: "",
             rate_limit: {
-              rate: 25,
-              burst: 35,
+              rate: 30,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x2d/overview",
@@ -1264,8 +1264,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Ethereum Public RPC",
             description: "",
             rate_limit: {
-              rate: 25,
-              burst: 35,
+              rate: 30,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x04/overview",
@@ -1319,8 +1319,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Ethereum Sepolia Public RPC",
             description: "",
             rate_limit: {
-              rate: 25,
-              burst: 35,
+              rate: 30,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x27/overview",
@@ -2104,8 +2104,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Optimism Public RPC",
             description: "",
             rate_limit: {
-              rate: 25,
-              burst: 35,
+              rate: 30,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x2f/overview",
@@ -2221,8 +2221,8 @@ const networkFamilies: NetworkFamily[] = [
             name: "Polygon Public RPC",
             description: "",
             rate_limit: {
-              rate: 25,
-              burst: 35,
+              rate: 30,
+              burst: 50,
             },
             explorer_url:
               "https://app.subquery.network/explorer/project/0x25/overview",
