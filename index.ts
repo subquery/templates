@@ -53,6 +53,7 @@ type NetworkFamily = {
     | "near"
     | "polkadot"
     | "stellar"
+    | "starknet"
     | "multi";
   name: string;
   description: string;
@@ -6372,6 +6373,32 @@ const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Zeitgeist/zeitgeist-starter",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    code: "starknet",
+    name: "Starknet",
+    description:
+      "Starknet has emerged as a leading Ethereum Layer 2 network, powered by ZK-Rollup technology. Its ecosystem is thriving with innovative developers, from DeFi pioneers to gaming and privacy-focused builders, all driven by the limitless potential of ZKPs.",
+    logo: "https://static.subquery.network/network-logos/starknet.png",
+    networks: [
+      {
+        code: "0x534e5f4d41494e",
+        name: "Mainnet",
+        chain_id: "0x534e5f4d41494e",
+        description:
+          "Starknet has emerged as a leading Ethereum Layer 2 network, powered by ZK-Rollup technology. Its ecosystem is thriving with innovative developers, from DeFi pioneers to gaming and privacy-focused builders, all driven by the limitless potential of ZKPs.",
+        logo: "https://static.subquery.network/network-logos/starknet.png",
+        examples: [
+          {
+            name: "starknet-starter",
+            description:
+              "This SubQuery project indexes all withdraw call in Invoke transaction and desposit events for the ZkLend market on Starknet Mainnet.",
+            remote: "https://github.com/subquery/starknet-subql-starter",
+            path: "starknet-starter",
           },
         ],
       },
