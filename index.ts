@@ -2465,6 +2465,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "1868",
+        name: "Soneium",
+        chain_id: "1868",
+        description:
+          "On Soneium, everyone is a creator, no matter where you are or what you do. We dream of an open internet that transcends cultural differences and brings together people with diverse values.",
+        logo: "",
+        examples: [
+          {
+            name: "soneium-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Toro Inoue (Toro) on Sonieum Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Soneium/soneium-starter",
+          },
+        ],
+      },
+      {
         code: "57054",
         name: "Sonic Testnet (Blaze)",
         chain_id: "57054",
