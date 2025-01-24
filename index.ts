@@ -1927,6 +1927,15 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [],
+        guides: [
+          {
+            name: "Monad Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events for the Wrapped Monad on Monad Testnet",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/monad.html",
+            internal: true,
+          },
+        ],
       },
       {
         code: "22222",
