@@ -1911,6 +1911,24 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: ["https://dict-tyk.subquery.network/query/mode-mainnet"],
       },
       {
+        code: "10143",
+        name: "Monad Testnet",
+        chain_id: "10143",
+        description:
+          "The Monad protocol delivers full EVM compatibility with breakthrough performance, true decentralization, production-grade security, and exceptional throughput.",
+        logo: "",
+        examples: [
+          {
+            name: "monad-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Monad on Monad Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Monad/monad-testnet-starter",
+          },
+        ],
+        dictionaries: [],
+      },
+      {
         code: "22222",
         name: "Nautilus",
         chain_id: "22222",
