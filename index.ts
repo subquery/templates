@@ -6679,6 +6679,8 @@ const rpcsOutput: {
   )
   .flatMap((item) => (item ? [item] : []));
 
+console.warn(111);
+
 writeFile("./dist/rpcs.json", JSON.stringify(rpcsOutput), (err) => {
   if (err) throw err;
 });
