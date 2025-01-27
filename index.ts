@@ -84,7 +84,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Altlayer OP Demo Testnet",
         chain_id: "20240219",
         description:
-          "An Altlayer OP testnet is an OP stack powered L2 that is used as a testnet.",
+          "Altlayer OP testnet is an OP stack powered L2 that is used as a testnet for Altlayer.",
         logo: "https://static.subquery.network/network-logos/20240219.png",
         examples: [
           {
@@ -119,7 +119,7 @@ const networkFamilies: NetworkFamily[] = [
         onfinality_code: "arbitrum",
         chain_id: "42161",
         description:
-          "A Layer 2 scaling solution for Ethereum, enhancing transaction throughput and reducing fees while maintaining compatibility with Ethereum's smart contracts.",
+          "Arbitrum One is a layer 2 scaling solution for Ethereum, enhancing transaction throughput and reducing fees while maintaining compatibility with Ethereum's smart contracts.",
         logo: "https://static.subquery.network/network-logos/42161.png",
         examples: [
           {
@@ -250,7 +250,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Astar zkEVM",
         chain_id: "3776",
         description:
-          "A blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
+          "Astar zkEVM is a blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
         logo: "https://static.subquery.network/network-logos/astar.png",
         examples: [
           {
@@ -279,7 +279,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Astar zKyoto",
         chain_id: "6038361",
         description:
-          "A blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
+          "Astar zKyoto is a testnet of Astar's zkEVM blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
         logo: "https://static.subquery.network/network-logos/astar.png",
         examples: [
           {
@@ -297,7 +297,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Astar zKatana",
         chain_id: "1261120",
         description:
-          "A blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
+          "Astart zKatana is a testnet of Astar's zkEVM blockchain platform designed for decentralized applications (DApps) and smart contracts, known for its speed, scalability, and developer-friendly tools.",
         logo: "https://static.subquery.network/network-logos/astar.png",
         examples: [
           {
@@ -321,7 +321,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Avalanche",
         chain_id: "43114",
         description:
-          "A decentralized platform for creating and launching custom blockchain networks, featuring subnets and high throughput for efficient DApp development.",
+          "Avalanche is a decentralized platform for creating and launching custom blockchain networks, featuring subnets and high throughput for efficient DApp development.",
         logo: "https://static.subquery.network/network-logos/43114.png",
         examples: [
           {
@@ -373,7 +373,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "43113",
         name: "Avalanche Fuji",
         chain_id: "43113",
-        description: "",
+        description:
+          "Avalanche Fuji is a testnet of Avalanche, a decentralized platform for creating and launching custom blockchain networks, featuring subnets and high throughput for efficient DApp development.",
         logo: "https://static.subquery.network/network-logos/43113.png",
         examples: [
           {
@@ -412,12 +413,39 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "65100004",
+        name: "Autonity",
+        chain_id: "65100004",
+        onfinality_code: "Autonity",
+        description:
+          "Autonity is a public, EVM based, proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
+        logo: "https://static.subquery.network/network-logos/65100004.svg",
+        examples: [],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Autonity Piccadilly (Tiber) Testnet",
+            description: "",
+            rate_limit: {
+              rate: 50,
+              burst: 50,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x4d/overview",
+            endpoint: "https://autonity-piccadilly.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://autonity-piccadilly.rpc.subquery.network/public\'',
+            tags: ["Testnet"],
+          },
+        ],
+      },
+      {
         code: "8453",
         name: "Base",
         chain_id: "8453",
         onfinality_code: "base",
         description:
-          "A blockchain network focused on simplifying smart contract development and execution, offering secure and efficient blockchain solutions.",
+          "Base is a blockchain network focused on simplifying smart contract development and execution, offering secure and efficient blockchain solutions.",
         logo: "https://static.subquery.network/network-logos/8453.png",
         examples: [
           {
@@ -469,37 +497,11 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "65100004",
-        name: "Autonity",
-        chain_id: "65100004",
-        onfinality_code: "Autonity",
-        description:
-          "Autonity is a public, EVM based, proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
-        logo: "https://static.subquery.network/network-logos/65100004.svg",
-        examples: [],
-        public_rpc: [
-          {
-            type: "ARCHIVE",
-            name: "Autonity Piccadilly (Tiber) Testnet",
-            description: "",
-            rate_limit: {
-              rate: 50,
-              burst: 50,
-            },
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x4d/overview",
-            endpoint: "https://autonity-piccadilly.rpc.subquery.network/public",
-            example_request:
-              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://autonity-piccadilly.rpc.subquery.network/public\'',
-            tags: ["Testnet"],
-          },
-        ],
-      },
-      {
         code: "84532",
         name: "Base Sepolia",
         chain_id: "84532",
-        description: "",
+        description:
+          "Base Sepolia is a testnet on Base, a blockchain network focused on simplifying smart contract development and execution, offering secure and efficient blockchain solutions.",
         logo: "https://static.subquery.network/network-logos/8453.png",
         examples: [
           {
@@ -547,7 +549,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Berachain BArtio",
         chain_id: "80084",
         description:
-          "EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
+          "Berachain BArtio is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
         logo: "https://static.subquery.network/network-logos/80085.png",
         examples: [
           {
@@ -567,7 +569,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Berachain Artio Testnet",
         chain_id: "80085",
         description:
-          "EVM-compatible blockchain built on Proof-of-Liquidity consensus.",
+          "Berachain BArtio is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
         logo: "https://static.subquery.network/network-logos/80085.png",
         examples: [
           {
@@ -584,7 +586,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "BEVM Testnet",
         chain_id: "1501",
         description:
-          "A Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
+          "BEVM Testnet is a Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
         logo: "https://static.subquery.network/network-logos/1501.png",
         examples: [
           {
@@ -601,7 +603,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "BEVM Mainnet",
         chain_id: "11501",
         description:
-          "A Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
+          "BEVM is a Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
         logo: "https://static.subquery.network/network-logos/1501.png",
         examples: [
           {
@@ -635,7 +637,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Blast",
         chain_id: "81457",
         description:
-          "The only Ethereum L2 with native yield for ETH and stablecoins.",
+          "Blast is the only Ethereum L2 with native yield for ETH and stablecoins.",
         logo: "https://static.subquery.network/network-logos/81457.png",
         examples: [
           {
@@ -655,7 +657,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Blast Sepolia",
         chain_id: "168587773",
         description:
-          "The only Ethereum L2 with native yield for ETH and stablecoins.",
+          "Blast Sepolia is a testnet of Blast, the only Ethereum L2 with native yield for ETH and stablecoins.",
         logo: "https://static.subquery.network/network-logos/168587773.png",
         examples: [
           {
@@ -674,7 +676,7 @@ const networkFamilies: NetworkFamily[] = [
         onfinality_code: "bnb",
         chain_id: "56",
         description:
-          "Binance's blockchain network, designed for fast and low-cost transactions, powering various DeFi applications and tokens within the Binance ecosystem.",
+          "BNB Smart Chain is Binance's blockchain network, designed for fast and low-cost transactions, powering various DeFi applications and tokens within the Binance ecosystem.",
         logo: "https://static.subquery.network/network-logos/56.png",
         examples: [
           {
@@ -738,7 +740,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "97",
         name: "BNB Smart Chain Testnet",
         chain_id: "97",
-        description: "",
+        description:
+          "BNB Smart Chain is Binance's blockchain network, designed for fast and low-cost transactions, powering various DeFi applications and tokens within the Binance ecosystem.",
         logo: "https://static.subquery.network/network-logos/56.png",
         examples: [
           {
@@ -757,7 +760,8 @@ const networkFamilies: NetworkFamily[] = [
         code: "204",
         name: "opBNB Mainnet",
         chain_id: "204",
-        description: "",
+        description:
+          "OpBNB Smart Chain is Binance's OP Stack blockchain network, designed for fast and low-cost transactions, powering various DeFi applications and tokens within the Binance ecosystem.",
         logo: "https://static.subquery.network/network-logos/56.png",
         examples: [
           {
@@ -793,7 +797,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Boba BNB Mainnet",
         chain_id: "56288",
         description:
-          "A Multichain Optimistic Rollup Solution powered by HybridCompute.",
+          "Boba BNB Mainnet is a Multichain Optimistic Rollup Solution powered by HybridCompute.",
         logo: "https://static.subquery.network/network-logos/56288.png",
         examples: [
           {
@@ -824,7 +828,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Boba Network",
         chain_id: "288",
         description:
-          "A Multichain Optimistic Rollup Solution powered by HybridCompute.",
+          "Boba Network is a Multichain Optimistic Rollup Solution powered by HybridCompute.",
         logo: "https://static.subquery.network/network-logos/288.png",
         examples: [
           {
@@ -914,7 +918,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Celo",
         chain_id: "42220",
         description:
-          "A blockchain platform focused on financial inclusion, offering a mobile-first approach for enabling easy access to decentralized financial services.",
+          "Celo is a blockchain platform focused on financial inclusion, offering a mobile-first approach for enabling easy access to decentralized financial services.",
         logo: "https://static.subquery.network/network-logos/42220.png",
         examples: [
           {
@@ -993,7 +997,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Creator Testnet",
         chain_id: "66665",
         description:
-          "Layer 2 blockchain built on the Superchain by Optimism, designed to enhance scalability, efficiency, and reward-driven growth.",
+          "Creator Testnet is a layer 2 blockchain built on the Superchain by Optimism, designed to enhance scalability, efficiency, and reward-driven growth.",
         logo: "",
         examples: [
           {
@@ -1010,7 +1014,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Cronos ZKEVM",
         chain_id: "388",
         description:
-          "A zkEVM Layer-2 for Cronos, optimized for DeFi and NFTs, providing a scalable and secure environment for these applications.",
+          "Cronos zkEVM is a zkEVM Layer-2 for Cronos, optimized for DeFi and NFTs, providing a scalable and secure environment for these applications.",
         logo: "https://static.subquery.network/network-logos/cronosmainnet_25-1.png",
         examples: [
           {
@@ -1053,7 +1057,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "CrossFi Testnet",
         chain_id: "4157",
         description:
-          "Dive into the world of blockchain ecosystem! Explore the opportunities of crypto banking, pay with crypto debit card, use web3 wallet and defi tools.",
+          "Dive into the world of the CrossFi blockchain ecosystem! Explore the opportunities of crypto banking, pay with crypto debit card, use web3 wallet and defi tools.",
         logo: "",
         examples: [
           {
@@ -1108,7 +1112,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Energy Web",
         chain_id: "246",
         description:
-          "Decentralized Computation Powering the energy transition.",
+          "Energy Web is a blockhchain network - Decentralized Computation Powering the energy transition.",
         logo: "https://static.subquery.network/network-logos/246.png",
         examples: [
           {
@@ -1125,7 +1129,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "EOS",
         chain_id: "17777",
         description:
-          "A blockchain network designed for high-performance decentralized applications, known for its scalability, flexibility, and developer-friendly environment.",
+          "Eos is a blockchain network designed for high-performance decentralized applications, known for its scalability, flexibility, and developer-friendly environment.",
         logo: "https://static.subquery.network/network-logos/17777.png",
         examples: [
           {
@@ -1143,7 +1147,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1",
         onfinality_code: "eth",
         description:
-          "A leading decentralized blockchain platform for smart contracts and decentralized applications (DApps), known for its native cryptocurrency Ether (ETH).",
+          "Ethereum is a leading decentralized blockchain platform for smart contracts and decentralized applications (DApps), known for its native cryptocurrency Ether (ETH).",
         logo: "https://static.subquery.network/network-logos/1.png",
         examples: [
           {
