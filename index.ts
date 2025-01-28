@@ -81,6 +81,40 @@ const networkFamilies: NetworkFamily[] = [
     logo: "https://static.subquery.network/network-logos/1.png",
     networks: [
       {
+        code: "2741",
+        name: "Abstract",
+        chain_id: "2741",
+        description:
+          "Abstract is a Layer 2 (L2) network built on top of Ethereum, designed to securely power consumer-facing blockchain applications at scale with low fees and fast transaction speeds.",
+        logo: "",
+        examples: [
+          {
+            name: "abstract-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for Luna token on Abstract Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Abstract/abstract-starter",
+          },
+        ],
+      },
+      {
+        code: "11124",
+        name: "Abstract Sepolia",
+        chain_id: "11124",
+        description:
+          "Abstract is a Layer 2 (L2) network built on top of Ethereum, designed to securely power consumer-facing blockchain applications at scale with low fees and fast transaction speeds.",
+        logo: "",
+        examples: [
+          {
+            name: "abstract-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for Lolbits token on Abstract Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Abstract/abstract-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "20240219",
         name: "Altlayer OP Demo Testnet",
         chain_id: "20240219",
