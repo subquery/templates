@@ -137,7 +137,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "888888888",
         description:
           "Ancient8 Chain is a gaming-focused community-driven Ethereum layer 2 built to onboard the next 100M Web3 citizens.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/888888888.png",
         examples: [
           {
             name: "ancient8-starter",
@@ -201,6 +201,25 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "421614",
+        name: "Arbitrum Sepolia",
+        chain_id: "421614",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/42170.png",
+        examples: [
+          {
+            name: "arbitrum-sepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the TestUSDC (0x5fabd132b58b29d0f98A9eB51651A695fc46BD9c) on Arbitrum Sepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Arbitrum Sepolia/arbitrum-sepolia-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/arbitrum-sepolia",
+        ],
+      },
+      {
         code: "42170",
         name: "Arbitrum Nova",
         chain_id: "42170",
@@ -239,7 +258,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Asset Chain Mainnet",
         chain_id: "42420",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42420.png",
         examples: [
           {
             name: "asset-chain-starter",
@@ -255,7 +274,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Asset Chain Testnet",
         chain_id: "42421",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42420.png",
         examples: [
           {
             name: "asset-chain-testnet-starter",
@@ -436,7 +455,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Aurora",
         chain_id: "1313161554",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1313161554.png",
         examples: [
           {
             name: "aurora-starter",
@@ -454,7 +473,7 @@ const networkFamilies: NetworkFamily[] = [
         onfinality_code: "Autonity",
         description:
           "Autonity is a public, EVM based, proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
-        logo: "https://static.subquery.network/network-logos/65100004.svg",
+        logo: "https://static.subquery.network/network-logos/65100004.png",
         examples: [],
         public_rpc: [
           {
@@ -656,7 +675,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "200901",
         description:
           "Bitlayer is the first Layer 2 solution offering Bitcoin-equivalent security and Turing completeness. It's also the first built on BitVM.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/200901.png",
         examples: [
           {
             name: "bitlayer-starter",
@@ -815,7 +834,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "60808",
         description:
           "BOB is a hybrid L2 that combines the security of Bitcoin with the versatility of Ethereum. BOB's mission is to onboard the next billion users to Bitcoin.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/60808.png",
         examples: [
           {
             name: "bob-starter",
@@ -981,7 +1000,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "62298",
         description:
           "Citrea is the first rollup that enhances the capabilities of Bitcoin blockspace with zero knowledge technology. Citrea is the only scalability solution that uses Bitcoin both as a data availability and a settlement layer, via its BitVM-based trust-minimized two-way peg program - Clementine.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/5115.png",
         examples: [
           {
             name: "citrea-devnet-starter",
@@ -998,7 +1017,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "5115",
         description:
           "Citrea is the first rollup that enhances the capabilities of Bitcoin blockspace with zero knowledge technology. Citrea is the only scalability solution that uses Bitcoin both as a data availability and a settlement layer, via its BitVM-based trust-minimized two-way peg program - Clementine.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/5115.png",
         examples: [
           {
             name: "citrea-testnet-starter",
@@ -1033,7 +1052,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "66665",
         description:
           "Creator Testnet is a layer 2 blockchain built on the Superchain by Optimism, designed to enhance scalability, efficiency, and reward-driven growth.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/66665.png",
         examples: [
           {
             name: "creator-testnet-starter",
@@ -1093,7 +1112,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "4157",
         description:
           "Dive into the world of the CrossFi blockchain ecosystem! Explore the opportunities of crypto banking, pay with crypto debit card, use web3 wallet and defi tools.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/4157.png",
         examples: [
           {
             name: "crossfi-testnet-starter",
@@ -1131,7 +1150,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "7979",
         description:
           "DOS is the fastest and zero gas fee blockchain network to build a wide range of products from gaming, entertainment to finance.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/7979.png",
         examples: [
           {
             name: "dos-chain-starter",
@@ -1398,6 +1417,25 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: ["https://dict-tyk.subquery.network/query/fantom"],
       },
       {
+        code: "4002",
+        name: "Fantom Testnet",
+        chain_id: "4002",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/250.png",
+        examples: [
+          {
+            name: "fantom-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the WFTM (0xE8175A3C1Dd1337aD276a8105ae6375367bf620B) on Fantom Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Fantom/fantom-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/fantom-testnet",
+        ],
+      },
+      {
         code: "14",
         name: "Flare",
         chain_id: "14",
@@ -1456,7 +1494,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "747",
         description:
           "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/747.png",
         examples: [
           {
             name: "flow-starter",
@@ -1473,7 +1511,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "545",
         description:
           "Flow is a network of creative humans building culture, science, finance, digital ownership, & consumer experiences of tomorrow, reaching people where they are.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/747.png",
         examples: [
           {
             name: "flow-testnet-starter",
@@ -1531,7 +1569,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1625",
         description:
           "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1625.png",
         examples: [
           {
             name: "gravity-alpha-starter",
@@ -1692,7 +1730,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "920637907288165",
         description:
           "Kakarot is a verifiable EVM, and KKRT Labs is bringing it to Starknet L2 as well as to all EVM chains - L1 and rollups alike.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/920637907288165.png",
         examples: [
           {
             name: "kakarot-starknet-testnet-starter",
@@ -1708,7 +1746,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Kroma",
         chain_id: "255",
         description: "A universal ZK Rollup based on the OP Stack",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/255.png",
         examples: [
           {
             name: "kroma-starter",
@@ -1725,7 +1763,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "3456",
         description:
           "LayerEdge introducing an innovative layer of Optimistic Rollups and Hybrid Modular Data Availability (DA) to extend Bitcoin's capabilities.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/3456.png",
         examples: [
           {
             name: "layeredge-testnet-starter",
@@ -1741,7 +1779,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Linea",
         chain_id: "59144",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/59144.png",
         examples: [
           {
             name: "linea-starter",
@@ -1759,7 +1797,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "42",
         description:
           "The blockchain built for SOCIAL, CULTURE and CREATORS, LUKSO is the foundation for the new decentralized social web.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42.png",
         examples: [
           {
             name: "lukso-starter",
@@ -1920,7 +1958,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "185",
         description:
           "A L2 blockchain built on OP Stack focusing on the NFT ecosystem.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/185.png",
         examples: [
           {
             name: "mint-starter",
@@ -1937,7 +1975,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "34443",
         description:
           "Mode is the Ethereum L2 that rewards you for growing the network via new economic mechanisms. Powered by Optimism.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/34443.png",
         examples: [
           {
             name: "mode-starter",
@@ -1955,7 +1993,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "10143",
         description:
           "The Monad protocol delivers full EVM compatibility with breakthrough performance, true decentralization, production-grade security, and exceptional throughput.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/10143.png",
         examples: [
           {
             name: "monad-testnet-starter",
@@ -1998,7 +2036,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "12227331",
         description:
           "Neo X is an EVM-compatible sidechain incorporating Neo's distinctive dBFT consensus mechanism.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/12227331.png",
         examples: [
           {
             name: "neox-testnet-starter",
@@ -2015,7 +2053,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "7210",
         description:
           "A secure smart contract platform driven by a vibrant community.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/7210.png",
         examples: [
           {
             name: "nibiru-testnet-starter",
@@ -2032,7 +2070,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "2014",
         description:
           "Step into the future with NOW Chain, where cutting-edge technology meets unparalleled security.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2014.png",
         examples: [
           {
             name: "now-chain-starter",
@@ -2079,11 +2117,11 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "185947263",
-        name: "Open Frabric Testnet",
+        name: "Open Fabric Testnet",
         chain_id: "185947263",
         description:
           "A planetary-scale network for building and connecting decentralized AI applications.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/185947263.png",
         examples: [
           {
             name: "ofn-testnet-starter",
@@ -2188,7 +2226,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "58",
         description:
           "The Ontology blockchain is a high speed, low cost public blockchain bringing decentralized identity and data solutions to Web3.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/58.png",
         examples: [
           {
             name: "ontology-evm-starter",
@@ -2205,7 +2243,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "5851",
         description:
           "The Ontology blockchain is a high speed, low cost public blockchain bringing decentralized identity and data solutions to Web3.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/58.png",
         examples: [
           {
             name: "ontology-evm-testnet-starter",
@@ -2222,7 +2260,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "62050",
         description:
           "Optopia is an experimental Layer 2 network owned and driven by the community.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/62050.png",
         examples: [
           {
             name: "optopia-starter",
@@ -2384,7 +2422,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "2020",
         description:
           "Ronin is an EVM blockchain tailored for developers building player-owned economies.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2020.png",
         examples: [
           {
             name: "ronin-starter",
@@ -2401,7 +2439,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "2021",
         description:
           "Ronin is an EVM blockchain tailored for developers building player-owned economies.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2020.png",
         examples: [
           {
             name: "ronin-testnet-starter",
@@ -2418,7 +2456,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "30",
         description:
           "Deploy EVM compatible smart contracts on Rootstock and with the security of the Bitcoin network.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/30.png",
         examples: [
           {
             name: "rootstock-starter",
@@ -2536,7 +2574,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1868",
         description:
           "On Soneium, everyone is a creator, no matter where you are or what you do. We dream of an open internet that transcends cultural differences and brings together people with diverse values.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1868.png",
         examples: [
           {
             name: "soneium-starter",
@@ -2640,7 +2678,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "8192",
         description:
           "An open source, non-custodial key management network. Making Web3 simple, secure, and easy to use.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/8192.png",
         examples: [
           {
             name: "torus-starter",
@@ -2657,7 +2695,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "1301",
         description:
           "Unichain, built by the Uniswap Labs, is a DeFi-native Ethereum L2, optimized to be the home for liquidity across chains.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1301.png",
         examples: [
           {
             name: "unichain-testnet-starter",
@@ -2928,7 +2966,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "0G Newton Testnet",
         chain_id: "16600",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/16600.png",
         examples: [
           {
             name: "0g-newton-testnet-testnet-starter",
@@ -2945,7 +2983,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Aleph Zero EVM",
         chain_id: "41455",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/41455.png",
         examples: [
           {
             name: "aleph-zero-evm-mainet-starter",
@@ -2960,30 +2998,11 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "421614",
-        name: "Arbitrum Sepolia",
-        chain_id: "421614",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "arbitrum-sepolia-testnet-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the TestUSDC (0x5fabd132b58b29d0f98A9eB51651A695fc46BD9c) on Arbitrum Sepolia Testnet",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Arbitrum Sepolia/arbitrum-sepolia-testnet-starter",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/arbitrum-sepolia",
-        ],
-      },
-      {
         code: "10242",
         name: "Arthera Mainnet",
         chain_id: "10242",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/10242.png",
         examples: [
           {
             name: "arthera-mainnet-starter",
@@ -3002,7 +3021,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "B3",
         chain_id: "8333",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/8333.png",
         examples: [
           {
             name: "b3-starter",
@@ -3019,7 +3038,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "B3 Sepolia",
         chain_id: "1993",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/8333.png",
         examples: [
           {
             name: "b3-sepolia-testnet-testnet-starter",
@@ -3036,7 +3055,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Bitfinity Mainnet",
         chain_id: "355110",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/355110.png",
         examples: [
           {
             name: "bitfinity-network-starter",
@@ -3055,7 +3074,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Bitfinity Testnet",
         chain_id: "355113",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/355110.png",
         examples: [
           {
             name: "bitfinity-network-testnet-starter",
@@ -3074,7 +3093,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Bitgert",
         chain_id: "32520",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/32520.png",
         examples: [
           {
             name: "bitgert-starter",
@@ -3093,7 +3112,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Canto Testnet",
         chain_id: "7701",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/7701.png",
         examples: [
           {
             name: "canto-testnet-starter",
@@ -3110,7 +3129,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Celo Alfajores Testnet",
         chain_id: "44787",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/44787.png",
         examples: [
           {
             name: "celo-alfajores-testnet-starter",
@@ -3129,7 +3148,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "CrossFi Mainnet",
         chain_id: "4158",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/4158.png",
         examples: [
           {
             name: "crossfi-starter",
@@ -3148,7 +3167,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Cyber Mainnet",
         chain_id: "7560",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/7560.png",
         examples: [
           {
             name: "cyber-starter",
@@ -3165,7 +3184,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Cyberconnect L2 Testnet",
         chain_id: "111557560",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/111557560.png",
         examples: [
           {
             name: "cyber-testnet-starter",
@@ -3184,7 +3203,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "DFK Chain",
         chain_id: "53935",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/53935.png",
         examples: [
           {
             name: "dfk-chain-starter",
@@ -3201,7 +3220,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Dogechain",
         chain_id: "2000",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2000.png",
         examples: [
           {
             name: "dogechain-starter",
@@ -3220,7 +3239,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Dogechain Testnet",
         chain_id: "568",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2000.png",
         examples: [
           {
             name: "dogechain-testnet-starter",
@@ -3239,7 +3258,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Ethereum Holesky",
         chain_id: "17000",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/1.png",
         examples: [
           {
             name: "ethereum-holesky-testnet-starter",
@@ -3258,7 +3277,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Etherlink Mainnet",
         chain_id: "42793",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42793.png",
         examples: [
           {
             name: "etherlink-mainnet-etherlink-starter",
@@ -3277,7 +3296,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Etherlink Testnet",
         chain_id: "128123",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/42793.png",
         examples: [
           {
             name: "etherlink-testnet-starter",
@@ -3296,7 +3315,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Exosama",
         chain_id: "2109",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2109.png",
         examples: [
           {
             name: "exosama-network-starter",
@@ -3309,30 +3328,11 @@ const networkFamilies: NetworkFamily[] = [
         dictionaries: ["https://dict-tyk.subquery.network/query/exosama"],
       },
       {
-        code: "4002",
-        name: "Fantom Testnet",
-        chain_id: "4002",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "fantom-testnet-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the WFTM (0xE8175A3C1Dd1337aD276a8105ae6375367bf620B) on Fantom Testnet",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Fantom/fantom-testnet-starter",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/fantom-testnet",
-        ],
-      },
-      {
         code: "88153591557",
         name: "Arbitrum Blueberry",
         chain_id: "88153591557",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/88153591557.png",
         examples: [
           {
             name: "arbitrum-blueberry-testnet-starter",
@@ -3351,7 +3351,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "OP Celestia Raspberry",
         chain_id: "123420111",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/123420111.png",
         examples: [
           {
             name: "optimism-celestia-raspberry-testnet-starter",
@@ -3370,7 +3370,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Immutable zkEVM",
         chain_id: "13371",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/13371.png",
         examples: [
           {
             name: "immutable-zkevm-starter",
@@ -3389,7 +3389,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Immutable zkEVM Testnet",
         chain_id: "13473",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/13371.png",
         examples: [
           {
             name: "immutable-zkevm-testnet-starter",
@@ -3408,7 +3408,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Manta Pacific Sepolia",
         chain_id: "3441006",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/3441006.png",
         examples: [
           {
             name: "manta-pacific-sepolia-testnet-starter",
@@ -3444,7 +3444,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Optimism Sepolia",
         chain_id: "11155420",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/11155420.png",
         examples: [
           {
             name: "op-sepolia-testnet-starter",
@@ -3463,7 +3463,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Peaq",
         chain_id: "3338",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/3338.png",
         examples: [
           {
             name: "peaq-starter",
@@ -3480,7 +3480,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Polygon Amoy Testnet",
         chain_id: "80002",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/80002.png",
         examples: [
           {
             name: "polygon-amoy-testnet-starter",
@@ -3499,7 +3499,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Polygon zkEVM Cardona Testnet",
         chain_id: "2442",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/2442.png",
         examples: [
           {
             name: "polygon-zkevm-cardona-testnet-starter",
@@ -3518,7 +3518,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Puppynet Shibarium",
         chain_id: "157",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/157.png",
         examples: [
           {
             name: "puppynet-shibarium-starter",
@@ -3535,7 +3535,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Shibarium",
         chain_id: "109",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/109.png",
         examples: [
           {
             name: "shibarium-starter",
@@ -3552,7 +3552,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "StratoVM Testnet",
         chain_id: "93747",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/93747.png",
         examples: [
           {
             name: "stratovm-testnet-testnet-starter",
@@ -3571,7 +3571,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Superseed Sepolia",
         chain_id: "53302",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/53302.png",
         examples: [
           {
             name: "superseed-sepolia-testnet-starter",
@@ -3590,7 +3590,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Taiko Mainnet",
         chain_id: "167000",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/167000.png",
         examples: [
           {
             name: "taiko-starter",
@@ -3607,7 +3607,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "zkLink Nova Mainnet",
         chain_id: "810180",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/810180.png",
         examples: [
           {
             name: "zklink-nova-starter",
@@ -3626,7 +3626,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "zkSync Sepolia",
         chain_id: "300",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/300.png",
         examples: [
           {
             name: "zksync-sepolia-testnet-starter",
@@ -3645,7 +3645,7 @@ const networkFamilies: NetworkFamily[] = [
         name: "Zora Sepolia",
         chain_id: "999999999",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/999999999.png",
         examples: [
           {
             name: "zora-sepolia-testnet-starter",
@@ -3663,7 +3663,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "5678",
         description:
           "Tanssi lets developers launch secure, scalable networks in minutes using no-code templates or fully customizable infrastructure.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/5678.png",
         examples: [
           {
             name: "tannsi-demo-testnet-starter",
@@ -4149,7 +4149,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "canto_7700-1",
         description:
           "https://static.subquery.network/network-logos/canto_7700-1.png",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/canto_7700-1.png",
         examples: [
           {
             name: "canto-starter",
@@ -4423,7 +4423,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "gitopia",
         description:
           "Gitopia is the next-generation Code Collaboration Platform fuelled by a decentralized network and interactive token economy. It is designed to optimize the open-source software development process through collaboration, transparency, and incentivization.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/gitopia.png",
         examples: [
           {
             name: "gitopia-starter",
@@ -4820,7 +4820,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "ssc-1",
         description:
           "Saga is a Layer-1 protocol that allows developers to automatically spin up parallelized, VM-agnostic, and interoperable dedicated chains, or “Chainlets,” that provide applications with infinite horizontal scalability.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/ssc-1.png",
         examples: [
           {
             name: "saga-starter",
@@ -5018,7 +5018,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id: "xion-testnet-1",
         description:
           "XION empowers developers and brands to create frictionless Web3 experiences, with a Generalized Abstraction layer that removes technical barriers for all users.",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/xion-testnet-1.png",
         examples: [
           {
             name: "xion-testnet-starter",
@@ -5551,7 +5551,7 @@ const networkFamilies: NetworkFamily[] = [
         chain_id:
           "0x6254c948b5eb7199a112cb308be3385c39c8c942625540ac749c77fe2aebc299",
         description: "",
-        logo: "",
+        logo: "https://static.subquery.network/network-logos/contextfree.png",
         examples: [
           {
             name: "contextfree-starter",
