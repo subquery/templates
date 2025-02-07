@@ -6488,7 +6488,7 @@ const networkFamilies: NetworkFamily[] = [
             name: "Starknet Quick Start",
             description:
               "The goal of this quick start guide is to index all withdrawls and deposits on the zkLend protocol on Starknet Mainnet. It's an excellent starting point to help understand how to use SubQuery to index data on Starknet.",
-            link: "http://localhost:8080/indexer/quickstart/quickstart_chains/starknet.html",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/starknet.html",
             internal: true,
           },
         ],
