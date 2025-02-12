@@ -2402,6 +2402,29 @@
         ]
       },
       {
+        "code": "130",
+        "name": "Unichain",
+        "chain_id": "130",
+        "description": "Unichain, built by the Uniswap Labs, is a DeFi-native Ethereum L2, optimized to be the home for liquidity across chains.",
+        "logo": "https://static.subquery.network/network-logos/1301.png",
+        "examples": [
+          {
+            "name": "unichain-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for USDC on Unichain's Mainnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Unichain/unichain-starter"
+          }
+        ],
+        "guides": [
+          {
+            "name": "Unichain Quick Start",
+            "description": "The goal of this quick start guide is to index all transfers and approval events from USDC on Unichain's Mainnet.",
+            "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/unichain.html",
+            "internal": true
+          }
+        ]
+      },
+      {
         "code": "1301",
         "name": "Unichain Testnet",
         "chain_id": "1301",
@@ -2419,14 +2442,6 @@
             "description": "This SubQuery project indexes the standard Uniswap Exchange-V3 project on Unichain Testnet",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Unichain/unichain-testnet-uniswap-v3"
-          }
-        ],
-        "guides": [
-          {
-            "name": "Unichain Quick Start",
-            "description": "The goal of this quick start guide is to index all transfers and approval events from USDC on Unichain's Testnet.",
-            "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/unichain.html",
-            "internal": true
           }
         ],
         "dictionaries": [
