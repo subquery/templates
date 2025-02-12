@@ -1823,6 +1823,21 @@
         ]
       },
       {
+        "code": "6900",
+        "name": "Nibiru",
+        "chain_id": "6900",
+        "description": "A secure smart contract platform driven by a vibrant community.",
+        "logo": "https://static.subquery.network/network-logos/7210.png",
+        "examples": [
+          {
+            "name": "nibiru-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for Testing ERC20 contract on Nibiru",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Nibiru/nibiru-starter"
+          }
+        ]
+      },
+      {
         "code": "7210",
         "name": "Nibiru Testnet",
         "chain_id": "7210",
