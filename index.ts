@@ -1335,33 +1335,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "100",
-        name: "Gnosis",
-        chain_id: "100",
-        onfinality_code: "gnosis",
-        description:
-          "Full stack decentralization—infrastructure and applications for an open internet",
-        logo: "https://static.subquery.network/network-logos/100.png",
-        examples: [],
-        public_rpc: [
-          {
-            type: "ARCHIVE",
-            name: "Gonsis Public RPC",
-            description: "",
-            rate_limit: {
-              rate: 30,
-              burst: 50,
-            },
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x55/indexers",
-            endpoint: "https://gnosis.rpc.subquery.network/public",
-            example_request:
-              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://gnosis.rpc.subquery.network/public\'',
-            tags: [],
-          },
-        ],
-      },
-      {
         code: "5",
         name: "Ethereum Goerli",
         chain_id: "5",
@@ -1553,6 +1526,7 @@ const networkFamilies: NetworkFamily[] = [
         code: "100",
         name: "Gnosis",
         chain_id: "100",
+        onfinality_code: "gnosis",
         description:
           "A decentralized prediction market and oracle platform on Ethereum, facilitating various DeFi and prediction market applications with GNO and OWL tokens.",
         logo: "https://static.subquery.network/network-logos/100.png",
@@ -1588,6 +1562,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://dict-tyk.subquery.network/query/gnosis-mainnet",
+        ],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Gonsis Public RPC",
+            description: "",
+            rate_limit: {
+              rate: 30,
+              burst: 50,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x55/indexers",
+            endpoint: "https://gnosis.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://gnosis.rpc.subquery.network/public\'',
+            tags: [],
+          },
         ],
       },
       {
