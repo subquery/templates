@@ -54,7 +54,8 @@ type NetworkFamily = {
     | "polkadot"
     | "stellar"
     | "starknet"
-    | "multi";
+    | "multi"
+    | "solana";
   name: string;
   description: string;
   logo: string;
@@ -6608,6 +6609,41 @@ const networkFamilies: NetworkFamily[] = [
               "The example project indexes all soroban transfer events on Stellar's Futurenet. It also indexes all account payments including credits and debits - it's a great way to quickly learn how SubQuery works on a real world hands-on example.",
             link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/stellar.html",
             internal: true,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    code: "solana",
+    name: "Solana",
+    description:
+      "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
+    logo: "https://static.subquery.network/network-logos/solana.png",
+    networks: [
+      {
+        code: "solana",
+        name: "Solana",
+        chain_id: "Solana",
+        description:
+          "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
+        logo: "https://static.subquery.network/network-logos/solana.png",
+        examples: [],
+        public_rpc: [
+          {
+            type: "ARCHIVE",
+            name: "Solana Mainnet RPC",
+            description: "",
+            rate_limit: {
+              rate: 50,
+              burst: 50,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x57/overview",
+            endpoint: "https://solana.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "getBlockHeight"}\' \'https://solana.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
