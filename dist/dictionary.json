@@ -172,6 +172,9 @@
     "42220": [
       "https://dict-tyk.subquery.network/query/celo-mainnet"
     ],
+    "42225": [
+      "https://dict-tyk.subquery.network/query/nakachain"
+    ],
     "42793": [
       "https://dict-tyk.subquery.network/query/etherlink-mainnet"
     ],
@@ -274,6 +277,9 @@
     ],
     "168587773": [
       "https://dict-tyk.subquery.network/query/blast-sepolia"
+    ],
+    "245022926": [
+      "https://dict-tyk.subquery.network/query/neon-devnet"
     ],
     "245022934": [
       "https://dict-tyk.subquery.network/query/neon-mainnet"
