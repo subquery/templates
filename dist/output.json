@@ -18,6 +18,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Abstract/abstract-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/abstract-mainnet"
         ]
       },
       {
@@ -33,6 +36,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Abstract/abstract-testnet-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/abstract-testnet"
         ]
       },
       {
@@ -1615,6 +1621,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Lukso/lukso-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/lukso-mainnet"
         ]
       },
       {
@@ -1798,7 +1807,9 @@
             "path": "Monad/monad-testnet-starter"
           }
         ],
-        "dictionaries": [],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/monad-testnet"
+        ],
         "guides": [
           {
             "name": "Monad Quick Start",
@@ -2367,6 +2378,9 @@
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "Sonic/sonic-testnet-starter"
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/sonic-blaze-testnet"
         ]
       },
       {
@@ -2468,6 +2482,9 @@
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/unichain.html",
             "internal": true
           }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/unichain-mainnet"
         ]
       },
       {
@@ -3409,6 +3426,114 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/tanssi"
+        ]
+      },
+      {
+        "code": "64668",
+        "name": "Bitgert Testnet",
+        "chain_id": "64668",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "name",
+            "description": "This SubQuery project indexes all transfers and approval events for the ",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "path"
+          }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/bitgert-testnet"
+        ]
+      },
+      {
+        "code": "42225",
+        "name": "Naka Chain",
+        "chain_id": "42225",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "name",
+            "description": "This SubQuery project indexes all transfers and approval events for the ",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "path"
+          }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/nakachain"
+        ]
+      },
+      {
+        "code": "245022926",
+        "name": "Neon EVM DevNet",
+        "chain_id": "245022926",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "name",
+            "description": "This SubQuery project indexes all transfers and approval events for the ",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "path"
+          }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/neon-devnet"
+        ]
+      },
+      {
+        "code": "5611",
+        "name": "opBNB Testnet",
+        "chain_id": "5611",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "name",
+            "description": "This SubQuery project indexes all transfers and approval events for the ",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "opBNB testnet/opbnb-testnet-testnet-starter"
+          }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/opbnb-testnet"
+        ]
+      },
+      {
+        "code": "146",
+        "name": "Sonic",
+        "chain_id": "146",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "Sonic Starter",
+            "description": "This project can be use as a starting point for developing your new Sonic SubQuery project",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Sonic/sonic-starter"
+          }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/sonic-mainnet"
+        ]
+      },
+      {
+        "code": "64165",
+        "name": "Sonic Testnet",
+        "chain_id": "64165",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "Sonic Testnet Starter",
+            "description": "This project can be use as a starting point for developing your new Sonic SubQuery project",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Sonic/sonic-testnet-starter"
+          }
+        ],
+        "dictionaries": [
+          "https://dict-tyk.subquery.network/query/sonic-testnet"
         ]
       }
     ]

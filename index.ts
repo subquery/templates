@@ -46,16 +46,16 @@ type Network = {
 
 type NetworkFamily = {
   code:
-    | "evm"
-    | "algorand"
-    | "cosmos"
-    | "concordium"
-    | "near"
-    | "polkadot"
-    | "stellar"
-    | "starknet"
-    | "multi"
-    | "solana";
+  | "evm"
+  | "algorand"
+  | "cosmos"
+  | "concordium"
+  | "near"
+  | "polkadot"
+  | "stellar"
+  | "starknet"
+  | "multi"
+  | "solana";
   name: string;
   description: string;
   logo: string;
@@ -73,7 +73,7 @@ type PublicAiModel = {
   url: string;
 };
 
-const networkFamilies: NetworkFamily[] = [
+export const networkFamilies: NetworkFamily[] = [
   {
     code: "evm",
     name: "EVM",
@@ -97,6 +97,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Abstract/abstract-starter",
           },
         ],
+        dictionaries: ['https://dict-tyk.subquery.network/query/abstract-mainnet'],
       },
       {
         code: "11124",
@@ -114,6 +115,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Abstract/abstract-testnet-starter",
           },
         ],
+        dictionaries: ['https://dict-tyk.subquery.network/query/abstract-testnet']
       },
       {
         code: "20240219",
@@ -1826,6 +1828,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Lukso/lukso-starter",
           },
         ],
+        dictionaries: ['https://dict-tyk.subquery.network/query/lukso-mainnet'],
       },
       {
         code: "169",
@@ -2022,7 +2025,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Monad/monad-testnet-starter",
           },
         ],
-        dictionaries: [],
+        dictionaries: ['https://dict-tyk.subquery.network/query/monad-testnet'],
         guides: [
           {
             name: "Monad Quick Start",
@@ -2654,6 +2657,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Sonic/sonic-testnet-starter",
           },
         ],
+        dictionaries: ['https://dict-tyk.subquery.network/query/sonic-blaze-testnet']
       },
       {
         code: "167008",
@@ -2767,6 +2771,7 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/unichain-mainnet"],
       },
       {
         code: "1301",
@@ -3745,24 +3750,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/tanssi"],
       },
-      /*
-      {
-        code: "592",
-        name: "Astar",
-        chain_id: "592",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/astar-mainnet"],
-      },
+
+      // {
+      //   code: "592",
+      //   name: "Astar",
+      //   chain_id: "592",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/astar-mainnet"],
+      // },
       {
         code: "64668",
         name: "Bitgert Testnet",
@@ -3782,114 +3787,114 @@ const networkFamilies: NetworkFamily[] = [
           "https://dict-tyk.subquery.network/query/bitgert-testnet",
         ],
       },
-      {
-        code: "1998",
-        name: "Kyoto Testnet",
-        chain_id: "1998",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/kyoto-testnet"],
-      },
-      {
-        code: "1287",
-        name: "Moonbase Alpha",
-        chain_id: "1287",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/moonbase-testnet",
-        ],
-      },
-      {
-        code: "1284",
-        name: "Moonbeam",
-        chain_id: "1284",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/moonbeam-mainnet",
-        ],
-      },
-      {
-        code: "1285",
-        name: "Moonriver",
-        chain_id: "1285",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/moonriver-mainnet",
-        ],
-      },
-      {
-        code: "42225",
-        name: "Naka Chain",
-        chain_id: "42225",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/nakachain"],
-      },
-      {
-        code: "245022926",
-        name: "Neon EVM DevNet",
-        chain_id: "245022926",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/neon-devnet"],
-      },
+      // {
+      //   code: "1998",
+      //   name: "Kyoto Testnet",
+      //   chain_id: "1998",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/kyoto-testnet"],
+      // },
+      // {
+      //   code: "1287",
+      //   name: "Moonbase Alpha",
+      //   chain_id: "1287",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/moonbase-testnet",
+      //   ],
+      // },
+      // {
+      //   code: "1284",
+      //   name: "Moonbeam",
+      //   chain_id: "1284",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/moonbeam-mainnet",
+      //   ],
+      // },
+      // {
+      //   code: "1285",
+      //   name: "Moonriver",
+      //   chain_id: "1285",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/moonriver-mainnet",
+      //   ],
+      // },
+      // {
+      //   code: "42225",
+      //   name: "Naka Chain",
+      //   chain_id: "42225",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/nakachain"],
+      // },
+      // {
+      //   code: "245022926",
+      //   name: "Neon EVM DevNet",
+      //   chain_id: "245022926",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/neon-devnet"],
+      // },
       {
         code: "5611",
         name: "opBNB Testnet",
@@ -3902,117 +3907,118 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project indexes all transfers and approval events for the ",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
+            path: "opBNB testnet/opbnb-testnet-testnet-starter",
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/opbnb-testnet"],
       },
+      // {
+      //   code: "98865",
+      //   name: "Plume Mainnet",
+      //   chain_id: "98865",
+      //   description: "",
+      //   logo: "",
+      //   examples: [],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/plume-mainnet"],
+      // },
+      // {
+      //   code: "98864",
+      //   name: "Plume Testnet",
+      //   chain_id: "98864",
+      //   description: "",
+      //   logo: "",
+      //   examples: [],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/plume-testnet"],
+      // },
+      // {
+      //   code: "97072271",
+      //   name: "Prom Testnet",
+      //   chain_id: "97072271",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/prom-testnet"],
+      // },
+      // {
+      //   code: "584548796",
+      //   name: "Prom Testnet (v2)",
+      //   chain_id: "584548796",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/prom-testnet-v2",
+      //   ],
+      // },
+      // {
+      //   code: "336",
+      //   name: "Shiden",
+      //   chain_id: "336",
+      //   description: "",
+      //   logo: "https://static.subquery.network/network-logos/shiden-kusama.png",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/shiden-mainnet",
+      //   ],
+      // },
+
+      // {
+      //   code: "1482601649",
+      //   name: "Skale Nebula",
+      //   chain_id: "1482601649",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"],
+      // },
       {
-        code: "98865",
-        name: "Plume Mainnet",
-        chain_id: "98865",
-        description: "",
-        logo: "",
+        code: '146',
+        name: 'Sonic',
+        chain_id: '146',
+        description: '',
+        logo: '',
         examples: [
           {
-            name: "name",
+            name: "Sonic Starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the ",
+              "This project can be use as a starting point for developing your new Sonic SubQuery project",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
+            path: "Sonic/sonic-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/plume-mainnet"],
-      },
-      {
-        code: "98864",
-        name: "Plume Testnet",
-        chain_id: "98864",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/plume-testnet"],
-      },
-      {
-        code: "97072271",
-        name: "Prom Testnet",
-        chain_id: "97072271",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/prom-testnet"],
-      },
-      {
-        code: "584548796",
-        name: "Prom Testnet (v2)",
-        chain_id: "584548796",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/prom-testnet-v2",
-        ],
-      },
-      {
-        code: "336",
-        name: "Shiden",
-        chain_id: "336",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/shiden-kusama.png",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/shiden-mainnet",
-        ],
-      },
-      
-      {
-        code: "1482601649",
-        name: "Skale Nebula",
-        chain_id: "1482601649",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"],
+        dictionaries: ['https://dict-tyk.subquery.network/query/sonic-mainnet']
       },
       {
         code: "64165",
@@ -4022,16 +4028,15 @@ const networkFamilies: NetworkFamily[] = [
         logo: "",
         examples: [
           {
-            name: "name",
+            name: "Sonic Testnet Starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the ",
+              "This project can be use as a starting point for developing your new Sonic SubQuery project",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
+            path: "Sonic/sonic-testnet-starter",
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"],
       },
-      */
     ],
   },
   {
