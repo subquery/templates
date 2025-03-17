@@ -3861,40 +3861,40 @@ export const networkFamilies: NetworkFamily[] = [
       //     "https://dict-tyk.subquery.network/query/moonriver-mainnet",
       //   ],
       // },
-      // {
-      //   code: "42225",
-      //   name: "Naka Chain",
-      //   chain_id: "42225",
-      //   description: "",
-      //   logo: "",
-      //   examples: [
-      //     {
-      //       name: "name",
-      //       description:
-      //         "This SubQuery project indexes all transfers and approval events for the ",
-      //       remote: "https://github.com/subquery/ethereum-subql-starter",
-      //       path: "path",
-      //     },
-      //   ],
-      //   dictionaries: ["https://dict-tyk.subquery.network/query/nakachain"],
-      // },
-      // {
-      //   code: "245022926",
-      //   name: "Neon EVM DevNet",
-      //   chain_id: "245022926",
-      //   description: "",
-      //   logo: "",
-      //   examples: [
-      //     {
-      //       name: "name",
-      //       description:
-      //         "This SubQuery project indexes all transfers and approval events for the ",
-      //       remote: "https://github.com/subquery/ethereum-subql-starter",
-      //       path: "path",
-      //     },
-      //   ],
-      //   dictionaries: ["https://dict-tyk.subquery.network/query/neon-devnet"],
-      // },
+      {
+        code: "42225",
+        name: "Naka Chain",
+        chain_id: "42225",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/nakachain"],
+      },
+      {
+        code: "245022926",
+        name: "Neon EVM DevNet",
+        chain_id: "245022926",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "name",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the ",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "path",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/neon-devnet"],
+      },
       {
         code: "5611",
         name: "opBNB Testnet",
