@@ -377,7 +377,14 @@
         "onfinality_code": "Autonity",
         "description": "Autonity is a public, EVM based, proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
         "logo": "https://static.subquery.network/network-logos/65100004.png",
-        "examples": [],
+        "examples": [
+          {
+            "name": "autonity-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Newton on Autonity Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Autonity/autonity-testnet-starter"
+          }
+        ],
         "public_rpc": [
           {
             "type": "ARCHIVE",
