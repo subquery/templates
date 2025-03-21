@@ -1783,6 +1783,21 @@
         ]
       },
       {
+        "code": "31611",
+        "name": "Mezo Testnet",
+        "chain_id": "31611",
+        "description": "Mezo unlocks Bitcoin’s true productivity through borrowing, spending, and earning—without requiring to sell Bitcoin.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "mezo-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Wrapped Test BTC (0xA460F83cdd9584E4bD6a9838abb0baC58EAde999) on Mezo Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter/",
+            "path": "Mezo/mezo-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "34443",
         "name": "Mode Network",
         "chain_id": "34443",
