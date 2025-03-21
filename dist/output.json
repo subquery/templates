@@ -583,6 +583,21 @@
         ]
       },
       {
+        "code": "964",
+        "name": "Bittensor",
+        "chain_id": "964",
+        "description": "The Bittensor protocol establishes a marketplace that transforms machine intelligence into a tradable commodity.",
+        "logo": "https://static.subquery.network/network-logos/bittensor.png",
+        "examples": [
+          {
+            "name": "bittensor-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the TPILL (0xd3C87EEfEFeaB34F305062fee81B8710d903EbB0) on Bittensor",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Bittensor/bittensor-starter"
+          }
+        ]
+      },
+      {
         "code": "81457",
         "name": "Blast",
         "chain_id": "81457",
