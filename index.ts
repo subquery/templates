@@ -1405,7 +1405,7 @@ export const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Sepolia",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Ethereum/ethereum-sepolia-starter",
+            path: "Ethereum Sepolia/ethereum-sepolia-starter",
           },
         ],
         dictionaries: [
