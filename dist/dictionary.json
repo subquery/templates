@@ -4,9 +4,6 @@
       "https://ethereum.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/eth-mainnet"
     ],
-    "5": [
-      "https://dict-tyk.subquery.network/query/eth-goerli"
-    ],
     "10": [
       "https://dict-tyk.subquery.network/query/optimism-mainnet"
     ],
@@ -213,9 +210,6 @@
     ],
     "80002": [
       "https://dict-tyk.subquery.network/query/polygon-amoy-testnet"
-    ],
-    "80084": [
-      "https://dict-tyk.subquery.network/query/berachain-bartio"
     ],
     "81457": [
       "https://dict-tyk.subquery.network/query/blast-l2-mainnet"
