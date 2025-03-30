@@ -609,26 +609,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "80084",
-        name: "Berachain BArtio",
-        chain_id: "80084",
-        description:
-          "Berachain BArtio is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
-        logo: "https://static.subquery.network/network-logos/80085.png",
-        examples: [
-          {
-            name: "berachain-bartio-testnet-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the BGT token on Berachain bArtio Testnet",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Berachain/berachain-bartio-testnet-starter",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/berachain-bartio",
-        ],
-      },
-      {
         code: "80085",
         name: "Berachain Artio Testnet",
         chain_id: "80085",
@@ -1362,23 +1342,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "5",
-        name: "Ethereum Goerli",
-        chain_id: "5",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/5.png",
-        examples: [
-          {
-            name: "ethereum-goerli-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Goerli",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Ethereum/ethereum-goerli-starter",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/eth-goerli"],
-      },
-      {
         code: "11155111",
         name: "Ethereum Sepolia",
         onfinality_code: "eth-sepolia",
@@ -1648,32 +1611,6 @@ export const networkFamilies: NetworkFamily[] = [
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Harmony Network.",
             link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/harmony.html",
-            internal: true,
-          },
-        ],
-      },
-      {
-        code: "128",
-        name: "Heco Chain",
-        chain_id: "128",
-        description:
-          "A blockchain built by Huobi, designed for DeFi and DApps, with a focus on cross-chain compatibility, providing HECO tokens for various use cases.",
-        logo: "https://static.subquery.network/network-logos/128.png",
-        examples: [
-          {
-            name: "heco-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the Wrapped HT token on Heco Chain Network",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Heco/heco-starter",
-          },
-        ],
-        guides: [
-          {
-            name: "Heco Chain Quick Start",
-            description:
-              "The goal of this quick start guide is to index all transfers and approval events from the Wrapped HT on Heco Network.",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/heco.html",
             internal: true,
           },
         ],
@@ -5543,23 +5480,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "bitcountry-pioneer",
-        name: "Bit.Country",
-        chain_id:
-          "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-        description:
-          "Bitcountry enables the creation of decentralized virtual worlds and autonomous communities, giving users the tools to build their own blockchain-based nations.",
-        logo: "https://static.subquery.network/network-logos/bitcountry-pioneer.png",
-        examples: [
-          {
-            name: "bitcountry-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Bit.Country/bitcountry-starter",
-          },
-        ],
-      },
-      {
         code: "bitgreen",
         name: "BitGreen",
         chain_id:
@@ -5626,22 +5546,6 @@ export const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Centrifuge/centrifuge-starter",
-          },
-        ],
-      },
-      {
-        code: "clover",
-        name: "Clover",
-        chain_id:
-          "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/clover.png",
-        examples: [
-          {
-            name: "clover-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Clover/clover-starter",
           },
         ],
       },
@@ -5738,39 +5642,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "efinity-polkadot",
-        name: "Efinity",
-        chain_id:
-          "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/efinity-polkadot.png",
-        examples: [
-          {
-            name: "efinity-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Efinity/efinity-starter",
-          },
-        ],
-      },
-      {
-        code: "encointer",
-        name: "Encointer",
-        chain_id:
-          "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
-        description:
-          "A parachain experimenting with decentralized identity and community-driven economic models, focusing on fairness and inclusivity.",
-        logo: "https://static.subquery.network/network-logos/encointer.png",
-        examples: [
-          {
-            name: "Encointer-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Encointer/Encointer-starter",
-          },
-        ],
-      },
-      {
         code: "energy-web-x",
         name: "Energy Web X",
         chain_id:
@@ -5789,22 +5660,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "equilibrium-polkadot",
-        name: "Equilibrium",
-        chain_id:
-          "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/equilibrium-polkadot.png",
-        examples: [
-          {
-            name: "equilibrium-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Equilibrium/equilibrium-starter",
-          },
-        ],
-      },
-      {
         code: "frequency",
         name: "Frequency",
         chain_id:
@@ -5817,22 +5672,6 @@ export const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Frequency/frequency-starter",
-          },
-        ],
-      },
-      {
-        code: "hashed",
-        name: "Hashed Network",
-        chain_id:
-          "0x331645ae3db556c7754a82f79cece12cce3420975d5b0219d51b1cb4f6ddc21c",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/hashed.png",
-        examples: [
-          {
-            name: "hashed-network-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "HashedNetwork/hashed-network-starter",
           },
         ],
       },
@@ -6044,22 +5883,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "kylin",
-        name: "Kylin",
-        chain_id:
-          "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/kylin.png",
-        examples: [
-          {
-            name: "kylin-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Kylin/kylin-starter",
-          },
-        ],
-      },
-      {
         code: "litentry",
         name: "Litentry",
         chain_id:
@@ -6197,39 +6020,6 @@ export const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "OriginTrail/origintrail-starter",
-          },
-        ],
-      },
-      {
-        code: "parallel",
-        name: "Parallel",
-        chain_id:
-          "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-        description:
-          "Parallel Finance is a DeFi-focused parachain that offers lending, borrowing, and yield farming services, enabling users to access decentralized financial tools on Polkadot.",
-        logo: "https://static.subquery.network/network-logos/parallel.png",
-        examples: [
-          {
-            name: "parallel-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Parallel/parallel-starter",
-          },
-        ],
-      },
-      {
-        code: "heiko-kusama",
-        name: "Parallel Heiko",
-        chain_id:
-          "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/heiko-kusama.png",
-        examples: [
-          {
-            name: "parallel-heiko-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Parallel/parallel-heiko-starter",
           },
         ],
       },
