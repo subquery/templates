@@ -930,6 +930,36 @@
         ]
       },
       {
+        "code": "2632500",
+        "name": "COTI",
+        "chain_id": "2632500",
+        "description": "Fast, Light Privacy Layer in Web3",
+        "logo": "",
+        "examples": [
+          {
+            "name": "coti-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the GCOTI (`0x7637C7838EC4Ec6b85080F28A678F8E234bB83D1`) on COTI",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "COTI/coti-starter"
+          }
+        ]
+      },
+      {
+        "code": "7082400",
+        "name": "COTI Testnet",
+        "chain_id": "7082400",
+        "description": "Fast, Light Privacy Layer in Web3",
+        "logo": "",
+        "examples": [
+          {
+            "name": "coti-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the GCOTI (`0x7ac988eb3e45fe6adb05dfaf609c8dbb4a902cdc`) on COTI Testnet Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "COTI/coti-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "388",
         "name": "Cronos ZKEVM",
         "chain_id": "388",
@@ -1015,6 +1045,21 @@
             "description": "This SubQuery project indexes all transfers and approval events for the Heroes and Empires (HE) on DOS Chain",
             "remote": "https://github.com/subquery/ethereum-subql-starter",
             "path": "DOS Chain/dos-chain-starter"
+          }
+        ]
+      },
+      {
+        "code": "5545",
+        "name": "DuckChain",
+        "chain_id": "5545",
+        "description": "Leveraging AI to empower Telegram users to explore the crypto ecosystem, enabling cutting-edge AI-driven crypto innovations within the Telegram platform",
+        "logo": "",
+        "examples": [
+          {
+            "name": "duckchain-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the Bridged Tether USD (USDT) (`0xbE138aD5D41FDc392AE0B61b09421987C1966CC3`) on DuckChain",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "DuckChain/duckchain-starter"
           }
         ]
       },
