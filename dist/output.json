@@ -2389,6 +2389,21 @@
         ]
       },
       {
+        "code": "146",
+        "name": "Sonic",
+        "chain_id": "146",
+        "description": "Sonic is an EVM layer-1 platform that offers developers attractive incentives and powerful infrastructure. The chain provides 10,000 TPS, sub-second finality, and the Sonic Gateway, a secure bridge to Ethereum for enhanced liquidity and asset security.",
+        "logo": "https://static.subquery.network/network-logos/17000.png",
+        "examples": [
+          {
+            "name": "sonic-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for USDC.e on Sonic",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Sonic/sonic-starter"
+          }
+        ]
+      },
+      {
         "code": "57054",
         "name": "Sonic Testnet (Blaze)",
         "chain_id": "57054",
