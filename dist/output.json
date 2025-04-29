@@ -2568,6 +2568,21 @@
         ]
       },
       {
+        "code": "88811",
+        "name": "Units Network Mainnet",
+        "chain_id": "88811",
+        "description": "High-performance, scalable, secure Waves-based network with EVM compatibility, decentralized governance, and future-ready interoperability, powered by LPoS consensus and Unit0 incentives.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "units-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the USDT (0xb303d80db8415FD1d3C9FED68A52EEAc9a052671) on Units",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Units/units-starter"
+          }
+        ]
+      },
+      {
         "code": "106",
         "name": "Velas Network",
         "chain_id": "106",
