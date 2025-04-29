@@ -2685,7 +2685,8 @@ export const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Sonic/sonic-starter",
           },
-        ]
+        ],
+        dictionaries: ['https://dict-tyk.subquery.network/query/sonic-mainnet']
       },
       {
         code: "57054",
