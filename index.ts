@@ -4265,6 +4265,40 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "babylon-mainnet",
+        name: "Babylon Mainnet",
+        chain_id: "bbn-1",
+        description:
+          "Babylon is a decentralized protocol that enables native bitcoin staking directly on the Bitcoin blockchain without intermediaries.",
+        logo: "",
+        examples: [
+          {
+            name: "babylon-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Babylon Mainnet",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Babylon/babylon-starter",
+          },
+        ],
+      },
+      {
+        code: "babylon-testnet",
+        name: "Babylon Testnet",
+        chain_id: "bbn-test-5",
+        description:
+          "Babylon is a decentralized protocol that enables native bitcoin staking directly on the Bitcoin blockchain without intermediaries.",
+        logo: "",
+        examples: [
+          {
+            name: "babylon-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Babylon Testnet",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Babylon/babylon-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "laozi-mainnet",
         name: "Band",
         chain_id: "laozi-mainnet",
