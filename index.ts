@@ -609,23 +609,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "80085",
-        name: "Berachain Artio Testnet",
-        chain_id: "80085",
-        description:
-          "Berachain BArtio is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
-        logo: "https://static.subquery.network/network-logos/80085.png",
-        examples: [
-          {
-            name: "berachain-artio-testnet-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the Wrapped ETH on Berachain Artio Testnet",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Berachain/berachain-artio-testnet-starter",
-          },
-        ],
-      },
-      {
         code: "1501",
         name: "BEVM Testnet",
         chain_id: "1501",
@@ -4376,22 +4359,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "crescent-1",
-        name: "Crescent",
-        chain_id: "crescent-1",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/crescent-1.png",
-        examples: [
-          {
-            name: "crescent-starter",
-            description:
-              "This SubQuery project indexes all transfer events and messages on Crescent",
-            remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Crescent/crescent-starter",
-          },
-        ],
-      },
-      {
         code: "cronosmainnet_25-1",
         name: "Cronos",
         chain_id: "cronosmainnet_25-1",
@@ -4537,22 +4504,6 @@ export const networkFamilies: NetworkFamily[] = [
             name: "FetchAI Documentation - SubQuery Entry",
             link: "https://fetch.ai/docs/concepts/fetch-network/indexer/intro#indexer-/-ledger-subquery",
             internal: false,
-          },
-        ],
-      },
-      {
-        code: "furya-1",
-        name: "Furya",
-        chain_id: "furya-1",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/furya-1.png",
-        examples: [
-          {
-            name: "furya-starter",
-            description:
-              "This SubQuery project indexes all transfer events and messages on Furya",
-            remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Furya/furya-starter",
           },
         ],
       },
@@ -5082,23 +5033,6 @@ export const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfer events and messages on Stride",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "Stride/stride-starter",
-          },
-        ],
-      },
-      {
-        code: "phoenix-1",
-        name: "Terra2",
-        chain_id: "phoenix-1",
-        description:
-          "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
-        logo: "https://static.subquery.network/network-logos/phoenix-1.png",
-        examples: [
-          {
-            name: "terra2-starter",
-            description:
-              "This project can be use as a starting point for developing your Cosmos Terra2 based SubQuery project",
-            remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Terra2/terra2-starter",
           },
         ],
       },
@@ -5866,26 +5800,6 @@ export const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: [
           "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N",
-        ],
-      },
-      {
-        code: "khala",
-        name: "Khala",
-        chain_id:
-          "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-        description:
-          "A parachain specializing in privacy and confidentiality solutions for decentralized applications within the Polkadot network.",
-        logo: "https://static.subquery.network/network-logos/khala.png",
-        examples: [
-          {
-            name: "khala-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Khala/khala-starter",
-          },
-        ],
-        dictionaries: [
-          "https://gateway.subquery.network/query/QmP2KRbGx4vLaL8HqugVXrNPMyziFL6aM9NAd4NbFqsPA9",
         ],
       },
       {
