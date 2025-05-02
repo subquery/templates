@@ -609,6 +609,22 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "80069",
+        name: "Berachain Bepolia Testnet",
+        chain_id: "80069",
+        description: "Berachain is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
+        logo: "https://static.subquery.network/network-logos/80085.png",
+        examples: [
+          {
+            name: "berachain-bepolia-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for USDC on Berachain Bepolia Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Berachain/berachain-bepolia-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "1501",
         name: "BEVM Testnet",
         chain_id: "1501",
