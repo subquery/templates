@@ -6531,7 +6531,14 @@ export const networkFamilies: NetworkFamily[] = [
         description:
           "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
         logo: "https://static.subquery.network/network-logos/solana.png",
-        examples: [],
+        examples: [
+          {
+            name: "solana-token-program-starter",
+            description: "The example project indexes all the transferChecked instrucitons for the RNDR token in the Token Program",
+            remote: "https://github.com/subquery/solana-subql-starter",
+            path: 'Solana/solana-token-program-starter',
+          },
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
