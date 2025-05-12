@@ -6539,6 +6539,15 @@ export const networkFamilies: NetworkFamily[] = [
             path: 'Solana/solana-token-program-starter',
           },
         ],
+        guides: [
+          {
+            name: "Solana Quick Start",
+            description:
+              "The goal of this quick start guide is to index checked token transfers from the RNDR token.. It's an excellent starting point to help understand how to use SubQuery to index data on Solana.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/solana.html",
+            internal: true,
+          },
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
