@@ -6531,6 +6531,9 @@ export const networkFamilies: NetworkFamily[] = [
         description:
           "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
         logo: "https://static.subquery.network/network-logos/solana.png",
+        dictionaries: [
+          'https://dict-sol-tyk.subquery.network',
+        ],
         examples: [
           {
             name: "solana-token-program-starter",
