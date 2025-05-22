@@ -1064,6 +1064,36 @@
         ]
       },
       {
+        "code": "5424",
+        "name": "Edexa Mainnet",
+        "chain_id": "5424",
+        "description": "edeXa offers users solutions for the optimization of processes and communication channels through the business blockchain",
+        "logo": "",
+        "examples": [
+          {
+            "name": "edexa-mainnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the MyToken on edeXa Testnet Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "edeXa Mainnet/edexa-mainnet-starter"
+          }
+        ]
+      },
+      {
+        "code": "1995",
+        "name": "Edexa Testnet",
+        "chain_id": "1995",
+        "description": "edeXa offers users solutions for the optimization of processes and communication channels through the business blockchain",
+        "logo": "",
+        "examples": [
+          {
+            "name": "edexa-testnet-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the MyToken on edeXa Testnet Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "edeXa Testnet/edexa-testnet-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "246",
         "name": "Energy Web",
         "chain_id": "246",
@@ -1324,6 +1354,21 @@
         ],
         "dictionaries": [
           "https://dict-tyk.subquery.network/query/flare-mainnet"
+        ]
+      },
+      {
+        "code": "114",
+        "name": "Flare Testnet Coston2",
+        "chain_id": "114",
+        "description": "",
+        "logo": "",
+        "examples": [
+          {
+            "name": "flare-testnet-coston2-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the TREND on Flare Testnet Coston2",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Flare/flare-testnet-coston2-starter"
+          }
         ]
       },
       {
@@ -2351,6 +2396,36 @@
         ]
       },
       {
+        "code": "1329",
+        "name": "SEI Mainnet",
+        "chain_id": "1329",
+        "description": "Sei’s EVM implementation addresses traditional performance constraints through three key subsystems that work together to deliver unparalleled speed while maintaining full compatibility with the Ethereum ecosystem.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "sei-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the USDT on SEI Mainnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "SEI/sei-starter"
+          }
+        ]
+      },
+      {
+        "code": "1328",
+        "name": "SEI Testnet",
+        "chain_id": "1328",
+        "description": "Sei’s EVM implementation addresses traditional performance constraints through three key subsystems that work together to deliver unparalleled speed while maintaining full compatibility with the Ethereum ecosystem.",
+        "logo": "",
+        "examples": [
+          {
+            "name": "sei-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the USDC on SEI Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "SEI/sei-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "2046399126",
         "name": "Skale",
         "chain_id": "2046399126",
@@ -2370,6 +2445,21 @@
             "description": "The goal of this quick start guide is to index all transfers and approval events from the SKL Token on Skale Europa Network.",
             "link": "https://academy.subquery.network/indexer/quickstart/quickstart_chains/skale.html",
             "internal": true
+          }
+        ]
+      },
+      {
+        "code": "98",
+        "name": "SIX Protocol",
+        "chain_id": "98",
+        "description": "SIX Network is a blockchain project focused on simplifying blockchain adoption and real-world asset (RWA) tokenization for businesses",
+        "logo": "",
+        "examples": [
+          {
+            "name": "six-protocol-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the KAVALON Investment Token (KAVALON) ERC-20 on SIX Protocol",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Six Protocol/six-protocol-starter"
           }
         ]
       },
