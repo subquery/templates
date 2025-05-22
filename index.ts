@@ -6629,7 +6629,7 @@ export const networkFamilies: NetworkFamily[] = [
       {
         code: "solana",
         name: "Solana",
-        chain_id: "Solana",
+        chain_id: "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
         description:
           "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
         logo: "https://static.subquery.network/network-logos/solana.png",
