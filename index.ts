@@ -4202,6 +4202,22 @@ export const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"],
       },
+      {
+        code: "4207",
+        name: "Edgen",
+        chain_id: "4207",
+        description: "LayerEdge is a decentralized verification layer that enables scalable, cost-efficient, and secure zk-proof verification, backed by Bitcoin. It is designed to serve as a universal infrastructure layer for verifying off-chain computation.",
+        logo: "https://static.subquery.network/network-logos/4207.png",
+        examples: [
+          {
+            name: "edgen-chain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Edgen (`0x975f740d383B9bECBd69189D40390149C8951932`) on Edgen Chain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Edgen Chain/edgen-chain-starter",
+          },
+        ],
+      },
     ],
   },
   {
