@@ -46,16 +46,16 @@ type Network = {
 
 type NetworkFamily = {
   code:
-  | "evm"
-  | "algorand"
-  | "cosmos"
-  | "concordium"
-  | "near"
-  | "polkadot"
-  | "stellar"
-  | "starknet"
-  | "multi"
-  | "solana";
+    | "evm"
+    | "algorand"
+    | "cosmos"
+    | "concordium"
+    | "near"
+    | "polkadot"
+    | "stellar"
+    | "starknet"
+    | "multi"
+    | "solana";
   name: string;
   description: string;
   logo: string;
@@ -97,7 +97,9 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Abstract/abstract-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/abstract-mainnet'],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/abstract-mainnet",
+        ],
       },
       {
         code: "11124",
@@ -115,7 +117,9 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Abstract/abstract-testnet-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/abstract-testnet']
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/abstract-testnet",
+        ],
       },
       {
         code: "20240219",
@@ -258,7 +262,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "42420",
-        name: "Asset Chain Mainnet",
+        name: "Asset Chain",
         chain_id: "42420",
         description: "",
         logo: "https://static.subquery.network/network-logos/42420.png",
@@ -479,11 +483,12 @@ export const networkFamilies: NetworkFamily[] = [
         logo: "https://static.subquery.network/network-logos/65100004.png",
         examples: [
           {
-            "name": "autonity-testnet-starter",
-            "description": "This SubQuery project indexes all transfers and approval events for the Newton on Autonity Testnet",
-            "remote": "https://github.com/subquery/ethereum-subql-starter",
-            "path": "Autonity/autonity-testnet-starter"
-          }
+            name: "autonity-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Newton on Autonity Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Autonity/autonity-testnet-starter",
+          },
         ],
         public_rpc: [
           {
@@ -612,7 +617,8 @@ export const networkFamilies: NetworkFamily[] = [
         code: "80069",
         name: "Berachain Bepolia Testnet",
         chain_id: "80069",
-        description: "Berachain is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
+        description:
+          "Berachain is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
         logo: "https://static.subquery.network/network-logos/80085.png",
         examples: [
           {
@@ -643,7 +649,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "11501",
-        name: "BEVM Mainnet",
+        name: "BEVM",
         chain_id: "11501",
         description:
           "BEVM is a Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
@@ -1073,8 +1079,7 @@ export const networkFamilies: NetworkFamily[] = [
         code: "2632500",
         name: "COTI",
         chain_id: "2632500",
-        description:
-          "Fast, Light Privacy Layer in Web3",
+        description: "Fast, Light Privacy Layer in Web3",
         logo: "",
         examples: [
           {
@@ -1090,8 +1095,7 @@ export const networkFamilies: NetworkFamily[] = [
         code: "7082400",
         name: "COTI Testnet",
         chain_id: "7082400",
-        description:
-          "Fast, Light Privacy Layer in Web3",
+        description: "Fast, Light Privacy Layer in Web3",
         logo: "",
         examples: [
           {
@@ -1220,7 +1224,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "5424",
-        name: "Edexa Mainnet",
+        name: "Edexa",
         chain_id: "5424",
         description:
           "edeXa offers users solutions for the optimization of processes and communication channels through the business blockchain",
@@ -1544,8 +1548,7 @@ export const networkFamilies: NetworkFamily[] = [
         code: "114",
         name: "Flare Testnet Coston2",
         chain_id: "114",
-        description:
-          "",
+        description: "",
         logo: "",
         examples: [
           {
@@ -1674,7 +1677,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "1625",
-        name: "Gravity Alpha Mainnet",
+        name: "Gravity Alpha",
         chain_id: "1625",
         description:
           "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
@@ -1890,7 +1893,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Lukso/lukso-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/lukso-mainnet'],
+        dictionaries: ["https://dict-tyk.subquery.network/query/lukso-mainnet"],
       },
       {
         code: "169",
@@ -1998,7 +2001,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "4200",
-        name: "Merlin Mainnet",
+        name: "Merlin",
         chain_id: "4200",
         description:
           "Unleashing Bitcoin's Potential with Native L1 Assets, Users and Protocols.",
@@ -2104,7 +2107,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Monad/monad-testnet-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/monad-testnet'],
+        dictionaries: ["https://dict-tyk.subquery.network/query/monad-testnet"],
         guides: [
           {
             name: "Monad Quick Start",
@@ -2269,7 +2272,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "5040",
-        name: "ONIGIRI Mainnet",
+        name: "ONIGIRI",
         chain_id: "5040",
         description:
           "We see ONIGIRI as a protocol in food. We aim to be the blockchain solution for various food-related services, including cooking apps, e-commerce, apps, health care apps and more.",
@@ -2679,7 +2682,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "1329",
-        name: "SEI Mainnet",
+        name: "SEI",
         chain_id: "1329",
         description:
           "Sei’s EVM implementation addresses traditional performance constraints through three key subsystems that work together to deliver unparalleled speed while maintaining full compatibility with the Ethereum ecosystem.",
@@ -2787,7 +2790,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Sonic/sonic-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/sonic-mainnet']
+        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-mainnet"],
       },
       {
         code: "57054",
@@ -2805,7 +2808,9 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Sonic/sonic-testnet-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/sonic-blaze-testnet']
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/sonic-blaze-testnet",
+        ],
       },
       {
         code: "167008",
@@ -2845,7 +2850,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "40",
-        name: "Telos Mainnet",
+        name: "Telos",
         chain_id: "40",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
@@ -2919,7 +2924,9 @@ export const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/unichain-mainnet"],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/unichain-mainnet",
+        ],
       },
       {
         code: "1301",
@@ -2967,7 +2974,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "88811",
-        name: "Units Network Mainnet",
+        name: "Units Network",
         chain_id: "88811",
         description:
           "High-performance, scalable, secure Waves-based network with EVM compatibility, decentralized governance, and future-ready interoperability, powered by LPoS consensus and Unit0 incentives.",
@@ -3018,7 +3025,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "196",
-        name: "X Layer Mainnet",
+        name: "X Layer",
         chain_id: "196",
         description:
           "A ZK-powered layer 2 network that connects the OKX and Ethereum communities to allow anyone to take part in a truly global on-chain ecosystem.",
@@ -3239,7 +3246,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "10242",
-        name: "Arthera Mainnet",
+        name: "Arthera",
         chain_id: "10242",
         description: "",
         logo: "https://static.subquery.network/network-logos/10242.png",
@@ -3292,7 +3299,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "355110",
-        name: "Bitfinity Mainnet",
+        name: "Bitfinity",
         chain_id: "355110",
         description: "",
         logo: "https://static.subquery.network/network-logos/355110.png",
@@ -3385,7 +3392,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "4158",
-        name: "CrossFi Mainnet",
+        name: "CrossFi",
         chain_id: "4158",
         description: "",
         logo: "https://static.subquery.network/network-logos/4158.png",
@@ -3404,7 +3411,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "7560",
-        name: "Cyber Mainnet",
+        name: "Cyber",
         chain_id: "7560",
         description: "",
         logo: "https://static.subquery.network/network-logos/7560.png",
@@ -3514,7 +3521,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "42793",
-        name: "Etherlink Mainnet",
+        name: "Etherlink",
         chain_id: "42793",
         description: "",
         logo: "https://static.subquery.network/network-logos/42793.png",
@@ -3827,7 +3834,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "167000",
-        name: "Taiko Mainnet",
+        name: "Taiko",
         chain_id: "167000",
         description: "",
         logo: "https://static.subquery.network/network-logos/167000.png",
@@ -3844,7 +3851,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "810180",
-        name: "zkLink Nova Mainnet",
+        name: "zkLink Nova",
         chain_id: "810180",
         description: "",
         logo: "https://static.subquery.network/network-logos/810180.png",
@@ -4079,7 +4086,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       // {
       //   code: "98865",
-      //   name: "Plume Mainnet",
+      //   name: "Plume",
       //   chain_id: "98865",
       //   description: "",
       //   logo: "",
@@ -4169,11 +4176,11 @@ export const networkFamilies: NetworkFamily[] = [
       //   dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"],
       // },
       {
-        code: '146',
-        name: 'Sonic',
-        chain_id: '146',
-        description: '',
-        logo: '',
+        code: "146",
+        name: "Sonic",
+        chain_id: "146",
+        description: "",
+        logo: "",
         examples: [
           {
             name: "Sonic Starter",
@@ -4183,7 +4190,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Sonic/sonic-starter",
           },
         ],
-        dictionaries: ['https://dict-tyk.subquery.network/query/sonic-mainnet']
+        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-mainnet"],
       },
       {
         code: "64165",
@@ -4206,7 +4213,8 @@ export const networkFamilies: NetworkFamily[] = [
         code: "4207",
         name: "Edgen",
         chain_id: "4207",
-        description: "LayerEdge is a decentralized verification layer that enables scalable, cost-efficient, and secure zk-proof verification, backed by Bitcoin. It is designed to serve as a universal infrastructure layer for verifying off-chain computation.",
+        description:
+          "LayerEdge is a decentralized verification layer that enables scalable, cost-efficient, and secure zk-proof verification, backed by Bitcoin. It is designed to serve as a universal infrastructure layer for verifying off-chain computation.",
         logo: "https://static.subquery.network/network-logos/4207.png",
         examples: [
           {
@@ -4384,7 +4392,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "babylon-mainnet",
-        name: "Babylon Mainnet",
+        name: "Babylon",
         chain_id: "bbn-1",
         description:
           "Babylon is a decentralized protocol that enables native bitcoin staking directly on the Bitcoin blockchain without intermediaries.",
@@ -6649,15 +6657,14 @@ export const networkFamilies: NetworkFamily[] = [
         description:
           "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
         logo: "https://static.subquery.network/network-logos/solana.png",
-        dictionaries: [
-          'https://dict-sol-tyk.subquery.network',
-        ],
+        dictionaries: ["https://dict-sol-tyk.subquery.network"],
         examples: [
           {
             name: "solana-token-program-starter",
-            description: "The example project indexes all the transferChecked instrucitons for the RNDR token in the Token Program",
+            description:
+              "The example project indexes all the transferChecked instrucitons for the RNDR token in the Token Program",
             remote: "https://github.com/subquery/solana-subql-starter",
-            path: 'Solana/solana-token-program-starter',
+            path: "Solana/solana-token-program-starter",
           },
         ],
         guides: [
@@ -6830,9 +6837,9 @@ const dictionaryString = Object.fromEntries(
     Object.fromEntries(
       f.networks
         .filter((n) => !!n.dictionaries && n.dictionaries.length > 0)
-        .map((network) => [network.chain_id, network.dictionaries])
+        .map((network) => [network.chain_id, network.dictionaries]),
     ),
-  ])
+  ]),
 );
 // Hack till the SDK is ready
 dictionaryString["substrate"] = dictionaryString["polkadot"];
@@ -6876,8 +6883,8 @@ const rpcsOutput: {
             network_family_name: nf.name,
             rpc: rpc,
           };
-        })
-      )
+        }),
+      ),
   )
   .flatMap((item) => (item ? [item] : []));
 
