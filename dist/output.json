@@ -788,6 +788,22 @@
         ]
       },
       {
+        "code": "3637",
+        "name": "Botanix Mainnet",
+        "chain_id": "3637",
+        "description": "The Botanix EVM is a decentralized Turing-complete Layer 2 EVM built on the native currency of  bitcoin.",
+        "logo": "https://static.subquery.network/network-logos/3636.png",
+        "examples": [
+          {
+            "name": "botanix-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the stBTC on Botanix Mainnet.",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Botanix/botanix-starter"
+          }
+        ],
+        "guides": []
+      },
+      {
         "code": "3636",
         "name": "Botanix Testnet",
         "chain_id": "3636",
