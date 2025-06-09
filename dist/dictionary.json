@@ -4,14 +4,14 @@
       "https://ethereum.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/eth-mainnet"
     ],
-    "5": [
-      "https://dict-tyk.subquery.network/query/eth-goerli"
-    ],
     "10": [
       "https://dict-tyk.subquery.network/query/optimism-mainnet"
     ],
     "14": [
       "https://dict-tyk.subquery.network/query/flare-mainnet"
+    ],
+    "42": [
+      "https://dict-tyk.subquery.network/query/lukso-mainnet"
     ],
     "56": [
       "https://dict-tyk.subquery.network/query/binance"
@@ -25,8 +25,14 @@
     "109": [
       "https://dict-tyk.subquery.network/query/shibarium"
     ],
+    "130": [
+      "https://dict-tyk.subquery.network/query/unichain-mainnet"
+    ],
     "137": [
       "https://dict-tyk.subquery.network/query/polygon"
+    ],
+    "146": [
+      "https://dict-tyk.subquery.network/query/sonic-mainnet"
     ],
     "157": [
       "https://dict-tyk.subquery.network/query/puppynet"
@@ -82,6 +88,9 @@
     "2442": [
       "https://dict-tyk.subquery.network/query/polygon-zkevm-cardona-testnet"
     ],
+    "2741": [
+      "https://dict-tyk.subquery.network/query/abstract-mainnet"
+    ],
     "3338": [
       "https://dict-tyk.subquery.network/query/peaq-mainnet"
     ],
@@ -103,6 +112,9 @@
     "5000": [
       "https://dict-tyk.subquery.network/query/mantle-mainnet"
     ],
+    "5611": [
+      "https://dict-tyk.subquery.network/query/opbnb-testnet"
+    ],
     "5678": [
       "https://dict-tyk.subquery.network/query/tanssi"
     ],
@@ -118,8 +130,14 @@
     "8453": [
       "https://dict-tyk.subquery.network/query/base-mainnet"
     ],
+    "10143": [
+      "https://dict-tyk.subquery.network/query/monad-testnet"
+    ],
     "10242": [
       "https://dict-tyk.subquery.network/query/arthera-mainnet"
+    ],
+    "11124": [
+      "https://dict-tyk.subquery.network/query/abstract-testnet"
     ],
     "13371": [
       "https://dict-tyk.subquery.network/query/immutable-zkevm-mainnet"
@@ -151,6 +169,9 @@
     "42220": [
       "https://dict-tyk.subquery.network/query/celo-mainnet"
     ],
+    "42225": [
+      "https://dict-tyk.subquery.network/query/nakachain"
+    ],
     "42793": [
       "https://dict-tyk.subquery.network/query/etherlink-mainnet"
     ],
@@ -169,20 +190,26 @@
     "53935": [
       "https://dict-tyk.subquery.network/query/dfk-chain"
     ],
+    "57054": [
+      "https://dict-tyk.subquery.network/query/sonic-blaze-testnet"
+    ],
     "59144": [
       "https://dict-tyk.subquery.network/query/linea-mainnet"
     ],
     "60808": [
       "https://dict-tyk.subquery.network/query/bob-mainnet"
     ],
+    "64165": [
+      "https://dict-tyk.subquery.network/query/sonic-testnet"
+    ],
+    "64668": [
+      "https://dict-tyk.subquery.network/query/bitgert-testnet"
+    ],
     "80001": [
       "https://dict-tyk.subquery.network/query/polygon-mumbai"
     ],
     "80002": [
       "https://dict-tyk.subquery.network/query/polygon-amoy-testnet"
-    ],
-    "80084": [
-      "https://dict-tyk.subquery.network/query/berachain-bartio"
     ],
     "81457": [
       "https://dict-tyk.subquery.network/query/blast-l2-mainnet"
@@ -245,6 +272,9 @@
     "168587773": [
       "https://dict-tyk.subquery.network/query/blast-sepolia"
     ],
+    "245022926": [
+      "https://dict-tyk.subquery.network/query/neon-devnet"
+    ],
     "245022934": [
       "https://dict-tyk.subquery.network/query/neon-mainnet"
     ],
@@ -294,9 +324,6 @@
     "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b": [
       "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N"
     ],
-    "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d": [
-      "https://gateway.subquery.network/query/QmP2KRbGx4vLaL8HqugVXrNPMyziFL6aM9NAd4NbFqsPA9"
-    ],
     "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21": [
       "https://gateway.subquery.network/query/QmeBTNuhahUo2EhTRxV3qVAVf5bC8zVQRrrHd3SUDXgtbF"
     ],
@@ -327,7 +354,11 @@
   },
   "starknet": {},
   "stellar": {},
-  "solana": {},
+  "solana": {
+    "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d": [
+      "https://dict-sol-tyk.subquery.network"
+    ]
+  },
   "multi": {},
   "substrate": {
     "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c": [
@@ -345,9 +376,6 @@
     ],
     "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b": [
       "https://gateway.subquery.network/query/QmPQQA28fxR1hePk25MHNS1vEYRs4Gbz3PXry8G4dfC76N"
-    ],
-    "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d": [
-      "https://gateway.subquery.network/query/QmP2KRbGx4vLaL8HqugVXrNPMyziFL6aM9NAd4NbFqsPA9"
     ],
     "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21": [
       "https://gateway.subquery.network/query/QmeBTNuhahUo2EhTRxV3qVAVf5bC8zVQRrrHd3SUDXgtbF"

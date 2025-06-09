@@ -74,7 +74,7 @@ type PublicAiModel = {
   url: string;
 };
 
-const networkFamilies: NetworkFamily[] = [
+export const networkFamilies: NetworkFamily[] = [
   {
     code: "evm",
     name: "EVM",
@@ -98,6 +98,9 @@ const networkFamilies: NetworkFamily[] = [
             path: "Abstract/abstract-starter",
           },
         ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/abstract-mainnet",
+        ],
       },
       {
         code: "11124",
@@ -114,6 +117,9 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Abstract/abstract-testnet-starter",
           },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/abstract-testnet",
         ],
       },
       {
@@ -257,7 +263,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "42420",
-        name: "Asset Chain Mainnet",
+        name: "Asset Chain",
         chain_id: "42420",
         description: "",
         logo: "https://static.subquery.network/network-logos/42420.png",
@@ -476,7 +482,15 @@ const networkFamilies: NetworkFamily[] = [
         description:
           "Autonity is a public, EVM based, proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
         logo: "https://static.subquery.network/network-logos/65100004.png",
-        examples: [],
+        examples: [
+          {
+            name: "autonity-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Newton on Autonity Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Autonity/autonity-testnet-starter",
+          },
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -601,39 +615,19 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "80084",
-        name: "Berachain BArtio",
-        chain_id: "80084",
+        code: "80069",
+        name: "Berachain Bepolia Testnet",
+        chain_id: "80069",
         description:
-          "Berachain BArtio is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
+          "Berachain is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
         logo: "https://static.subquery.network/network-logos/80085.png",
         examples: [
           {
-            name: "berachain-bartio-testnet-starter",
+            name: "berachain-bepolia-testnet-starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the BGT token on Berachain bArtio Testnet",
+              "This SubQuery project indexes all transfers and approval events for USDC on Berachain Bepolia Testnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Berachain/berachain-bartio-testnet-starter",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/berachain-bartio",
-        ],
-      },
-      {
-        code: "80085",
-        name: "Berachain Artio Testnet",
-        chain_id: "80085",
-        description:
-          "Berachain BArtio is an EVM-compatible blockchain testnet built on Proof-of-Liquidity consensus.",
-        logo: "https://static.subquery.network/network-logos/80085.png",
-        examples: [
-          {
-            name: "berachain-artio-testnet-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the Wrapped ETH on Berachain Artio Testnet",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Berachain/berachain-artio-testnet-starter",
+            path: "Berachain/berachain-bepolia-testnet-starter",
           },
         ],
       },
@@ -656,7 +650,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "11501",
-        name: "BEVM Mainnet",
+        name: "BEVM",
         chain_id: "11501",
         description:
           "BEVM is a Bitcoin Layer-2 Network developed based on Substrate, fully compatible with the Ethereum Virtual Machine (EVM).",
@@ -685,6 +679,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Tether USD (USDT) on Bitlayer",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Bitlayer/bitlayer-starter",
+          },
+        ],
+      },
+      {
+        code: "964",
+        name: "Bittensor",
+        chain_id: "964",
+        description:
+          "The Bittensor protocol establishes a marketplace that transforms machine intelligence into a tradable commodity.",
+        logo: "https://static.subquery.network/network-logos/bittensor.png",
+        examples: [
+          {
+            name: "bittensor-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the TPILL (0xd3C87EEfEFeaB34F305062fee81B8710d903EbB0) on Bittensor",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Bittensor/bittensor-starter",
           },
         ],
       },
@@ -911,6 +922,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "3637",
+        name: "Botanix Mainnet",
+        chain_id: "3637",
+        description:
+          "The Botanix EVM is a decentralized Turing-complete Layer 2 EVM built on the native currency of  bitcoin.",
+        logo: "https://static.subquery.network/network-logos/3636.png",
+        examples: [
+          {
+            name: "botanix-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the stBTC on Botanix Mainnet.",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Botanix/botanix-starter",
+          },
+        ],
+        guides: [],
+      },
+      {
         code: "3636",
         name: "Botanix Testnet",
         chain_id: "3636",
@@ -1066,6 +1095,38 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "2632500",
+        name: "COTI",
+        chain_id: "2632500",
+        description: "Fast, Light Privacy Layer in Web3",
+        logo: "",
+        examples: [
+          {
+            name: "coti-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the GCOTI (`0x7637C7838EC4Ec6b85080F28A678F8E234bB83D1`) on COTI",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "COTI/coti-starter",
+          },
+        ],
+      },
+      {
+        code: "7082400",
+        name: "COTI Testnet",
+        chain_id: "7082400",
+        description: "Fast, Light Privacy Layer in Web3",
+        logo: "",
+        examples: [
+          {
+            name: "coti-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the GCOTI (`0x7ac988eb3e45fe6adb05dfaf609c8dbb4a902cdc`) on COTI Testnet Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "COTI/coti-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "388",
         name: "Cronos ZKEVM",
         chain_id: "388",
@@ -1160,6 +1221,57 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Heroes and Empires (HE) on DOS Chain",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "DOS Chain/dos-chain-starter",
+          },
+        ],
+      },
+      {
+        code: "5545",
+        name: "DuckChain",
+        chain_id: "5545",
+        description:
+          "Leveraging AI to empower Telegram users to explore the crypto ecosystem, enabling cutting-edge AI-driven crypto innovations within the Telegram platform",
+        logo: "",
+        examples: [
+          {
+            name: "duckchain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Bridged Tether USD (USDT) (`0xbE138aD5D41FDc392AE0B61b09421987C1966CC3`) on DuckChain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "DuckChain/duckchain-starter",
+          },
+        ],
+      },
+      {
+        code: "5424",
+        name: "Edexa",
+        chain_id: "5424",
+        description:
+          "edeXa offers users solutions for the optimization of processes and communication channels through the business blockchain",
+        logo: "",
+        examples: [
+          {
+            name: "edexa-mainnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the MyToken on edeXa Testnet Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "edeXa Mainnet/edexa-mainnet-starter",
+          },
+        ],
+      },
+      {
+        code: "1995",
+        name: "Edexa Testnet",
+        chain_id: "1995",
+        description:
+          "edeXa offers users solutions for the optimization of processes and communication channels through the business blockchain",
+        logo: "",
+        examples: [
+          {
+            name: "edexa-testnet-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the MyToken on edeXa Testnet Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "edeXa Testnet/edexa-testnet-testnet-starter",
           },
         ],
       },
@@ -1337,23 +1449,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "5",
-        name: "Ethereum Goerli",
-        chain_id: "5",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/5.png",
-        examples: [
-          {
-            name: "ethereum-goerli-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Goerli",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Ethereum/ethereum-goerli-starter",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/eth-goerli"],
-      },
-      {
         code: "11155111",
         name: "Ethereum Sepolia",
         onfinality_code: "eth-sepolia",
@@ -1366,7 +1461,7 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Ethereum Sepolia",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Ethereum/ethereum-sepolia-starter",
+            path: "Ethereum Sepolia/ethereum-sepolia-starter",
           },
         ],
         dictionaries: [
@@ -1467,6 +1562,22 @@ const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/flare-mainnet"],
+      },
+      {
+        code: "114",
+        name: "Flare Testnet Coston2",
+        chain_id: "114",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "flare-testnet-coston2-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the TREND on Flare Testnet Coston2",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Flare/flare-testnet-coston2-starter",
+          },
+        ],
       },
       {
         code: "19",
@@ -1585,7 +1696,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "1625",
-        name: "Gravity Alpha Mainnet",
+        name: "Gravity Alpha",
         chain_id: "1625",
         description:
           "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
@@ -1623,32 +1734,6 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "The goal of this quick start guide is to index all transfers and approval events from the Wrapped Eth on Harmony Network.",
             link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/harmony.html",
-            internal: true,
-          },
-        ],
-      },
-      {
-        code: "128",
-        name: "Heco Chain",
-        chain_id: "128",
-        description:
-          "A blockchain built by Huobi, designed for DeFi and DApps, with a focus on cross-chain compatibility, providing HECO tokens for various use cases.",
-        logo: "https://static.subquery.network/network-logos/128.png",
-        examples: [
-          {
-            name: "heco-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the Wrapped HT token on Heco Chain Network",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Heco/heco-starter",
-          },
-        ],
-        guides: [
-          {
-            name: "Heco Chain Quick Start",
-            description:
-              "The goal of this quick start guide is to index all transfers and approval events from the Wrapped HT on Heco Network.",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/heco.html",
             internal: true,
           },
         ],
@@ -1827,6 +1912,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Lukso/lukso-starter",
           },
         ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/lukso-mainnet"],
       },
       {
         code: "169",
@@ -1934,7 +2020,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "4200",
-        name: "Merlin Mainnet",
+        name: "Merlin",
         chain_id: "4200",
         description:
           "Unleashing Bitcoin's Potential with Native L1 Assets, Users and Protocols.",
@@ -1990,6 +2076,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "31611",
+        name: "Mezo Testnet",
+        chain_id: "31611",
+        description:
+          "Mezo unlocks Bitcoin’s true productivity through borrowing, spending, and earning—without requiring to sell Bitcoin.",
+        logo: "",
+        examples: [
+          {
+            name: "mezo-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Test BTC (0xA460F83cdd9584E4bD6a9838abb0baC58EAde999) on Mezo Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter/",
+            path: "Mezo/mezo-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "34443",
         name: "Mode Network",
         chain_id: "34443",
@@ -2023,7 +2126,7 @@ const networkFamilies: NetworkFamily[] = [
             path: "Monad/monad-testnet-starter",
           },
         ],
-        dictionaries: [],
+        dictionaries: ["https://dict-tyk.subquery.network/query/monad-testnet"],
         guides: [
           {
             name: "Monad Quick Start",
@@ -2047,6 +2150,23 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for wrapped Ether on Nautilus Mainnet",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Nautilus/nautilus-starter",
+          },
+        ],
+      },
+      {
+        code: "47763",
+        name: "Neo X",
+        chain_id: "47763",
+        description:
+          "Neo X is an EVM-compatible sidechain incorporating Neo's distinctive dBFT consensus mechanism.",
+        logo: "https://static.subquery.network/network-logos/12227331.png",
+        examples: [
+          {
+            name: "neox-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for Wrapped GAS token on Neo X",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Neo X/neox-starter",
           },
         ],
       },
@@ -2171,7 +2291,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "5040",
-        name: "ONIGIRI Mainnet",
+        name: "ONIGIRI",
         chain_id: "5040",
         description:
           "We see ONIGIRI as a protocol in food. We aim to be the blockchain solution for various food-related services, including cooking apps, e-commerce, apps, health care apps and more.",
@@ -2580,6 +2700,40 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "1329",
+        name: "SEI",
+        chain_id: "1329",
+        description:
+          "Sei’s EVM implementation addresses traditional performance constraints through three key subsystems that work together to deliver unparalleled speed while maintaining full compatibility with the Ethereum ecosystem.",
+        logo: "",
+        examples: [
+          {
+            name: "sei-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDT on SEI Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "SEI/sei-starter",
+          },
+        ],
+      },
+      {
+        code: "1328",
+        name: "SEI Testnet",
+        chain_id: "1328",
+        description:
+          "Sei’s EVM implementation addresses traditional performance constraints through three key subsystems that work together to deliver unparalleled speed while maintaining full compatibility with the Ethereum ecosystem.",
+        logo: "",
+        examples: [
+          {
+            name: "sei-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDC on SEI Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "SEI/sei-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "2046399126",
         name: "Skale",
         chain_id: "2046399126",
@@ -2606,6 +2760,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "98",
+        name: "SIX Protocol",
+        chain_id: "98",
+        description:
+          "SIX Network is a blockchain project focused on simplifying blockchain adoption and real-world asset (RWA) tokenization for businesses",
+        logo: "",
+        examples: [
+          {
+            name: "six-protocol-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the KAVALON Investment Token (KAVALON) ERC-20 on SIX Protocol",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Six Protocol/six-protocol-starter",
+          },
+        ],
+      },
+      {
         code: "1868",
         name: "Soneium",
         chain_id: "1868",
@@ -2623,6 +2794,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "146",
+        name: "Sonic",
+        chain_id: "146",
+        description:
+          "Sonic is an EVM layer-1 platform that offers developers attractive incentives and powerful infrastructure. The chain provides 10,000 TPS, sub-second finality, and the Sonic Gateway, a secure bridge to Ethereum for enhanced liquidity and asset security.",
+        logo: "https://static.subquery.network/network-logos/17000.png",
+        examples: [
+          {
+            name: "sonic-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for USDC.e on Sonic",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Sonic/sonic-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-mainnet"],
+      },
+      {
         code: "57054",
         name: "Sonic Testnet (Blaze)",
         chain_id: "57054",
@@ -2637,6 +2826,9 @@ const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Sonic/sonic-testnet-starter",
           },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/sonic-blaze-testnet",
         ],
       },
       {
@@ -2677,7 +2869,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "40",
-        name: "Telos Mainnet",
+        name: "Telos",
         chain_id: "40",
         description:
           "Redefining Speed, Reliability, and Efficiency with the World's Fastest EVM.",
@@ -2751,6 +2943,9 @@ const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/unichain-mainnet",
+        ],
       },
       {
         code: "1301",
@@ -2797,6 +2992,23 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "88811",
+        name: "Units Network",
+        chain_id: "88811",
+        description:
+          "High-performance, scalable, secure Waves-based network with EVM compatibility, decentralized governance, and future-ready interoperability, powered by LPoS consensus and Unit0 incentives.",
+        logo: "",
+        examples: [
+          {
+            name: "units-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the USDT (0xb303d80db8415FD1d3C9FED68A52EEAc9a052671) on Units",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Units/units-starter",
+          },
+        ],
+      },
+      {
         code: "106",
         name: "Velas Network",
         chain_id: "106",
@@ -2832,7 +3044,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "196",
-        name: "X Layer Mainnet",
+        name: "X Layer",
         chain_id: "196",
         description:
           "A ZK-powered layer 2 network that connects the OKX and Ethereum communities to allow anyone to take part in a truly global on-chain ecosystem.",
@@ -3053,7 +3265,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "10242",
-        name: "Arthera Mainnet",
+        name: "Arthera",
         chain_id: "10242",
         description: "",
         logo: "https://static.subquery.network/network-logos/10242.png",
@@ -3106,7 +3318,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "355110",
-        name: "Bitfinity Mainnet",
+        name: "Bitfinity",
         chain_id: "355110",
         description: "",
         logo: "https://static.subquery.network/network-logos/355110.png",
@@ -3199,7 +3411,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "4158",
-        name: "CrossFi Mainnet",
+        name: "CrossFi",
         chain_id: "4158",
         description: "",
         logo: "https://static.subquery.network/network-logos/4158.png",
@@ -3218,7 +3430,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "7560",
-        name: "Cyber Mainnet",
+        name: "Cyber",
         chain_id: "7560",
         description: "",
         logo: "https://static.subquery.network/network-logos/7560.png",
@@ -3328,7 +3540,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "42793",
-        name: "Etherlink Mainnet",
+        name: "Etherlink",
         chain_id: "42793",
         description: "",
         logo: "https://static.subquery.network/network-logos/42793.png",
@@ -3641,7 +3853,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "167000",
-        name: "Taiko Mainnet",
+        name: "Taiko",
         chain_id: "167000",
         description: "",
         logo: "https://static.subquery.network/network-logos/167000.png",
@@ -3658,7 +3870,7 @@ const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "810180",
-        name: "zkLink Nova Mainnet",
+        name: "zkLink Nova",
         chain_id: "810180",
         description: "",
         logo: "https://static.subquery.network/network-logos/810180.png",
@@ -3729,24 +3941,24 @@ const networkFamilies: NetworkFamily[] = [
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/tanssi"],
       },
-      /*
-      {
-        code: "592",
-        name: "Astar",
-        chain_id: "592",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/astar-mainnet"],
-      },
+
+      // {
+      //   code: "592",
+      //   name: "Astar",
+      //   chain_id: "592",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/astar-mainnet"],
+      // },
       {
         code: "64668",
         name: "Bitgert Testnet",
@@ -3766,80 +3978,80 @@ const networkFamilies: NetworkFamily[] = [
           "https://dict-tyk.subquery.network/query/bitgert-testnet",
         ],
       },
-      {
-        code: "1998",
-        name: "Kyoto Testnet",
-        chain_id: "1998",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/kyoto-testnet"],
-      },
-      {
-        code: "1287",
-        name: "Moonbase Alpha",
-        chain_id: "1287",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/moonbase-testnet",
-        ],
-      },
-      {
-        code: "1284",
-        name: "Moonbeam",
-        chain_id: "1284",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/moonbeam-mainnet",
-        ],
-      },
-      {
-        code: "1285",
-        name: "Moonriver",
-        chain_id: "1285",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/moonriver-mainnet",
-        ],
-      },
+      // {
+      //   code: "1998",
+      //   name: "Kyoto Testnet",
+      //   chain_id: "1998",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/kyoto-testnet"],
+      // },
+      // {
+      //   code: "1287",
+      //   name: "Moonbase Alpha",
+      //   chain_id: "1287",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/moonbase-testnet",
+      //   ],
+      // },
+      // {
+      //   code: "1284",
+      //   name: "Moonbeam",
+      //   chain_id: "1284",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/moonbeam-mainnet",
+      //   ],
+      // },
+      // {
+      //   code: "1285",
+      //   name: "Moonriver",
+      //   chain_id: "1285",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/moonriver-mainnet",
+      //   ],
+      // },
       {
         code: "42225",
         name: "Naka Chain",
@@ -3886,117 +4098,118 @@ const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project indexes all transfers and approval events for the ",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
+            path: "opBNB testnet/opbnb-testnet-testnet-starter",
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/opbnb-testnet"],
       },
+      // {
+      //   code: "98865",
+      //   name: "Plume",
+      //   chain_id: "98865",
+      //   description: "",
+      //   logo: "",
+      //   examples: [],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/plume-mainnet"],
+      // },
+      // {
+      //   code: "98864",
+      //   name: "Plume Testnet",
+      //   chain_id: "98864",
+      //   description: "",
+      //   logo: "",
+      //   examples: [],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/plume-testnet"],
+      // },
+      // {
+      //   code: "97072271",
+      //   name: "Prom Testnet",
+      //   chain_id: "97072271",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/prom-testnet"],
+      // },
+      // {
+      //   code: "584548796",
+      //   name: "Prom Testnet (v2)",
+      //   chain_id: "584548796",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/prom-testnet-v2",
+      //   ],
+      // },
+      // {
+      //   code: "336",
+      //   name: "Shiden",
+      //   chain_id: "336",
+      //   description: "",
+      //   logo: "https://static.subquery.network/network-logos/shiden-kusama.png",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: [
+      //     "https://dict-tyk.subquery.network/query/shiden-mainnet",
+      //   ],
+      // },
+
+      // {
+      //   code: "1482601649",
+      //   name: "Skale Nebula",
+      //   chain_id: "1482601649",
+      //   description: "",
+      //   logo: "",
+      //   examples: [
+      //     {
+      //       name: "name",
+      //       description:
+      //         "This SubQuery project indexes all transfers and approval events for the ",
+      //       remote: "https://github.com/subquery/ethereum-subql-starter",
+      //       path: "path",
+      //     },
+      //   ],
+      //   dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"],
+      // },
       {
-        code: "98865",
-        name: "Plume Mainnet",
-        chain_id: "98865",
+        code: "146",
+        name: "Sonic",
+        chain_id: "146",
         description: "",
         logo: "",
         examples: [
           {
-            name: "name",
+            name: "Sonic Starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the ",
+              "This project can be use as a starting point for developing your new Sonic SubQuery project",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
+            path: "Sonic/sonic-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/plume-mainnet"],
-      },
-      {
-        code: "98864",
-        name: "Plume Testnet",
-        chain_id: "98864",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/plume-testnet"],
-      },
-      {
-        code: "97072271",
-        name: "Prom Testnet",
-        chain_id: "97072271",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/prom-testnet"],
-      },
-      {
-        code: "584548796",
-        name: "Prom Testnet (v2)",
-        chain_id: "584548796",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/prom-testnet-v2",
-        ],
-      },
-      {
-        code: "336",
-        name: "Shiden",
-        chain_id: "336",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/shiden-kusama.png",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/shiden-mainnet",
-        ],
-      },
-      
-      {
-        code: "1482601649",
-        name: "Skale Nebula",
-        chain_id: "1482601649",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "name",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the ",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"],
+        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-mainnet"],
       },
       {
         code: "64165",
@@ -4006,16 +4219,32 @@ const networkFamilies: NetworkFamily[] = [
         logo: "",
         examples: [
           {
-            name: "name",
+            name: "Sonic Testnet Starter",
             description:
-              "This SubQuery project indexes all transfers and approval events for the ",
+              "This project can be use as a starting point for developing your new Sonic SubQuery project",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "path",
+            path: "Sonic/sonic-testnet-starter",
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"],
       },
-      */
+      {
+        code: "4207",
+        name: "Edgen",
+        chain_id: "4207",
+        description:
+          "LayerEdge is a decentralized verification layer that enables scalable, cost-efficient, and secure zk-proof verification, backed by Bitcoin. It is designed to serve as a universal infrastructure layer for verifying off-chain computation.",
+        logo: "https://static.subquery.network/network-logos/4207.png",
+        examples: [
+          {
+            name: "edgen-chain-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Edgen (`0x975f740d383B9bECBd69189D40390149C8951932`) on Edgen Chain",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Edgen Chain/edgen-chain-starter",
+          },
+        ],
+      },
     ],
   },
   {
@@ -4181,6 +4410,40 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "babylon-mainnet",
+        name: "Babylon",
+        chain_id: "bbn-1",
+        description:
+          "Babylon is a decentralized protocol that enables native bitcoin staking directly on the Bitcoin blockchain without intermediaries.",
+        logo: "",
+        examples: [
+          {
+            name: "babylon-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Babylon Mainnet",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Babylon/babylon-starter",
+          },
+        ],
+      },
+      {
+        code: "babylon-testnet",
+        name: "Babylon Testnet",
+        chain_id: "bbn-test-5",
+        description:
+          "Babylon is a decentralized protocol that enables native bitcoin staking directly on the Bitcoin blockchain without intermediaries.",
+        logo: "",
+        examples: [
+          {
+            name: "babylon-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfer events and messages on Babylon Testnet",
+            remote: "https://github.com/subquery/cosmos-subql-starter",
+            path: "Babylon/babylon-testnet-starter",
+          },
+        ],
+      },
+      {
         code: "laozi-mainnet",
         name: "Band",
         chain_id: "laozi-mainnet",
@@ -4287,22 +4550,6 @@ const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfer events and messages on CosmosHub",
             remote: "https://github.com/subquery/cosmos-subql-starter",
             path: "CosmosHub/cosmoshub-starter",
-          },
-        ],
-      },
-      {
-        code: "crescent-1",
-        name: "Crescent",
-        chain_id: "crescent-1",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/crescent-1.png",
-        examples: [
-          {
-            name: "crescent-starter",
-            description:
-              "This SubQuery project indexes all transfer events and messages on Crescent",
-            remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Crescent/crescent-starter",
           },
         ],
       },
@@ -4452,22 +4699,6 @@ const networkFamilies: NetworkFamily[] = [
             name: "FetchAI Documentation - SubQuery Entry",
             link: "https://fetch.ai/docs/concepts/fetch-network/indexer/intro#indexer-/-ledger-subquery",
             internal: false,
-          },
-        ],
-      },
-      {
-        code: "furya-1",
-        name: "Furya",
-        chain_id: "furya-1",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/furya-1.png",
-        examples: [
-          {
-            name: "furya-starter",
-            description:
-              "This SubQuery project indexes all transfer events and messages on Furya",
-            remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Furya/furya-starter",
           },
         ],
       },
@@ -5001,23 +5232,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "phoenix-1",
-        name: "Terra2",
-        chain_id: "phoenix-1",
-        description:
-          "Fueled by a passionate community and deep developer talent pool, the Terra blockchain is built to enable the next generation of Web3 products and services.",
-        logo: "https://static.subquery.network/network-logos/phoenix-1.png",
-        examples: [
-          {
-            name: "terra2-starter",
-            description:
-              "This project can be use as a starting point for developing your Cosmos Terra2 based SubQuery project",
-            remote: "https://github.com/subquery/cosmos-subql-starter",
-            path: "Terra2/terra2-starter",
-          },
-        ],
-      },
-      {
         code: "thorchain-mainnet-v1",
         name: "Thorchain",
         chain_id: "thorchain-mainnet-v1",
@@ -5481,23 +5695,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "bitcountry-pioneer",
-        name: "Bit.Country",
-        chain_id:
-          "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
-        description:
-          "Bitcountry enables the creation of decentralized virtual worlds and autonomous communities, giving users the tools to build their own blockchain-based nations.",
-        logo: "https://static.subquery.network/network-logos/bitcountry-pioneer.png",
-        examples: [
-          {
-            name: "bitcountry-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Bit.Country/bitcountry-starter",
-          },
-        ],
-      },
-      {
         code: "bitgreen",
         name: "BitGreen",
         chain_id:
@@ -5564,22 +5761,6 @@ const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Centrifuge/centrifuge-starter",
-          },
-        ],
-      },
-      {
-        code: "clover",
-        name: "Clover",
-        chain_id:
-          "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/clover.png",
-        examples: [
-          {
-            name: "clover-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Clover/clover-starter",
           },
         ],
       },
@@ -5676,39 +5857,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "efinity-polkadot",
-        name: "Efinity",
-        chain_id:
-          "0x335369975fced3fc22e23498da306a712f4fd964c957364d53c49cea9db8bc2f",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/efinity-polkadot.png",
-        examples: [
-          {
-            name: "efinity-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Efinity/efinity-starter",
-          },
-        ],
-      },
-      {
-        code: "encointer",
-        name: "Encointer",
-        chain_id:
-          "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
-        description:
-          "A parachain experimenting with decentralized identity and community-driven economic models, focusing on fairness and inclusivity.",
-        logo: "https://static.subquery.network/network-logos/encointer.png",
-        examples: [
-          {
-            name: "Encointer-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Encointer/Encointer-starter",
-          },
-        ],
-      },
-      {
         code: "energy-web-x",
         name: "Energy Web X",
         chain_id:
@@ -5727,22 +5875,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "equilibrium-polkadot",
-        name: "Equilibrium",
-        chain_id:
-          "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/equilibrium-polkadot.png",
-        examples: [
-          {
-            name: "equilibrium-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Equilibrium/equilibrium-starter",
-          },
-        ],
-      },
-      {
         code: "frequency",
         name: "Frequency",
         chain_id:
@@ -5755,22 +5887,6 @@ const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "Frequency/frequency-starter",
-          },
-        ],
-      },
-      {
-        code: "hashed",
-        name: "Hashed Network",
-        chain_id:
-          "0x331645ae3db556c7754a82f79cece12cce3420975d5b0219d51b1cb4f6ddc21c",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/hashed.png",
-        examples: [
-          {
-            name: "hashed-network-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "HashedNetwork/hashed-network-starter",
           },
         ],
       },
@@ -5882,26 +5998,6 @@ const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "khala",
-        name: "Khala",
-        chain_id:
-          "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
-        description:
-          "A parachain specializing in privacy and confidentiality solutions for decentralized applications within the Polkadot network.",
-        logo: "https://static.subquery.network/network-logos/khala.png",
-        examples: [
-          {
-            name: "khala-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Khala/khala-starter",
-          },
-        ],
-        dictionaries: [
-          "https://gateway.subquery.network/query/QmP2KRbGx4vLaL8HqugVXrNPMyziFL6aM9NAd4NbFqsPA9",
-        ],
-      },
-      {
         code: "kilt-spiritnet",
         name: "KILT Spiritnet",
         chain_id:
@@ -5978,22 +6074,6 @@ const networkFamilies: NetworkFamily[] = [
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "chain_getBlock"}\' \'https://kusama.rpc.subquery.network/public\'',
             tags: [],
-          },
-        ],
-      },
-      {
-        code: "kylin",
-        name: "Kylin",
-        chain_id:
-          "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/kylin.png",
-        examples: [
-          {
-            name: "kylin-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Kylin/kylin-starter",
           },
         ],
       },
@@ -6135,39 +6215,6 @@ const networkFamilies: NetworkFamily[] = [
             description: "",
             remote: "https://github.com/subquery/subql-starter",
             path: "OriginTrail/origintrail-starter",
-          },
-        ],
-      },
-      {
-        code: "parallel",
-        name: "Parallel",
-        chain_id:
-          "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-        description:
-          "Parallel Finance is a DeFi-focused parachain that offers lending, borrowing, and yield farming services, enabling users to access decentralized financial tools on Polkadot.",
-        logo: "https://static.subquery.network/network-logos/parallel.png",
-        examples: [
-          {
-            name: "parallel-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Parallel/parallel-starter",
-          },
-        ],
-      },
-      {
-        code: "heiko-kusama",
-        name: "Parallel Heiko",
-        chain_id:
-          "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/heiko-kusama.png",
-        examples: [
-          {
-            name: "parallel-heiko-starter",
-            description: "",
-            remote: "https://github.com/subquery/subql-starter",
-            path: "Parallel/parallel-heiko-starter",
           },
         ],
       },
@@ -6625,11 +6672,29 @@ const networkFamilies: NetworkFamily[] = [
       {
         code: "solana",
         name: "Solana",
-        chain_id: "Solana",
+        chain_id: "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
         description:
           "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
         logo: "https://static.subquery.network/network-logos/solana.png",
-        examples: [],
+        dictionaries: ["https://dict-sol-tyk.subquery.network"],
+        examples: [
+          {
+            name: "solana-token-program-starter",
+            description:
+              "The example project indexes all the transferChecked instrucitons for the RNDR token in the Token Program",
+            remote: "https://github.com/subquery/solana-subql-starter",
+            path: "Solana/solana-token-program-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Solana Quick Start",
+            description:
+              "The goal of this quick start guide is to index checked token transfers from the RNDR token.. It's an excellent starting point to help understand how to use SubQuery to index data on Solana.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/solana.html",
+            internal: true,
+          },
+        ],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -6826,9 +6891,9 @@ const dictionaryString = Object.fromEntries(
     Object.fromEntries(
       f.networks
         .filter((n) => !!n.dictionaries && n.dictionaries.length > 0)
-        .map((network) => [network.chain_id, network.dictionaries])
+        .map((network) => [network.chain_id, network.dictionaries]),
     ),
-  ])
+  ]),
 );
 // Hack till the SDK is ready
 dictionaryString["substrate"] = dictionaryString["polkadot"];
@@ -6872,8 +6937,8 @@ const rpcsOutput: {
             network_family_name: nf.name,
             rpc: rpc,
           };
-        })
-      )
+        }),
+      ),
   )
   .flatMap((item) => (item ? [item] : []));
 
