@@ -2772,7 +2772,7 @@ export const networkFamilies: NetworkFamily[] = [
             description:
               "This SubQuery project indexes all transfers and approval events for the KAVALON Investment Token (KAVALON) ERC-20 on SIX Protocol",
             remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Six Protocol/six-protocol-starter",
+            path: "SIX Protocol/six-protocol-starter",
           },
         ],
       },
