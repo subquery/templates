@@ -55,8 +55,7 @@ type NetworkFamily = {
     | "stellar"
     | "starknet"
     | "multi"
-    | "solana"
-    | "layerEdge";
+    | "solana";
   name: string;
   description: string;
   logo: string;
@@ -4230,7 +4229,7 @@ export const networkFamilies: NetworkFamily[] = [
       },
       {
         code: "4207",
-        name: "Edgen",
+        name: "LayerEdge",
         chain_id: "4207",
         description:
           "LayerEdge is a decentralized verification layer that enables scalable, cost-efficient, and secure zk-proof verification, backed by Bitcoin. It is designed to serve as a universal infrastructure layer for verifying off-chain computation.",
@@ -4242,6 +4241,23 @@ export const networkFamilies: NetworkFamily[] = [
               "This SubQuery project indexes all transfers and approval events for the Wrapped Edgen (`0x975f740d383B9bECBd69189D40390149C8951932`) on Edgen Chain",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Edgen Chain/edgen-chain-starter",
+          },
+        ],
+        public_rpc: [
+          {
+            type: "FULL",
+            name: "LayerEdge - Mainnet RPC",
+            description: "",
+            rate_limit: {
+              rate: 50,
+              burst: 50,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x5d/overview",
+            endpoint: "https://layeredge.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://layeredge.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -6760,41 +6776,6 @@ export const networkFamilies: NetworkFamily[] = [
             endpoint: "https://solana.rpc.subquery.network/public",
             example_request:
               'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "getBlockHeight"}\' \'https://solana.rpc.subquery.network/public\'',
-            tags: [],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    code: "layerEdge",
-    name: "LayerEdge - Edgen",
-    description:
-      "LayerEdge is a global verification engine that transforms Bitcoin into the security foundation of the internet. As a cutting-edge Cosmos EVM chain, it plays a key role in our mission to empower decentralized data indexing across multiple ecosystems! To accelerate adoption, 500,000 SQT tokens will be allocated to boost indexing rewards for node operators supporting LayerEdge. This is a fantastic opportunity for our community to participate in a growing network while earning additional incentives. We encourage all node operators to deploy a LayerEdge node and help decentralize its infrastructure. By running a validator, you’ll contribute to the network’s security and efficiency while benefiting from boosted rewards.",
-    logo: "https://static.subquery.network/network-logos/layer.png",
-    networks: [
-      {
-        code: "layerEdge",
-        name: "LayerEdge - Edgen",
-        chain_id: "LayerEdge",
-        description:
-          "LayerEdge is a global verification engine that transforms Bitcoin into the security foundation of the internet. As a cutting-edge Cosmos EVM chain, it plays a key role in our mission to empower decentralized data indexing across multiple ecosystems! To accelerate adoption, 500,000 SQT tokens will be allocated to boost indexing rewards for node operators supporting LayerEdge. This is a fantastic opportunity for our community to participate in a growing network while earning additional incentives. We encourage all node operators to deploy a LayerEdge node and help decentralize its infrastructure. By running a validator, you’ll contribute to the network’s security and efficiency while benefiting from boosted rewards.",
-        logo: "https://static.subquery.network/network-logos/layer.png",
-        examples: [],
-        public_rpc: [
-          {
-            type: "FULL",
-            name: "LayerEdge - Edgen Mainnet RPC",
-            description: "",
-            rate_limit: {
-              rate: 50,
-              burst: 50,
-            },
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x5d/overview",
-            endpoint: "https://layeredge.rpc.subquery.network/public",
-            example_request:
-              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://layeredge.rpc.subquery.network/public\'',
             tags: [],
           },
         ],
