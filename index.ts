@@ -4245,6 +4245,57 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
       },
+      {
+        code: "232",
+        name: "Lens",
+        chain_id: "232",
+        description:
+          "Lens is a high-performance blockchain stack built for SocialFi, combining modular Social Primitives, fast settlement, and decentralized storage.",
+        logo: "https://static.subquery.network/network-logos/232.png",
+        examples: [
+          {
+            name: "lens-chain-starter",
+            description:
+              "This project can be use as a starting point for developing your new Lens Chain SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Lens/lens-chain-starter",
+          },
+        ],
+      },
+      {
+        code: "48898",
+        name: "Zircuit Garfield Testnet",
+        chain_id: "48898",
+        description:
+          "Zircuit is the AI powered blockchain for secure, automated finance.",
+        logo: "https://static.subquery.network/network-logos/48898.png",
+        examples: [
+          {
+            name: "zircuit-garfield-testnet-testnet-starter",
+            description:
+              "This project can be use as a starting point for developing your new Zircuit Garfield Testnet SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Zircuit Garfield Testnet/zircuit-garfield-testnet-testnet-starter",
+          },
+        ],
+      },
+      {
+        code: "48900",
+        name: "Zircuit",
+        chain_id: "48900",
+        description:
+          "Zircuit is the AI powered blockchain for secure, automated finance.",
+        logo: "https://static.subquery.network/network-logos/48898.png",
+        examples: [
+          {
+            name: "zircuit-starter",
+            description:
+              "This project can be use as a starting point for developing your new Zircuit SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Zircuit/zircuit-starter",
+          },
+        ],
+      },
     ],
   },
   {
