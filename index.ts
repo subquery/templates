@@ -4312,6 +4312,23 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
       },
+      {
+        code: "295",
+        name: "Hedera EVM",
+        chain_id: "295",
+        description:
+          "Hedera’s EVM-compatible environment enables developers to deploy Solidity smart contracts while benefiting from Hedera’s advanced distributed ledger technology (DLT)",
+        logo: "https://static.subquery.network/network-logos/295.png",
+        examples: [
+          {
+            name: "hedera-evm-starter",
+            description:
+              "This project can be use as a starting point for developing your new Hedera EVM SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Hedera EVM/hedera-evm-starter",
+          },
+        ],
+      },
     ],
   },
   {
