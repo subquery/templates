@@ -474,9 +474,9 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
-        code: "65100004",
+        code: "65000000",
         name: "Autonity",
-        chain_id: "65100004",
+        chain_id: "65000000",
         onfinality_code: "Autonity",
         description:
           "Autonity is a public, EVM based, proof-of-stake blockchain for decentralized clearing of smart derivatives contracts.",
@@ -489,21 +489,28 @@ export const networkFamilies: NetworkFamily[] = [
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Autonity/autonity-testnet-starter",
           },
+          {
+            name: "autonity-mainnet-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Newton on Autonity Mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Autonity/autonity-mainnet-starter",
+          },
         ],
         public_rpc: [
           {
             type: "ARCHIVE",
-            name: "Autonity Piccadilly (Tiber) Testnet",
+            name: "Autonity Mainnet",
             description: "",
             rate_limit: {
               rate: 50,
               burst: 50,
             },
             explorer_url:
-              "https://app.subquery.network/explorer/project/0x4d/overview",
-            endpoint: "https://autonity-piccadilly.rpc.subquery.network/public",
+              "https://app.subquery.network/explorer/project/0x6d/overview",
+            endpoint: "https://autonity.rpc.subquery.network/public",
             example_request:
-              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://autonity-piccadilly.rpc.subquery.network/public\'',
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "eth_blockNumber"}\' \'https://autonity.rpc.subquery.network/public\'',
             tags: ["Testnet"],
           },
         ],
