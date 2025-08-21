@@ -3075,6 +3075,22 @@
         ]
       },
       {
+        "code": "11142220",
+        "name": "Celo Sepolia Testnet",
+        "chain_id": "11142220",
+        "description": "",
+        "logo": "https://static.subquery.network/network-logos/44787.png",
+        "examples": [
+          {
+            "name": "celo-alfajores-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the CELO (GoldToken) (0x471EcE3750Da237f93B8E339c536989b8978a438) on Celo Sepolia Testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Celo Sepolia/celo-sepolia-testnet-starter"
+          }
+        ],
+        "dictionaries": []
+      },
+      {
         "code": "4158",
         "name": "CrossFi",
         "chain_id": "4158",
