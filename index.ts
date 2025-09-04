@@ -5694,7 +5694,7 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmapQ6cNKPtZE1jkeUp5V6xy7sPSiJiZpoqZcRRtyc4Stq",
+          "https://gateway.subquery.network/query/Qmf11zTwkTAkNVdd6paDmfJ9CKzcrF2jp6febb52Xoo2wX",
           "https://dict-tyk.subquery.network/query/astar",
         ],
       },
@@ -6471,7 +6471,7 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmPiTswpMTeipwnmJkAcwkcg5Se8XfrucGYVKbwuAxQgJ6",
+          "https://gateway.subquery.network/query/QmdrHEvuzynZCXYWQSxxbH6VS1qk9HHVDLKJUAzKWSCYRr",
         ],
         guides: [
           {
