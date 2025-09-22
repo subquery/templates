@@ -145,6 +145,9 @@
     "13473": [
       "https://dict-tyk.subquery.network/query/immutable-zkevm-testnet"
     ],
+    "14601": [
+      "https://dict-tyk.subquery.network/query/sonic-blaze-testnet"
+    ],
     "16600": [
       "https://dict-tyk.subquery.network/query/0g-testnet"
     ],
@@ -189,9 +192,6 @@
     ],
     "53935": [
       "https://dict-tyk.subquery.network/query/dfk-chain"
-    ],
-    "57054": [
-      "https://dict-tyk.subquery.network/query/sonic-blaze-testnet"
     ],
     "59144": [
       "https://dict-tyk.subquery.network/query/linea-mainnet"
