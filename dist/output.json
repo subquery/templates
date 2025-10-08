@@ -3521,7 +3521,7 @@
         "code": "5330",
         "name": "Superseed",
         "chain_id": "5330",
-        "description": "Ink, the Ethereum L2 unleashed by Kraken",
+        "description": "Superseed is a network that transforms Ethereum scaling into self-repaying loans.",
         "logo": "https://static.subquery.network/network-logos/53302.png",
         "examples": [
           {
@@ -3539,7 +3539,7 @@
         "code": "53302",
         "name": "Superseed Sepolia",
         "chain_id": "53302",
-        "description": "",
+        "description": "Superseed is a network that transforms Ethereum scaling into self-repaying loans.",
         "logo": "https://static.subquery.network/network-logos/53302.png",
         "examples": [
           {
