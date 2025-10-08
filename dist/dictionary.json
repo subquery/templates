@@ -31,6 +31,9 @@
     "137": [
       "https://dict-tyk.subquery.network/query/polygon"
     ],
+    "143": [
+      "https://dict-tyk.subquery.network/query/monad-mainnet"
+    ],
     "146": [
       "https://dict-tyk.subquery.network/query/sonic-mainnet"
     ],
@@ -60,6 +63,12 @@
     ],
     "568": [
       "https://dict-tyk.subquery.network/query/dogechain-testnet"
+    ],
+    "998": [
+      "https://dict-tyk.subquery.network/query/hyperliquid-testnet"
+    ],
+    "999": [
+      "https://dict-tyk.subquery.network/query/hyperliquid-mainnet"
     ],
     "1088": [
       "https://dict-tyk.subquery.network/query/metis-mainnet"
@@ -109,8 +118,14 @@
     "4200": [
       "https://dict-tyk.subquery.network/query/merlin-mainnet"
     ],
+    "4352": [
+      "https://dict-tyk.subquery.network/query/memecore-mainnet"
+    ],
     "5000": [
       "https://dict-tyk.subquery.network/query/mantle-mainnet"
+    ],
+    "5330": [
+      "https://dict-tyk.subquery.network/query/superseed-mainnet"
     ],
     "5611": [
       "https://dict-tyk.subquery.network/query/opbnb-testnet"
@@ -146,7 +161,7 @@
       "https://dict-tyk.subquery.network/query/immutable-zkevm-testnet"
     ],
     "14601": [
-      "https://dict-tyk.subquery.network/query/sonic-blaze-testnet"
+      "https://dict-tyk.subquery.network/query/sonic-testnet"
     ],
     "16600": [
       "https://dict-tyk.subquery.network/query/0g-testnet"
@@ -193,14 +208,14 @@
     "53935": [
       "https://dict-tyk.subquery.network/query/dfk-chain"
     ],
+    "57073": [
+      "https://dict-tyk.subquery.network/query/ink-mainnet"
+    ],
     "59144": [
       "https://dict-tyk.subquery.network/query/linea-mainnet"
     ],
     "60808": [
       "https://dict-tyk.subquery.network/query/bob-mainnet"
-    ],
-    "64165": [
-      "https://dict-tyk.subquery.network/query/sonic-testnet"
     ],
     "64668": [
       "https://dict-tyk.subquery.network/query/bitgert-testnet"
@@ -241,8 +256,14 @@
     "534352": [
       "https://dict-tyk.subquery.network/query/scroll-mainnet"
     ],
+    "560048": [
+      "https://dict-tyk.subquery.network/query/ethereum-hoodi"
+    ],
     "686868": [
       "https://dict-tyk.subquery.network/query/merlin-testnet"
+    ],
+    "763373": [
+      "https://dict-tyk.subquery.network/query/ink-sepolia"
     ],
     "810180": [
       "https://dict-tyk.subquery.network/query/zklink-nova-mainnet"

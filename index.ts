@@ -1493,6 +1493,27 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "560048",
+        name: "Ethereum Hoodi",
+        onfinality_code: "eth-sepolia",
+        chain_id: "560048",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/11155111.png",
+        examples: [
+          {
+            name: "ethereum-sepolia-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Drosera token on Ethereum Hoodi",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ethereum Hoodi/ethereum-hoodi-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/ethereum-hoodi",
+        ],
+        public_rpc: [],
+      },
+      {
         code: "250",
         name: "Fantom",
         chain_id: "250",
@@ -2115,6 +2136,33 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/mode-mainnet"],
+      },
+      {
+        code: "143",
+        name: "Monad",
+        chain_id: "143",
+        description:
+          "The Monad protocol delivers full EVM compatibility with breakthrough performance, true decentralization, production-grade security, and exceptional throughput.",
+        logo: "https://static.subquery.network/network-logos/10143.png",
+        examples: [
+          {
+            name: "monad-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Wrapped Monad on Monad Testnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Monad/monad-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/monad-mainnet"],
+        guides: [
+          {
+            name: "Monad Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfers and approval events for the Wrapped Monad on Monad Testnet",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/monad.html",
+            internal: true,
+          },
+        ],
       },
       {
         code: "10143",
@@ -2833,45 +2881,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Sonic/sonic-testnet-starter",
           },
         ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/sonic-blaze-testnet",
-        ],
-      },
-      {
-        code: "167008",
-        name: "Taiko Katla",
-        chain_id: "167008",
-        description:
-          "Taiko is a fully permissionless, Ethereum-equivalent based rollup. Inspired, secured, and sequenced by Ethereum.",
-        logo: "https://static.subquery.network/network-logos/17000.png",
-        examples: [
-          {
-            name: "taiko-katla-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the Taiko Token Katla (TTKOk) on Taiko Katla",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Taiko/taiko-katla-starter",
-          },
-        ],
-      },
-      // This is the wrong network it should be ethereum holesky
-      {
-        code: "17000",
-        name: "Taiko Holesky",
-        chain_id: "17000",
-        description:
-          "Taiko is a fully permissionless, Ethereum-equivalent based rollup. Inspired, secured, and sequenced by Ethereum.",
-        logo: "https://static.subquery.network/network-logos/17000.png",
-        examples: [
-          {
-            name: "taiko-holesky-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the Taiko Token Katla (TTKOk) on Taiko Holesky",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Taiko/taiko-holesky-starter",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/eth-holesky"],
+        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"],
       },
       {
         code: "40",
@@ -3856,10 +3866,31 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "5330",
+        name: "Superseed",
+        chain_id: "5330",
+        description:
+          "Superseed is a network that transforms Ethereum scaling into self-repaying loans.",
+        logo: "https://static.subquery.network/network-logos/53302.png",
+        examples: [
+          {
+            name: "superseed-starter",
+            description:
+              "This project can be use as a starting point for developing your new Lumia SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Superseed/superseed-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/superseed-mainnet",
+        ],
+      },
+      {
         code: "53302",
         name: "Superseed Sepolia",
         chain_id: "53302",
-        description: "",
+        description:
+          "Superseed is a network that transforms Ethereum scaling into self-repaying loans.",
         logo: "https://static.subquery.network/network-logos/53302.png",
         examples: [
           {
@@ -3890,6 +3921,23 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: ["https://dict-tyk.subquery.network/query/taiko-mainnet"],
+      },
+      {
+        code: "167008",
+        name: "Taiko Hoodi",
+        chain_id: "167008",
+        description:
+          "Taiko is a fully permissionless, Ethereum-equivalent based rollup. Inspired, secured, and sequenced by Ethereum.",
+        logo: "https://static.subquery.network/network-logos/17000.png",
+        examples: [
+          {
+            name: "taiko-hoodi-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the Taiko Token Katla (TTKOk) on Taiko Hoodi",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Taiko/taiko-hoodi-starter",
+          },
+        ],
       },
       {
         code: "810180",
@@ -4218,40 +4266,6 @@ export const networkFamilies: NetworkFamily[] = [
       //   dictionaries: ["https://dict-tyk.subquery.network/query/skale-nebula"],
       // },
       {
-        code: "146",
-        name: "Sonic",
-        chain_id: "146",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "Sonic Starter",
-            description:
-              "This project can be use as a starting point for developing your new Sonic SubQuery project",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Sonic/sonic-starter",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-mainnet"],
-      },
-      {
-        code: "64165",
-        name: "Sonic Testnet",
-        chain_id: "64165",
-        description: "",
-        logo: "",
-        examples: [
-          {
-            name: "Sonic Testnet Starter",
-            description:
-              "This project can be use as a starting point for developing your new Sonic SubQuery project",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Sonic/sonic-testnet-starter",
-          },
-        ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/sonic-testnet"],
-      },
-      {
         code: "4207",
         name: "LayerEdge",
         chain_id: "4207",
@@ -4352,6 +4366,117 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Hedera EVM/hedera-evm-starter",
           },
         ],
+      },
+      {
+        code: "999",
+        name: "Hyperliquid EVM",
+        chain_id: "999",
+        description:
+          "Hyperliquid is a performant blockchain built with the vision of a fully onchain open financial system.",
+        logo: "https://static.subquery.network/network-logos/999.png",
+        examples: [
+          {
+            name: "hyperliquid-starter",
+            description:
+              "This project can be use as a starting point for developing your new Hyperliquid EVM SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Hyperliquid/hyperliquid-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/hyperliquid-mainnet",
+        ],
+      },
+      {
+        code: "998",
+        name: "Hyperliquid EVM Testnet",
+        chain_id: "998",
+        description:
+          "Hyperliquid is a performant blockchain built with the vision of a fully onchain open financial system.",
+        logo: "https://static.subquery.network/network-logos/999.png",
+        examples: [
+          {
+            name: "hyperliquid-testnet-starter",
+            description:
+              "This project can be use as a starting point for developing your new Hyperliquid EVM Testnet SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Hyperliquid/hyperliquid-testnet-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/hyperliquid-testnet",
+        ],
+      },
+      {
+        code: "4352",
+        name: "Memecore",
+        chain_id: "4352",
+        description: "The first L1 blockchain specially built for Meme 2.0.",
+        logo: "https://static.subquery.network/network-logos/4352.png",
+        examples: [
+          {
+            name: "memecore-starter",
+            description:
+              "This project can be use as a starting point for developing your new MemeCore SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "MemeCore/memecore-starter",
+          },
+        ],
+        dictionaries: [
+          "https://dict-tyk.subquery.network/query/memecore-mainnet",
+        ],
+      },
+      {
+        code: "994873017",
+        name: "Lumia",
+        chain_id: "994873017",
+        description:
+          "Lumia is a Layer 1 blockchain to give institutional grade access to RWAs (Real World Assets).",
+        logo: "https://static.subquery.network/network-logos/994873017.png",
+        examples: [
+          {
+            name: "lumia-starter",
+            description:
+              "This project can be use as a starting point for developing your new Lumia SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Lumia/lumia-starter",
+          },
+        ],
+        dictionaries: [],
+      },
+      {
+        code: "57073",
+        name: "Ink",
+        chain_id: "57073",
+        description: "Ink, the Ethereum L2 unleashed by Kraken",
+        logo: "https://static.subquery.network/network-logos/57073.png",
+        examples: [
+          {
+            name: "ink-starter",
+            description:
+              "This project can be use as a starting point for developing your new Lumia SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ink/ink-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/ink-mainnet"],
+      },
+      {
+        code: "763373",
+        name: "Ink Sepolia",
+        chain_id: "763373",
+        description: "Ink, the Ethereum L2 unleashed by Kraken",
+        logo: "https://static.subquery.network/network-logos/763373.png",
+        examples: [
+          {
+            name: "ink-sepolia-starter",
+            description:
+              "This project can be use as a starting point for developing your new Lumia SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Ink/ink-sepolia-starter",
+          },
+        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/ink-sepolia"],
       },
     ],
   },
@@ -7022,3 +7147,22 @@ writeFile("./dist/rpcs.json", JSON.stringify(rpcsOutput), (err) => {
 writeFile("./dist/ai-models.json", JSON.stringify(publicAIModels), (err) => {
   if (err) throw err;
 });
+
+// Detect duplicate networks
+let numNetworks = 0;
+networkFamilies.map((fam) => {
+  const netMap = new Map<string, string>();
+  const dups: string[] = [];
+  fam.networks.map((net) => {
+    numNetworks++;
+    if (netMap.has(net.chain_id)) {
+      dups.push(`${net.name} - ${net.chain_id}`);
+    }
+    netMap.set(net.chain_id, net.name);
+  });
+  if (dups.length > 0) {
+    console.log("Warning Duplicate networks found\n", dups.join("\n"));
+  }
+});
+
+console.log(`Total networks: ${numNetworks}`);
