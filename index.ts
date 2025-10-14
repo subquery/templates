@@ -351,7 +351,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Astar/astar-zkyoto-testnet-starter",
           },
         ],
-        dictionaries: ["https://dict-tyk.subquery.network/query/astar-zkyoto"],
+        dictionaries: [],
       },
       {
         code: "1261120",
@@ -1432,10 +1432,7 @@ export const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: [
-          "https://ethereum.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/eth-mainnet",
-        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-mainnet"],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -1470,10 +1467,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Ethereum Sepolia/ethereum-sepolia-starter",
           },
         ],
-        dictionaries: [
-          "https://ethereum-sepolia.node.subquery.network/public",
-          "https://dict-tyk.subquery.network/query/eth-sepolia",
-        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-sepolia"],
         public_rpc: [
           {
             type: "ARCHIVE",
@@ -2576,25 +2570,6 @@ export const networkFamilies: NetworkFamily[] = [
         dictionaries: ["https://dict-tyk.subquery.network/query/polygon-zkevm"],
       },
       {
-        code: "80001",
-        name: "Polygon Mumbai",
-        chain_id: "80001",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/80001.png",
-        examples: [
-          {
-            name: "polygon-mumbai-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped Ether token on Polygon Mumbai Network",
-            remote: "https://github.com/subquery/ethereum-subql-starter",
-            path: "Polygon/polygon-mumbai-starter",
-          },
-        ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/polygon-mumbai",
-        ],
-      },
-      {
         code: "424",
         name: "Public Goods Network",
         chain_id: "424",
@@ -3275,9 +3250,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Aleph Zero EVM/aleph-zero-evm-mainet-starter",
           },
         ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/aleph-zero-evm-mainnet",
-        ],
+        dictionaries: [],
       },
       {
         code: "10242",
@@ -3660,9 +3633,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Optimism Celestia Raspberry/optimism-celestia-raspberry-testnet-starter",
           },
         ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/gelato-opcelestia-raspberry",
-        ],
+        dictionaries: [],
       },
       {
         code: "13371",
@@ -4481,44 +4452,6 @@ export const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
-    code: "algorand",
-    name: "Algorand",
-    description:
-      "Algorand is a blockchain platform known for its pure proof-of-stake consensus mechanism, ensuring high scalability, security, and decentralization. It's designed for fast, efficient, and cost-effective transaction processing and smart contract execution.",
-    logo: "https://static.subquery.network/network-logos/algorand.png",
-    networks: [
-      {
-        code: "algorand",
-        name: "Algorand",
-        chain_id: "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
-        description:
-          "A blockchain network known for its fast and efficient consensus mechanism, enabling high-speed and secure transactions for a wide range of applications.",
-        logo: "https://static.subquery.network/network-logos/algorand.png",
-        examples: [
-          {
-            name: "algorand-starter",
-            description:
-              "This SubQuery project indexes all transactions involving the Planet Watch asset on Algorand's Mainnet",
-            remote: "https://github.com/subquery/algorand-subql-starter",
-            path: "Algorand/algorand-starter",
-          },
-        ],
-        guides: [
-          {
-            name: "Algorand Quick Start",
-            description:
-              "The goal of this quick guide is to adapt the standard starter project and start indexing all the PLANET token transfers from Algorand.",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/algorand.html",
-            internal: true,
-          },
-        ],
-        dictionaries: [
-          "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW",
-        ],
-      },
-    ],
-  },
-  {
     code: "cosmos",
     name: "Cosmos",
     description:
@@ -4925,7 +4858,7 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8",
+          "https://gateway.subquery.network/query/QmfKJuaL8iwwnSwaKt7RjTBk6Q5aUPqBzcZ1J2Q68ZvnLf",
         ],
         guides: [
           {
@@ -5533,155 +5466,53 @@ export const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
-    code: "concordium",
-    name: "Concordium",
+    code: "solana",
+    name: "Solana",
     description:
-      "Concordium´s innovative blockchain is ideal for building ID-centred and privacy-preserving solutions across verticals such as Web3, ESG, Supply Chain, and AI",
-    logo: "https://static.subquery.network/network-logos/concordium.png",
+      "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
+    logo: "https://static.subquery.network/network-logos/solana.png",
     networks: [
       {
-        code: "9dd9ca4d19e9393877d2c44b70f89acbfc0883c2243e5eeaecc0d1cd0503f478",
-        name: "Concordium",
-        chain_id:
-          "9dd9ca4d19e9393877d2c44b70f89acbfc0883c2243e5eeaecc0d1cd0503f478",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/concordium.png",
+        code: "solana",
+        name: "Solana",
+        chain_id: "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        description:
+          "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
+        logo: "https://static.subquery.network/network-logos/solana.png",
+        dictionaries: ["https://dict-sol-tyk.subquery.network"],
         examples: [
           {
-            name: "concordium-starter",
+            name: "solana-token-program-starter",
             description:
-              "This SubQuery project indexes all transfer transactions, updated transaction events, and block rewards on the Concordium Network",
-            remote: "https://github.com/subquery/concordium-subql-starter",
-            path: "Concordium/concordium-starter",
+              "The example project indexes all the transferChecked instrucitons for the RNDR token in the Token Program",
+            remote: "https://github.com/subquery/solana-subql-starter",
+            path: "Solana/solana-token-program-starter",
           },
         ],
         guides: [
           {
-            name: "Concordium Documentation - SubQuery Entry",
-            link: "https://developer.concordium.software/en/mainnet/net/indexers/subquery.html",
-            internal: false,
-          },
-        ],
-      },
-      {
-        code: "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
-        name: "Concordium Testnet",
-        chain_id:
-          "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
-        description: "",
-        logo: "https://static.subquery.network/network-logos/concordium.png",
-        examples: [
-          {
-            name: "concordium-testnet-starter",
+            name: "Solana Quick Start",
             description:
-              "This SubQuery project indexes all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
-            remote: "https://github.com/subquery/concordium-subql-starter",
-            path: "Concordium/concordium-testnet-starter",
-          },
-        ],
-        guides: [
-          {
-            name: "Concordium Quick Start",
-            description:
-              "The goal of this quick start guide is to index all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/concordium.html",
+              "The goal of this quick start guide is to index checked token transfers from the RNDR token.. It's an excellent starting point to help understand how to use SubQuery to index data on Solana.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/solana.html",
             internal: true,
           },
-          {
-            name: "Concordium Documentation - SubQuery Entry",
-            link: "https://developer.concordium.software/en/mainnet/net/indexers/subquery.html",
-            internal: false,
-          },
         ],
-      },
-    ],
-  },
-  {
-    code: "near",
-    name: "NEAR",
-    description:
-      "NEAR is a blockchain platform focused on developer-friendly experiences, scalability, and user-friendly applications. It employs sharding to enhance speed and efficiency, making it suitable for decentralized applications and financial services.",
-    logo: "https://static.subquery.network/network-logos/near.png",
-    networks: [
-      {
-        code: "near",
-        name: "Near",
-        chain_id: "mainnet",
-        description:
-          "NEAR is a scalable blockchain platform offering smart contracts and decentralized applications, emphasizing usability and accessibility for developers and users.",
-        logo: "https://static.subquery.network/network-logos/near.png",
-        examples: [
+        public_rpc: [
           {
-            name: "near-starter",
-            description:
-              "This SubQuery project indexes all transactions of thetoken.sweat contract token from sweat_welcome.near (which rewards users for physically moving around). It also indexes all storage_deposit calls for the same contract on the NEAR mainnet",
-            remote: "https://github.com/subquery/near-subql-starter",
-            path: "Near/near-starter",
-          },
-          {
-            name: "near-priceoracle-example",
-            description:
-              "This is an example project that indexes price oracle feeds from the NEAR blockchain using SubQuery",
-            remote: "https://github.com/subquery/near-subql-starter",
-            path: "Near/near-priceoracle-example",
-          },
-          {
-            name: "paras-starter",
+            type: "ARCHIVE",
+            name: "Solana Mainnet RPC",
             description: "",
-            remote: "https://github.com/subquery/near-subql-starter",
-            path: "Near/paras-starter",
-          },
-          {
-            name: "near-ref-finance",
-            description:
-              "This SubQuery project indexes the swap actions of the v2.ref-finance.near contract on the NEAR mainnet",
-            remote: "https://github.com/subquery/near-subql-starter",
-            path: "Near/near-ref-finance",
-          },
-        ],
-        guides: [
-          {
-            name: "NEAR Quick Start",
-            description:
-              "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near.html",
-            internal: true,
-          },
-          {
-            name: "NEAR Ref Finance",
-            description:
-              "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near-ref-finance.html",
-            internal: true,
-          },
-        ],
-        dictionaries: [
-          "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41",
-        ],
-      },
-      {
-        code: "near-aurora",
-        name: "Near Aurora",
-        chain_id: "1313161554",
-        description:
-          "NEAR Aurora is a set of tools and infrastructure that extends the NEAR blockchain, enhancing its capabilities and facilitating compatibility with the Ethereum ecosystem.",
-        logo: "https://static.subquery.network/network-logos/near-aurora.png",
-        examples: [
-          {
-            name: "near-aurora-starter",
-            description:
-              "This SubQuery project indexes all transfers and approval events for the wrapped NEAR token on NEAR's Aurora EVM-compatible Network",
-            remote: "https://github.com/subquery/near-subql-starter",
-            path: "Near/near-aurora-starter",
-          },
-        ],
-        guides: [
-          {
-            name: "Aurora Quick Start (EVM)",
-            description:
-              "The goal of this quick start guide is to index transfers and approvals for the Wrapped NEAR smart contract on NEAR Aurora.",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near-aurora.html",
-            internal: true,
+            rate_limit: {
+              rate: 50,
+              burst: 50,
+            },
+            explorer_url:
+              "https://app.subquery.network/explorer/project/0x57/overview",
+            endpoint: "https://solana.rpc.subquery.network/public",
+            example_request:
+              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "getBlockHeight"}\' \'https://solana.rpc.subquery.network/public\'',
+            tags: [],
           },
         ],
       },
@@ -6379,7 +6210,7 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK",
+          "https://gateway.subquery.network/query/QmTK8vHsfTAoTZyYkiQruhKuwCb2bypj3PnFBcvxJFMJtQ",
         ],
       },
       {
@@ -6795,41 +6626,6 @@ export const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
-    code: "starknet",
-    name: "Starknet",
-    description:
-      "Starknet has emerged as a leading Ethereum Layer 2 network, powered by ZK-Rollup technology. Its ecosystem is thriving with innovative developers, from DeFi pioneers to gaming and privacy-focused builders, all driven by the limitless potential of ZKPs.",
-    logo: "https://static.subquery.network/network-logos/starknet.png",
-    networks: [
-      {
-        code: "0x534e5f4d41494e",
-        name: "Mainnet",
-        chain_id: "0x534e5f4d41494e",
-        description:
-          "Starknet has emerged as a leading Ethereum Layer 2 network, powered by ZK-Rollup technology. Its ecosystem is thriving with innovative developers, from DeFi pioneers to gaming and privacy-focused builders, all driven by the limitless potential of ZKPs.",
-        logo: "https://static.subquery.network/network-logos/starknet.png",
-        examples: [
-          {
-            name: "starknet-starter",
-            description:
-              "This SubQuery project indexes all withdraw call in Invoke transaction and desposit events for the ZkLend market on Starknet Mainnet.",
-            remote: "https://github.com/subquery/starknet-subql-starter",
-            path: "starknet-starter",
-          },
-        ],
-        guides: [
-          {
-            name: "Starknet Quick Start",
-            description:
-              "The goal of this quick start guide is to index all withdrawls and deposits on the zkLend protocol on Starknet Mainnet. It's an excellent starting point to help understand how to use SubQuery to index data on Starknet.",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/starknet.html",
-            internal: true,
-          },
-        ],
-      },
-    ],
-  },
-  {
     code: "stellar",
     name: "Stellar",
     description:
@@ -6896,58 +6692,234 @@ export const networkFamilies: NetworkFamily[] = [
     ],
   },
   {
-    code: "solana",
-    name: "Solana",
+    code: "algorand",
+    name: "Algorand",
     description:
-      "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
-    logo: "https://static.subquery.network/network-logos/solana.png",
+      "Algorand is a blockchain platform known for its pure proof-of-stake consensus mechanism, ensuring high scalability, security, and decentralization. It's designed for fast, efficient, and cost-effective transaction processing and smart contract execution.",
+    logo: "https://static.subquery.network/network-logos/algorand.png",
     networks: [
       {
-        code: "solana",
-        name: "Solana",
-        chain_id: "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        code: "algorand",
+        name: "Algorand",
+        chain_id: "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
         description:
-          "The Solana network is validated by thousands of nodes that operate independently of each other, ensuring your data remains secure and censorship resistant.",
-        logo: "https://static.subquery.network/network-logos/solana.png",
-        dictionaries: ["https://dict-sol-tyk.subquery.network"],
+          "A blockchain network known for its fast and efficient consensus mechanism, enabling high-speed and secure transactions for a wide range of applications.",
+        logo: "https://static.subquery.network/network-logos/algorand.png",
         examples: [
           {
-            name: "solana-token-program-starter",
+            name: "algorand-starter",
             description:
-              "The example project indexes all the transferChecked instrucitons for the RNDR token in the Token Program",
-            remote: "https://github.com/subquery/solana-subql-starter",
-            path: "Solana/solana-token-program-starter",
+              "This SubQuery project indexes all transactions involving the Planet Watch asset on Algorand's Mainnet",
+            remote: "https://github.com/subquery/algorand-subql-starter",
+            path: "Algorand/algorand-starter",
           },
         ],
         guides: [
           {
-            name: "Solana Quick Start",
+            name: "Algorand Quick Start",
             description:
-              "The goal of this quick start guide is to index checked token transfers from the RNDR token.. It's an excellent starting point to help understand how to use SubQuery to index data on Solana.",
-            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/solana.html",
+              "The goal of this quick guide is to adapt the standard starter project and start indexing all the PLANET token transfers from Algorand.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/algorand.html",
             internal: true,
           },
         ],
-        public_rpc: [
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmaGmVYRd4oMBJdTMwWLhduzE3Je5HkxY9babkELnbo5Tv",
+        ],
+      },
+    ],
+  },
+  {
+    code: "concordium",
+    name: "Concordium",
+    description:
+      "Concordium´s innovative blockchain is ideal for building ID-centred and privacy-preserving solutions across verticals such as Web3, ESG, Supply Chain, and AI",
+    logo: "https://static.subquery.network/network-logos/concordium.png",
+    networks: [
+      {
+        code: "9dd9ca4d19e9393877d2c44b70f89acbfc0883c2243e5eeaecc0d1cd0503f478",
+        name: "Concordium",
+        chain_id:
+          "9dd9ca4d19e9393877d2c44b70f89acbfc0883c2243e5eeaecc0d1cd0503f478",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/concordium.png",
+        examples: [
           {
-            type: "ARCHIVE",
-            name: "Solana Mainnet RPC",
-            description: "",
-            rate_limit: {
-              rate: 50,
-              burst: 50,
-            },
-            explorer_url:
-              "https://app.subquery.network/explorer/project/0x57/overview",
-            endpoint: "https://solana.rpc.subquery.network/public",
-            example_request:
-              'curl -H \'content-type:application/json\' -d \'{"id": 1, "jsonrpc": "2.0", "method": "getBlockHeight"}\' \'https://solana.rpc.subquery.network/public\'',
-            tags: [],
+            name: "concordium-starter",
+            description:
+              "This SubQuery project indexes all transfer transactions, updated transaction events, and block rewards on the Concordium Network",
+            remote: "https://github.com/subquery/concordium-subql-starter",
+            path: "Concordium/concordium-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Concordium Documentation - SubQuery Entry",
+            link: "https://developer.concordium.software/en/mainnet/net/indexers/subquery.html",
+            internal: false,
+          },
+        ],
+      },
+      {
+        code: "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        name: "Concordium Testnet",
+        chain_id:
+          "4221332d34e1694168c2a0c0b3fd0f273809612cb13d000d5c2e00e85f50f796",
+        description: "",
+        logo: "https://static.subquery.network/network-logos/concordium.png",
+        examples: [
+          {
+            name: "concordium-testnet-starter",
+            description:
+              "This SubQuery project indexes all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
+            remote: "https://github.com/subquery/concordium-subql-starter",
+            path: "Concordium/concordium-testnet-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Concordium Quick Start",
+            description:
+              "The goal of this quick start guide is to index all transfer transactions, updated transaction events, and block rewards on the Concordium Test Network",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/concordium.html",
+            internal: true,
+          },
+          {
+            name: "Concordium Documentation - SubQuery Entry",
+            link: "https://developer.concordium.software/en/mainnet/net/indexers/subquery.html",
+            internal: false,
           },
         ],
       },
     ],
   },
+  {
+    code: "near",
+    name: "NEAR",
+    description:
+      "NEAR is a blockchain platform focused on developer-friendly experiences, scalability, and user-friendly applications. It employs sharding to enhance speed and efficiency, making it suitable for decentralized applications and financial services.",
+    logo: "https://static.subquery.network/network-logos/near.png",
+    networks: [
+      {
+        code: "near",
+        name: "Near",
+        chain_id: "mainnet",
+        description:
+          "NEAR is a scalable blockchain platform offering smart contracts and decentralized applications, emphasizing usability and accessibility for developers and users.",
+        logo: "https://static.subquery.network/network-logos/near.png",
+        examples: [
+          {
+            name: "near-starter",
+            description:
+              "This SubQuery project indexes all transactions of thetoken.sweat contract token from sweat_welcome.near (which rewards users for physically moving around). It also indexes all storage_deposit calls for the same contract on the NEAR mainnet",
+            remote: "https://github.com/subquery/near-subql-starter",
+            path: "Near/near-starter",
+          },
+          {
+            name: "near-priceoracle-example",
+            description:
+              "This is an example project that indexes price oracle feeds from the NEAR blockchain using SubQuery",
+            remote: "https://github.com/subquery/near-subql-starter",
+            path: "Near/near-priceoracle-example",
+          },
+          {
+            name: "paras-starter",
+            description: "",
+            remote: "https://github.com/subquery/near-subql-starter",
+            path: "Near/paras-starter",
+          },
+          {
+            name: "near-ref-finance",
+            description:
+              "This SubQuery project indexes the swap actions of the v2.ref-finance.near contract on the NEAR mainnet",
+            remote: "https://github.com/subquery/near-subql-starter",
+            path: "Near/near-ref-finance",
+          },
+        ],
+        guides: [
+          {
+            name: "NEAR Quick Start",
+            description:
+              "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near.html",
+            internal: true,
+          },
+          {
+            name: "NEAR Ref Finance",
+            description:
+              "The goal of this quick start guide is to index all price submissions from priceoracle.near on NEAR's mainnet",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near-ref-finance.html",
+            internal: true,
+          },
+        ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41",
+        ],
+      },
+      {
+        code: "near-aurora",
+        name: "Near Aurora",
+        chain_id: "1313161554",
+        description:
+          "NEAR Aurora is a set of tools and infrastructure that extends the NEAR blockchain, enhancing its capabilities and facilitating compatibility with the Ethereum ecosystem.",
+        logo: "https://static.subquery.network/network-logos/near-aurora.png",
+        examples: [
+          {
+            name: "near-aurora-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the wrapped NEAR token on NEAR's Aurora EVM-compatible Network",
+            remote: "https://github.com/subquery/near-subql-starter",
+            path: "Near/near-aurora-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Aurora Quick Start (EVM)",
+            description:
+              "The goal of this quick start guide is to index transfers and approvals for the Wrapped NEAR smart contract on NEAR Aurora.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/near-aurora.html",
+            internal: true,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    code: "starknet",
+    name: "Starknet",
+    description:
+      "Starknet has emerged as a leading Ethereum Layer 2 network, powered by ZK-Rollup technology. Its ecosystem is thriving with innovative developers, from DeFi pioneers to gaming and privacy-focused builders, all driven by the limitless potential of ZKPs.",
+    logo: "https://static.subquery.network/network-logos/starknet.png",
+    networks: [
+      {
+        code: "0x534e5f4d41494e",
+        name: "Mainnet",
+        chain_id: "0x534e5f4d41494e",
+        description:
+          "Starknet has emerged as a leading Ethereum Layer 2 network, powered by ZK-Rollup technology. Its ecosystem is thriving with innovative developers, from DeFi pioneers to gaming and privacy-focused builders, all driven by the limitless potential of ZKPs.",
+        logo: "https://static.subquery.network/network-logos/starknet.png",
+        examples: [
+          {
+            name: "starknet-starter",
+            description:
+              "This SubQuery project indexes all withdraw call in Invoke transaction and desposit events for the ZkLend market on Starknet Mainnet.",
+            remote: "https://github.com/subquery/starknet-subql-starter",
+            path: "starknet-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Starknet Quick Start",
+            description:
+              "The goal of this quick start guide is to index all withdrawls and deposits on the zkLend protocol on Starknet Mainnet. It's an excellent starting point to help understand how to use SubQuery to index data on Starknet.",
+            link: "https://academy.subquery.network/indexer/quickstart/quickstart_chains/starknet.html",
+            internal: true,
+          },
+        ],
+      },
+    ],
+  },
+
   {
     code: "multi",
     name: "Multi-chain",

@@ -1,7 +1,6 @@
 {
   "ethereum": {
     "1": [
-      "https://ethereum.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/eth-mainnet"
     ],
     "10": [
@@ -175,9 +174,6 @@
     "34443": [
       "https://dict-tyk.subquery.network/query/mode-mainnet"
     ],
-    "41455": [
-      "https://dict-tyk.subquery.network/query/aleph-zero-evm-mainnet"
-    ],
     "42161": [
       "https://dict-tyk.subquery.network/query/arbitrum"
     ],
@@ -219,9 +215,6 @@
     ],
     "64668": [
       "https://dict-tyk.subquery.network/query/bitgert-testnet"
-    ],
-    "80001": [
-      "https://dict-tyk.subquery.network/query/polygon-mumbai"
     ],
     "80002": [
       "https://dict-tyk.subquery.network/query/polygon-amoy-testnet"
@@ -271,14 +264,10 @@
     "3441006": [
       "https://dict-tyk.subquery.network/query/manta-pacific-sepolia"
     ],
-    "6038361": [
-      "https://dict-tyk.subquery.network/query/astar-zkyoto"
-    ],
     "7777777": [
       "https://dict-tyk.subquery.network/query/zora-mainnet"
     ],
     "11155111": [
-      "https://ethereum-sepolia.node.subquery.network/public",
       "https://dict-tyk.subquery.network/query/eth-sepolia"
     ],
     "11155420": [
@@ -286,9 +275,6 @@
     ],
     "111557560": [
       "https://dict-tyk.subquery.network/query/cyberconnect-l2-testnet"
-    ],
-    "123420111": [
-      "https://dict-tyk.subquery.network/query/gelato-opcelestia-raspberry"
     ],
     "168587773": [
       "https://dict-tyk.subquery.network/query/blast-sepolia"
@@ -309,11 +295,6 @@
       "https://dict-tyk.subquery.network/query/gelato-arbitrum-blueberry"
     ]
   },
-  "algorand": {
-    "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=": [
-      "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW"
-    ]
-  },
   "cosmos": {
     "fetchhub-4": [
       "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8"
@@ -322,10 +303,9 @@
       "https://gateway.subquery.network/query/QmPjq55mgUt9S8S491Q3wEbb87fXyEkdxymT6Gwe2xe1Z1"
     ]
   },
-  "concordium": {},
-  "near": {
-    "mainnet": [
-      "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41"
+  "solana": {
+    "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d": [
+      "https://dict-sol-tyk.subquery.network"
     ]
   },
   "polkadot": {
@@ -373,13 +353,19 @@
       "https://gateway.subquery.network/query/QmP1BMJoyJ5iFq6XLSfTJ3D23iWuTG1tnsEffJpNieQnwN"
     ]
   },
-  "starknet": {},
   "stellar": {},
-  "solana": {
-    "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d": [
-      "https://dict-sol-tyk.subquery.network"
+  "algorand": {
+    "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=": [
+      "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW"
     ]
   },
+  "concordium": {},
+  "near": {
+    "mainnet": [
+      "https://gateway.subquery.network/query/QmSKrk3BpzjWzKfS8sZRS5vyjmtXvkJnK8nHUVBhiCmz41"
+    ]
+  },
+  "starknet": {},
   "multi": {},
   "substrate": {
     "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c": [
