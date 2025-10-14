@@ -331,9 +331,7 @@ export const networkFamilies: NetworkFamily[] = [
             internal: true,
           },
         ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/astar-zkevm-mainnet",
-        ],
+        dictionaries: [],
       },
       {
         code: "6038361",
@@ -3540,9 +3538,7 @@ export const networkFamilies: NetworkFamily[] = [
             path: "Ethereum Holesky/ethereum-holesky-testnet-starter",
           },
         ],
-        dictionaries: [
-          "https://dict-tyk.subquery.network/query/ethereum-holesky",
-        ],
+        dictionaries: ["https://dict-tyk.subquery.network/query/eth-holesky"],
       },
       {
         code: "42793",
