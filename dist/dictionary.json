@@ -297,7 +297,7 @@
   },
   "cosmos": {
     "fetchhub-4": [
-      "https://gateway.subquery.network/query/QmbtSt8USCUTBWeAqevN1AwmUhKzqmtvhSdFYHYA1BviC8"
+      "https://gateway.subquery.network/query/QmfKJuaL8iwwnSwaKt7RjTBk6Q5aUPqBzcZ1J2Q68ZvnLf"
     ],
     "juno-1": [
       "https://gateway.subquery.network/query/QmPjq55mgUt9S8S491Q3wEbb87fXyEkdxymT6Gwe2xe1Z1"
@@ -332,7 +332,7 @@
       "https://gateway.subquery.network/query/QmVuW3RxNLySTXzv2mA3xknT7ndXzRWAYHkJ86biYqLUs1"
     ],
     "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d": [
-      "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK"
+      "https://gateway.subquery.network/query/QmTK8vHsfTAoTZyYkiQruhKuwCb2bypj3PnFBcvxJFMJtQ"
     ],
     "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b": [
       "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq"
@@ -356,7 +356,7 @@
   "stellar": {},
   "algorand": {
     "wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=": [
-      "https://gateway.subquery.network/query/QmYNRtrcD2QKftkff2UpjV3fr3ubPZuYahTNDAct4Ad2NW"
+      "https://gateway.subquery.network/query/QmaGmVYRd4oMBJdTMwWLhduzE3Je5HkxY9babkELnbo5Tv"
     ]
   },
   "concordium": {},
@@ -391,7 +391,7 @@
       "https://gateway.subquery.network/query/QmVuW3RxNLySTXzv2mA3xknT7ndXzRWAYHkJ86biYqLUs1"
     ],
     "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d": [
-      "https://gateway.subquery.network/query/QmUHAsweQYXYrY5Swbt1eHkUwnE5iLc7w9Fh62JY6guXEK"
+      "https://gateway.subquery.network/query/QmTK8vHsfTAoTZyYkiQruhKuwCb2bypj3PnFBcvxJFMJtQ"
     ],
     "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b": [
       "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq"
