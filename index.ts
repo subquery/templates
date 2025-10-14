@@ -3876,7 +3876,7 @@ export const networkFamilies: NetworkFamily[] = [
           {
             name: "superseed-starter",
             description:
-              "This project can be use as a starting point for developing your new Lumia SubQuery project",
+              "This project can be use as a starting point for developing your new Superseed SubQuery project",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Superseed/superseed-starter",
           },
@@ -4431,7 +4431,7 @@ export const networkFamilies: NetworkFamily[] = [
         name: "Lumia",
         chain_id: "994873017",
         description:
-          "Lumia is a Layer 1 blockchain to give institutional grade access to RWAs (Real World Assets).",
+          "Lumia is a blockchain to give institutional grade access to RWAs (Real World Assets).",
         logo: "https://static.subquery.network/network-logos/994873017.png",
         examples: [
           {
@@ -4454,7 +4454,7 @@ export const networkFamilies: NetworkFamily[] = [
           {
             name: "ink-starter",
             description:
-              "This project can be use as a starting point for developing your new Lumia SubQuery project",
+              "This project can be use as a starting point for developing your new Ink SubQuery project",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Ink/ink-starter",
           },
@@ -4471,7 +4471,7 @@ export const networkFamilies: NetworkFamily[] = [
           {
             name: "ink-sepolia-starter",
             description:
-              "This project can be use as a starting point for developing your new Lumia SubQuery project",
+              "This project can be use as a starting point for developing your new Ink Sepolia SubQuery project",
             remote: "https://github.com/subquery/ethereum-subql-starter",
             path: "Ink/ink-sepolia-starter",
           },
