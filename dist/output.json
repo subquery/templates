@@ -237,9 +237,7 @@
             "internal": true
           }
         ],
-        "dictionaries": [
-          "https://dict-tyk.subquery.network/query/astar-zkevm-mainnet"
-        ]
+        "dictionaries": []
       },
       {
         "code": "6038361",
@@ -3202,7 +3200,7 @@
           }
         ],
         "dictionaries": [
-          "https://dict-tyk.subquery.network/query/ethereum-holesky"
+          "https://dict-tyk.subquery.network/query/eth-holesky"
         ]
       },
       {

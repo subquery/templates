@@ -102,9 +102,6 @@
     "3338": [
       "https://dict-tyk.subquery.network/query/peaq-mainnet"
     ],
-    "3776": [
-      "https://dict-tyk.subquery.network/query/astar-zkevm-mainnet"
-    ],
     "4002": [
       "https://dict-tyk.subquery.network/query/fantom-testnet"
     ],
@@ -166,7 +163,7 @@
       "https://dict-tyk.subquery.network/query/0g-testnet"
     ],
     "17000": [
-      "https://dict-tyk.subquery.network/query/ethereum-holesky"
+      "https://dict-tyk.subquery.network/query/eth-holesky"
     ],
     "32520": [
       "https://dict-tyk.subquery.network/query/bitgert-mainnet"
