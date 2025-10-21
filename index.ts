@@ -6206,7 +6206,7 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmTK8vHsfTAoTZyYkiQruhKuwCb2bypj3PnFBcvxJFMJtQ",
+          "https://gateway.subquery.network/query/QmcR2d4Rd4uEq4nNU97XFVUuRPWGC93ypxoxQs1kXoVbAN",
         ],
       },
       {
@@ -6239,7 +6239,7 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmWhwLQA4P6iZv6bmQxUqG5zumNK8KDBwcq8wxN4G213dq",
+          "https://gateway.subquery.network/query/QmPPeFT6t7s61wx3M7MbrxSVwTqbTfaLZisgabjUZXMZbS",
         ],
       },
       {
