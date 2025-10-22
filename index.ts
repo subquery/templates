@@ -6206,7 +6206,7 @@ export const networkFamilies: NetworkFamily[] = [
           },
         ],
         dictionaries: [
-          "https://gateway.subquery.network/query/QmcR2d4Rd4uEq4nNU97XFVUuRPWGC93ypxoxQs1kXoVbAN",
+          "https://gateway.subquery.network/query/QmWZiHDwjsNiLEZSPDTCFymhBqYKGt1Xb7EgUjZXd9mWCF",
         ],
       },
       {
