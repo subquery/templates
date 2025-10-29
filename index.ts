@@ -6243,6 +6243,39 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "moonbase-alpha",
+        name: "Moonbase Alpha",
+        chain_id:
+          "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
+        description:
+          "Moonbase Alpha is the test network of Moonbeam.",
+        logo: "",
+        examples: [
+          {
+            name: "moonbeam-evm-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Moonbeam/moonbeam-evm-starter",
+          },
+          {
+            name: "Moonbeam-starter",
+            description: "",
+            remote: "https://github.com/subquery/subql-starter",
+            path: "Moonbeam/Moonbeam-starter",
+          },
+        ],
+        guides: [
+          {
+            name: "Moonbeam Documentation - SubQuery Entry",
+            link: "https://docs.moonbeam.network/builders/integrations/indexers/subquery/",
+            internal: false,
+          },
+        ],
+        dictionaries: [
+          "https://gateway.subquery.network/query/QmTbkxfPAtQJvv8bQhFhg3uDz123PWeVER4zsv9mXfR7Jd",
+        ],
+      },
+      {
         code: "nodle",
         name: "Nodle",
         chain_id:
