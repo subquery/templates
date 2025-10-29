@@ -334,6 +334,9 @@
     "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b": [
       "https://gateway.subquery.network/query/QmPPeFT6t7s61wx3M7MbrxSVwTqbTfaLZisgabjUZXMZbS"
     ],
+    "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527": [
+      "https://gateway.subquery.network/query/QmTbkxfPAtQJvv8bQhFhg3uDz123PWeVER4zsv9mXfR7Jd"
+    ],
     "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21": [
       "https://gateway.subquery.network/query/QmZpj5wYpUbGqJDg6KWgbkK5bmeuCqYX6kwk317jdJ9DZ4"
     ],
@@ -392,6 +395,9 @@
     ],
     "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b": [
       "https://gateway.subquery.network/query/QmPPeFT6t7s61wx3M7MbrxSVwTqbTfaLZisgabjUZXMZbS"
+    ],
+    "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527": [
+      "https://gateway.subquery.network/query/QmTbkxfPAtQJvv8bQhFhg3uDz123PWeVER4zsv9mXfR7Jd"
     ],
     "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21": [
       "https://gateway.subquery.network/query/QmZpj5wYpUbGqJDg6KWgbkK5bmeuCqYX6kwk317jdJ9DZ4"
