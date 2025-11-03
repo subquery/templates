@@ -1655,6 +1655,23 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "122",
+        name: "Fuse Mainnet",
+        chain_id: "122",
+        description:
+          "Fuse is a fast, cost-effective, and high-throughput blockchain solution created for businesses and consumers",
+        logo: "https://static.subquery.network/network-logos/122.png",
+        examples: [
+          {
+            name: "fuse-starter",
+            description:
+              "This SubQuery project indexes all transfers and approval events for the WETH on Fuse mainnet",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Fuse/fuse-starter",
+          },
+        ],
+      },
+      {
         code: "100",
         name: "Gnosis",
         chain_id: "100",
