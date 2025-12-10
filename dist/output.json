@@ -2604,6 +2604,21 @@
         ]
       },
       {
+        "code": "42429",
+        "name": "Tempo Testnet",
+        "chain_id": "42429",
+        "description": "Tempo is a purpose-built, Layer 1 blockchain for payments, developed in partnership with leading fintechs and Fortune 500s",
+        "logo": "https://static.subquery.network/network-logos/42429.png",
+        "examples": [
+          {
+            "name": "tempo-testnet-starter",
+            "description": "This SubQuery project indexes all transfers and approval events for the pathUSD Token on Tempo testnet",
+            "remote": "https://github.com/subquery/ethereum-subql-starter",
+            "path": "Tempo/tempo-testnet-starter"
+          }
+        ]
+      },
+      {
         "code": "8192",
         "name": "Torus",
         "chain_id": "8192",
