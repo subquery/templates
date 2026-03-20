@@ -4301,6 +4301,22 @@ export const networkFamilies: NetworkFamily[] = [
         ],
       },
       {
+        code: "728126428",
+        name: "Tron",
+        chain_id: "728126428",
+        description: "",
+        logo: "",
+        examples: [
+          {
+            name: "tron-evm-starter",
+            description:
+              "This project can be use as a starting point for developing your Tron EVM based SubQuery project",
+            remote: "https://github.com/subquery/ethereum-subql-starter",
+            path: "Tron/tron-evm-starter",
+          },
+        ],
+      },
+      {
         code: "232",
         name: "Lens",
         chain_id: "232",
